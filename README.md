@@ -1,4 +1,8 @@
 # Human Motor Intelligence — Public Reproduction Release
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22288272.svg)](https://zenodo.org/records/22288272)
+
+
 ## P4 and P5 Evidence Package Only
 
 > **Public-release status:** This package is designed for public upload as a **P4/P5 code-and-evidence release**. It excludes P6 experimental material, P3 unpublished material, all raw biosignal recordings, and all derived feature caches. It is research software and evidence documentation—not a medical device, clinical decision system, or general claim of decoder robustness.
