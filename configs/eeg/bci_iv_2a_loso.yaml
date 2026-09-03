@@ -1,0 +1,43 @@
+protocol_id: eeg-loso-v1
+protocol_version: 1.0.0
+status: draft
+dataset:
+  dataset_id: bci-competition-iv-2a
+  dataset_version: operator-verified-external-release-required
+  raw_data_policy: external-authorized-local-path-only
+  raw_data_committed: false
+  benchmark_eligible_without_registered_real_run: false
+split:
+  strategy: leave-one-subject-out
+  held_out_subject_policy: no preprocessing fitting, feature selection, model selection, or label use
+  statistical_unit: subject
+preprocessing:
+  adapter: mne-eeg-edge
+  channels: must be declared from authorized source recording
+  eeg_reference: must be explicitly declared as average, none, or named channels
+  filters: must be explicitly declared per registered run
+  resampling: must be explicitly declared per registered run
+  fitting_scope: training-only where a fitted operation is involved
+epoching:
+  events: must be explicitly declared from authorized source event annotations
+  tmin_seconds: must be predeclared
+  tmax_seconds: must be predeclared
+  baseline: must be predeclared or explicitly null
+baselines_in_order:
+  - eeg-linear-v1
+  - eeg-lda-v1
+  - eeg-spectral-v1
+  - eeg-lightweight-cnn-tcn-v1
+  - eeg-lightweight-transformer-v1
+  - eeg-domain-generalisation-v1
+metrics:
+  - accuracy
+  - macro_f1
+  - balanced_accuracy
+reporting:
+  allow_synthetic_smoke_as_benchmark: false
+  require_subject_level_observations_for_inference: true
+  require_registered_manifest: true
+notes:
+  - This configuration is a study scaffold, not an executed EEG benchmark.
+  - No model, preprocessing choice, or result is implied until an authorized real-data run is registered.

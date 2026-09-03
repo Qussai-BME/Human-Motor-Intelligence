@@ -1,0 +1,12 @@
+# Recorded P4/P5 reproducibility environment (Python 3.12.3 in primary runs)
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.9.0
+mne==1.12.1
+matplotlib>=3.8,<4.0
+pytest>=8.0,<10.0
+
+# P4 compact-CNN condition used torch 2.13.0+cu130 in the recorded Linux environment.
+# Install a PyTorch 2.13.0 wheel appropriate for your OS/CPU/CUDA platform:
+# https://pytorch.org/get-started/previous-versions/
+torch==2.13.0

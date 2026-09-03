@@ -1,0 +1,299 @@
+{
+  "analysis_id": "v2-subject-level-statistics-recovery-r1",
+  "bootstrap": {
+    "percentile_interval": 0.95,
+    "resamples": 10000,
+    "seed": 20260823
+  },
+  "direct_replication": false,
+  "external_validation": true,
+  "inference_unit": "subject",
+  "limitations": [
+    "Confidence intervals are nonparametric bootstrap intervals across held-out subjects, not population guarantees.",
+    "All pairwise tests are within OpenBMI only; they do not support numeric cross-dataset ranking.",
+    "This output awaits an independent deterministic rerun before final manuscript integration."
+  ],
+  "metric": "macro_f1",
+  "models": [
+    "eeg-lda-v1",
+    "eeg-lightweight-cnn-tcn-v1",
+    "eeg-linear-svm-v1",
+    "eeg-linear-v1",
+    "eeg-spectral-v1"
+  ],
+  "multiplicity": {
+    "comparison_count": 10,
+    "family": "all predeclared model-pair comparisons",
+    "method": "Holm"
+  },
+  "omnibus": {
+    "conditions": 5,
+    "interpretation": "Descriptive inferential output under the locked within-subject model comparison; it does not compare OpenBMI scores numerically to another dataset.",
+    "p_value": 0.002811813001601112,
+    "statistic": 16.16000000000001,
+    "subjects": 54,
+    "test": "Friedman chi-square"
+  },
+  "pairwise": [
+    {
+      "holm_rank": 2,
+      "mean_paired_difference_a_minus_b": -0.0384201413919311,
+      "median_paired_difference_a_minus_b": -0.042929260770949884,
+      "metric": "macro_f1",
+      "model_a": "eeg-lda-v1",
+      "model_b": "eeg-lightweight-cnn-tcn-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.10420928417144404,
+      "p_value_raw": 0.01094909094390289,
+      "paired_sign_effect": -0.3333333333333333,
+      "standardized_mean_difference_paired": -0.368345246193802,
+      "wilcoxon_statistic": 447.0
+    },
+    {
+      "holm_rank": 5,
+      "mean_paired_difference_a_minus_b": -0.014284148333916346,
+      "median_paired_difference_a_minus_b": -0.015088128037471893,
+      "metric": "macro_f1",
+      "model_a": "eeg-lda-v1",
+      "model_b": "eeg-linear-svm-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.24517246704285373,
+      "p_value_raw": 0.04086207784047562,
+      "paired_sign_effect": -0.2222222222222222,
+      "standardized_mean_difference_paired": -0.23664248352166783,
+      "wilcoxon_statistic": 505.0
+    },
+    {
+      "holm_rank": 9,
+      "mean_paired_difference_a_minus_b": 0.0017764776735731957,
+      "median_paired_difference_a_minus_b": 0.00030348891731935,
+      "metric": "macro_f1",
+      "model_a": "eeg-lda-v1",
+      "model_b": "eeg-linear-v1",
+      "n_subjects": 54,
+      "p_value_holm": 1.0,
+      "p_value_raw": 0.6574574692165728,
+      "paired_sign_effect": 0.037037037037037035,
+      "standardized_mean_difference_paired": 0.07116322730057856,
+      "wilcoxon_statistic": 691.0
+    },
+    {
+      "holm_rank": 6,
+      "mean_paired_difference_a_minus_b": -0.015019943663394195,
+      "median_paired_difference_a_minus_b": -0.017653767703395606,
+      "metric": "macro_f1",
+      "model_a": "eeg-lda-v1",
+      "model_b": "eeg-spectral-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.2609251955356504,
+      "p_value_raw": 0.05218503910713008,
+      "paired_sign_effect": -0.2962962962962963,
+      "standardized_mean_difference_paired": -0.24704598955502283,
+      "wilcoxon_statistic": 517.0
+    },
+    {
+      "holm_rank": 7,
+      "mean_paired_difference_a_minus_b": 0.02413599305801475,
+      "median_paired_difference_a_minus_b": 0.033309939076784145,
+      "metric": "macro_f1",
+      "model_a": "eeg-lightweight-cnn-tcn-v1",
+      "model_b": "eeg-linear-svm-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.32493699041724555,
+      "p_value_raw": 0.08123424760431139,
+      "paired_sign_effect": 0.2222222222222222,
+      "standardized_mean_difference_paired": 0.2272418272324908,
+      "wilcoxon_statistic": 540.0
+    },
+    {
+      "holm_rank": 1,
+      "mean_paired_difference_a_minus_b": 0.040196619065504306,
+      "median_paired_difference_a_minus_b": 0.04278727242264174,
+      "metric": "macro_f1",
+      "model_a": "eeg-lightweight-cnn-tcn-v1",
+      "model_b": "eeg-linear-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.10420928417144404,
+      "p_value_raw": 0.010420928417144404,
+      "paired_sign_effect": 0.3333333333333333,
+      "standardized_mean_difference_paired": 0.3660515383415074,
+      "wilcoxon_statistic": 445.0
+    },
+    {
+      "holm_rank": 8,
+      "mean_paired_difference_a_minus_b": 0.023400197728536905,
+      "median_paired_difference_a_minus_b": 0.029645656659032016,
+      "metric": "macro_f1",
+      "model_a": "eeg-lightweight-cnn-tcn-v1",
+      "model_b": "eeg-spectral-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.32493699041724555,
+      "p_value_raw": 0.10643725073771734,
+      "paired_sign_effect": 0.2222222222222222,
+      "standardized_mean_difference_paired": 0.22028764431251083,
+      "wilcoxon_statistic": 555.0
+    },
+    {
+      "holm_rank": 4,
+      "mean_paired_difference_a_minus_b": 0.016060626007489545,
+      "median_paired_difference_a_minus_b": 0.020959120396239428,
+      "metric": "macro_f1",
+      "model_a": "eeg-linear-svm-v1",
+      "model_b": "eeg-linear-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.1946926207849699,
+      "p_value_raw": 0.027813231540709984,
+      "paired_sign_effect": 0.25925925925925924,
+      "standardized_mean_difference_paired": 0.2666952957943733,
+      "wilcoxon_statistic": 487.0
+    },
+    {
+      "holm_rank": 10,
+      "mean_paired_difference_a_minus_b": -0.0007357953294778442,
+      "median_paired_difference_a_minus_b": 0.0,
+      "metric": "macro_f1",
+      "model_a": "eeg-linear-svm-v1",
+      "model_b": "eeg-spectral-v1",
+      "n_subjects": 54,
+      "p_value_holm": 1.0,
+      "p_value_raw": 0.6652274140014423,
+      "paired_sign_effect": -0.061224489795918366,
+      "standardized_mean_difference_paired": -0.0699165595277345,
+      "wilcoxon_statistic": 569.0
+    },
+    {
+      "holm_rank": 3,
+      "mean_paired_difference_a_minus_b": -0.01679642133696738,
+      "median_paired_difference_a_minus_b": -0.021286773940780712,
+      "metric": "macro_f1",
+      "model_a": "eeg-linear-v1",
+      "model_b": "eeg-spectral-v1",
+      "n_subjects": 54,
+      "p_value_holm": 0.1780280413521157,
+      "p_value_raw": 0.022253505169014462,
+      "paired_sign_effect": -0.2962962962962963,
+      "standardized_mean_difference_paired": -0.2758086269996918,
+      "wilcoxon_statistic": 477.0
+    }
+  ],
+  "result_directory": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r1/nemar-nm000338-openbmi-p4-external-loso-recovery-r1",
+  "subject_count": 54,
+  "subjects": [
+    "sub-1",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-2",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-23",
+    "sub-24",
+    "sub-25",
+    "sub-26",
+    "sub-27",
+    "sub-28",
+    "sub-29",
+    "sub-3",
+    "sub-30",
+    "sub-31",
+    "sub-32",
+    "sub-33",
+    "sub-34",
+    "sub-35",
+    "sub-36",
+    "sub-37",
+    "sub-38",
+    "sub-39",
+    "sub-4",
+    "sub-40",
+    "sub-41",
+    "sub-42",
+    "sub-43",
+    "sub-44",
+    "sub-45",
+    "sub-46",
+    "sub-47",
+    "sub-48",
+    "sub-49",
+    "sub-5",
+    "sub-50",
+    "sub-51",
+    "sub-52",
+    "sub-53",
+    "sub-54",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9"
+  ],
+  "summaries": {
+    "eeg-lda-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.5708435818529877,
+        0.6278444399416219
+      ],
+      "maximum": 0.8843494657448145,
+      "mean": 0.5979993784009436,
+      "median": 0.5748944642363396,
+      "minimum": 0.45790463546852533,
+      "n_subjects": 54,
+      "standard_deviation": 0.10585916786808922
+    },
+    "eeg-lightweight-cnn-tcn-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.5929089763491997,
+        0.6799859069031303
+      ],
+      "maximum": 0.9649921232277263,
+      "mean": 0.6364195197928747,
+      "median": 0.6372661738099379,
+      "minimum": 0.332896910751582,
+      "n_subjects": 54,
+      "standard_deviation": 0.16538148083583315
+    },
+    "eeg-linear-svm-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.5806190160822797,
+        0.6445679331364497
+      ],
+      "maximum": 0.8888888888888888,
+      "mean": 0.61228352673486,
+      "median": 0.583996683970318,
+      "minimum": 0.4221016629319495,
+      "n_subjects": 54,
+      "standard_deviation": 0.12182780093846647
+    },
+    "eeg-linear-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.5693908443734791,
+        0.6252872159326435
+      ],
+      "maximum": 0.9148275257396228,
+      "mean": 0.5962229007273704,
+      "median": 0.5704997854997855,
+      "minimum": 0.4666666666666667,
+      "n_subjects": 54,
+      "standard_deviation": 0.10498596619855896
+    },
+    "eeg-spectral-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.5809471532022379,
+        0.6459498663779266
+      ],
+      "maximum": 0.8899009108197378,
+      "mean": 0.6130193220643378,
+      "median": 0.5863646741794992,
+      "minimum": 0.3939393939393939,
+      "n_subjects": 54,
+      "standard_deviation": 0.12258148396785688
+    }
+  }
+}

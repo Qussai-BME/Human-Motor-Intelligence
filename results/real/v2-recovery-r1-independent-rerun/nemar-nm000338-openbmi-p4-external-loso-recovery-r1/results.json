@@ -1,0 +1,57 @@
+{
+  "direct_replication": false,
+  "external_validation": true,
+  "independent_rerun": true,
+  "limitations": [
+    "OpenBMI is a harmonized external validation dataset, not a direct replication of BCI Competition IV-2a.",
+    "Dataset-specific metrics must not be numerically ranked against prior datasets without protocol-specific qualification."
+  ],
+  "models": [
+    "eeg-linear-v1",
+    "eeg-lda-v1",
+    "eeg-spectral-v1",
+    "eeg-linear-svm-v1",
+    "eeg-lightweight-cnn-tcn-v1"
+  ],
+  "result_file": "subject_level_results.csv",
+  "status": "complete_independent_rerun",
+  "study_id": "nemar-nm000338-openbmi-p4-external-loso-recovery-r1",
+  "subjects": 54,
+  "summary": {
+    "eeg-lda-v1": {
+      "accuracy": 0.6096296296296295,
+      "balanced_accuracy": 0.6096296296296296,
+      "macro_f1": 0.5979993784009436,
+      "macro_f1_sd": 0.10585916786808922,
+      "n_subjects": 54.0
+    },
+    "eeg-lightweight-cnn-tcn-v1": {
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "macro_f1": 0.6364195197928747,
+      "macro_f1_sd": 0.16538148083583312,
+      "n_subjects": 54.0
+    },
+    "eeg-linear-svm-v1": {
+      "accuracy": 0.6257407407407408,
+      "balanced_accuracy": 0.6257407407407408,
+      "macro_f1": 0.61228352673486,
+      "macro_f1_sd": 0.12182780093846647,
+      "n_subjects": 54.0
+    },
+    "eeg-linear-v1": {
+      "accuracy": 0.6074074074074075,
+      "balanced_accuracy": 0.6074074074074075,
+      "macro_f1": 0.5962229007273704,
+      "macro_f1_sd": 0.10498596619855895,
+      "n_subjects": 54.0
+    },
+    "eeg-spectral-v1": {
+      "accuracy": 0.6262037037037038,
+      "balanced_accuracy": 0.6262037037037038,
+      "macro_f1": 0.6130193220643378,
+      "macro_f1_sd": 0.1225814839678569,
+      "n_subjects": 54.0
+    }
+  }
+}

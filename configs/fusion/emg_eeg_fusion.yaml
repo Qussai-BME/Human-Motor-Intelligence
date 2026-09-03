@@ -1,0 +1,36 @@
+protocol_id: emg-eeg-fusion-v1
+protocol_version: 1.0.0
+status: draft
+dataset:
+  dataset_id: way-eeg-gal
+  dataset_version: operator-verified-release-item-required
+  raw_data_policy: external-authorized-local-path-only
+  benchmark_eligible_without_registered_real_run: false
+representations:
+  eeg:
+    producer: biosignal-fm-encoder-export-or-registered-equivalent
+    required_metadata: [subject_id, session_id, window_start_seconds, window_end_seconds, encoder_id, model_version]
+  emg:
+    producer: biosignal-fm-encoder-export-or-registered-equivalent
+    required_metadata: [subject_id, session_id, window_start_seconds, window_end_seconds, encoder_id, model_version]
+alignment:
+  policy: explicit-event-or-timebase-alignment-required
+  tolerance_seconds: must-be-declared-before-run
+  reject_mismatched_subject_or_session: true
+conditions:
+  - eeg_only
+  - emg_only
+  - both_present
+  - eeg_missing
+  - emg_missing
+comparability:
+  require_matched_subject_split: true
+  require_matched_unimodal_baselines: true
+  statistical_unit: subject_or_protocol_declared_trial
+claims:
+  fusion_benefit: prohibited_until_registered_matched_results
+  missing_modality_robustness: prohibited_until_registered_matched_results
+  cross_modal_transfer: prohibited_until_dedicated_registered_experiment
+notes:
+  - This is multimodal research preparation only.
+  - It contains no learned fusion model and no EEG-EMG performance result.

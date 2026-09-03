@@ -1,0 +1,119 @@
+{
+  "base_url": "https://data.nemar.org/nm000311/v1.0.2",
+  "configuration_id": "v2-p5-jeong-external-recovery-r2",
+  "created_after": "V2_PROTOCOL_AMENDMENT_RECOVERY_R2_001 and R2_002",
+  "dataset_id": "nemar-nm000311-jeong2020",
+  "dataset_version": "v1.0.2",
+  "derived_cache_root": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5",
+  "direct_replication": false,
+  "eeg_channel_rule": "retain exact BDF names excluding channels prefixed hEOG_, vEOG_, or EMG; require 60 channels",
+  "eeg_feature_bands_hz": [
+    [
+      8.0,
+      12.0
+    ],
+    [
+      13.0,
+      30.0
+    ]
+  ],
+  "emg_channel_rule": "retain exact BDF names prefixed EMG; require 7 channels including source reference channel",
+  "emg_features": [
+    "mean_absolute_value",
+    "root_mean_square",
+    "waveform_length"
+  ],
+  "eog_channel_rule": "exclude exact BDF names prefixed hEOG_ or vEOG_",
+  "epoch_seconds": [
+    0.0,
+    4.0
+  ],
+  "excluded_subjects": [
+    "sub-23"
+  ],
+  "external_validation": true,
+  "independent_rerun_results_namespace": "results/real/v2-recovery-r2-independent-rerun",
+  "labels": [
+    "reach_forward",
+    "reach_backward",
+    "reach_left",
+    "reach_right",
+    "reach_up",
+    "reach_down",
+    "grasp_cup",
+    "grasp_ball",
+    "grasp_card",
+    "twist_pronation",
+    "twist_supination"
+  ],
+  "late_fusion_rule": "arithmetic mean of separately fit EEG-only and EMG-only LDA class probabilities; models and any scalers fit on the training subjects only",
+  "manifest_path": "datasets/manifests/nemar_nm000311_jeong_p5_v2_recovery_r2.json",
+  "model_selection": "No target-subject adaptation, model selection, tuning, hyperparameter search, deep fusion, or missing-modality synthetic stress analysis.",
+  "models": [
+    "eeg-only-lda-v1",
+    "emg-only-lda-v1",
+    "early-fusion-lda-v1",
+    "late-fusion-lda-v1"
+  ],
+  "preprocessing_fit_scope": "training-fold-only",
+  "preprocessing_note": "Epoch-local deterministic spectral and EMG summaries precede splitting. Any StandardScaler, LDA fit, probability calibration, or fusion calculation uses training subjects only.",
+  "primary_metric": "macro_f1",
+  "protocol_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "raw_data_committed": false,
+  "raw_data_policy": "download-sequentially-outside-repository-verify-source-receipt-extract-derived-cache-delete-raw",
+  "results_namespace": "results/real/v2-recovery-r2",
+  "runs": [
+    0,
+    1,
+    2
+  ],
+  "sampling_hz": 1000.0,
+  "secondary_metrics": [
+    "accuracy",
+    "balanced_accuracy"
+  ],
+  "seed": 20260824,
+  "session": "ses-0",
+  "source_doi": "10.82901/nemar.nm000311",
+  "source_license": "CC0-1.0",
+  "source_supporting_data_doi": "10.5524/100788",
+  "split_strategy": "leave-one-subject-out",
+  "statistics": {
+    "bootstrap_resamples": 10000,
+    "inference_unit": "subject",
+    "multiplicity": "Holm",
+    "omnibus": "Friedman",
+    "pairwise": "two-sided Wilcoxon signed-rank"
+  },
+  "study_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "subjects": [
+    "sub-1",
+    "sub-2",
+    "sub-3",
+    "sub-4",
+    "sub-5",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-24",
+    "sub-25"
+  ],
+  "target_subject_calibration": false,
+  "task": "imagery",
+  "temporary_raw_root": "/home/ubuntu/hmi_data/raw/v2_recovery_r2_jeong_nm000311_p5",
+  "trial_cap_per_label": 50
+}

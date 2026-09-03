@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this programme release, please cite it together with the dataset and source-publication records required by the P4/P5 manuscripts. P6 R3 decoder-quality analysis is not executed."
+title: "Human Motor Intelligence Research Stack: V2 Recovery R3 Interim Current-State Release"
+type: software
+version: "v2-recovery-r3-all-specs-interim"
+date-released: 2026-08-26
+authors:
+  - name: "Qussai Adlbi"
+abstract: "Research code, retained artefacts, protocols, audits, manuscripts, and reproducibility records for the Human Motor Intelligence programme. P4 and P5 external validations are complete current-state evidence; P6 R2 is systems evidence and P6 R3 decoder-quality evaluation is blocked pending authentic traces."
+keywords:
+  - biosignal processing
+  - EEG
+  - EMG
+  - motor imagery
+  - external validation
+  - reproducibility
+  - motor intent
+license: Apache-2.0
+repository-code: "https://github.com/Qussai-BME/Human-Motor-Intelligence"
+preferred-citation:
+  type: software
+  title: "Human Motor Intelligence Research Stack: V2 Recovery R3 Interim Current-State Release"
+  authors:
+    - name: "Qussai Adlbi"
+  year: 2026
+  version: "v2-recovery-r3-all-specs-interim"
+references:
+  - type: dataset
+    title: "Lee et al. 2019 (Motor Imagery) — EEG dataset and OpenBMI toolbox"
+    doi: 10.82901/nemar.nm000338
+  - type: dataset
+    title: "Multimodal upper-limb MI/ME EEG (Jeong et al. 2020)"
+    doi: 10.82901/nemar.nm000311

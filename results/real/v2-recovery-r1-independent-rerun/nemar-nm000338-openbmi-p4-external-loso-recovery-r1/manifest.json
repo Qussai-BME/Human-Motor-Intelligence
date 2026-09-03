@@ -1,0 +1,1218 @@
+{
+  "benchmark_ready": true,
+  "cache_root": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4",
+  "dataset_id": "nemar-nm000338-openbmi",
+  "dataset_version": "v1.0.5",
+  "direct_replication": false,
+  "external_validation": true,
+  "gate_results": {
+    "D1_file_integrity": {
+      "checked_observations": 108,
+      "failures": [],
+      "status": "pass",
+      "total_bytes": 933572109
+    },
+    "D2_schema": {
+      "failures": [],
+      "required_keys": [
+        "channels",
+        "epochs",
+        "labels",
+        "sampling_hz"
+      ],
+      "status": "pass"
+    },
+    "D3_labels": {
+      "coverage": {
+        "sub-1": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-10": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-11": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-12": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-13": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-14": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-15": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-16": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-17": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-18": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-19": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-2": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-20": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-21": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-22": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-23": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-24": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-25": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-26": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-27": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-28": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-29": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-3": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-30": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-31": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-32": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-33": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-34": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-35": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-36": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-37": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-38": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-39": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-4": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-40": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-41": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-42": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-43": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-44": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-45": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-46": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-47": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-48": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-49": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-5": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-50": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-51": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-52": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-53": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-54": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-6": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-7": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-8": [
+          "left_hand",
+          "right_hand"
+        ],
+        "sub-9": [
+          "left_hand",
+          "right_hand"
+        ]
+      },
+      "expected_labels": [
+        "left_hand",
+        "right_hand"
+      ],
+      "failures": [],
+      "status": "pass"
+    },
+    "D4_protocol": {
+      "details": {
+        "channel_rule": "read named BDF channels; retain all named channels except exactly EMG1, EMG2, EMG3, EMG4; require 62 retained channels",
+        "epoching": [
+          0.5,
+          3.5
+        ],
+        "models": [
+          "eeg-linear-v1",
+          "eeg-lda-v1",
+          "eeg-spectral-v1",
+          "eeg-linear-svm-v1",
+          "eeg-lightweight-cnn-tcn-v1"
+        ],
+        "preprocessing_fit_scope": "training-fold-only",
+        "protocol_id": "p4-openbmi-harmonized-zero-calibration-loso-recovery-r1",
+        "split_strategy": "leave-one-subject-out",
+        "subject_count": 54,
+        "target_subject_calibration": false
+      },
+      "failures": [],
+      "status": "pass"
+    },
+    "D5_leakage_audit": {
+      "checks": {
+        "fixed_preprocessing_has_no_cross_subject_fit": true,
+        "held_out_subject_excluded_from_classifier_fit": true,
+        "held_out_subject_excluded_from_scaler_fit": true,
+        "no_target_subject_calibration": true,
+        "no_target_subject_model_selection": true,
+        "raw_bdf_not_in_repository": true,
+        "subject_is_inference_unit": true
+      },
+      "failures": [],
+      "status": "pass"
+    }
+  },
+  "manifest_id": "nemar-nm000338-openbmi-v2-recovery-r1",
+  "notes": [
+    "Harmonized external validation; not a direct replication of BCI Competition IV-2a.",
+    "Only derived epochs/cache/provenance are stored outside the repository; raw BDF retention is prohibited."
+  ],
+  "observations": [
+    {
+      "byte_count": 17297192,
+      "relative_path": "sub-1.npz",
+      "sha256": "e07338afd48f17abdc4560c5c77ffb7de95b0bd7da80fcf43980381afd0cbd8e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-1"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-1.provenance.json",
+      "sha256": "5d36b156113e3b2aa60dc8c526462ea1ef8b673f0e13bf0d0eabf558177f7e9a",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-1"
+    },
+    {
+      "byte_count": 17266737,
+      "relative_path": "sub-2.npz",
+      "sha256": "16312abc23a9b82742874e3ea646f9080ee17e64537a71e95028ff0dd64e2cf7",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-2"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-2.provenance.json",
+      "sha256": "020da7118441344fdfa6e30f6cb8f948ad521eadf7e47ba104e8c60f1826e274",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-2"
+    },
+    {
+      "byte_count": 17297178,
+      "relative_path": "sub-3.npz",
+      "sha256": "7271b093e82c46b1fe22b95bb43151cc2a1e8542bfcf3f7a3efaca8528a4aa68",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-3"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-3.provenance.json",
+      "sha256": "05f892e95c4326c101038e5c215879509831cdcbd85d45804a276c6d328ed7de",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-3"
+    },
+    {
+      "byte_count": 17265979,
+      "relative_path": "sub-4.npz",
+      "sha256": "1e98476ec5c82ded5e55eb4865c9e8dd398e65bbdb6144844f98044b7a2600cf",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-4"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-4.provenance.json",
+      "sha256": "85fea50c6435f2ec82ba145e680f45a678efe94f5b9ce02517e825257c21ddf5",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-4"
+    },
+    {
+      "byte_count": 17269958,
+      "relative_path": "sub-5.npz",
+      "sha256": "295c0b046997aea80fdfac59765a07dfb7010e174e0b7d42c9a4e31d1bfea588",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-5"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-5.provenance.json",
+      "sha256": "e94ad5dd867d677da015b50320a221fee3d6e9f5c8972342d2718215c447dbb0",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-5"
+    },
+    {
+      "byte_count": 17283656,
+      "relative_path": "sub-6.npz",
+      "sha256": "a4cc83dd39cf5d9196cfa78b2c4515146dddccbf221edfbbe8d4bbd73a30a4a0",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-6"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-6.provenance.json",
+      "sha256": "901337fa86569c1a45afa631a1d68efa2bb706c377eb18721e41b98818298cb2",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-6"
+    },
+    {
+      "byte_count": 17300485,
+      "relative_path": "sub-7.npz",
+      "sha256": "c58990fe30a9d58de0b48f1aa07d5a61c8bdf7b5d99a276206967bfa90272842",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-7"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-7.provenance.json",
+      "sha256": "44f8f0c94746b2286b6b286adfa87afd867021379bb65930362550c401ebec5c",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-7"
+    },
+    {
+      "byte_count": 17293777,
+      "relative_path": "sub-8.npz",
+      "sha256": "5e334f4d20cae2ca5413957f48a249e7fe570cef597d2acc2adf37a98e0c9617",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-8"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-8.provenance.json",
+      "sha256": "50eb810ced1abd5553edff87f9342a8e5545540cfa38f021b207d10c1ce6deb1",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-8"
+    },
+    {
+      "byte_count": 17255327,
+      "relative_path": "sub-9.npz",
+      "sha256": "b9fcd7809fc7da67ae2e5c3af858d34bc1bea6891a7aaca5777e430e2c1c278c",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-9"
+    },
+    {
+      "byte_count": 2796,
+      "relative_path": "sub-9.provenance.json",
+      "sha256": "194adf27eaca53bb1d815f93b7f8d7a2ccaed2408a14028f4a04a962412053c5",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-9"
+    },
+    {
+      "byte_count": 17291347,
+      "relative_path": "sub-10.npz",
+      "sha256": "08489daa293aa71032991fa6ca25620e488e87f81d69dba18bee5d6b229bdd11",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-10"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-10.provenance.json",
+      "sha256": "430d560fef29de108e13ed00af37a0ea3fb3e07c2c37ab08f37b1a4302531254",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-10"
+    },
+    {
+      "byte_count": 17281957,
+      "relative_path": "sub-11.npz",
+      "sha256": "2ba522eebfcff761377edff22cab55a717e4beb27d097b032257d70a8166a996",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-11"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-11.provenance.json",
+      "sha256": "406af7c4b5efcff7849efdb46ae6d370872121c2f5f2cfba51e40050ecbbc58f",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-11"
+    },
+    {
+      "byte_count": 17298027,
+      "relative_path": "sub-12.npz",
+      "sha256": "74364b8d6113f359da5db0e4355dee30a112ff3c490d1b9a9c7c634db0fade68",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-12"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-12.provenance.json",
+      "sha256": "f51b487b0571f8117292baf6ba281d9c6510b6dd24c7a23d100bec1b26b06af3",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-12"
+    },
+    {
+      "byte_count": 17306519,
+      "relative_path": "sub-13.npz",
+      "sha256": "c9c5f9a05d010fbdd113682777ee34434f77964bfd520679a2c5eb11f72580f7",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-13"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-13.provenance.json",
+      "sha256": "2ff3de90385f6ecdda83e7b79bc5f5993e314d8ce39f3135269283681b563011",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-13"
+    },
+    {
+      "byte_count": 17272345,
+      "relative_path": "sub-14.npz",
+      "sha256": "8e940f1b5454e1df14e0e17008e36414a81b00cc1e60fe4e21ae7a7bf574fe06",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-14"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-14.provenance.json",
+      "sha256": "a58d5debffc5b5687272caee94f391ba262826f86e81da2fbf2fc1a63225dbd4",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-14"
+    },
+    {
+      "byte_count": 17292971,
+      "relative_path": "sub-15.npz",
+      "sha256": "dcaa3cfc19649e1cda61a9e06a854ad785b3f17d58d170326db5f67ced588a56",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-15"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-15.provenance.json",
+      "sha256": "afbfeff5ae16f1df53dcacbf726cc0e1439e0091454c43bd4bbb222ccee1760a",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-15"
+    },
+    {
+      "byte_count": 17283171,
+      "relative_path": "sub-16.npz",
+      "sha256": "448d781894764bf64f9a56ffc2bae221eec21fc9ca7b59a8084b5d6977306b3c",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-16"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-16.provenance.json",
+      "sha256": "9658067dfb212fc88f7d221512eaf80491cb17f4161a8943bb460cb874ed6c11",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-16"
+    },
+    {
+      "byte_count": 17291465,
+      "relative_path": "sub-17.npz",
+      "sha256": "041f1a15898f1d27aeff1061dbfcc5ac04b7dd5e2aab732c01558cd75e69d6d1",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-17"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-17.provenance.json",
+      "sha256": "fb1565193e53398a9f6c1f80632b86a01cd5c30037118c3fc92b130c12a12065",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-17"
+    },
+    {
+      "byte_count": 17275413,
+      "relative_path": "sub-18.npz",
+      "sha256": "54ce1b9cb8b997adb3a9c2404e5970555446f003d0e23924056a18376eb20663",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-18"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-18.provenance.json",
+      "sha256": "5b2aed53167b84cba2e81505dc0902818080fd7147b6045509b5e5e370df8632",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-18"
+    },
+    {
+      "byte_count": 17273118,
+      "relative_path": "sub-19.npz",
+      "sha256": "0e97b75a8ca4ec2e57b0886a51b51c3b0669d0c7494e42aee6bb117f0b3fed21",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-19"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-19.provenance.json",
+      "sha256": "a963cc639a405a0b3d59a99fef85b34883e9cdbecbfe8219faa3e275ed0eb08e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-19"
+    },
+    {
+      "byte_count": 17291538,
+      "relative_path": "sub-20.npz",
+      "sha256": "7bea1334c1301b5809c4a50107ba1358473ba94e0e65575a4b8e184b2c7327ba",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-20"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-20.provenance.json",
+      "sha256": "157dbf175a1d4a2e8cef95fc03866bd0ea65e907d9a55950ff76ff39fdd17532",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-20"
+    },
+    {
+      "byte_count": 17270530,
+      "relative_path": "sub-21.npz",
+      "sha256": "8f3519af4a28998d89d9b3d403d8877013116f54219cd553915e35f53b40495b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-21"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-21.provenance.json",
+      "sha256": "168733af8979c94e9724a9dc66aad685c15a34021b14e05417e575396294526a",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-21"
+    },
+    {
+      "byte_count": 17295778,
+      "relative_path": "sub-22.npz",
+      "sha256": "e8eb2b0751fb8773fc4e7074ba46923f9c3f33736fc19d820630eeb098a38cc6",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-22"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-22.provenance.json",
+      "sha256": "d164e93dd1f2ca49f8177d4c6dc615004f3fe8e6e61c28e80f606d174e42df42",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-22"
+    },
+    {
+      "byte_count": 17283020,
+      "relative_path": "sub-23.npz",
+      "sha256": "9e4f7a90a56c66c0011e26b54c1a1605e691b46fe1b4115fb60bfda528d5766b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-23"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-23.provenance.json",
+      "sha256": "3f286124efb10d95ffdf5d5ab71e09a27194330e955a5c1f03124477964c91ba",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-23"
+    },
+    {
+      "byte_count": 17292124,
+      "relative_path": "sub-24.npz",
+      "sha256": "d30e829c6e6a0953374dc9344f666f49f72cc68b2df9d783b334bfb6f197f078",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-24"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-24.provenance.json",
+      "sha256": "325bac87ca24241b3baf2a7d2ffd74f9828eea0e68ed281886d38da67c0df2fd",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-24"
+    },
+    {
+      "byte_count": 17266272,
+      "relative_path": "sub-25.npz",
+      "sha256": "373e31f7551c26cd2300cb0957d23a797989faef24ad1d8e59034e29a91803a4",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-25"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-25.provenance.json",
+      "sha256": "60a53d9402d160c882cd7b02bc80031f072c4bc521575dd675a718d0ef0fe1a6",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-25"
+    },
+    {
+      "byte_count": 17285896,
+      "relative_path": "sub-26.npz",
+      "sha256": "735268cded20c1d359a29f4e3bfbc466b0538a2d22e68077536d7e573337cf3f",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-26"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-26.provenance.json",
+      "sha256": "4f8397222a12fdb7db10fdba0793a951d8f55913d8cb6617cbf8bbad29e68b8d",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-26"
+    },
+    {
+      "byte_count": 17305263,
+      "relative_path": "sub-27.npz",
+      "sha256": "38a7787f7e05aa5e63334c2c181186a046b837417a7dfb3eb864e5f9f5c7db85",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-27"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-27.provenance.json",
+      "sha256": "0eb11a8ba62994532730c0996523fcc6f677ba3c3a2768c495d7033f17bc8047",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-27"
+    },
+    {
+      "byte_count": 17278035,
+      "relative_path": "sub-28.npz",
+      "sha256": "2593f795b39723bd4f4fa5580ccc00394b47175340282b0861ecc480777d0038",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-28"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-28.provenance.json",
+      "sha256": "08082da3c97845eca08dbc964a63085a7fe33146a1b6b369813be2fcfe45164c",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-28"
+    },
+    {
+      "byte_count": 17304779,
+      "relative_path": "sub-29.npz",
+      "sha256": "0cd84472b20477d1e7676426be73c9afe1c0321c05edee1863e3796999b76d08",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-29"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-29.provenance.json",
+      "sha256": "cbb0b0155fb2f53b08dd5dab01e58a81f4668a1598aa6074500750e03255350b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-29"
+    },
+    {
+      "byte_count": 17275564,
+      "relative_path": "sub-30.npz",
+      "sha256": "51bae49bd49d2b4cc8bca56aaae1003ffeb0be99272bab6fa32db5ad5e6d375b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-30"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-30.provenance.json",
+      "sha256": "d31b934a4e4ea0da4c843d154f52e367a2a1a8aeb053049eb1ffc8bc89f8bea7",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-30"
+    },
+    {
+      "byte_count": 17277630,
+      "relative_path": "sub-31.npz",
+      "sha256": "30746891a2d0048d90c99a7601a170d456e614a9f0e971731c48ad4c50c7790b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-31"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-31.provenance.json",
+      "sha256": "564ee98b2ee367a4962d3c57c7df8ccf781a5cd0213da1a938c6ecf30eec22a9",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-31"
+    },
+    {
+      "byte_count": 17285651,
+      "relative_path": "sub-32.npz",
+      "sha256": "c2d383599498ed4149311922d41256dcf0f83c20f4223d14152486a189ebd8b5",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-32"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-32.provenance.json",
+      "sha256": "3b33997b59b5ec7702801715dd475df678c4adb8030e6c7d91735d52ae7c5385",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-32"
+    },
+    {
+      "byte_count": 17284010,
+      "relative_path": "sub-33.npz",
+      "sha256": "559ee82ce0d5bc8dd7f3e1dd125258c4681e9aa0546d6a2ff71ccde8567faa31",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-33"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-33.provenance.json",
+      "sha256": "9796b043e72d08627f1b4d7669b9445cb5854d4ac8a3bbf1d23e56af09c68b28",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-33"
+    },
+    {
+      "byte_count": 17306932,
+      "relative_path": "sub-34.npz",
+      "sha256": "1a391a3232d3b33f3c17b3c3c4be23467094cc3c941a688d69db6ecc26d4766d",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-34"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-34.provenance.json",
+      "sha256": "4b2601daaf75b141852b403e38a54a790a8dd66d3e6c964f827bf828cb9022e9",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-34"
+    },
+    {
+      "byte_count": 17278791,
+      "relative_path": "sub-35.npz",
+      "sha256": "01d7afd34f56465d28873c8ec215395e3998d7924f89b317ee6dc7d5f46001ca",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-35"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-35.provenance.json",
+      "sha256": "d9ecf34f945bbf053cffb8b126845be284dc56e673dbc890d39bfd148febe1e7",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-35"
+    },
+    {
+      "byte_count": 17284130,
+      "relative_path": "sub-36.npz",
+      "sha256": "cf3fb2544ec8385014a4944e28e83009e4cbed81e3b033385c9abc7bf2a0f055",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-36"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-36.provenance.json",
+      "sha256": "be1f0d3bc35bc11237674fbb7bca261be9ad69acc3663a061231c33f8751c72f",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-36"
+    },
+    {
+      "byte_count": 17265102,
+      "relative_path": "sub-37.npz",
+      "sha256": "ac2d76e5f1e0a942bdec74ccf0ce58ad39ab01b143058365517584542ece17e1",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-37"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-37.provenance.json",
+      "sha256": "1180f96360d5befe87571b7ac4e9f1b42fe74d7c09105ab90446c81f9ff8a852",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-37"
+    },
+    {
+      "byte_count": 17279455,
+      "relative_path": "sub-38.npz",
+      "sha256": "e2bb9e82119bd8f08b7fc0358e90bd68c0cc272d8995b089708acc9840d2e60c",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-38"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-38.provenance.json",
+      "sha256": "2b025366de5e3c0f0706ed7112954bae6abd8a44a91bf0254ee2e686e1dd7f2b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-38"
+    },
+    {
+      "byte_count": 17288984,
+      "relative_path": "sub-39.npz",
+      "sha256": "7037537897cc1235d1df1c41fb301c666a6ff5a94b6d83e2b3a0d226531d41fe",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-39"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-39.provenance.json",
+      "sha256": "be56ac8ab7cacaf433315de58acf99330337b15cc81bca3c15fcfabcf4c6cc71",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-39"
+    },
+    {
+      "byte_count": 17277291,
+      "relative_path": "sub-40.npz",
+      "sha256": "133971d6370e137699a1441c7d1225f4da3b47496db25b17def8c29c358182b8",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-40"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-40.provenance.json",
+      "sha256": "2a9863d515c2acc05b25ca8007b8e6571f6e9edb2dab9ee4c2c484d12b244832",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-40"
+    },
+    {
+      "byte_count": 17295764,
+      "relative_path": "sub-41.npz",
+      "sha256": "ca6ef62f78467657f5b63b26ae313a144b996e69099d3f1fcb6d2f2c1b27da3e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-41"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-41.provenance.json",
+      "sha256": "81c8be7849a859887c4d78a22e50cec526ad66eba93d1512249fedb2421bea00",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-41"
+    },
+    {
+      "byte_count": 17285214,
+      "relative_path": "sub-42.npz",
+      "sha256": "20eca3332525c7e3eecae7b0e29f41b25058914bb1e7d838586abba0c6c6b513",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-42"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-42.provenance.json",
+      "sha256": "8b44d6ee65cc25b82f93880eac35ba603a3cd206d3b065e349e322b4f988ebd0",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-42"
+    },
+    {
+      "byte_count": 17283550,
+      "relative_path": "sub-43.npz",
+      "sha256": "ccffdef4d3e6e0a7e90a6f1f74f623e3a9b0b554c610a7e2d15c14bc227bbbbe",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-43"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-43.provenance.json",
+      "sha256": "048164b0a3c49e2097c04b8529daa952eb89de33f501688bc8159d161e5fa4d3",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-43"
+    },
+    {
+      "byte_count": 17272382,
+      "relative_path": "sub-44.npz",
+      "sha256": "7711ccaee725d5d31f4fb70cdf385dde31367a59638c044585e81dbca5c7224e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-44"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-44.provenance.json",
+      "sha256": "81a08d40308ec199c93e7e82ca4da35df2ddde3f5957fd28c6a529b5aafd8d02",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-44"
+    },
+    {
+      "byte_count": 17278900,
+      "relative_path": "sub-45.npz",
+      "sha256": "8790bad596a9d636cdab4831e69d305786bea1976f0830e8fa6bedac4b2fde79",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-45"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-45.provenance.json",
+      "sha256": "28b3f22f70061b57eee1c8c311a351410bbe58137fac8d652cd83c2dac8b0337",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-45"
+    },
+    {
+      "byte_count": 17297554,
+      "relative_path": "sub-46.npz",
+      "sha256": "fb407574b13f7e6f3449d04ad161a408b6e1ef3d138da5a4c661cb1501c79f70",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-46"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-46.provenance.json",
+      "sha256": "0344d43fbc943b6e7ba8f41415481658a325b88517766f4cb442ca8deb9d98d3",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-46"
+    },
+    {
+      "byte_count": 17293927,
+      "relative_path": "sub-47.npz",
+      "sha256": "8cce146290412b6986f2cc3e035e9bf78dd43d2c14b8e89523afe5c797ff99cc",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-47"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-47.provenance.json",
+      "sha256": "1200b0f8db687fa7849c88fd21769a8e282c4ef22d64427ae80ca96119b24c24",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-47"
+    },
+    {
+      "byte_count": 17276556,
+      "relative_path": "sub-48.npz",
+      "sha256": "6f8d3a48f2491d155894ae82aef4cd0389756fa4ff3415f4fd6801c2072e169b",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-48"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-48.provenance.json",
+      "sha256": "a3c06fe312f3bbbdf86390c080c50d217c13a3e01576fd2f292c59c4141c5404",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-48"
+    },
+    {
+      "byte_count": 17286530,
+      "relative_path": "sub-49.npz",
+      "sha256": "6eb4cb4d4700999294bccaff1f877f9229b6a8691f7b7ed3e077dd314e4a0d91",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-49"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-49.provenance.json",
+      "sha256": "06d3bf9c94b7f5b3d1626611c5c5faea8755229f8b428c77d124003918280f7e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-49"
+    },
+    {
+      "byte_count": 17285588,
+      "relative_path": "sub-50.npz",
+      "sha256": "6739c6d90213e9ae914aa0a282e57f2efe860368c741137b14fb3f5f7ffca87e",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-50"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-50.provenance.json",
+      "sha256": "7f3efca7e9a1ba449a46b98e0cebff6b4a2cf2747681aeef8b919d49d11d4afd",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-50"
+    },
+    {
+      "byte_count": 17311150,
+      "relative_path": "sub-51.npz",
+      "sha256": "949b0537587c8bcfe00100e9ba4f4b806ead5c2ce5f102e8936f98431b48b6df",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-51"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-51.provenance.json",
+      "sha256": "27a93b45b8297f4d61fc8ed2a2497998a2de4e98a523ab22ad461947fa070f25",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-51"
+    },
+    {
+      "byte_count": 17294652,
+      "relative_path": "sub-52.npz",
+      "sha256": "d7b054adfc076901a9804a22dcd01179acd61ef6cd2f17b8b7a82723525ef982",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-52"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-52.provenance.json",
+      "sha256": "4bbafea91b50674ac39a2c1a7b447564eafc9f3b28de7956c0d6c494ed196630",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-52"
+    },
+    {
+      "byte_count": 17305167,
+      "relative_path": "sub-53.npz",
+      "sha256": "3a8ff3f4ce143b2d91adea98bdb7a4a0bf693a2d2c831d90f5399873e1656ef4",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-53"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-53.provenance.json",
+      "sha256": "a1c3a0eb2d34d259b0d3313c8b5536ed3308af770e02fbf3ab26471fc40ea5c3",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-53"
+    },
+    {
+      "byte_count": 17280164,
+      "relative_path": "sub-54.npz",
+      "sha256": "ca708eefca68c2bd59f11a3a87259acff538070c6fcf44cafda3eb4f6c9336a0",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-54"
+    },
+    {
+      "byte_count": 2810,
+      "relative_path": "sub-54.provenance.json",
+      "sha256": "b51a4b5a91a38096657d11b1482a47f36deee5a4c7b5ef4ad8315a819669f835",
+      "source_content_length": null,
+      "source_url": null,
+      "subject_id": "sub-54"
+    }
+  ],
+  "protocol_id": "p4-openbmi-harmonized-zero-calibration-loso-recovery-r1",
+  "source_doi": "10.82901/nemar.nm000338",
+  "source_license": "GPL-3.0",
+  "subjects": [
+    "sub-1",
+    "sub-2",
+    "sub-3",
+    "sub-4",
+    "sub-5",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-23",
+    "sub-24",
+    "sub-25",
+    "sub-26",
+    "sub-27",
+    "sub-28",
+    "sub-29",
+    "sub-30",
+    "sub-31",
+    "sub-32",
+    "sub-33",
+    "sub-34",
+    "sub-35",
+    "sub-36",
+    "sub-37",
+    "sub-38",
+    "sub-39",
+    "sub-40",
+    "sub-41",
+    "sub-42",
+    "sub-43",
+    "sub-44",
+    "sub-45",
+    "sub-46",
+    "sub-47",
+    "sub-48",
+    "sub-49",
+    "sub-50",
+    "sub-51",
+    "sub-52",
+    "sub-53",
+    "sub-54"
+  ]
+}

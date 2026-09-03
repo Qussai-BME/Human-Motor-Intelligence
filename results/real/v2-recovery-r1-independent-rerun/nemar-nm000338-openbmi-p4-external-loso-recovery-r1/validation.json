@@ -1,0 +1,280 @@
+{
+  "D1_file_integrity": {
+    "checked_observations": 108,
+    "failures": [],
+    "status": "pass",
+    "total_bytes": 933572109
+  },
+  "D2_schema": {
+    "failures": [],
+    "required_keys": [
+      "channels",
+      "epochs",
+      "labels",
+      "sampling_hz"
+    ],
+    "status": "pass"
+  },
+  "D3_labels": {
+    "coverage": {
+      "sub-1": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-10": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-11": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-12": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-13": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-14": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-15": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-16": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-17": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-18": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-19": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-2": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-20": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-21": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-22": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-23": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-24": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-25": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-26": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-27": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-28": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-29": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-3": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-30": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-31": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-32": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-33": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-34": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-35": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-36": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-37": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-38": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-39": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-4": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-40": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-41": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-42": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-43": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-44": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-45": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-46": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-47": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-48": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-49": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-5": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-50": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-51": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-52": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-53": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-54": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-6": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-7": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-8": [
+        "left_hand",
+        "right_hand"
+      ],
+      "sub-9": [
+        "left_hand",
+        "right_hand"
+      ]
+    },
+    "expected_labels": [
+      "left_hand",
+      "right_hand"
+    ],
+    "failures": [],
+    "status": "pass"
+  },
+  "D4_protocol": {
+    "details": {
+      "channel_rule": "read named BDF channels; retain all named channels except exactly EMG1, EMG2, EMG3, EMG4; require 62 retained channels",
+      "epoching": [
+        0.5,
+        3.5
+      ],
+      "models": [
+        "eeg-linear-v1",
+        "eeg-lda-v1",
+        "eeg-spectral-v1",
+        "eeg-linear-svm-v1",
+        "eeg-lightweight-cnn-tcn-v1"
+      ],
+      "preprocessing_fit_scope": "training-fold-only",
+      "protocol_id": "p4-openbmi-harmonized-zero-calibration-loso-recovery-r1",
+      "split_strategy": "leave-one-subject-out",
+      "subject_count": 54,
+      "target_subject_calibration": false
+    },
+    "failures": [],
+    "status": "pass"
+  },
+  "D5_leakage_audit": {
+    "checks": {
+      "fixed_preprocessing_has_no_cross_subject_fit": true,
+      "held_out_subject_excluded_from_classifier_fit": true,
+      "held_out_subject_excluded_from_scaler_fit": true,
+      "no_target_subject_calibration": true,
+      "no_target_subject_model_selection": true,
+      "raw_bdf_not_in_repository": true,
+      "subject_is_inference_unit": true
+    },
+    "failures": [],
+    "status": "pass"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "analysis_id": "p5-jeong-subject-level-statistics-recovery-r2",
+  "bootstrap": {
+    "percentile_interval": 0.95,
+    "resamples": 10000,
+    "seed": 20260824
+  },
+  "dataset_id": "nemar-nm000311-jeong2020",
+  "direct_replication": false,
+  "external_validation": true,
+  "inference_unit": "subject",
+  "limitations": [
+    "Bootstrap intervals summarize the retained 24-subject cohort and are not population guarantees.",
+    "This is an amended source-availability cohort, not a direct replication of frozen Cho2017.",
+    "Independent deterministic rerun is required before final manuscript integration."
+  ],
+  "metric": "macro_f1",
+  "models": [
+    "early-fusion-lda-v1",
+    "eeg-only-lda-v1",
+    "emg-only-lda-v1",
+    "late-fusion-lda-v1"
+  ],
+  "multiplicity": {
+    "comparison_count": 6,
+    "family": "all six predeclared P5 R2 model-pair comparisons",
+    "method": "Holm"
+  },
+  "omnibus": {
+    "conditions": 4,
+    "interpretation": "Within-Jeong paired model-comparison result only; it does not rank or pool metrics against frozen Cho2017 evidence.",
+    "p_value": 0.0010077006085612748,
+    "statistic": 16.25,
+    "subjects": 24,
+    "test": "Friedman chi-square"
+  },
+  "pairwise": [
+    {
+      "holm_rank": 5,
+      "mean_paired_difference_a_minus_b": -0.005863067879913422,
+      "median_paired_difference_a_minus_b": 0.001568017431273952,
+      "metric": "macro_f1",
+      "model_a": "early-fusion-lda-v1",
+      "model_b": "eeg-only-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 1.0,
+      "p_value_raw": 0.6839864253997803,
+      "paired_sign_effect": 0.08333333333333333,
+      "standardized_mean_difference_paired": -0.22893318801831666,
+      "wilcoxon_statistic": 135.0
+    },
+    {
+      "holm_rank": 3,
+      "mean_paired_difference_a_minus_b": 0.026969517919229097,
+      "median_paired_difference_a_minus_b": 0.024669824665570984,
+      "metric": "macro_f1",
+      "model_a": "early-fusion-lda-v1",
+      "model_b": "emg-only-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 0.008003711700439453,
+      "p_value_raw": 0.0020009279251098633,
+      "paired_sign_effect": 0.5,
+      "standardized_mean_difference_paired": 0.7074483086234118,
+      "wilcoxon_statistic": 46.0
+    },
+    {
+      "holm_rank": 4,
+      "mean_paired_difference_a_minus_b": -0.005109617504116867,
+      "median_paired_difference_a_minus_b": -0.002071181809920098,
+      "metric": "macro_f1",
+      "model_a": "early-fusion-lda-v1",
+      "model_b": "late-fusion-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 1.0,
+      "p_value_raw": 0.35962629318237305,
+      "paired_sign_effect": -0.08333333333333333,
+      "standardized_mean_difference_paired": -0.25280503697503387,
+      "wilcoxon_statistic": 117.0
+    },
+    {
+      "holm_rank": 2,
+      "mean_paired_difference_a_minus_b": 0.03283258579914252,
+      "median_paired_difference_a_minus_b": 0.029445087910832304,
+      "metric": "macro_f1",
+      "model_a": "eeg-only-lda-v1",
+      "model_b": "emg-only-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 0.0010257959365844727,
+      "p_value_raw": 0.00020515918731689453,
+      "paired_sign_effect": 0.6666666666666666,
+      "standardized_mean_difference_paired": 0.8905346930183267,
+      "wilcoxon_statistic": 29.0
+    },
+    {
+      "holm_rank": 6,
+      "mean_paired_difference_a_minus_b": 0.0007534503757965555,
+      "median_paired_difference_a_minus_b": -7.810002280881495e-05,
+      "metric": "macro_f1",
+      "model_a": "eeg-only-lda-v1",
+      "model_b": "late-fusion-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 1.0,
+      "p_value_raw": 0.9664472341537476,
+      "paired_sign_effect": 0.0,
+      "standardized_mean_difference_paired": 0.05167886323787573,
+      "wilcoxon_statistic": 148.0
+    },
+    {
+      "holm_rank": 1,
+      "mean_paired_difference_a_minus_b": -0.03207913542334597,
+      "median_paired_difference_a_minus_b": -0.020059778257530785,
+      "metric": "macro_f1",
+      "model_a": "emg-only-lda-v1",
+      "model_b": "late-fusion-lda-v1",
+      "n_subjects": 24,
+      "p_value_holm": 0.0007624626159667969,
+      "p_value_raw": 0.0001270771026611328,
+      "paired_sign_effect": -0.6666666666666666,
+      "standardized_mean_difference_paired": -0.8275979843372754,
+      "wilcoxon_statistic": 26.0
+    }
+  ],
+  "protocol_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "result_directory": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "subject_count": 24,
+  "subjects": [
+    "sub-1",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-2",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-24",
+    "sub-25",
+    "sub-3",
+    "sub-4",
+    "sub-5",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9"
+  ],
+  "summaries": {
+    "early-fusion-lda-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.06223446942616933,
+        0.08902246050120616
+      ],
+      "maximum": 0.1420117996107414,
+      "mean": 0.07540679153888169,
+      "median": 0.06841855461865215,
+      "minimum": 0.0034184839529822183,
+      "n_subjects": 24,
+      "standard_deviation": 0.03411145272887769
+    },
+    "eeg-only-lda-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.07189811910796928,
+        0.09154401899730619
+      ],
+      "maximum": 0.1435793978411,
+      "mean": 0.08126985941879511,
+      "median": 0.0734475157014674,
+      "minimum": 0.04698297130492293,
+      "n_subjects": 24,
+      "standard_deviation": 0.025176332380236262
+    },
+    "emg-only-lda-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.03863538461680958,
+        0.058967795470590674
+      ],
+      "maximum": 0.11433859903587393,
+      "mean": 0.04843727361965259,
+      "median": 0.041887347105782874,
+      "minimum": 0.002009040683073832,
+      "n_subjects": 24,
+      "standard_deviation": 0.02574097903669175
+    },
+    "late-fusion-lda-v1": {
+      "bootstrap_95_percent_ci_mean": [
+        0.06889446889088793,
+        0.09363091028836878
+      ],
+      "maximum": 0.16892966821987276,
+      "mean": 0.08051640904299855,
+      "median": 0.06956702208841621,
+      "minimum": 0.028783313789433742,
+      "n_subjects": 24,
+      "standard_deviation": 0.031543826926498285
+    }
+  }
+}
