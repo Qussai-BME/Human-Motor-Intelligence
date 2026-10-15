@@ -1,27 +1,29 @@
 cff-version: 1.2.0
 message: "If you use this release, cite Human Motor Intelligence and the external datasets/publications relevant to the specific evidence you reuse."
-title: "Human Motor Intelligence — Public Research Release"
+title: "Human Motor Intelligence Research Stack"
 type: software
 version: "1.2.0"
-date-released: 2026-10-11
+date-released: 2026-10-16
 authors:
   - family-names: "Adlbi"
     given-names: "Qussai"
     orcid: "https://orcid.org/0009-0000-7667-1992"
-abstract: "Public research archive and thin integration layer for the Human Motor Intelligence programme, including reproducibility infrastructure and the executed P6 studies: the C1 registered motor-imagery EEG-to-MyoSim replay (0/60 task successes), its post-hoc validity audit (endpoint unreachable by design) and the C2 registered episode-level follow-up (control success follows confidence-gate passage rather than decoder accuracy)."
+abstract: "Public research archive and thin integration layer for the Human Motor Intelligence programme: reproducibility infrastructure, the registered P6 C1 motor-imagery EEG-to-MyoSim replay (task success 0/60 for every decoder), its post-hoc validity audit (primary endpoint unreachable by design), and the registered C2 episode-level follow-up. Offline, non-clinical simulation evidence; not a medical device."
 keywords:
   - biosignal processing
   - EEG
   - EMG
   - motor intent
   - cross-subject generalization
+  - decoder accuracy
+  - control utility
   - reproducibility
   - motor control
 license: Apache-2.0
 repository-code: "https://github.com/Qussai-BME/Human-Motor-Intelligence"
 preferred-citation:
   type: software
-  title: "Human Motor Intelligence — Public Research Release"
+  title: "Human Motor Intelligence Research Stack"
   authors:
     - family-names: "Adlbi"
       given-names: "Qussai"
@@ -29,6 +31,17 @@ preferred-citation:
   year: 2026
   version: "1.2.0"
 references:
-  - type: dataset
+  - type: data
     title: "EEG Motor Movement/Imagery Dataset v1.0.0"
     doi: 10.13026/C28G6P
+    authors:
+      - family-names: "Schalk"
+        given-names: "Gerwin"
+      - family-names: "McFarland"
+        given-names: "Dennis J."
+      - family-names: "Hinterberger"
+        given-names: "Thilo"
+      - family-names: "Birbaumer"
+        given-names: "Niels"
+      - family-names: "Wolpaw"
+        given-names: "Jonathan R."
