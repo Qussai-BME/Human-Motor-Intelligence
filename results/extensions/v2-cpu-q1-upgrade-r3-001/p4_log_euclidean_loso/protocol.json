@@ -1,0 +1,12 @@
+{
+  "task": "P4 CPU Q1 upgrade",
+  "subjects": 54,
+  "conditions": [
+    "log_euclidean",
+    "aligned_log_euclidean"
+  ],
+  "seed": 20261001,
+  "loso": true,
+  "covariance_regularization": "1e-4 * mean diagonal",
+  "classifier": "LDA lsqr shrinkage=auto"
+}

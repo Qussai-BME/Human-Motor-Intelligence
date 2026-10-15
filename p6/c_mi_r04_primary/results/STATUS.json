@@ -1,0 +1,18 @@
+{
+  "protocol": "P6-C1-MI-R04-v1.0",
+  "scientific_status": "SCIENTIFICALLY_COMPLETE",
+  "raw_r04_data_available_in_package": false,
+  "decoder_stage_executed": true,
+  "fixture_stage_executed": true,
+  "fixture_success": true,
+  "primary_myosim_executed": true,
+  "primary_decoder_conditioned_runs": 60,
+  "primary_task_successes": 0,
+  "rerun_executed": true,
+  "rerun_decoder_conditioned_runs": 60,
+  "rerun_task_successes": 0,
+  "primary_endpoint_discriminative": false,
+  "interpretation": "Fixture passed; all decoder-conditioned task runs failed, so task success was non-discriminative across M1/M2/M3. Continuous endpoints are exploratory and paired at subject level.",
+  "raw_data_policy": "R04 EDF files are external and not redistributed; source-file SHA-256 provenance is recorded in audit/DATASET_MANIFEST.json.",
+  "rerun_artifacts_verified_run_level": true
+}

@@ -1,0 +1,60 @@
+protocol_id: P6-C1-MI-R04-v1.0
+source_dataset: PhysioNet EEGMMIDB
+source_version: 1.0.0
+source_run: R04
+source_task: motor_imagery_unilateral_fist
+subjects:
+  - S001
+  - S002
+  - S003
+  - S004
+  - S005
+  - S006
+  - S007
+  - S008
+  - S009
+  - S010
+  - S011
+  - S012
+  - S013
+  - S014
+  - S015
+  - S016
+  - S017
+  - S018
+  - S019
+  - S020
+sampling_rate_hz: 160.0
+epoch:
+  start_s: 1.0
+  stop_s: 3.5
+models:
+  M1:
+    family: broad_band
+    bands: [[8, 30]]
+    C: 0.1
+  M2:
+    family: band_pair
+    bands: [[8, 12], [13, 30]]
+    C: 1.0
+  M3:
+    family: band_pair_asymmetry
+    bands: [[8, 12], [13, 30]]
+    C: 2.0
+random_seed: 1701
+control_mapping:
+  id: P6_C1_R04_T1_TO_OPEN_T2_TO_CLOSE_ABSTRACT_v1
+  T1: OPEN
+  T2: CLOSE
+  semantics: abstract_control_labels_only
+myosim:
+  config: p6_mi_r04_mysim.yaml
+  task: pick_place
+  fixture_required: true
+  primary_endpoint: task_success
+  secondary_endpoints:
+    - completion_time_s
+    - final_error_m
+    - path_length_m
+    - command_corrections
+    - grasp_stability_steps

@@ -1,0 +1,59 @@
+{
+  "run_id": "3fc6b1efe46b4fdcb7ec022efa768db9",
+  "run_dir": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/results/myosim_replay/quality_worst/artifacts/runs/3fc6b1efe46b4fdcb7ec022efa768db9",
+  "provenance": {
+    "run_id": "3fc6b1efe46b4fdcb7ec022efa768db9",
+    "created_at_utc": "2026-10-02T22:37:19+00:00",
+    "config_hash": "ac74a486ddad14ee5bc343afb1cd091451d0ef32344c4333a8d2406d27aada89",
+    "git_commit": "unavailable",
+    "physics_backend": "mujoco",
+    "model_path": "<LOCAL_WORKSPACE>/child_audit/MyoSim_V1.1_Public_Release_0.1_1_/MyoSim_V1.1_Public_Release_0.1.3/assets/models/hand.xml",
+    "model_version": "myosim-hand-mjcf-v1",
+    "intent_source": "csv-replay:quality_worst_S001.csv:f5e23f12311b",
+    "seed": 20260822,
+    "task": "synthetic_controller_validation",
+    "package_version": "0.1.3"
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 0,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 0,
+    "mean_confirmation_latency_s": null,
+    "state_transition_count": 2
+  },
+  "transitions": [
+    {
+      "timestamp_s": 5.0,
+      "previous": "REST",
+      "current": "CANDIDATE",
+      "reason": "accepted_candidate_intent",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 35.0,
+      "previous": "CANDIDATE",
+      "current": "CANDIDATE",
+      "reason": "candidate_replaced_by_new_consistent_label",
+      "command": "REST",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    }
+  ],
+  "final_joint_positions": {
+    "forearm_x": -4.635950228967309e-13,
+    "forearm_y": 0.0,
+    "thumb_flex": 0.014027035706942134,
+    "index_flex": 0.0022443703602548133,
+    "middle_flex": 0.0027117829115531895,
+    "ring_flex": 0.0018015887533028598,
+    "object_free": 0.36000003332552294
+  },
+  "simulation_time_s": 35.00199999999681,
+  "invalid_state_detected": false
+}

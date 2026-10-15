@@ -1,0 +1,19 @@
+{
+  "task": "P5 CPU Q1 corruption and missing-modality extension",
+  "subjects": 24,
+  "arms": [
+    "emg_corruption",
+    "eeg_corruption",
+    "missing_emg",
+    "missing_eeg"
+  ],
+  "levels_percent": [
+    0,
+    10,
+    20
+  ],
+  "dropout": "deterministic evenly spaced feature groups",
+  "classifier": "LDA lsqr shrinkage=auto",
+  "loso": true,
+  "seed": 20261002
+}

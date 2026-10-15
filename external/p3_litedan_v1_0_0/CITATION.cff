@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below."
+title: "Adversarial Domain Confusion and Feature-Covariance Alignment Do Not Close the Cross-Subject Generalization Gap in Surface EMG Gesture Recognition: A Systematic Zero-Calibration LOSO Study Across Three NinaPro Cohorts"
+authors:
+  - family-names: "Adlbi"
+    given-names: "Qussai"
+    affiliation: "Al-Andalus University, Syria"
+  - family-names: "Darwich"
+    given-names: "Mohamad Ayham"
+    affiliation: "Al-Andalus University for Medical Sciences, Syria; Pázmány Péter Catholic University, Budapest, Hungary"
+date-released: 2026-09-13
+license: MIT
+repository-code: "https://github.com/Qussai-BME/litedan-cross-subject-semg"
+keywords:
+  - surface electromyography
+  - myoelectric control
+  - domain adaptation
+  - cross-subject generalization
+  - NinaPro
+  - leave-one-subject-out

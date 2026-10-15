@@ -1,0 +1,4 @@
+nohup: ignoring input
+{"status": "range_recovery_start", "total_ranges": 1424, "pending_ranges": 1, "chunk_bytes": 1048576, "connections": 5}
+{"status": "range_progress", "completed_ranges": 1424, "total_ranges": 1424, "last_range": [867172352, 868220927]}
+chunked download complete: bytes=1492666204 sha256=5633d9d69a0fa57d293aa5bb5f277a7ab8b26972fa59619af30c94de6c5a2de3 output=/home/ubuntu/ninapro_staging/DB7/S12/DB7_S12.zip

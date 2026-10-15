@@ -1,0 +1,24 @@
+# Phase 6 Multimodal Preparation Verification
+
+## Fusion contract tests
+...                                                                      [100%]
+3 passed in 0.03s
+
+## P5 declared conditions and no deep/missing-modality escalation
+  "eeg_channel_rule": "retain exact BDF names excluding channels prefixed hEOG_, vEOG_, or EMG; require 60 channels",
+  "emg_channel_rule": "retain exact BDF names prefixed EMG; require 7 channels including source reference channel",
+  "late_fusion_rule": "arithmetic mean of separately fit EEG-only and EMG-only LDA class probabilities; models and any scalers fit on the training subjects only",
+  "model_selection": "No target-subject adaptation, model selection, tuning, hyperparameter search, deep fusion, or missing-modality synthetic stress analysis.",
+    "early-fusion-lda-v1",
+    "late-fusion-lda-v1"
+  "preprocessing_note": "Epoch-local deterministic spectral and EMG summaries precede splitting. Any StandardScaler, LDA fit, probability calibration, or fusion calculation uses training subjects only.",
+
+## Evidence-boundary documentation
+papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md:16:**Conclusion.** In this amended Jeong MI-only cohort and this transparent LDA family, fusion did not establish a Holm-supported improvement over EEG-only. The result does not prove that fusion is generally ineffective or explain the observed EMG-only ordering.
+papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md:32:Other multimodal work has evaluated EEG–EMG functional-connectivity methods for pre-movement sit/stand intention in healthy participants and spinal-cord-injury patients [3]. That study uses different movement types, time windows, feature construction, class structure, validation context, and population. Cross-subject EEG research also reports benefits for multi-branch deep models on a different 103-subject EEG dataset [4]. Collectively, these sources support the view that signal modality, architecture, task, and validation policy change the estimand. They do not supply a substitute result for the present all-11-class, participant-held-out Jeong protocol.
+papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md:55:For every fold, the held-out subject was excluded from the EEG/EMG scaler fit and all classifier fitting. The fixed conditions were EEG-only LDA, EMG-only LDA, early concatenation LDA, and late arithmetic-mean probability fusion of independently trained EEG and EMG LDAs. No target calibration, target-side feature selection, target-driven model choice, deep fusion, missing-modality experiment, or hyperparameter search is part of the primary analysis.
+papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md:90:The cohort is 24 rather than the initially planned 25 subjects due to a documented source-availability limitation. It comprises healthy, right-handed, BCI-naive participants and MI only. The all-11-class task is difficult and its macro-F1 values cannot be directly compared with binary, selected-class, or execution results. The analysis is deliberately limited to transparent handcrafted features and LDA-based early/late fusion; it does not test deep fusion or target adaptation. The study does not identify a physiological explanation for modality ordering or establish a clinical/prosthetic endpoint.
+papers/paper_5/EVIDENCE_GAP_AUDIT.md:20:The above gaps cannot be addressed by restoring `sub-23` from an unverified source, narrowing the label set, removing difficult subjects, retuning LDA, adding deep fusion, or borrowing target-subject calibration. All such actions would change the scientific question and require a new protocol/evidence namespace.
+SCIENTIFIC_LIMITATIONS.md:15:| P5 | In the amended 24-subject Jeong MI-only cohort, fixed transparent fusion rules did not establish a Holm-supported gain over EEG-only | Fusion is generally ineffective, EMG ordering reveals a mechanism, or MI evidence transfers to ME/device control |
+SCIENTIFIC_LIMITATIONS.md:25:The release excludes raw restricted biosignal recordings and external derived caches. Rerun equivalence supports reproducibility of retained results, not correctness beyond the declared source, implementation, environment, and protocol. PyBullet remains an unverified optional backend in the current Python 3.12 environment. Direct BCI IV-2a, ECG, ECoG/iEEG, and a standalone missing-modality study remain unexecuted tracks, not negative findings.
+SCIENTIFIC_LIMITATIONS.md:34:| General multimodal robustness | New registered paired-source study including declared missing-modality conditions |

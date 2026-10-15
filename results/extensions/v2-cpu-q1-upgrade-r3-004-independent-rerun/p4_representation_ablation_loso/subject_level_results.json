@@ -1,0 +1,1298 @@
+[
+  {
+    "subject": "sub-1",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6136159560284073,
+    "accuracy": 0.645,
+    "balanced_accuracy": 0.645
+  },
+  {
+    "subject": "sub-1",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5314093552744013,
+    "accuracy": 0.575,
+    "balanced_accuracy": 0.575
+  },
+  {
+    "subject": "sub-1",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-2",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.646074646074646,
+    "accuracy": 0.67,
+    "balanced_accuracy": 0.67
+  },
+  {
+    "subject": "sub-2",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5784126984126984,
+    "accuracy": 0.585,
+    "balanced_accuracy": 0.585
+  },
+  {
+    "subject": "sub-2",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.36580416032470825,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-3",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7911945201293575,
+    "accuracy": 0.795,
+    "balanced_accuracy": 0.795
+  },
+  {
+    "subject": "sub-3",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6482765551200884,
+    "accuracy": 0.65,
+    "balanced_accuracy": 0.6499999999999999
+  },
+  {
+    "subject": "sub-3",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-4",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.40201141614569175,
+    "accuracy": 0.505,
+    "balanced_accuracy": 0.505
+  },
+  {
+    "subject": "sub-4",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4188034188034188,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-4",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-5",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7111803602644979,
+    "accuracy": 0.715,
+    "balanced_accuracy": 0.715
+  },
+  {
+    "subject": "sub-5",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6376811594202898,
+    "accuracy": 0.64,
+    "balanced_accuracy": 0.64
+  },
+  {
+    "subject": "sub-5",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.48686371100164205,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-6",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6948092557848655,
+    "accuracy": 0.695,
+    "balanced_accuracy": 0.6950000000000001
+  },
+  {
+    "subject": "sub-6",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5757575757575757,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.5800000000000001
+  },
+  {
+    "subject": "sub-6",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-7",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.48484848484848486,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-7",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5896306676008407,
+    "accuracy": 0.59,
+    "balanced_accuracy": 0.5900000000000001
+  },
+  {
+    "subject": "sub-7",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-8",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5797760578738796,
+    "accuracy": 0.605,
+    "balanced_accuracy": 0.605
+  },
+  {
+    "subject": "sub-8",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5772946859903382,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.5800000000000001
+  },
+  {
+    "subject": "sub-8",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-9",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7733625443831684,
+    "accuracy": 0.775,
+    "balanced_accuracy": 0.7749999999999999
+  },
+  {
+    "subject": "sub-9",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7545028683083244,
+    "accuracy": 0.755,
+    "balanced_accuracy": 0.755
+  },
+  {
+    "subject": "sub-9",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-10",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5081670161269447,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-10",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4783684224678013,
+    "accuracy": 0.515,
+    "balanced_accuracy": 0.515
+  },
+  {
+    "subject": "sub-10",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-11",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.46960424316605465,
+    "accuracy": 0.48,
+    "balanced_accuracy": 0.48
+  },
+  {
+    "subject": "sub-11",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.49541756770672435,
+    "accuracy": 0.51,
+    "balanced_accuracy": 0.51
+  },
+  {
+    "subject": "sub-11",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-12",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4643874643874644,
+    "accuracy": 0.53,
+    "balanced_accuracy": 0.53
+  },
+  {
+    "subject": "sub-12",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3710691823899371,
+    "accuracy": 0.51,
+    "balanced_accuracy": 0.51
+  },
+  {
+    "subject": "sub-12",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.43889574682976096,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-13",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5478052963954365,
+    "accuracy": 0.565,
+    "balanced_accuracy": 0.565
+  },
+  {
+    "subject": "sub-13",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6085909273384182,
+    "accuracy": 0.61,
+    "balanced_accuracy": 0.6100000000000001
+  },
+  {
+    "subject": "sub-13",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-14",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4615747550720213,
+    "accuracy": 0.515,
+    "balanced_accuracy": 0.515
+  },
+  {
+    "subject": "sub-14",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5227720717916796,
+    "accuracy": 0.54,
+    "balanced_accuracy": 0.54
+  },
+  {
+    "subject": "sub-14",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4689028651292802,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-15",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.41716269841269843,
+    "accuracy": 0.53,
+    "balanced_accuracy": 0.53
+  },
+  {
+    "subject": "sub-15",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4164515767029514,
+    "accuracy": 0.48,
+    "balanced_accuracy": 0.48000000000000004
+  },
+  {
+    "subject": "sub-15",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-16",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5951007186962243,
+    "accuracy": 0.6,
+    "balanced_accuracy": 0.6
+  },
+  {
+    "subject": "sub-16",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5997536945812808,
+    "accuracy": 0.61,
+    "balanced_accuracy": 0.61
+  },
+  {
+    "subject": "sub-16",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-17",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6738370738526054,
+    "accuracy": 0.685,
+    "balanced_accuracy": 0.685
+  },
+  {
+    "subject": "sub-17",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6350646346791395,
+    "accuracy": 0.645,
+    "balanced_accuracy": 0.645
+  },
+  {
+    "subject": "sub-17",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-18",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6744791666666667,
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7
+  },
+  {
+    "subject": "sub-18",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6111613132889728,
+    "accuracy": 0.645,
+    "balanced_accuracy": 0.645
+  },
+  {
+    "subject": "sub-18",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3288590604026846,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-19",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.8028261583963194,
+    "accuracy": 0.805,
+    "balanced_accuracy": 0.8049999999999999
+  },
+  {
+    "subject": "sub-19",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6647324306898775,
+    "accuracy": 0.675,
+    "balanced_accuracy": 0.675
+  },
+  {
+    "subject": "sub-19",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-20",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6301081806896203,
+    "accuracy": 0.635,
+    "balanced_accuracy": 0.635
+  },
+  {
+    "subject": "sub-20",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5920032639738881,
+    "accuracy": 0.6,
+    "balanced_accuracy": 0.6
+  },
+  {
+    "subject": "sub-20",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4640605296343001,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-21",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.8843494657448145,
+    "accuracy": 0.885,
+    "balanced_accuracy": 0.885
+  },
+  {
+    "subject": "sub-21",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7694235588972431,
+    "accuracy": 0.77,
+    "balanced_accuracy": 0.77
+  },
+  {
+    "subject": "sub-21",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-22",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6560027519779841,
+    "accuracy": 0.675,
+    "balanced_accuracy": 0.675
+  },
+  {
+    "subject": "sub-22",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6726850385386971,
+    "accuracy": 0.69,
+    "balanced_accuracy": 0.6900000000000001
+  },
+  {
+    "subject": "sub-22",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-23",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5953937130407718,
+    "accuracy": 0.61,
+    "balanced_accuracy": 0.61
+  },
+  {
+    "subject": "sub-23",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5789473684210527,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.5800000000000001
+  },
+  {
+    "subject": "sub-23",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3373180873180873,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-24",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4171928120446819,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-24",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4800309768779732,
+    "accuracy": 0.53,
+    "balanced_accuracy": 0.53
+  },
+  {
+    "subject": "sub-24",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-25",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5932816148226256,
+    "accuracy": 0.595,
+    "balanced_accuracy": 0.595
+  },
+  {
+    "subject": "sub-25",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3749262884774148,
+    "accuracy": 0.47,
+    "balanced_accuracy": 0.47
+  },
+  {
+    "subject": "sub-25",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-26",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4429590017825312,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-26",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4654811992273293,
+    "accuracy": 0.495,
+    "balanced_accuracy": 0.495
+  },
+  {
+    "subject": "sub-26",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-27",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5798319327731092,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.5800000000000001
+  },
+  {
+    "subject": "sub-27",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5308037535699714,
+    "accuracy": 0.54,
+    "balanced_accuracy": 0.54
+  },
+  {
+    "subject": "sub-27",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-28",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7346749768466372,
+    "accuracy": 0.735,
+    "balanced_accuracy": 0.735
+  },
+  {
+    "subject": "sub-28",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6247847652334815,
+    "accuracy": 0.635,
+    "balanced_accuracy": 0.635
+  },
+  {
+    "subject": "sub-28",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-29",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.8212416047396511,
+    "accuracy": 0.825,
+    "balanced_accuracy": 0.825
+  },
+  {
+    "subject": "sub-29",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7691690084303493,
+    "accuracy": 0.77,
+    "balanced_accuracy": 0.77
+  },
+  {
+    "subject": "sub-29",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3311036789297659,
+    "accuracy": 0.495,
+    "balanced_accuracy": 0.495
+  },
+  {
+    "subject": "sub-30",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7033248081841432,
+    "accuracy": 0.71,
+    "balanced_accuracy": 0.71
+  },
+  {
+    "subject": "sub-30",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5772946859903382,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.5800000000000001
+  },
+  {
+    "subject": "sub-30",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-31",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5748557546310356,
+    "accuracy": 0.58,
+    "balanced_accuracy": 0.58
+  },
+  {
+    "subject": "sub-31",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.54995499549955,
+    "accuracy": 0.55,
+    "balanced_accuracy": 0.55
+  },
+  {
+    "subject": "sub-31",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.34201868666929863,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-32",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6571521863350658,
+    "accuracy": 0.685,
+    "balanced_accuracy": 0.685
+  },
+  {
+    "subject": "sub-32",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5766488413547237,
+    "accuracy": 0.62,
+    "balanced_accuracy": 0.62
+  },
+  {
+    "subject": "sub-32",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4759253193580085,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-33",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7851662404092072,
+    "accuracy": 0.79,
+    "balanced_accuracy": 0.79
+  },
+  {
+    "subject": "sub-33",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5966766153101557,
+    "accuracy": 0.625,
+    "balanced_accuracy": 0.625
+  },
+  {
+    "subject": "sub-33",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-34",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5095586027424682,
+    "accuracy": 0.51,
+    "balanced_accuracy": 0.51
+  },
+  {
+    "subject": "sub-34",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4771038803033833,
+    "accuracy": 0.495,
+    "balanced_accuracy": 0.495
+  },
+  {
+    "subject": "sub-34",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-35",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.46875,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-35",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.34201868666929863,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-35",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-36",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.9398496240601504,
+    "accuracy": 0.94,
+    "balanced_accuracy": 0.94
+  },
+  {
+    "subject": "sub-36",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.8474214220323466,
+    "accuracy": 0.85,
+    "balanced_accuracy": 0.85
+  },
+  {
+    "subject": "sub-36",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.46052495072102917,
+    "accuracy": 0.48,
+    "balanced_accuracy": 0.48
+  },
+  {
+    "subject": "sub-37",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.8749718686704508,
+    "accuracy": 0.875,
+    "balanced_accuracy": 0.875
+  },
+  {
+    "subject": "sub-37",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.78997899789979,
+    "accuracy": 0.79,
+    "balanced_accuracy": 0.79
+  },
+  {
+    "subject": "sub-37",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-38",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4548773474031657,
+    "accuracy": 0.455,
+    "balanced_accuracy": 0.45499999999999996
+  },
+  {
+    "subject": "sub-38",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.41886061459892576,
+    "accuracy": 0.505,
+    "balanced_accuracy": 0.505
+  },
+  {
+    "subject": "sub-38",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-39",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5772332263368042,
+    "accuracy": 0.595,
+    "balanced_accuracy": 0.595
+  },
+  {
+    "subject": "sub-39",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5247029393370857,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-39",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-40",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4261725710488961,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-40",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4987468671679198,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-40",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-41",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4171502256608639,
+    "accuracy": 0.435,
+    "balanced_accuracy": 0.435
+  },
+  {
+    "subject": "sub-41",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.49066213921901525,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-41",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5160802500252042,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-42",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5584988962472406,
+    "accuracy": 0.585,
+    "balanced_accuracy": 0.585
+  },
+  {
+    "subject": "sub-42",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5647279549718573,
+    "accuracy": 0.565,
+    "balanced_accuracy": 0.565
+  },
+  {
+    "subject": "sub-42",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-43",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5901639344262295,
+    "accuracy": 0.61,
+    "balanced_accuracy": 0.61
+  },
+  {
+    "subject": "sub-43",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5792282430213465,
+    "accuracy": 0.59,
+    "balanced_accuracy": 0.59
+  },
+  {
+    "subject": "sub-43",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-44",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.792509596431165,
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.8
+  },
+  {
+    "subject": "sub-44",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.7749943748593715,
+    "accuracy": 0.775,
+    "balanced_accuracy": 0.775
+  },
+  {
+    "subject": "sub-44",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-45",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.71875,
+    "accuracy": 0.73,
+    "balanced_accuracy": 0.73
+  },
+  {
+    "subject": "sub-45",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.67499187479687,
+    "accuracy": 0.675,
+    "balanced_accuracy": 0.675
+  },
+  {
+    "subject": "sub-45",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-46",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5123975516132379,
+    "accuracy": 0.53,
+    "balanced_accuracy": 0.53
+  },
+  {
+    "subject": "sub-46",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5089514066496164,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-46",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-47",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5041624259505728,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-47",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4654811992273293,
+    "accuracy": 0.495,
+    "balanced_accuracy": 0.495
+  },
+  {
+    "subject": "sub-47",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-48",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.514798641436196,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-48",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4710609297121351,
+    "accuracy": 0.48,
+    "balanced_accuracy": 0.48
+  },
+  {
+    "subject": "sub-48",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-49",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.49866310160427807,
+    "accuracy": 0.55,
+    "balanced_accuracy": 0.55
+  },
+  {
+    "subject": "sub-49",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5146154675870995,
+    "accuracy": 0.55,
+    "balanced_accuracy": 0.55
+  },
+  {
+    "subject": "sub-49",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-50",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.45882852292020376,
+    "accuracy": 0.49,
+    "balanced_accuracy": 0.49
+  },
+  {
+    "subject": "sub-50",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.4433160309937561,
+    "accuracy": 0.445,
+    "balanced_accuracy": 0.445
+  },
+  {
+    "subject": "sub-50",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-51",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5170825122810913,
+    "accuracy": 0.565,
+    "balanced_accuracy": 0.565
+  },
+  {
+    "subject": "sub-51",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5024875621890548,
+    "accuracy": 0.56,
+    "balanced_accuracy": 0.56
+  },
+  {
+    "subject": "sub-51",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-52",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6161616161616161,
+    "accuracy": 0.62,
+    "balanced_accuracy": 0.62
+  },
+  {
+    "subject": "sub-52",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.6649916247906198,
+    "accuracy": 0.665,
+    "balanced_accuracy": 0.665
+  },
+  {
+    "subject": "sub-52",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  },
+  {
+    "subject": "sub-53",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.44047619047619047,
+    "accuracy": 0.53,
+    "balanced_accuracy": 0.53
+  },
+  {
+    "subject": "sub-53",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5,
+    "accuracy": 0.52,
+    "balanced_accuracy": 0.52
+  },
+  {
+    "subject": "sub-53",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.43718712047157793,
+    "accuracy": 0.525,
+    "balanced_accuracy": 0.525
+  },
+  {
+    "subject": "sub-54",
+    "condition": "temporal",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5945032665014642,
+    "accuracy": 0.595,
+    "balanced_accuracy": 0.595
+  },
+  {
+    "subject": "sub-54",
+    "condition": "spectral",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.5524361712948835,
+    "accuracy": 0.56,
+    "balanced_accuracy": 0.5599999999999999
+  },
+  {
+    "subject": "sub-54",
+    "condition": "covariance_log",
+    "classifier": "LDA lsqr shrinkage=auto",
+    "macro_f1": 0.3333333333333333,
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5
+  }
+]

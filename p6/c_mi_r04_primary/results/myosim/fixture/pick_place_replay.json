@@ -1,0 +1,123 @@
+{
+  "provenance": {
+    "run_id": "cf088965bc6d49b2b5b371a9ad1c4bbb",
+    "created_at_utc": "2026-10-04T23:52:16+00:00",
+    "config_hash": "fbd0e0f8e6290e6e5a980ed17549a41ce8f606ae40e04bbc85640bae392d2ca5",
+    "git_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+    "physics_backend": "mujoco",
+    "model_path": "external/MyoSim-V1.1/assets/models/hand.xml",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:pick_place_replay.csv:c4ca518898d5",
+    "seed": 20261005,
+    "task": "pick_place",
+    "package_version": "0.1.5",
+    "intent_protocol_id": "csv-intent-replay-v1",
+    "input_file_sha256": "c4ca518898d59691f58957d9efacbf58dd25f6a918d7909fa478b04245229831",
+    "environment": {
+      "implementation": "CPython",
+      "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+      "python_version": "3.12.3",
+      "system": "Linux",
+      "machine": "x86_64",
+      "executable": "/usr/bin/python3"
+    }
+  },
+  "control_metrics": {
+    "event_count": 33,
+    "released_command_count": 1,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 0,
+    "mean_confirmation_latency_s": 0.30000000000000004,
+    "state_transition_count": 5
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": true,
+    "completion_time_s": 3.22,
+    "path_length_m": 0.9678159612131996,
+    "final_error_m": 0.04985601966004137,
+    "grasp_stability_steps": 14,
+    "command_corrections": 3,
+    "final_state": "COMPLETE"
+  },
+  "control_transitions": [
+    {
+      "timestamp_s": 0.1,
+      "previous": "REST",
+      "current": "CANDIDATE",
+      "reason": "accepted_candidate_intent",
+      "command": "REST",
+      "metadata": {
+        "active_label": "PINCH"
+      }
+    },
+    {
+      "timestamp_s": 0.3,
+      "previous": "CANDIDATE",
+      "current": "CONFIRMED",
+      "reason": "confidence_and_temporal_requirements_met",
+      "command": "REST",
+      "metadata": {
+        "active_label": "PINCH"
+      }
+    },
+    {
+      "timestamp_s": 0.4,
+      "previous": "CONFIRMED",
+      "current": "EXECUTING",
+      "reason": "confirmed_command_released",
+      "command": "PINCH",
+      "metadata": {
+        "active_label": "PINCH"
+      }
+    },
+    {
+      "timestamp_s": 3.1,
+      "previous": "EXECUTING",
+      "current": "RELEASE",
+      "reason": "explicit_rest_received",
+      "command": "RELEASE",
+      "metadata": {
+        "active_label": "REST"
+      }
+    },
+    {
+      "timestamp_s": 3.22,
+      "previous": "RELEASE",
+      "current": "REST",
+      "reason": "release_completed",
+      "command": "REST",
+      "metadata": {
+        "active_label": "REST"
+      }
+    }
+  ],
+  "task_transitions": [
+    {
+      "timestamp_s": 1.6,
+      "previous": "APPROACH",
+      "current": "WAIT_FOR_GRASP",
+      "reason": "approach_reached"
+    },
+    {
+      "timestamp_s": 1.7,
+      "previous": "WAIT_FOR_GRASP",
+      "current": "TRANSPORT",
+      "reason": "decoded_grasp_command"
+    },
+    {
+      "timestamp_s": 2.9,
+      "previous": "TRANSPORT",
+      "current": "WAIT_FOR_RELEASE",
+      "reason": "transport_reached"
+    },
+    {
+      "timestamp_s": 3.1,
+      "previous": "WAIT_FOR_RELEASE",
+      "current": "COMPLETE",
+      "reason": "object_released_in_target"
+    }
+  ],
+  "invalid_state_detected": false
+}

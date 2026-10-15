@@ -1,0 +1,71 @@
+nohup: ignoring input
+{
+  "subject": 37,
+  "status": "prepared",
+  "cache": "artifacts_v1_1/features/DB2/S37.npz",
+  "metadata": {
+    "db": "DB2",
+    "subject": 37,
+    "exercises": [
+      1,
+      2
+    ],
+    "n_windows": 10641,
+    "raw_features": 618,
+    "feature_schema": "current_618_v1",
+    "cache_input_hash": "07240fdd6edb",
+    "source_files": [
+      "S37_E1_A1.mat",
+      "S37_E2_A1.mat"
+    ],
+    "official_archive_url": "https://ninapro.hevs.ch/files/DB2_Preproc/DB2_s37.zip",
+    "official_archive_bytes": 466154971,
+    "official_archive_sha256": "66953d4475eaa9b3df10ca551b195b2ccaef64e1a168120ea418473918288e5d",
+    "download_status": "reused",
+    "extracted_files": [
+      "S37_E1_A1.mat",
+      "S37_E2_A1.mat"
+    ],
+    "started_at_utc": "2026-08-27T18:43:18.058615+00:00",
+    "completed_at_utc": "2026-08-27T18:55:26.075777+00:00"
+  },
+  "elapsed_seconds": 728.3514053880062
+}
+{
+  "db": "DB2",
+  "status": "subject_batch_complete",
+  "results": [
+    {
+      "subject": 37,
+      "status": "prepared",
+      "cache": "artifacts_v1_1/features/DB2/S37.npz",
+      "metadata": {
+        "db": "DB2",
+        "subject": 37,
+        "exercises": [
+          1,
+          2
+        ],
+        "n_windows": 10641,
+        "raw_features": 618,
+        "feature_schema": "current_618_v1",
+        "cache_input_hash": "07240fdd6edb",
+        "source_files": [
+          "S37_E1_A1.mat",
+          "S37_E2_A1.mat"
+        ],
+        "official_archive_url": "https://ninapro.hevs.ch/files/DB2_Preproc/DB2_s37.zip",
+        "official_archive_bytes": 466154971,
+        "official_archive_sha256": "66953d4475eaa9b3df10ca551b195b2ccaef64e1a168120ea418473918288e5d",
+        "download_status": "reused",
+        "extracted_files": [
+          "S37_E1_A1.mat",
+          "S37_E2_A1.mat"
+        ],
+        "started_at_utc": "2026-08-27T18:43:18.058615+00:00",
+        "completed_at_utc": "2026-08-27T18:55:26.075777+00:00"
+      },
+      "elapsed_seconds": 728.3514053880062
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "analysis_id": "p6-initial-state-repeat-statistics-recovery-r2",
+  "benchmark_eligible": false,
+  "cohort_dir": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/p6_real_replay_initial_state_repeats_r2",
+  "interpretation_boundary": [
+    "The decoder replay stream is fixed across all runs; these data do not estimate a decoder-quality dose response.",
+    "The cohort varies only declared initial forearm position and is a simulation systems result, not biomedical validation.",
+    "The single unperturbed baseline is a compatibility control, not a comparator cohort for inferential testing."
+  ],
+  "origin": "real_replay_initial_state_variation",
+  "primary_endpoints": {
+    "completion_time_successful_runs_s": {
+      "n": 0,
+      "status": "undefined_no_successful_runs"
+    },
+    "final_error_m": {
+      "bootstrap_95_percent_ci_mean": [
+        0.045621342765753733,
+        0.04775094314383112
+      ],
+      "maximum": 0.05186111175713838,
+      "mean": 0.04665047737210039,
+      "median": 0.046415846400455735,
+      "minimum": 0.04345864347030883,
+      "n": 20,
+      "standard_deviation": 0.0025132892673257194
+    },
+    "task_success": {
+      "count": 0,
+      "proportion": 0.0,
+      "wilson_95_percent_ci": [
+        0.0,
+        0.16112515805281938
+      ]
+    }
+  },
+  "protocol_id": "p6-real-replay-initial-state-repeats-recovery-r2",
+  "run_count": 20,
+  "secondary_endpoints": {
+    "command_corrections": {
+      "bootstrap_95_percent_ci_mean": [
+        3.0,
+        3.0
+      ],
+      "maximum": 3.0,
+      "mean": 3.0,
+      "median": 3.0,
+      "minimum": 3.0,
+      "n": 20,
+      "standard_deviation": 0.0
+    },
+    "final_state_counts": {
+      "TRANSPORT": 20
+    },
+    "grasp_stability_steps": {
+      "bootstrap_95_percent_ci_mean": [
+        15.0,
+        15.3
+      ],
+      "maximum": 16.0,
+      "mean": 15.15,
+      "median": 15.0,
+      "minimum": 15.0,
+      "n": 20,
+      "standard_deviation": 0.3663475485325232
+    },
+    "invalid_state_count": 0,
+    "path_length_m": {
+      "bootstrap_95_percent_ci_mean": [
+        1.0074658619795216,
+        1.0424561347815215
+      ],
+      "maximum": 1.0961329393375918,
+      "mean": 1.0246896655200344,
+      "median": 1.0231340073066804,
+      "minimum": 0.9506688399344408,
+      "n": 20,
+      "standard_deviation": 0.041596416755439417
+    },
+    "task_failure": {
+      "count": 20,
+      "proportion": 1.0,
+      "wilson_95_percent_ci": [
+        0.8388748419471806,
+        1.0
+      ]
+    }
+  },
+  "seeds": [
+    20260901,
+    20260902,
+    20260903,
+    20260904,
+    20260905,
+    20260906,
+    20260907,
+    20260908,
+    20260909,
+    20260910,
+    20260911,
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920
+  ],
+  "variation_factor": {
+    "distinct_initial_qpos_count": 20,
+    "distribution_id": "uniform_forearm_xy_v1",
+    "forearm_x_offset_m": {
+      "bootstrap_95_percent_ci_mean": [
+        0.0071344668198234104,
+        0.012944284628439807
+      ],
+      "maximum": 0.019980391685771166,
+      "mean": 0.010070894605966118,
+      "median": 0.010769994369611381,
+      "minimum": 0.0001355992362997127,
+      "n": 20,
+      "standard_deviation": 0.006786933922482432
+    },
+    "forearm_y_offset_m": {
+      "bootstrap_95_percent_ci_mean": [
+        -0.0024973438883310944,
+        0.004350266786030459
+      ],
+      "maximum": 0.013198519620824634,
+      "mean": 0.0009011748816912934,
+      "median": -0.0006195485303187717,
+      "minimum": -0.012405012274259272,
+      "n": 20,
+      "standard_deviation": 0.008079458332373762
+    }
+  }
+}

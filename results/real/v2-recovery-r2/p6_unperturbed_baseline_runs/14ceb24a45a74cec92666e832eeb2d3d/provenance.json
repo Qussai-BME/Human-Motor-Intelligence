@@ -1,0 +1,13 @@
+{
+  "config_hash": "d9bd0bfa5e74145db68cb3a59c14368e1be31701bc9cc600cc363457ffdad2d6",
+  "created_at_utc": "2026-08-23T15:48:33+00:00",
+  "git_commit": "unavailable",
+  "intent_source": "csv-replay:pick_place_replay.csv:a94e59e30e25",
+  "model_path": "<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/assets/models/hand.xml",
+  "model_version": "myosim-hand-task-mjcf-v1",
+  "package_version": "0.1.3",
+  "physics_backend": "mujoco",
+  "run_id": "14ceb24a45a74cec92666e832eeb2d3d",
+  "seed": 20260822,
+  "task": "pick_place"
+}

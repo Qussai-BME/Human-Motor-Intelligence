@@ -1,0 +1,224 @@
+--- a/src/myosim/core/config.py
++++ b/src/myosim/core/config.py
+@@ -8,6 +8,7 @@
+ from pathlib import Path
+ from typing import Any
+ 
++import numpy as np
+ import yaml
+ 
+ 
+@@ -30,6 +31,40 @@
+ 
+ 
+ @dataclass(frozen=True, slots=True)
++class InitialStatePerturbationConfig:
++    """Explicit, seed-linked initial-state distribution for declared repeat studies.
++
++    The default is inert so historical deterministic configurations retain their
++    original physics path. The only supported R2 distribution is a bounded
++    initial forearm-slider displacement; it neither changes task geometry nor
++    controller/decoder parameters.
++    """
++
++    enabled: bool = False
++    distribution_id: str = "none"
++    forearm_x_offset_range_m: tuple[float, float] = (0.0, 0.0)
++    forearm_y_offset_range_m: tuple[float, float] = (0.0, 0.0)
++
++    def __post_init__(self) -> None:
++        ranges = (self.forearm_x_offset_range_m, self.forearm_y_offset_range_m)
++        for value in ranges:
++            if not isinstance(value, (tuple, list)) or len(value) != 2:
++                raise ValueError("initial-state offset ranges must contain exactly two values")
++            low, high = float(value[0]), float(value[1])
++            if not np.isfinite(low) or not np.isfinite(high) or low > high:
++                raise ValueError("initial-state offset ranges must be finite and ordered")
++        if self.enabled:
++            if self.distribution_id != "uniform_forearm_xy_v1":
++                raise ValueError("enabled initial-state perturbation requires distribution_id='uniform_forearm_xy_v1'")
++            x_low, x_high = (float(value) for value in self.forearm_x_offset_range_m)
++            y_low, y_high = (float(value) for value in self.forearm_y_offset_range_m)
++            if x_low < 0.0 or x_high > 0.020 or y_low < -0.015 or y_high > 0.015:
++                raise ValueError("initial-state perturbation exceeds the declared R2 safety envelope")
++        elif self.distribution_id != "none" or any(float(item) != 0.0 for pair in ranges for item in pair):
++            raise ValueError("disabled initial-state perturbation must use distribution_id='none' and zero ranges")
++
++
++@dataclass(frozen=True, slots=True)
+ class ControlConfig:
+     confidence_threshold: float = 0.75
+     confirmation_windows: int = 3
+@@ -102,6 +137,7 @@
+     control: ControlConfig
+     task: TaskConfig
+     recording: RecordingConfig
++    initial_state: InitialStatePerturbationConfig = InitialStatePerturbationConfig()
+ 
+     def content_hash(self) -> str:
+         """Return a stable hash of all explicit run settings."""
+@@ -119,7 +155,7 @@
+     if not isinstance(parsed, Mapping) or not all(isinstance(key, str) for key in parsed):
+         raise ValueError(f"Configuration root in {config_path} must be a mapping")
+     raw: Mapping[str, Any] = parsed
+-    expected_sections = {"run", "simulation", "control", "task", "recording"}
++    expected_sections = {"run", "simulation", "control", "task", "recording", "initial_state"}
+     unknown_sections = set(raw).difference(expected_sections)
+     if unknown_sections:
+         joined = ", ".join(sorted(unknown_sections))
+@@ -131,6 +167,7 @@
+             control=ControlConfig(**_section(raw, "control", config_path)),
+             task=TaskConfig(**_section(raw, "task", config_path)),
+             recording=RecordingConfig(**_section(raw, "recording", config_path)),
++            initial_state=InitialStatePerturbationConfig(**_section(raw, "initial_state", config_path)),
+         )
+     except TypeError as exc:
+         raise ValueError(f"Invalid configuration structure in {config_path}") from exc
+--- a/src/myosim/experiments/task_runner.py
++++ b/src/myosim/experiments/task_runner.py
+@@ -33,6 +33,7 @@
+     control_transitions: tuple[StateTransition, ...]
+     task_transitions: tuple[TaskTransition, ...]
+     invalid_state_detected: bool
++    initial_state: dict[str, Any]
+ 
+     def to_dict(self) -> dict[str, Any]:
+         return {
+@@ -42,6 +43,7 @@
+             "control_transitions": [asdict(item) for item in self.control_transitions],
+             "task_transitions": [asdict(item) for item in self.task_transitions],
+             "invalid_state_detected": self.invalid_state_detected,
++            "initial_state": self.initial_state,
+         }
+ 
+ 
+@@ -54,6 +56,17 @@
+         self._config = config
+         self._repository_root = repository_root
+ 
++    def _sample_initial_joint_offsets(self) -> dict[str, float]:
++        """Draw only the predeclared initial-state factor from the run seed."""
++        initial = self._config.initial_state
++        if not initial.enabled:
++            return {}
++        rng = np.random.default_rng(self._config.run.seed)
++        return {
++            "forearm_x": float(rng.uniform(*initial.forearm_x_offset_range_m)),
++            "forearm_y": float(rng.uniform(*initial.forearm_y_offset_range_m)),
++        }
++
+     def run(
+         self,
+         source: IntentSource,
+@@ -66,7 +79,15 @@
+         model_path = (self._repository_root / self._config.simulation.model_path).resolve()
+         backend = MujocoBackend(timestep_s=self._config.simulation.timestep_s)
+         backend.load_model(model_path)
+-        backend.reset(seed=self._config.run.seed)
++        declared_offsets = self._sample_initial_joint_offsets()
++        backend.reset(seed=self._config.run.seed, initial_joint_offsets=declared_offsets)
++        initial_state = {
++            **backend.initial_state_metadata,
++            "enabled": self._config.initial_state.enabled,
++            "distribution_id": self._config.initial_state.distribution_id,
++            "forearm_x_offset_range_m": [float(value) for value in self._config.initial_state.forearm_x_offset_range_m],
++            "forearm_y_offset_range_m": [float(value) for value in self._config.initial_state.forearm_y_offset_range_m],
++        }
+         controller = IntentController(self._config.control, backend.joint_names)
+         task = PickPlaceTask(
+             target_radius_m=self._config.task.target_radius_m,
+@@ -154,6 +175,7 @@
+                 control_transitions=controller.state_machine.transitions,
+                 task_transitions=task.transitions,
+                 invalid_state_detected=invalid_state_detected,
++                initial_state=initial_state,
+             )
+         finally:
+             backend.close()
+--- a/src/myosim/simulation/mujoco_backend.py
++++ b/src/myosim/simulation/mujoco_backend.py
+@@ -4,6 +4,7 @@
+ 
+ import os
+ from pathlib import Path
++from typing import Mapping
+ 
+ os.environ.setdefault("MUJOCO_GL", "egl")
+ 
+@@ -36,6 +37,7 @@
+         self._joint_dof_addresses: dict[str, int] = {}
+         self._joint_to_actuator_index: dict[str, int] = {}
+         self._model_path: Path | None = None
++        self._last_initial_state_metadata: dict[str, object] = {}
+ 
+     @property
+     def timestep_s(self) -> float:
+@@ -88,7 +90,22 @@
+             raise BackendError("Model has no joint-linked actuators")
+         self.reset()
+ 
+-    def reset(self, seed: int | None = None) -> SimulationState:
++    @property
++    def initial_state_metadata(self) -> dict[str, object]:
++        """Return a copy of the most recently declared and realized reset state."""
++        return dict(self._last_initial_state_metadata)
++
++    def reset(
++        self,
++        seed: int | None = None,
++        initial_joint_offsets: Mapping[str, float] | None = None,
++    ) -> SimulationState:
++        """Reset the model and, when declared, apply bounded named qpos offsets.
++
++        The default call is intentionally identical to the V1 deterministic reset.
++        Offsets are checked against MuJoCo joint ranges after reset and applied only
++        to named one-degree-of-freedom joints before the forward pass.
++        """
+         model = self._require_model()
+         data = self._require_data()
+         if seed is not None:
+@@ -96,8 +113,35 @@
+                 raise ValueError("seed must be non-negative")
+             np.random.seed(seed)
+         mujoco.mj_resetData(model, data)
++        declared_offsets = {str(name): float(value) for name, value in (initial_joint_offsets or {}).items()}
++        for joint_name, offset in declared_offsets.items():
++            if not np.isfinite(offset):
++                raise ValueError(f"Initial-state offset for '{joint_name}' must be finite")
++            joint_id = self._joint_ids.get(joint_name)
++            qpos_address = self._joint_qpos_addresses.get(joint_name)
++            if joint_id is None or qpos_address is None:
++                raise BackendError(f"Unknown initial-state joint '{joint_name}'")
++            if int(model.jnt_type[joint_id]) == int(mujoco.mjtJoint.mjJNT_FREE):
++                raise BackendError("Initial-state offsets are limited to scalar named joints")
++            candidate = float(data.qpos[qpos_address] + offset)
++            if bool(model.jnt_limited[joint_id]):
++                low, high = (float(value) for value in model.jnt_range[joint_id])
++                if not low <= candidate <= high:
++                    raise SafetyViolation(
++                        f"Initial-state qpos {candidate:.6f} for '{joint_name}' is outside joint range [{low}, {high}]"
++                    )
++            data.qpos[qpos_address] = candidate
+         mujoco.mj_forward(model, data)
+-        return self.get_state()
++        state = self.get_state()
++        self._last_initial_state_metadata = {
++            "seed": seed,
++            "initial_joint_offsets": declared_offsets,
++            "initial_qpos": [float(value) for value in state.qpos],
++            "initial_qvel": [float(value) for value in state.qvel],
++            "initial_named_joint_positions": dict(state.named_joint_positions),
++            "initial_named_joint_velocities": dict(state.named_joint_velocities),
++        }
++        return state
+ 
+     def step(self, steps: int = 1) -> StepResult:
+         if steps < 1:
+@@ -213,6 +257,7 @@
+         self._joint_dof_addresses = {}
+         self._joint_to_actuator_index = {}
+         self._model_path = None
++        self._last_initial_state_metadata = {}
+ 
+     def _require_model(self) -> mujoco.MjModel:
+         if self._model is None:

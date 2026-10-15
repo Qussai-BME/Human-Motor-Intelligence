@@ -1,0 +1,54 @@
+# Phase 0 Architecture Freeze Execution Log
+
+## Child-project source-tree boundary scan
+PASS: non-source artifact/output path named like a child project: ./artifacts/integrated_demo/myosim
+PASS: no copied child-project source tree detected in the umbrella repository
+
+## Boundary adapters present
+__init__.py
+biosignal_fm.py
+common.py
+eeg.py
+myoadapt.py
+myocontrol.py
+myosim.py
+
+## Data and secret exclusion scan
+PASS: no raw/derived biosignal data or obvious secret/key files found
+
+## Registry diagnostic
+{
+  "command_boundary": "This CLI supports local metadata, integrity, and provenance workflows. Generic experiment execution/reproduction, cloud operations, and decoder control are intentionally unavailable.",
+  "data_governance": {
+    "raw_or_derived_cache_paths_detected": [],
+    "status": "pass"
+  },
+  "evidence_gates": {
+    "p3": "pending_original_author_package",
+    "p6_r2_scope": "simulator_integration_fixture_systems_evidence_only",
+    "p6_r3": "blocked_pending_authentic_trace_provenance"
+  },
+  "project_root": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1",
+  "public_review_documents": {
+    "PUBLIC_REVIEW_DISCLOSURE_R3.md": true,
+    "README.md": true,
+    "REPRODUCIBILITY.md": true,
+    "SCIENTIFIC_LIMITATIONS.md": true,
+    "audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md": true,
+    "papers/RESEARCH_GATE_PREPARATION_RECOVERY_R3.md": true
+  },
+  "registry_integrity": {
+    "checked": 34,
+    "failures": [],
+    "registry": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/registry/local/registry.json",
+    "verified": true
+  }
+}
+
+## Governing source fingerprints
+12652ca12ea243cc332062dd06247e1701f72c9698c30880c257a31a8dc7bc8d  specifications/MASTER_END_TO_END_RESEARCH_BENCHMARK_INTEGRATION_PRODUCT_SPEC_2026-08-26.md
+54b05257c4eef26dfcbcc1f29f9f7b314238f8272fac1452137f05e59b2052ae  audit/MASTER_END_TO_END_SPEC_COMPLIANCE_AUDIT_R3.md
+e4abda705bc4483e8a8abd3d49746004d1e4425c3fdd2ee67b958882740c4ffb  audit/MASTER_SPEC_PHASE_GATE_LEDGER_R3.md
+d0a51d957f3b158926199fee89da84e7ce2b51b591478fb83fff2655897a35f1  src/research_core/contracts/models.py
+d4059dd541c98e33ae18fd07eb27378ee66608a9ddc37005cafbf6d1282af1dc  src/research_core/registry/store.py
+725908c0dd71b19bb74ed043baea0ac741749177577be83f11100b4f6afa7c6c  src/research_core/cli/main.py

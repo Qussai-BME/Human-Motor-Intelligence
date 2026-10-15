@@ -1,0 +1,1039 @@
+{
+  "complete_subjects": [
+    "sub-1",
+    "sub-2",
+    "sub-3",
+    "sub-4",
+    "sub-5",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-24",
+    "sub-25"
+  ],
+  "dataset": "nm000311-v1.0.2",
+  "incomplete_subjects": [
+    "sub-23"
+  ],
+  "labels": [
+    "reach_forward",
+    "reach_backward",
+    "reach_left",
+    "reach_right",
+    "reach_up",
+    "reach_down",
+    "grasp_cup",
+    "grasp_ball",
+    "grasp_card",
+    "twist_pronation",
+    "twist_supination"
+  ],
+  "recommended_fixed_cap_per_class_complete_subjects": 50,
+  "session": "ses-0",
+  "subjects": {
+    "sub-1": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-10": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-11": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-12": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-13": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-14": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 100,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 100
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 600
+    },
+    "sub-15": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-16": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 101,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 101
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 601
+    },
+    "sub-17": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-18": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-19": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-2": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-20": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-21": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-22": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-23": {
+      "all_labels_present": false,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 0,
+        "twist_supination": 0
+      },
+      "errors": [
+        "source retrieval failed: https://data.nemar.org/nm000311/v1.0.2/sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-2_events.tsv: HTTP Error 404: Not Found",
+        "missing labels across observed runs: ['twist_pronation', 'twist_supination']"
+      ],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        }
+      },
+      "status": "incomplete",
+      "total_trials": 450
+    },
+    "sub-24": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-25": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-3": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-4": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-5": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-6": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-7": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-8": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    },
+    "sub-9": {
+      "all_labels_present": true,
+      "class_counts": {
+        "grasp_ball": 50,
+        "grasp_card": 50,
+        "grasp_cup": 50,
+        "reach_backward": 50,
+        "reach_down": 50,
+        "reach_forward": 50,
+        "reach_left": 50,
+        "reach_right": 50,
+        "reach_up": 50,
+        "twist_pronation": 50,
+        "twist_supination": 50
+      },
+      "errors": [],
+      "runs": {
+        "0": {
+          "reach_backward": 50,
+          "reach_down": 50,
+          "reach_forward": 50,
+          "reach_left": 50,
+          "reach_right": 50,
+          "reach_up": 50
+        },
+        "1": {
+          "grasp_ball": 50,
+          "grasp_card": 50,
+          "grasp_cup": 50
+        },
+        "2": {
+          "twist_pronation": 50,
+          "twist_supination": 50
+        }
+      },
+      "status": "complete",
+      "total_trials": 550
+    }
+  },
+  "unique_class_count_vectors_complete_subjects": [
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      100,
+      50,
+      50,
+      50,
+      50
+    ],
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      101,
+      50,
+      50,
+      50,
+      50
+    ]
+  ]
+}

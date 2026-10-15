@@ -1,0 +1,36 @@
+{
+  "schema": "hmi.p6.c1-run-manifest.v1",
+  "status": "COMPLETE",
+  "protocol": "P6-C1-MI-R04-v1.0",
+  "engineering_baseline": {
+    "run": "R03",
+    "task_type": "motor_execution",
+    "role": "retained_engineering_baseline"
+  },
+  "primary": {
+    "run": "R04",
+    "task_type": "motor_imagery_unilateral_fist",
+    "subjects": 20,
+    "decoder_traces_required": 60,
+    "myosim_run_json_required": 60,
+    "executed": true,
+    "task_successes": 0
+  },
+  "rerun": {
+    "decoder_traces_required": 60,
+    "myosim_run_json_required": 60,
+    "executed": true,
+    "task_successes": 0
+  },
+  "fixture_gate_required": true,
+  "scientific_results_present": true,
+  "verification": {
+    "fixture_completed": true,
+    "primary_run_level_artifacts": 60,
+    "rerun_run_level_artifacts": 60,
+    "primary_rerun_run_ids_distinct": true,
+    "primary_rerun_artifact_hashes_distinct": true,
+    "decoder_traces_deterministic": true,
+    "task_success_endpoint_degenerate": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "summary": [
+    {
+      "condition": "log_euclidean",
+      "n_subjects": 54,
+      "macro_f1_mean": 0.3729864449455777,
+      "accuracy_mean": 0.5001851851851852,
+      "balanced_accuracy_mean": 0.5001851851851852,
+      "macro_f1_sd": 0.05755947291101685,
+      "accuracy_sd": 0.013769084969904716,
+      "balanced_accuracy_sd": 0.013769084969904715
+    }
+  ],
+  "pairwise_macro_f1": [],
+  "source": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/extensions/v2-cpu-q1-upgrade-r3-001/p4_log_euclidean_loso",
+  "claim_boundary": "new CPU extension namespace; not pooled with frozen P4/P5 results"
+}
+{
+  "summary": [
+    {
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08021195821752859,
+      "accuracy_mean": 0.1109090909090909,
+      "balanced_accuracy_mean": 0.11090909090909092,
+      "macro_f1_sd": 0.030327887347845413,
+      "accuracy_sd": 0.03334506920006136,
+      "balanced_accuracy_sd": 0.03334506920006137
+    },
+    {
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08139668562288076,
+      "accuracy_mean": 0.11431818181818182,
+      "balanced_accuracy_mean": 0.11431818181818182,
+      "macro_f1_sd": 0.025113732337694813,
+      "accuracy_sd": 0.030486827324538144,
+      "balanced_accuracy_sd": 0.030486827324538144
+    },
+    {
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843571290957021,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788,
+      "macro_f1_sd": 0.025738770787537675,
+      "accuracy_sd": 0.03503903338196641,
+      "balanced_accuracy_sd": 0.035039033381966414
+    },
+    {
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08050629053459972,
+      "accuracy_mean": 0.11272727272727273,
+      "balanced_accuracy_mean": 0.11272727272727273,
+      "macro_f1_sd": 0.03154949851261696,
+      "accuracy_sd": 0.03326739195652302,
+      "balanced_accuracy_sd": 0.03326739195652303
+    }
+  ],
+  "pairwise_macro_f1": [
+    {
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "wilcoxon_stat": 145.0,
+      "p_raw": 0.899570107460022,
+      "median_difference_left_minus_right": 0.001070861161998407
+    },
+    {
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "wilcoxon_stat": 29.0,
+      "p_raw": 0.00020515918731689453,
+      "median_difference_left_minus_right": 0.025216863581927484
+    },
+    {
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "wilcoxon_stat": 143.0,
+      "p_raw": 0.8553357124328613,
+      "median_difference_left_minus_right": 0.0001387192132019932
+    },
+    {
+      "left": "eeg_only",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "wilcoxon_stat": 28.0,
+      "p_raw": 0.00017547607421875,
+      "median_difference_left_minus_right": 0.029445087910832304
+    },
+    {
+      "left": "eeg_only",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "wilcoxon_stat": 148.0,
+      "p_raw": 0.9664472341537476,
+      "median_difference_left_minus_right": -0.00018821365056697487
+    },
+    {
+      "left": "emg_only",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "wilcoxon_stat": 26.0,
+      "p_raw": 0.0001270771026611328,
+      "median_difference_left_minus_right": -0.020059778257530785
+    }
+  ],
+  "source": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/extensions/v2-cpu-q1-upgrade-r3-001/p5_confidence_weighted_fusion_loso",
+  "claim_boundary": "new CPU extension namespace; not pooled with frozen P4/P5 results"
+}

@@ -1,0 +1,99 @@
+audited sub-1: 550 events; status=complete
+audited sub-2: 550 events; status=complete
+audited sub-3: 550 events; status=complete
+audited sub-4: 550 events; status=complete
+audited sub-5: 550 events; status=complete
+audited sub-6: 550 events; status=complete
+audited sub-7: 550 events; status=complete
+audited sub-8: 550 events; status=complete
+audited sub-9: 550 events; status=complete
+audited sub-10: 550 events; status=complete
+audited sub-11: 550 events; status=complete
+audited sub-12: 550 events; status=complete
+audited sub-13: 550 events; status=complete
+audited sub-14: 600 events; status=complete
+audited sub-15: 550 events; status=complete
+audited sub-16: 601 events; status=complete
+audited sub-17: 550 events; status=complete
+audited sub-18: 550 events; status=complete
+audited sub-19: 550 events; status=complete
+audited sub-20: 550 events; status=complete
+audited sub-21: 550 events; status=complete
+audited sub-22: 550 events; status=complete
+audited sub-23: 450 events; status=incomplete
+audited sub-24: 550 events; status=complete
+audited sub-25: 550 events; status=complete
+{
+  "complete_subjects": [
+    "sub-1",
+    "sub-2",
+    "sub-3",
+    "sub-4",
+    "sub-5",
+    "sub-6",
+    "sub-7",
+    "sub-8",
+    "sub-9",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-24",
+    "sub-25"
+  ],
+  "incomplete_subjects": [
+    "sub-23"
+  ],
+  "recommended_fixed_cap_per_class_complete_subjects": 50,
+  "target": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/audit/jeong_ses0_event_inventory.json",
+  "unique_class_count_vectors_complete_subjects": [
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      100,
+      50,
+      50,
+      50,
+      50
+    ],
+    [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      101,
+      50,
+      50,
+      50,
+      50
+    ]
+  ]
+}

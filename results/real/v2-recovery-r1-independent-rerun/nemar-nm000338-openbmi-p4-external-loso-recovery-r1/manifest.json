@@ -1,6 +1,6 @@
 {
   "benchmark_ready": true,
-  "cache_root": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4",
+  "cache_root": "<LOCAL_WORKSPACE>/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4",
   "dataset_id": "nemar-nm000338-openbmi",
   "dataset_version": "v1.0.5",
   "direct_replication": false,

@@ -43,7 +43,7 @@ class V2ExternalExperimentError(RuntimeError):
     """Raised when the V2 external protocol cannot be executed faithfully."""
 
 
-REPO = Path("/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1")
+REPO = Path(__file__).resolve().parents[3]
 CONFIG_PATH = REPO / "configs/experiments/v2_external_validation_recovery_r1.json"
 MANIFEST_PATH = REPO / "datasets/manifests/nemar_nm000338_openbmi_v2_recovery_r1.json"
 

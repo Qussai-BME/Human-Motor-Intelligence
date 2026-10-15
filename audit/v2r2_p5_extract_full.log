@@ -1,0 +1,151 @@
+{
+  "completed": [
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-1.npz",
+      "cache_sha256": "b0060522eec4fdac54d12736b6ef2050e1d47533d8757e17b1e2cc52109dff9e",
+      "status": "extracted",
+      "subject": "sub-1"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-2.npz",
+      "cache_sha256": "51166e7a0565186c3fd4f6b32b39373f35edc4169a090433d891a776b4496400",
+      "status": "extracted",
+      "subject": "sub-2"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-3.npz",
+      "cache_sha256": "1d4e67335578a5c2c1cd4b0184a4b06ef338573517a1072cf1797eb8a9b1607a",
+      "status": "extracted",
+      "subject": "sub-3"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-4.npz",
+      "cache_sha256": "38d15904cf6ac5e024a5c7b453013e45707d2b8723aef7a308e6dafa3c0c2a57",
+      "status": "extracted",
+      "subject": "sub-4"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-5.npz",
+      "cache_sha256": "036d3b27223fb0d1404455f0deb4b8f7ef460d5d41604426e4f9810cc697bc02",
+      "status": "extracted",
+      "subject": "sub-5"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-6.npz",
+      "cache_sha256": "73ffe84c4c511f3c0249cda1e678dc615f160e391a9e4bc145e8f7d532a49ce3",
+      "status": "extracted",
+      "subject": "sub-6"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-7.npz",
+      "cache_sha256": "f8434e6a8248d98f9b406da67b48d30252a1b6af7648a7d9f46e40f99cfa94ce",
+      "status": "extracted",
+      "subject": "sub-7"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-8.npz",
+      "cache_sha256": "3d37b6281e263d48a206074313e998ae24a1348d1f5adf1b4fc4fff4ad01dbc1",
+      "status": "extracted",
+      "subject": "sub-8"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-9.npz",
+      "cache_sha256": "970e40df9cc11ad6a8130341f32b1304c8b7cc03cc5a56b11263782304359f9d",
+      "status": "extracted",
+      "subject": "sub-9"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-10.npz",
+      "cache_sha256": "5c07662a30231bf9659600e2c52ebdf1998fbdf5ee1d93f62c3bde7660944314",
+      "status": "extracted",
+      "subject": "sub-10"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-11.npz",
+      "cache_sha256": "04b8e365ad890e79e2243f210da6f36b60bd03f2ec9db477243eb6c0974be42b",
+      "status": "extracted",
+      "subject": "sub-11"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-12.npz",
+      "cache_sha256": "60f428d7465f9fadb78feae86ea8c6c86d79f151e5302c702b4faa0527d00203",
+      "status": "extracted",
+      "subject": "sub-12"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-13.npz",
+      "cache_sha256": "50273ef3d31e6ead63c4a1f73a7264874659edbde8d80fb22ae4f4735339d06b",
+      "status": "extracted",
+      "subject": "sub-13"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-14.npz",
+      "cache_sha256": "e0ebafcd16d773d0d80af4fc8f156378e7d70a7776e60425dd04155ab166c871",
+      "status": "extracted",
+      "subject": "sub-14"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-15.npz",
+      "cache_sha256": "4d9fd8e210625d1846a4a06c87b6c0e3f664116aa7b4369debae68aaacfea93a",
+      "status": "extracted",
+      "subject": "sub-15"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-16.npz",
+      "cache_sha256": "67a626ee4ce025f5f9d58d365de892d3fadf4b68478426c34c030b68dc753522",
+      "status": "extracted",
+      "subject": "sub-16"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-17.npz",
+      "cache_sha256": "210e471291b69af3cb3845790e9fd63e8ee77c1e86279f7ecb5a0d07f1b58739",
+      "status": "extracted",
+      "subject": "sub-17"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-18.npz",
+      "cache_sha256": "ee826afaa46a967e21b943f1119c74fc1f678f5b3ebb34e7534437060e1d15dd",
+      "status": "extracted",
+      "subject": "sub-18"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-19.npz",
+      "cache_sha256": "4e4c38197058aa6766209dc9a7ab900e9c08abc08861c144a4d31305a698525a",
+      "status": "extracted",
+      "subject": "sub-19"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-20.npz",
+      "cache_sha256": "3e50a0fb6d195b79e85a9611a8c3f084efb57ebc31c27c2a609c253e86c91db8",
+      "status": "extracted",
+      "subject": "sub-20"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-21.npz",
+      "cache_sha256": "5d07cbc67046da41afe77fbf5ffc8d473d38cf25e3c877b6c6b40bb31cf93744",
+      "status": "extracted",
+      "subject": "sub-21"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-22.npz",
+      "cache_sha256": "b89d09791d5409a5ba3e9728c24d110d3530a09af7f61d52c1538d8f9b917ef2",
+      "status": "extracted",
+      "subject": "sub-22"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-24.npz",
+      "cache_sha256": "41f96c9dfb8ca5e6b8d63a7d358604a61ff85bd876c209e26eb6c8d06a57309c",
+      "status": "extracted",
+      "subject": "sub-24"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5/sub-25.npz",
+      "cache_sha256": "6ee4c5427d4d3ad1de9fdadb7384779f377842bf3fc43e3b8a5ba76bb02b83d1",
+      "status": "extracted",
+      "subject": "sub-25"
+    }
+  ],
+  "raw_cleanup": "pass",
+  "study_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "subjects": 24
+}

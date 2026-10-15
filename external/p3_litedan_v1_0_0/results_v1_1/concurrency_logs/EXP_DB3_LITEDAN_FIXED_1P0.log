@@ -1,0 +1,24 @@
+nohup: ignoring input
+start 1/11 S1: running
+fold 1/11 S1: acc=0.0519, macro-F1=0.0288, fit=36.7s, fold=37.1s
+start 2/11 S2: running
+fold 2/11 S2: acc=0.0740, macro-F1=0.0216, fit=31.9s, fold=32.3s
+start 3/11 S3: running
+fold 3/11 S3: acc=0.0154, macro-F1=0.0069, fit=31.7s, fold=32.0s
+start 4/11 S4: running
+fold 4/11 S4: acc=0.0160, macro-F1=0.0180, fit=31.1s, fold=31.4s
+start 5/11 S5: running
+fold 5/11 S5: acc=0.0344, macro-F1=0.0307, fit=29.9s, fold=30.3s
+start 6/11 S6: running
+fold 6/11 S6: acc=0.0156, macro-F1=0.0072, fit=30.5s, fold=30.8s
+start 7/11 S7: running
+fold 7/11 S7: acc=0.0447, macro-F1=0.0159, fit=29.8s, fold=30.1s
+start 8/11 S8: running
+fold 8/11 S8: acc=0.0325, macro-F1=0.0374, fit=30.3s, fold=30.7s
+start 9/11 S9: running
+fold 9/11 S9: acc=0.0254, macro-F1=0.0204, fit=31.6s, fold=31.9s
+start 10/11 S10: running
+fold 10/11 S10: acc=0.0358, macro-F1=0.0280, fit=30.7s, fold=31.1s
+start 11/11 S11: running
+fold 11/11 S11: acc=0.0410, macro-F1=0.0410, fit=31.4s, fold=31.8s
+LOSO COMPLETE: DB3 / litedan_fixed_1p0 (11 subjects)

@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    "eeg_only",
+    "emg_only",
+    "static_mean_fusion",
+    "confidence_weighted_fusion",
+    "confidence_selective_fusion"
+  ],
+  "n_subjects": 24,
+  "chi2": 22.73903966597077,
+  "df": 4,
+  "p": 0.00014276873645827957
+}

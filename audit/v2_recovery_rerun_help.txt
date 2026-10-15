@@ -1,0 +1,14 @@
+usage: run_v2_external_validation.py [-h]
+                                     {extract-p4,manifest-p4,run-p4,rerun-p4}
+
+Run protocol-locked V2 external validation recovery stages. P5 is
+intentionally not exposed because its selected source cohort failed the
+availability gate. This script has no command that can override that hard
+stop.
+
+positional arguments:
+  {extract-p4,manifest-p4,run-p4,rerun-p4}
+                        The only permitted recovery stages. Run in order.
+
+options:
+  -h, --help            show this help message and exit

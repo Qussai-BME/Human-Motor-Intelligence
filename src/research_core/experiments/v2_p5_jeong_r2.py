@@ -36,7 +36,7 @@ from research_core.datasets.validation import (
     validate_schema,
 )
 
-REPO = Path("/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1")
+REPO = Path(__file__).resolve().parents[3]
 CONFIG_PATH = REPO / "configs/experiments/v2_p5_jeong_recovery_r2.json"
 
 

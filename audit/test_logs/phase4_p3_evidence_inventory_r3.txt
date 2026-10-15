@@ -1,0 +1,22 @@
+# P3 Evidence Gate Inventory
+
+## Candidate execution/result paths
+audit/test_logs/phase4_p3_evidence_inventory_r3.txt
+papers/SIX_PAPER_RESEARCH_SYNTHESIS_RECOVERY_R3.md
+
+## Real-result directories whose name indicates P3
+
+## Required source forms checked
+ABSENT papers/paper_3
+ABSENT results/real/p3
+ABSENT results/real/paper_3
+ABSENT configs/experiments/p3.json
+ABSENT manifests/p3_manifest.json
+
+## Existing programme P3 statements
+papers/RESEARCH_GATE_PREPARATION_RECOVERY_R3.md:27:## P3 Gate
+papers/RESEARCH_GATE_PREPARATION_RECOVERY_R3.md:29:P3 also remains pending. A future P3 package should include its explicit research question, source data/repository rights, protocol, code, frozen results or reproducibility route, and a statement of how it relates to—rather than numerically combines with—P1/P2/P4/P5/P6.
+ROADMAP.md:12:| G1 — P3 intake | Original Paper 3 export/manifests, protocol context, usage permission | By-reference manifest import and eligibility audit; no protocol reconstruction | P3 provenance/eligibility report and correctly scoped integration update |
+SCIENTIFIC_LIMITATIONS.md:12:| P1–P2 | Frozen source-grounded statements preserved in the EMG series record | Any new empirical conclusion, numerical aggregation, or P3 substitution |
+SCIENTIFIC_LIMITATIONS.md:13:| P3 | The original third-paper package is pending | That P3 was recreated, validated, or integrated empirically |
+SCIENTIFIC_LIMITATIONS.md:32:| P3 integration | Author-provided original manifest/results and preserved protocol context |

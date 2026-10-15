@@ -1,0 +1,331 @@
+{
+  "completed": [
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-1.npz",
+      "cache_sha256": "e07338afd48f17abdc4560c5c77ffb7de95b0bd7da80fcf43980381afd0cbd8e",
+      "status": "extracted",
+      "subject": "sub-1"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-2.npz",
+      "cache_sha256": "16312abc23a9b82742874e3ea646f9080ee17e64537a71e95028ff0dd64e2cf7",
+      "status": "extracted",
+      "subject": "sub-2"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-3.npz",
+      "cache_sha256": "7271b093e82c46b1fe22b95bb43151cc2a1e8542bfcf3f7a3efaca8528a4aa68",
+      "status": "extracted",
+      "subject": "sub-3"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-4.npz",
+      "cache_sha256": "1e98476ec5c82ded5e55eb4865c9e8dd398e65bbdb6144844f98044b7a2600cf",
+      "status": "extracted",
+      "subject": "sub-4"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-5.npz",
+      "cache_sha256": "295c0b046997aea80fdfac59765a07dfb7010e174e0b7d42c9a4e31d1bfea588",
+      "status": "extracted",
+      "subject": "sub-5"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-6.npz",
+      "cache_sha256": "a4cc83dd39cf5d9196cfa78b2c4515146dddccbf221edfbbe8d4bbd73a30a4a0",
+      "status": "extracted",
+      "subject": "sub-6"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-7.npz",
+      "cache_sha256": "c58990fe30a9d58de0b48f1aa07d5a61c8bdf7b5d99a276206967bfa90272842",
+      "status": "extracted",
+      "subject": "sub-7"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-8.npz",
+      "cache_sha256": "5e334f4d20cae2ca5413957f48a249e7fe570cef597d2acc2adf37a98e0c9617",
+      "status": "extracted",
+      "subject": "sub-8"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-9.npz",
+      "cache_sha256": "b9fcd7809fc7da67ae2e5c3af858d34bc1bea6891a7aaca5777e430e2c1c278c",
+      "status": "extracted",
+      "subject": "sub-9"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-10.npz",
+      "cache_sha256": "08489daa293aa71032991fa6ca25620e488e87f81d69dba18bee5d6b229bdd11",
+      "status": "extracted",
+      "subject": "sub-10"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-11.npz",
+      "cache_sha256": "2ba522eebfcff761377edff22cab55a717e4beb27d097b032257d70a8166a996",
+      "status": "extracted",
+      "subject": "sub-11"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-12.npz",
+      "cache_sha256": "74364b8d6113f359da5db0e4355dee30a112ff3c490d1b9a9c7c634db0fade68",
+      "status": "extracted",
+      "subject": "sub-12"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-13.npz",
+      "cache_sha256": "c9c5f9a05d010fbdd113682777ee34434f77964bfd520679a2c5eb11f72580f7",
+      "status": "extracted",
+      "subject": "sub-13"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-14.npz",
+      "cache_sha256": "8e940f1b5454e1df14e0e17008e36414a81b00cc1e60fe4e21ae7a7bf574fe06",
+      "status": "extracted",
+      "subject": "sub-14"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-15.npz",
+      "cache_sha256": "dcaa3cfc19649e1cda61a9e06a854ad785b3f17d58d170326db5f67ced588a56",
+      "status": "extracted",
+      "subject": "sub-15"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-16.npz",
+      "cache_sha256": "448d781894764bf64f9a56ffc2bae221eec21fc9ca7b59a8084b5d6977306b3c",
+      "status": "extracted",
+      "subject": "sub-16"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-17.npz",
+      "cache_sha256": "041f1a15898f1d27aeff1061dbfcc5ac04b7dd5e2aab732c01558cd75e69d6d1",
+      "status": "extracted",
+      "subject": "sub-17"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-18.npz",
+      "cache_sha256": "54ce1b9cb8b997adb3a9c2404e5970555446f003d0e23924056a18376eb20663",
+      "status": "extracted",
+      "subject": "sub-18"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-19.npz",
+      "cache_sha256": "0e97b75a8ca4ec2e57b0886a51b51c3b0669d0c7494e42aee6bb117f0b3fed21",
+      "status": "extracted",
+      "subject": "sub-19"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-20.npz",
+      "cache_sha256": "7bea1334c1301b5809c4a50107ba1358473ba94e0e65575a4b8e184b2c7327ba",
+      "status": "extracted",
+      "subject": "sub-20"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-21.npz",
+      "cache_sha256": "8f3519af4a28998d89d9b3d403d8877013116f54219cd553915e35f53b40495b",
+      "status": "extracted",
+      "subject": "sub-21"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-22.npz",
+      "cache_sha256": "e8eb2b0751fb8773fc4e7074ba46923f9c3f33736fc19d820630eeb098a38cc6",
+      "status": "extracted",
+      "subject": "sub-22"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-23.npz",
+      "cache_sha256": "9e4f7a90a56c66c0011e26b54c1a1605e691b46fe1b4115fb60bfda528d5766b",
+      "status": "extracted",
+      "subject": "sub-23"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-24.npz",
+      "cache_sha256": "d30e829c6e6a0953374dc9344f666f49f72cc68b2df9d783b334bfb6f197f078",
+      "status": "extracted",
+      "subject": "sub-24"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-25.npz",
+      "cache_sha256": "373e31f7551c26cd2300cb0957d23a797989faef24ad1d8e59034e29a91803a4",
+      "status": "extracted",
+      "subject": "sub-25"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-26.npz",
+      "cache_sha256": "735268cded20c1d359a29f4e3bfbc466b0538a2d22e68077536d7e573337cf3f",
+      "status": "extracted",
+      "subject": "sub-26"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-27.npz",
+      "cache_sha256": "38a7787f7e05aa5e63334c2c181186a046b837417a7dfb3eb864e5f9f5c7db85",
+      "status": "extracted",
+      "subject": "sub-27"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-28.npz",
+      "cache_sha256": "2593f795b39723bd4f4fa5580ccc00394b47175340282b0861ecc480777d0038",
+      "status": "extracted",
+      "subject": "sub-28"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-29.npz",
+      "cache_sha256": "0cd84472b20477d1e7676426be73c9afe1c0321c05edee1863e3796999b76d08",
+      "status": "extracted",
+      "subject": "sub-29"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-30.npz",
+      "cache_sha256": "51bae49bd49d2b4cc8bca56aaae1003ffeb0be99272bab6fa32db5ad5e6d375b",
+      "status": "extracted",
+      "subject": "sub-30"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-31.npz",
+      "cache_sha256": "30746891a2d0048d90c99a7601a170d456e614a9f0e971731c48ad4c50c7790b",
+      "status": "extracted",
+      "subject": "sub-31"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-32.npz",
+      "cache_sha256": "c2d383599498ed4149311922d41256dcf0f83c20f4223d14152486a189ebd8b5",
+      "status": "extracted",
+      "subject": "sub-32"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-33.npz",
+      "cache_sha256": "559ee82ce0d5bc8dd7f3e1dd125258c4681e9aa0546d6a2ff71ccde8567faa31",
+      "status": "extracted",
+      "subject": "sub-33"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-34.npz",
+      "cache_sha256": "1a391a3232d3b33f3c17b3c3c4be23467094cc3c941a688d69db6ecc26d4766d",
+      "status": "extracted",
+      "subject": "sub-34"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-35.npz",
+      "cache_sha256": "01d7afd34f56465d28873c8ec215395e3998d7924f89b317ee6dc7d5f46001ca",
+      "status": "extracted",
+      "subject": "sub-35"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-36.npz",
+      "cache_sha256": "cf3fb2544ec8385014a4944e28e83009e4cbed81e3b033385c9abc7bf2a0f055",
+      "status": "extracted",
+      "subject": "sub-36"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-37.npz",
+      "cache_sha256": "ac2d76e5f1e0a942bdec74ccf0ce58ad39ab01b143058365517584542ece17e1",
+      "status": "extracted",
+      "subject": "sub-37"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-38.npz",
+      "cache_sha256": "e2bb9e82119bd8f08b7fc0358e90bd68c0cc272d8995b089708acc9840d2e60c",
+      "status": "extracted",
+      "subject": "sub-38"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-39.npz",
+      "cache_sha256": "7037537897cc1235d1df1c41fb301c666a6ff5a94b6d83e2b3a0d226531d41fe",
+      "status": "extracted",
+      "subject": "sub-39"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-40.npz",
+      "cache_sha256": "133971d6370e137699a1441c7d1225f4da3b47496db25b17def8c29c358182b8",
+      "status": "extracted",
+      "subject": "sub-40"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-41.npz",
+      "cache_sha256": "ca6ef62f78467657f5b63b26ae313a144b996e69099d3f1fcb6d2f2c1b27da3e",
+      "status": "extracted",
+      "subject": "sub-41"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-42.npz",
+      "cache_sha256": "20eca3332525c7e3eecae7b0e29f41b25058914bb1e7d838586abba0c6c6b513",
+      "status": "extracted",
+      "subject": "sub-42"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-43.npz",
+      "cache_sha256": "ccffdef4d3e6e0a7e90a6f1f74f623e3a9b0b554c610a7e2d15c14bc227bbbbe",
+      "status": "extracted",
+      "subject": "sub-43"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-44.npz",
+      "cache_sha256": "7711ccaee725d5d31f4fb70cdf385dde31367a59638c044585e81dbca5c7224e",
+      "status": "extracted",
+      "subject": "sub-44"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-45.npz",
+      "cache_sha256": "8790bad596a9d636cdab4831e69d305786bea1976f0830e8fa6bedac4b2fde79",
+      "status": "extracted",
+      "subject": "sub-45"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-46.npz",
+      "cache_sha256": "fb407574b13f7e6f3449d04ad161a408b6e1ef3d138da5a4c661cb1501c79f70",
+      "status": "extracted",
+      "subject": "sub-46"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-47.npz",
+      "cache_sha256": "8cce146290412b6986f2cc3e035e9bf78dd43d2c14b8e89523afe5c797ff99cc",
+      "status": "extracted",
+      "subject": "sub-47"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-48.npz",
+      "cache_sha256": "6f8d3a48f2491d155894ae82aef4cd0389756fa4ff3415f4fd6801c2072e169b",
+      "status": "extracted",
+      "subject": "sub-48"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-49.npz",
+      "cache_sha256": "6eb4cb4d4700999294bccaff1f877f9229b6a8691f7b7ed3e077dd314e4a0d91",
+      "status": "extracted",
+      "subject": "sub-49"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-50.npz",
+      "cache_sha256": "6739c6d90213e9ae914aa0a282e57f2efe860368c741137b14fb3f5f7ffca87e",
+      "status": "extracted",
+      "subject": "sub-50"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-51.npz",
+      "cache_sha256": "949b0537587c8bcfe00100e9ba4f4b806ead5c2ce5f102e8936f98431b48b6df",
+      "status": "extracted",
+      "subject": "sub-51"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-52.npz",
+      "cache_sha256": "d7b054adfc076901a9804a22dcd01179acd61ef6cd2f17b8b7a82723525ef982",
+      "status": "extracted",
+      "subject": "sub-52"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-53.npz",
+      "cache_sha256": "3a8ff3f4ce143b2d91adea98bdb7a4a0bf693a2d2c831d90f5399873e1656ef4",
+      "status": "extracted",
+      "subject": "sub-53"
+    },
+    {
+      "cache": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4/sub-54.npz",
+      "cache_sha256": "ca708eefca68c2bd59f11a3a87259acff538070c6fcf44cafda3eb4f6c9336a0",
+      "status": "extracted",
+      "subject": "sub-54"
+    }
+  ],
+  "raw_cleanup": "pass",
+  "study_id": "nemar-nm000338-openbmi-p4-external-loso-recovery-r1",
+  "subjects": 54
+}

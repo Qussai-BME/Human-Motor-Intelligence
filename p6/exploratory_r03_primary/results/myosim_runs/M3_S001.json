@@ -1,0 +1,164 @@
+{
+  "provenance": {
+    "run_id": "13aa1e85c3d94a7ba8bc7a327f5eb01c",
+    "created_at_utc": "2026-10-03T21:40:47+00:00",
+    "config_hash": "0a76666517da1cee33e028a7d46abc3d447d29d2df7188bbc62e24680eb9f2dd",
+    "git_commit": "unavailable",
+    "physics_backend": "mujoco",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:M3_S001.csv:879044f72a8f",
+    "seed": 20260901,
+    "task": "pick_place",
+    "package_version": "0.1.3",
+    "external_runtime_path_policy": "External MyoSim path intentionally omitted from public artifact; supply --myosim-root at execution time.",
+    "study_status": "exploratory"
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 0,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 4,
+    "mean_confirmation_latency_s": null,
+    "state_transition_count": 9,
+    "released_command_count_original": 0,
+    "released_command_count_reconciled": 1,
+    "released_command_count_semantics": "Count of transitions whose reason is single_authenticated_event_released; derived from control_transitions because original counter did not increment.",
+    "non_hold_command_transition_count_reconciled": 5
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": false,
+    "completion_time_s": null,
+    "path_length_m": 0.5194934847436635,
+    "final_error_m": 0.008114783138395216,
+    "grasp_stability_steps": 12,
+    "command_corrections": 8,
+    "final_state": "WAIT_FOR_RELEASE"
+  },
+  "control_transitions": [
+    {
+      "timestamp_s": 4.2,
+      "previous": "REST",
+      "current": "EXECUTING",
+      "reason": "single_authenticated_event_released",
+      "command": "CLOSE",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 20.8,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 29.1,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "CLOSE",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 54.0,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 62.3,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "CLOSE",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 87.2,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 95.5,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "CLOSE",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 112.1,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 120.4,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "CLOSE",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    }
+  ],
+  "task_transitions": [
+    {
+      "timestamp_s": 20.8,
+      "previous": "APPROACH",
+      "current": "WAIT_FOR_GRASP",
+      "reason": "approach_reached"
+    },
+    {
+      "timestamp_s": 29.1,
+      "previous": "WAIT_FOR_GRASP",
+      "current": "TRANSPORT",
+      "reason": "decoded_grasp_command"
+    },
+    {
+      "timestamp_s": 45.7,
+      "previous": "TRANSPORT",
+      "current": "WAIT_FOR_RELEASE",
+      "reason": "transport_reached"
+    }
+  ],
+  "invalid_state_detected": false,
+  "trace_source": "traces/M3/M3_S001.csv",
+  "replay_csv": "replay_csv/M3_S001.csv",
+  "model_id": "M3",
+  "metric_reconciliation": {
+    "status": "DERIVED_RECONCILIATION_NOT_RERUN",
+    "original_released_command_count": 0,
+    "reconciled_release_events": 1,
+    "non_hold_command_transition_count": 5,
+    "source": "control_transitions",
+    "note": "Original artifact retained structurally; stale counter preserved under released_command_count_original."
+  },
+  "model_version": "p6-exploratory-r03-v1.0"
+}

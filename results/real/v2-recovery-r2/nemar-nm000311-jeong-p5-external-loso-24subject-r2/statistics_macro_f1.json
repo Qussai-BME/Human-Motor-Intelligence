@@ -121,7 +121,7 @@
     }
   ],
   "protocol_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
-  "result_directory": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "result_directory": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/nemar-nm000311-jeong-p5-external-loso-24subject-r2",
   "subject_count": 24,
   "subjects": [
     "sub-1",

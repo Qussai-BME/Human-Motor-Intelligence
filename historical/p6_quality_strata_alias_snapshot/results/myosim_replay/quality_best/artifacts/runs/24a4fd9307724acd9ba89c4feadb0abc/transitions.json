@@ -1,0 +1,12 @@
+[
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "OPEN"
+    },
+    "previous": "REST",
+    "reason": "accepted_candidate_intent",
+    "timestamp_s": 15.0
+  }
+]

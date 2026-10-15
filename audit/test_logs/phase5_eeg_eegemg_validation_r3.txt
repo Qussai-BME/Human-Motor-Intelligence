@@ -1,0 +1,49 @@
+# Phase 5 EEG and EEG–EMG Evidence Verification
+
+## Core protocol tests
+.....                                                                    [100%]
+5 passed in 0.03s
+
+## Frozen primary/rerun equality
+PASS P4 subject_level_results.csv byte-identical
+PASS P5 subject_level_results.csv byte-identical
+ffe44c5b1b989517f82ac30a9e83be3ee666e6689a846671ca9cfc14d5be17e8  <LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r1/nemar-nm000338-openbmi-p4-external-loso-recovery-r1/subject_level_results.csv
+a35b1cb5daa2cdae2078e7668eb1b028e4613c99e062df2b941183c7b971e36b  <LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/nemar-nm000311-jeong-p5-external-loso-24subject-r2/subject_level_results.csv
+
+## D1–D5 validation gate identities
+FILE nemar-nm000338-openbmi-p4-external-loso-recovery-r1/validation.json
+    "status": "pass",
+    "status": "pass"
+    "status": "pass"
+    "status": "pass"
+    "status": "pass"
+FILE nemar-nm000311-jeong-p5-external-loso-24subject-r2/validation.json
+    "status": "pass",
+    "status": "pass"
+    "status": "pass"
+    "status": "pass"
+    "status": "pass"
+
+## Protocol scope declarations
+  "dataset_id": "nemar-nm000338-openbmi",
+  "dataset_version": "v1.0.5",
+  "model_selection": "No target-subject adaptation, model selection, tuning, or hyperparameter search. Five predeclared fixed conditions are reported separately.",
+  "preprocessing_note": "The fixed 8-30 Hz filter, epoch boundaries, deterministic downsample, and non-fitted per-trial spectral/time summaries precede splitting. Any scaler or classifier fit is performed on training subjects only.",
+  "protocol_id": "p4-openbmi-harmonized-zero-calibration-loso-recovery-r1",
+  "split_strategy": "leave-one-subject-out",
+  "subjects": [
+  "target_subject_calibration": false,
+  "dataset_id": "nemar-nm000311-jeong2020",
+  "dataset_version": "v1.0.2",
+  "excluded_subjects": [
+  "external_validation": true,
+  "late_fusion_rule": "arithmetic mean of separately fit EEG-only and EMG-only LDA class probabilities; models and any scalers fit on the training subjects only",
+  "manifest_path": "datasets/manifests/nemar_nm000311_jeong_p5_v2_recovery_r2.json",
+  "model_selection": "No target-subject adaptation, model selection, tuning, hyperparameter search, deep fusion, or missing-modality synthetic stress analysis.",
+  "preprocessing_note": "Epoch-local deterministic spectral and EMG summaries precede splitting. Any StandardScaler, LDA fit, probability calibration, or fusion calculation uses training subjects only.",
+  "protocol_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "split_strategy": "leave-one-subject-out",
+    "inference_unit": "subject",
+  "study_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "subjects": [
+  "target_subject_calibration": false,

@@ -1,0 +1,249 @@
+{
+  "V3": {
+    "n": 100,
+    "successes": 100,
+    "completion_times": [
+      4.3
+    ],
+    "pass": true
+  },
+  "V2": {
+    "n": 100,
+    "successes": 0,
+    "pass": true
+  },
+  "V4": {
+    "cadence_below_stale": true,
+    "episode_below_timeout": true,
+    "markers_s": {
+      "approach_reached": 1.6,
+      "decoded_grasp_command": 4.3,
+      "transport_reached": 4.9,
+      "object_released_in_target": 5.0
+    },
+    "pass": true
+  },
+  "truth_table": {
+    "n": 16,
+    "passed": 16,
+    "cases": [
+      {
+        "decoy": "OPEN",
+        "decoy_pass": false,
+        "grasp": "OPEN",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": false,
+        "grasp": "OPEN",
+        "grasp_pass": true,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": false,
+        "grasp": "CLOSE",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": false,
+        "grasp": "CLOSE",
+        "grasp_pass": true,
+        "expected": true,
+        "actual": true,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": true,
+        "grasp": "OPEN",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": true,
+        "grasp": "OPEN",
+        "grasp_pass": true,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": true,
+        "grasp": "CLOSE",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "OPEN",
+        "decoy_pass": true,
+        "grasp": "CLOSE",
+        "grasp_pass": true,
+        "expected": true,
+        "actual": true,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": false,
+        "grasp": "OPEN",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": false,
+        "grasp": "OPEN",
+        "grasp_pass": true,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": false,
+        "grasp": "CLOSE",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": false,
+        "grasp": "CLOSE",
+        "grasp_pass": true,
+        "expected": true,
+        "actual": true,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": true,
+        "grasp": "OPEN",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": true,
+        "grasp": "OPEN",
+        "grasp_pass": true,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": true,
+        "grasp": "CLOSE",
+        "grasp_pass": false,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      },
+      {
+        "decoy": "CLOSE",
+        "decoy_pass": true,
+        "grasp": "CLOSE",
+        "grasp_pass": true,
+        "expected": false,
+        "actual": false,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "determinism": {
+    "n": 20,
+    "passed": 20,
+    "pass": true
+  },
+  "X0": {
+    "n": 100,
+    "successes": 0,
+    "pass": true
+  },
+  "V5": {
+    "cells": [
+      {
+        "q": 0.6,
+        "regime": "cal",
+        "n": 100,
+        "successes": 9,
+        "pass": true
+      },
+      {
+        "q": 0.6,
+        "regime": "flat",
+        "n": 100,
+        "successes": 40,
+        "pass": true
+      },
+      {
+        "q": 0.7,
+        "regime": "cal",
+        "n": 100,
+        "successes": 33,
+        "pass": true
+      },
+      {
+        "q": 0.7,
+        "regime": "flat",
+        "n": 100,
+        "successes": 45,
+        "pass": true
+      },
+      {
+        "q": 0.8,
+        "regime": "cal",
+        "n": 100,
+        "successes": 47,
+        "pass": true
+      },
+      {
+        "q": 0.8,
+        "regime": "flat",
+        "n": 100,
+        "successes": 51,
+        "pass": true
+      },
+      {
+        "q": 0.9,
+        "regime": "cal",
+        "n": 100,
+        "successes": 81,
+        "pass": true
+      },
+      {
+        "q": 0.9,
+        "regime": "flat",
+        "n": 100,
+        "successes": 62,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "overall_pass": true
+}

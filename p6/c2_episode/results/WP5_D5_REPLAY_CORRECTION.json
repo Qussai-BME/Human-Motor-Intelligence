@@ -1,0 +1,18 @@
+{
+  "issue_id": "WP5_D5_REPLAY_CORRECTION_001",
+  "prior_attempt_id": "R1_D5_raw_S001_01_PRE_SPLIT_FIX",
+  "failed_stage": "MyoSim replay-input validation",
+  "reason": "D5 is trained on R04/R08 and evaluated on held-out R12. The initial episode builder incorrectly paired a training-run epoch, whose D5 prediction is intentionally undefined, producing NaN confidence. CsvIntentReplay rejected the input before controller simulation; no episode outcome was recorded.",
+  "evidence": {
+    "valid_subjects": 105,
+    "D5_prediction_rows_total": 4725,
+    "D5_finite_test_rows": 1575,
+    "held_out_run": "R12"
+  },
+  "correction": "Restrict D5_raw and D5_plt episode pairing to R12 held-out epochs. D1-D4 pairing remains across R04/R08/R12. No model hyperparameters, controller parameters, or task settings were changed.",
+  "offending_input_csv": "replay_csv/R1/FAILED_INPUT_R1_D5_raw_S001_01.csv",
+  "offending_input_preserved": true,
+  "simulation_executed": false,
+  "offending_input_csv_sha256": "39ed9b1e7bdcb4d7744ae01f11d4edd602d849fb1b0c6944dc7bb9e1e8d36b6c",
+  "simulator_error": "confidence must be finite and in [0, 1]"
+}

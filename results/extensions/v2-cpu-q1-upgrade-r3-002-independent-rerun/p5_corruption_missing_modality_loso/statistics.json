@@ -1,0 +1,543 @@
+{
+  "summary": [
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08040139576436318,
+      "macro_f1_sd": 0.030403121822182477,
+      "accuracy_mean": 0.11106060606060607,
+      "balanced_accuracy_mean": 0.11106060606060607
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08051640904299855,
+      "macro_f1_sd": 0.031543826926498285,
+      "accuracy_mean": 0.11272727272727273,
+      "balanced_accuracy_mean": 0.11272727272727273
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.0765843456832201,
+      "macro_f1_sd": 0.026294341570493304,
+      "accuracy_mean": 0.10643939393939394,
+      "balanced_accuracy_mean": 0.10643939393939394
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.07906180049639755,
+      "macro_f1_sd": 0.024810222384053858,
+      "accuracy_mean": 0.11196969696969698,
+      "balanced_accuracy_mean": 0.11196969696969698
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.07772003097609288,
+      "macro_f1_sd": 0.02788617975407824,
+      "accuracy_mean": 0.10977272727272729,
+      "balanced_accuracy_mean": 0.10977272727272729
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.07540245450704135,
+      "macro_f1_sd": 0.02355658602335222,
+      "accuracy_mean": 0.1075,
+      "balanced_accuracy_mean": 0.1075
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.07962498838638314,
+      "macro_f1_sd": 0.021592541737994568,
+      "accuracy_mean": 0.11159090909090909,
+      "balanced_accuracy_mean": 0.11159090909090912
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.07411147569175214,
+      "macro_f1_sd": 0.022564056983502875,
+      "accuracy_mean": 0.10833333333333334,
+      "balanced_accuracy_mean": 0.10833333333333335
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08040139576436318,
+      "macro_f1_sd": 0.030403121822182477,
+      "accuracy_mean": 0.11106060606060607,
+      "balanced_accuracy_mean": 0.11106060606060607
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08051640904299855,
+      "macro_f1_sd": 0.031543826926498285,
+      "accuracy_mean": 0.11272727272727273,
+      "balanced_accuracy_mean": 0.11272727272727273
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08037191423756555,
+      "macro_f1_sd": 0.030429290124194368,
+      "accuracy_mean": 0.11098484848484848,
+      "balanced_accuracy_mean": 0.1109848484848485
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.048597900977835944,
+      "macro_f1_sd": 0.026023296630529973,
+      "accuracy_mean": 0.09522727272727273,
+      "balanced_accuracy_mean": 0.09522727272727273
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.0806128410057443,
+      "macro_f1_sd": 0.03151456859748569,
+      "accuracy_mean": 0.11280303030303031,
+      "balanced_accuracy_mean": 0.11280303030303031
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08037191423756555,
+      "macro_f1_sd": 0.030429290124194368,
+      "accuracy_mean": 0.11098484848484848,
+      "balanced_accuracy_mean": 0.1109848484848485
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.048597900977835944,
+      "macro_f1_sd": 0.026023296630529973,
+      "accuracy_mean": 0.09522727272727273,
+      "balanced_accuracy_mean": 0.09522727272727273
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.0806128410057443,
+      "macro_f1_sd": 0.03151456859748569,
+      "accuracy_mean": 0.11280303030303031,
+      "balanced_accuracy_mean": 0.11280303030303031
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.01515151515151515,
+      "macro_f1_sd": 0.0,
+      "accuracy_mean": 0.0909090909090909,
+      "balanced_accuracy_mean": 0.0909090909090909
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "accuracy_mean": 0.09537878787878788,
+      "balanced_accuracy_mean": 0.09537878787878788
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "condition": "confidence_weighted_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "condition": "eeg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "condition": "emg_only",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.01515151515151515,
+      "macro_f1_sd": 0.0,
+      "accuracy_mean": 0.0909090909090909,
+      "balanced_accuracy_mean": 0.0909090909090909
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "condition": "static_mean_fusion",
+      "n_subjects": 24,
+      "macro_f1_mean": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "accuracy_mean": 0.11424242424242426,
+      "balanced_accuracy_mean": 0.11424242424242426
+    }
+  ],
+  "pairwise_macro_f1": [
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.746925950050354,
+      "median_difference": 0.0009875853301166554
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0003606995704628635
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.00020515918731689453,
+      "median_difference": 0.026078349026324124
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.6033114194869995,
+      "median_difference": 0.0003802170475968904
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 0.344876766204834,
+      "median_difference": -0.0005608180801025646
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.0004298686981201172,
+      "median_difference": 0.030003410553433696
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.4389305114746094,
+      "median_difference": -0.0007480070720042378
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 0.3165123462677002,
+      "median_difference": 0.0008570742586463918
+    },
+    {
+      "arm": "eeg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.0009626150131225586,
+      "median_difference": 0.02610992593480602
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.746925950050354,
+      "median_difference": 0.0009875853301166554
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0003606995704628635
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.00020515918731689453,
+      "median_difference": 0.026078349026324124
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.7898378372192383,
+      "median_difference": 0.0009875853301166554
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 0.899570107460022,
+      "median_difference": 0.00024410759506834911
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 10,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.00020515918731689453,
+      "median_difference": 0.026416015675304556
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 0.7898378372192383,
+      "median_difference": 0.0009875853301166554
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 0.899570107460022,
+      "median_difference": 0.00024410759506834911
+    },
+    {
+      "arm": "emg_corruption",
+      "level_percent": 20,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 0.00020515918731689453,
+      "median_difference": 0.026416015675304556
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 1.6689300537109375e-06,
+      "median_difference": 0.026735831954267722
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0
+    },
+    {
+      "arm": "missing_eeg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "eeg_only",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "static_mean_fusion",
+      "n_pairs": 24,
+      "p_raw": 1.0,
+      "median_difference": 0.0
+    },
+    {
+      "arm": "missing_emg",
+      "level_percent": 0,
+      "left": "confidence_weighted_fusion",
+      "right": "emg_only",
+      "n_pairs": 24,
+      "p_raw": 1.1920928955078125e-07,
+      "median_difference": 0.05829600054995225
+    }
+  ],
+  "claim_boundary": "feature-group perturbation; not raw hardware robustness; new namespace only"
+}

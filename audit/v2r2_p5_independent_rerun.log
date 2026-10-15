@@ -1,0 +1,75 @@
+completed held-out sub-1 (1/24)
+completed held-out sub-2 (2/24)
+completed held-out sub-3 (3/24)
+completed held-out sub-4 (4/24)
+completed held-out sub-5 (5/24)
+completed held-out sub-6 (6/24)
+completed held-out sub-7 (7/24)
+completed held-out sub-8 (8/24)
+completed held-out sub-9 (9/24)
+completed held-out sub-10 (10/24)
+completed held-out sub-11 (11/24)
+completed held-out sub-12 (12/24)
+completed held-out sub-13 (13/24)
+completed held-out sub-14 (14/24)
+completed held-out sub-15 (15/24)
+completed held-out sub-16 (16/24)
+completed held-out sub-17 (17/24)
+completed held-out sub-18 (18/24)
+completed held-out sub-19 (19/24)
+completed held-out sub-20 (20/24)
+completed held-out sub-21 (21/24)
+completed held-out sub-22 (22/24)
+completed held-out sub-24 (23/24)
+completed held-out sub-25 (24/24)
+{
+  "direct_replication": false,
+  "external_validation": true,
+  "independent_rerun": true,
+  "limitations": [
+    "Amended 24-subject source-availability cohort; sub-23 was excluded before feature extraction and model fitting.",
+    "Jeong is a harmonized external validation and not a direct replication or pooled estimate with Cho2017.",
+    "MI-only all-11-class analysis; no motor-execution mixing and no synthetic missing-modality stress analysis."
+  ],
+  "models": [
+    "eeg-only-lda-v1",
+    "emg-only-lda-v1",
+    "early-fusion-lda-v1",
+    "late-fusion-lda-v1"
+  ],
+  "protocol_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "result_file": "subject_level_results.csv",
+  "status": "complete_independent_rerun",
+  "study_id": "nemar-nm000311-jeong-p5-external-loso-24subject-r2",
+  "subjects": 24,
+  "summary": {
+    "early-fusion-lda-v1": {
+      "accuracy": 0.11333333333333334,
+      "balanced_accuracy": 0.11333333333333334,
+      "macro_f1": 0.07540679153888169,
+      "macro_f1_sd": 0.03411145272887769,
+      "n_subjects": 24.0
+    },
+    "eeg-only-lda-v1": {
+      "accuracy": 0.11424242424242426,
+      "balanced_accuracy": 0.11424242424242426,
+      "macro_f1": 0.08126985941879511,
+      "macro_f1_sd": 0.025176332380236262,
+      "n_subjects": 24.0
+    },
+    "emg-only-lda-v1": {
+      "accuracy": 0.09537878787878788,
+      "balanced_accuracy": 0.09537878787878788,
+      "macro_f1": 0.04843727361965259,
+      "macro_f1_sd": 0.025740979036691748,
+      "n_subjects": 24.0
+    },
+    "late-fusion-lda-v1": {
+      "accuracy": 0.11272727272727273,
+      "balanced_accuracy": 0.11272727272727273,
+      "macro_f1": 0.08051640904299855,
+      "macro_f1_sd": 0.031543826926498285,
+      "n_subjects": 24.0
+    }
+  }
+}

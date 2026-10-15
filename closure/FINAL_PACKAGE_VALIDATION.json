@@ -1,0 +1,55 @@
+{
+  "status": "PASS_WITH_DECLARED_LIMITATIONS",
+  "checks": [
+    {
+      "check": "60 primary aggregate rows",
+      "status": "PASS",
+      "detail": "rows=60"
+    },
+    {
+      "check": "20 paired subjects",
+      "status": "PASS",
+      "detail": "subjects=20"
+    },
+    {
+      "check": "no invalid simulator states",
+      "status": "PASS",
+      "detail": "all invalid_state_detected=false"
+    },
+    {
+      "check": "task success reported honestly",
+      "status": "PASS",
+      "detail": "0/60 completed"
+    },
+    {
+      "check": "original aggregate preserved",
+      "status": "PASS",
+      "detail": "original aggregate preserved"
+    },
+    {
+      "check": "rerun limitation disclosed",
+      "status": "PASS",
+      "detail": "disclosed in reproducibility report"
+    },
+    {
+      "check": "R03 motor-execution semantics disclosed",
+      "status": "PASS",
+      "detail": "stated in manuscript"
+    },
+    {
+      "check": "all reconciled runs have artifacts",
+      "status": "PASS",
+      "detail": "60 primary run artifacts exist"
+    },
+    {
+      "check": "statistical values finite",
+      "status": "PASS",
+      "detail": "p values in [0,1]; transition-derived release count is descriptive only because it is tied across all conditions"
+    },
+    {
+      "check": "claim boundary explicit",
+      "status": "PASS",
+      "detail": "P6 status states unresolved original question"
+    }
+  ]
+}

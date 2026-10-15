@@ -1,0 +1,886 @@
+{
+  "variants": {
+    "D1": {
+      "n": 4725,
+      "correct": 2565,
+      "pooled_accuracy": 0.5428571428571428,
+      "balanced_accuracy": 0.5426073976015526,
+      "balanced_accuracy_exact95": [
+        0.5194045409601893,
+        0.5656766421092349
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5470191706289745,
+          0.5928625453326781
+        ],
+        [
+          0.491789911291404,
+          0.5384907388857916
+        ]
+      ],
+      "ece": 0.030218658510339322,
+      "share_conf_ge_0.75": 0.017777777777777778,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 2102,
+          "mean_confidence": 0.5240259790681409,
+          "accuracy": 0.5142721217887726
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 1382,
+          "mean_confidence": 0.5723531632192228,
+          "accuracy": 0.5354558610709117
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 716,
+          "mean_confidence": 0.6222105984414756,
+          "accuracy": 0.5670391061452514
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 325,
+          "mean_confidence": 0.6714629519902743,
+          "accuracy": 0.6061538461538462
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 116,
+          "mean_confidence": 0.721566919108917,
+          "accuracy": 0.7155172413793104
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 49,
+          "mean_confidence": 0.7723712544051968,
+          "accuracy": 0.673469387755102
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 21,
+          "mean_confidence": 0.8225737072172619,
+          "accuracy": 0.7619047619047619
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 11,
+          "mean_confidence": 0.8722339922731573,
+          "accuracy": 0.5454545454545454
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 1,
+          "mean_confidence": 0.919651448726654,
+          "accuracy": 1.0
+        },
+        {
+          "bin_mid": 0.975,
+          "n": 2,
+          "mean_confidence": 0.9683451950550079,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "D2": {
+      "n": 4725,
+      "correct": 2504,
+      "pooled_accuracy": 0.5299470899470899,
+      "balanced_accuracy": 0.5297945114661606,
+      "balanced_accuracy_exact95": [
+        0.5065470788327932,
+        0.5529484471975067
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5234394734841117,
+          0.5695358086449627
+        ],
+        [
+          0.4896546841814747,
+          0.5363610857500507
+        ]
+      ],
+      "ece": 0.061669772630015406,
+      "share_conf_ge_0.75": 0.03216931216931217,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 1612,
+          "mean_confidence": 0.5249723658594245,
+          "accuracy": 0.5062034739454094
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 1313,
+          "mean_confidence": 0.5739060591307652,
+          "accuracy": 0.5209444021325209
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 914,
+          "mean_confidence": 0.6227187291928924,
+          "accuracy": 0.5153172866520788
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 491,
+          "mean_confidence": 0.6722132176342904,
+          "accuracy": 0.5723014256619144
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 243,
+          "mean_confidence": 0.7211301981666942,
+          "accuracy": 0.6172839506172839
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 100,
+          "mean_confidence": 0.7701757895946503,
+          "accuracy": 0.63
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 36,
+          "mean_confidence": 0.8187147130568823,
+          "accuracy": 0.8055555555555556
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 13,
+          "mean_confidence": 0.8751208277849051,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 3,
+          "mean_confidence": 0.9095198710759481,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "D3": {
+      "n": 4725,
+      "correct": 2817,
+      "pooled_accuracy": 0.5961904761904762,
+      "balanced_accuracy": 0.596130063301119,
+      "balanced_accuracy_exact95": [
+        0.573155585106852,
+        0.6188014521488024
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5799494736210107,
+          0.625266171447423
+        ],
+        [
+          0.5663616965926934,
+          0.6123367328501819
+        ]
+      ],
+      "ece": 0.021995119257201875,
+      "share_conf_ge_0.75": 0.039153439153439155,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 1657,
+          "mean_confidence": 0.5253446456473508,
+          "accuracy": 0.5220277610138805
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 1274,
+          "mean_confidence": 0.5734359572495467,
+          "accuracy": 0.5957613814756672
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 841,
+          "mean_confidence": 0.6235466895023599,
+          "accuracy": 0.6551724137931034
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 522,
+          "mean_confidence": 0.6722193942539397,
+          "accuracy": 0.6762452107279694
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 246,
+          "mean_confidence": 0.7213271178947673,
+          "accuracy": 0.6747967479674797
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 98,
+          "mean_confidence": 0.7717339555309869,
+          "accuracy": 0.7244897959183674
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 32,
+          "mean_confidence": 0.8221137501346826,
+          "accuracy": 0.6875
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 10,
+          "mean_confidence": 0.8653406388285936,
+          "accuracy": 0.8
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 37,
+          "mean_confidence": 0.9355274157924679,
+          "accuracy": 0.4864864864864865
+        },
+        {
+          "bin_mid": 0.975,
+          "n": 8,
+          "mean_confidence": 0.9547000549394549,
+          "accuracy": 0.5
+        }
+      ]
+    },
+    "D4": {
+      "n": 4725,
+      "correct": 2513,
+      "pooled_accuracy": 0.5318518518518518,
+      "balanced_accuracy": 0.5317206193074147,
+      "balanced_accuracy_exact95": [
+        0.5084722183015229,
+        0.5548693804497986
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5230188755311745,
+          0.5691187915808992
+        ],
+        [
+          0.4939255610718712,
+          0.5406199693186979
+        ]
+      ],
+      "ece": 0.4377179538682402,
+      "share_conf_ge_0.75": 0.9473015873015873,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 39,
+          "mean_confidence": 0.5221792540074421,
+          "accuracy": 0.5897435897435898
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 44,
+          "mean_confidence": 0.5766205696842359,
+          "accuracy": 0.5227272727272727
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 45,
+          "mean_confidence": 0.624473111062727,
+          "accuracy": 0.4888888888888889
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 62,
+          "mean_confidence": 0.676390805599144,
+          "accuracy": 0.532258064516129
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 59,
+          "mean_confidence": 0.7252125528621318,
+          "accuracy": 0.3898305084745763
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 51,
+          "mean_confidence": 0.7760782782950311,
+          "accuracy": 0.6470588235294118
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 74,
+          "mean_confidence": 0.8261890551765628,
+          "accuracy": 0.5135135135135135
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 101,
+          "mean_confidence": 0.8773997823352022,
+          "accuracy": 0.504950495049505
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 165,
+          "mean_confidence": 0.9269701258711394,
+          "accuracy": 0.47878787878787876
+        },
+        {
+          "bin_mid": 0.975,
+          "n": 4085,
+          "mean_confidence": 0.9975766282112798,
+          "accuracy": 0.5356181150550796
+        }
+      ]
+    },
+    "D1_plt": {
+      "n": 4725,
+      "correct": 2567,
+      "pooled_accuracy": 0.5432804232804233,
+      "balanced_accuracy": 0.5429035840531637,
+      "balanced_accuracy_exact95": [
+        0.5197462703257848,
+        0.5659267446205304
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5613607844416093,
+          0.6069998292099184
+        ],
+        [
+          0.47813175620996023,
+          0.5248536600311424
+        ]
+      ],
+      "ece": 0.005981254032755084,
+      "share_conf_ge_0.75": 0.0021164021164021165,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 3245,
+          "mean_confidence": 0.5220275288385434,
+          "accuracy": 0.5192604006163328
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 1121,
+          "mean_confidence": 0.5696634648813732,
+          "accuracy": 0.576271186440678
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 258,
+          "mean_confidence": 0.6178179586650315,
+          "accuracy": 0.6317829457364341
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 72,
+          "mean_confidence": 0.6693289117269386,
+          "accuracy": 0.7361111111111112
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 19,
+          "mean_confidence": 0.7272345802871604,
+          "accuracy": 0.631578947368421
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 5,
+          "mean_confidence": 0.7768561212406174,
+          "accuracy": 0.6
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 3,
+          "mean_confidence": 0.811804033732351,
+          "accuracy": 1.0
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 1,
+          "mean_confidence": 0.8891552255283935,
+          "accuracy": 1.0
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 1,
+          "mean_confidence": 0.9136169693022294,
+          "accuracy": 1.0
+        }
+      ]
+    },
+    "D2_plt": {
+      "n": 4725,
+      "correct": 2507,
+      "pooled_accuracy": 0.5305820105820106,
+      "balanced_accuracy": 0.5297957657342557,
+      "balanced_accuracy_exact95": [
+        0.5068836908598208,
+        0.5526162983719838
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5934894063769813,
+          0.6385298870119537
+        ],
+        [
+          0.42027797534266026,
+          0.4667027097320139
+        ]
+      ],
+      "ece": 0.0029616675921466805,
+      "share_conf_ge_0.75": 0.0,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 4028,
+          "mean_confidence": 0.5203856139615045,
+          "accuracy": 0.5213505461767627
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 626,
+          "mean_confidence": 0.5666912008106837,
+          "accuracy": 0.5734824281150159
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 65,
+          "mean_confidence": 0.617319556341667,
+          "accuracy": 0.6923076923076923
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 6,
+          "mean_confidence": 0.6635992132549197,
+          "accuracy": 0.5
+        }
+      ]
+    },
+    "D3_plt": {
+      "n": 4725,
+      "correct": 2834,
+      "pooled_accuracy": 0.5997883597883598,
+      "balanced_accuracy": 0.5993526363998636,
+      "balanced_accuracy_exact95": [
+        0.5765117820666098,
+        0.6218813635052207
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.6248699097932975,
+          0.6691327757125294
+        ],
+        [
+          0.5281536543399221,
+          0.5746299512979121
+        ]
+      ],
+      "ece": 0.053056746523339395,
+      "share_conf_ge_0.75": 0.010158730158730159,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 2778,
+          "mean_confidence": 0.5234160805436249,
+          "accuracy": 0.5525557955363571
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 1296,
+          "mean_confidence": 0.5709807755771983,
+          "accuracy": 0.6674382716049383
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 479,
+          "mean_confidence": 0.620054341400304,
+          "accuracy": 0.6638830897703549
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 100,
+          "mean_confidence": 0.6719645237874282,
+          "accuracy": 0.74
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 24,
+          "mean_confidence": 0.7219954587327782,
+          "accuracy": 0.75
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 3,
+          "mean_confidence": 0.7821458024499565,
+          "accuracy": 0.6666666666666666
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 34,
+          "mean_confidence": 0.8360494839468472,
+          "accuracy": 0.47058823529411764
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 11,
+          "mean_confidence": 0.8629397525954356,
+          "accuracy": 0.5454545454545454
+        }
+      ]
+    },
+    "D4_plt": {
+      "n": 4725,
+      "correct": 2510,
+      "pooled_accuracy": 0.5312169312169313,
+      "balanced_accuracy": 0.5310451959381782,
+      "balanced_accuracy_exact95": [
+        0.5078027787267594,
+        0.5541902312485859
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.526804845802741,
+          0.5728713563227124
+        ],
+        [
+          0.4888007116507779,
+          0.5355091061744595
+        ]
+      ],
+      "ece": 0.023054070004817004,
+      "share_conf_ge_0.75": 0.0,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 1831,
+          "mean_confidence": 0.5245705250293935,
+          "accuracy": 0.5013653741125068
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 2894,
+          "mean_confidence": 0.5730621456267937,
+          "accuracy": 0.5501036627505184
+        }
+      ]
+    },
+    "D5_raw": {
+      "n": 1575,
+      "correct": 959,
+      "pooled_accuracy": 0.6088888888888889,
+      "balanced_accuracy": 0.6092245769408152,
+      "balanced_accuracy_exact95": [
+        0.5693716459875598,
+        0.6480323269532482
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5208189812629265,
+          0.6009223845625793
+        ],
+        [
+          0.6179243107121932,
+          0.6951422693439171
+        ]
+      ],
+      "ece": 0.30060119054359713,
+      "share_conf_ge_0.75": 0.8431746031746031,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 39,
+          "mean_confidence": 0.5265517876473629,
+          "accuracy": 0.5384615384615384
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 58,
+          "mean_confidence": 0.5771583252143343,
+          "accuracy": 0.4482758620689655
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 50,
+          "mean_confidence": 0.6233461909849131,
+          "accuracy": 0.62
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 48,
+          "mean_confidence": 0.6772306658364861,
+          "accuracy": 0.5208333333333334
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 52,
+          "mean_confidence": 0.7265263731025678,
+          "accuracy": 0.5769230769230769
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 55,
+          "mean_confidence": 0.7766556871078949,
+          "accuracy": 0.5272727272727272
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 74,
+          "mean_confidence": 0.8266826143014447,
+          "accuracy": 0.5135135135135135
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 90,
+          "mean_confidence": 0.879977720517899,
+          "accuracy": 0.5555555555555556
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 118,
+          "mean_confidence": 0.9274438122897811,
+          "accuracy": 0.5508474576271186
+        },
+        {
+          "bin_mid": 0.975,
+          "n": 991,
+          "mean_confidence": 0.9924586459184708,
+          "accuracy": 0.649848637739657
+        }
+      ]
+    },
+    "D5_plt": {
+      "n": 1575,
+      "correct": 890,
+      "pooled_accuracy": 0.5650793650793651,
+      "balanced_accuracy": 0.5649118082454211,
+      "balanced_accuracy_exact95": [
+        0.5244935279836673,
+        0.6047128349663552
+      ],
+      "balanced_accuracy_ci_method": "average of two exact Clopper-Pearson class limits, Bonferroni simultaneous 95%",
+      "class_sensitivity_specificity_exact95": [
+        [
+          0.5487643444106559,
+          0.6281997605764937
+        ],
+        [
+          0.5002227115566786,
+          0.5812259093562167
+        ]
+      ],
+      "ece": 0.04383260297245268,
+      "share_conf_ge_0.75": 0.14666666666666667,
+      "reliability_bins": [
+        {
+          "bin_mid": 0.525,
+          "n": 764,
+          "mean_confidence": 0.5221107505178473,
+          "accuracy": 0.49214659685863876
+        },
+        {
+          "bin_mid": 0.575,
+          "n": 291,
+          "mean_confidence": 0.5716884998360346,
+          "accuracy": 0.5567010309278351
+        },
+        {
+          "bin_mid": 0.625,
+          "n": 134,
+          "mean_confidence": 0.6223274421825499,
+          "accuracy": 0.5522388059701493
+        },
+        {
+          "bin_mid": 0.675,
+          "n": 81,
+          "mean_confidence": 0.6756294443717088,
+          "accuracy": 0.49382716049382713
+        },
+        {
+          "bin_mid": 0.725,
+          "n": 74,
+          "mean_confidence": 0.7264848719511985,
+          "accuracy": 0.6621621621621622
+        },
+        {
+          "bin_mid": 0.775,
+          "n": 50,
+          "mean_confidence": 0.7761899631645122,
+          "accuracy": 0.72
+        },
+        {
+          "bin_mid": 0.8250000000000001,
+          "n": 50,
+          "mean_confidence": 0.8223286967849002,
+          "accuracy": 0.72
+        },
+        {
+          "bin_mid": 0.875,
+          "n": 37,
+          "mean_confidence": 0.881177301262097,
+          "accuracy": 0.8378378378378378
+        },
+        {
+          "bin_mid": 0.925,
+          "n": 54,
+          "mean_confidence": 0.9292029386438955,
+          "accuracy": 0.8888888888888888
+        },
+        {
+          "bin_mid": 0.975,
+          "n": 40,
+          "mean_confidence": 0.9799547057948562,
+          "accuracy": 0.95
+        }
+      ]
+    }
+  },
+  "best_zero_calibration": "D3",
+  "worst_zero_calibration": "D2",
+  "best_vs_worst_subject_cluster_bootstrap_95": [
+    0.040060420083711974,
+    0.09379725605657269
+  ],
+  "V1": {
+    "P1": true,
+    "P2": true,
+    "passed": true,
+    "status": "CONFIRMATORY",
+    "bootstrap_resamples": 10000,
+    "seed": 20261008
+  },
+  "valid_subjects": 105,
+  "excluded_subjects": [
+    {
+      "subject": "S088",
+      "reason": "integrity: fs=128.0, channels=64, imagery_events=19, labels={'T2', 'T1'}"
+    },
+    {
+      "subject": "S092",
+      "reason": "integrity: fs=128.0, channels=64, imagery_events=19, labels={'T2', 'T1'}"
+    },
+    {
+      "subject": "S100",
+      "reason": "integrity: fs=128.0, channels=64, imagery_events=12, labels={'T2', 'T1'}"
+    },
+    {
+      "subject": "S104",
+      "reason": "integrity: fs=160.0, channels=64, imagery_events=13, labels={'T2', 'T1'}"
+    }
+  ],
+  "fold_assignment": {
+    "S001": 4,
+    "S002": 3,
+    "S003": 2,
+    "S004": 1,
+    "S005": 0,
+    "S006": 4,
+    "S007": 3,
+    "S008": 2,
+    "S009": 1,
+    "S010": 0,
+    "S011": 4,
+    "S012": 3,
+    "S013": 2,
+    "S014": 1,
+    "S015": 0,
+    "S016": 4,
+    "S017": 3,
+    "S018": 2,
+    "S019": 1,
+    "S020": 0,
+    "S021": 4,
+    "S022": 3,
+    "S023": 2,
+    "S024": 1,
+    "S025": 0,
+    "S026": 4,
+    "S027": 3,
+    "S028": 2,
+    "S029": 1,
+    "S030": 0,
+    "S031": 4,
+    "S032": 3,
+    "S033": 2,
+    "S034": 1,
+    "S035": 0,
+    "S036": 4,
+    "S037": 3,
+    "S038": 2,
+    "S039": 1,
+    "S040": 0,
+    "S041": 4,
+    "S042": 3,
+    "S043": 2,
+    "S044": 1,
+    "S045": 0,
+    "S046": 4,
+    "S047": 3,
+    "S048": 2,
+    "S049": 1,
+    "S050": 0,
+    "S051": 4,
+    "S052": 3,
+    "S053": 2,
+    "S054": 1,
+    "S055": 0,
+    "S056": 4,
+    "S057": 3,
+    "S058": 2,
+    "S059": 1,
+    "S060": 0,
+    "S061": 4,
+    "S062": 3,
+    "S063": 2,
+    "S064": 1,
+    "S065": 0,
+    "S066": 4,
+    "S067": 3,
+    "S068": 2,
+    "S069": 1,
+    "S070": 0,
+    "S071": 4,
+    "S072": 3,
+    "S073": 2,
+    "S074": 1,
+    "S075": 0,
+    "S076": 4,
+    "S077": 3,
+    "S078": 2,
+    "S079": 1,
+    "S080": 0,
+    "S081": 4,
+    "S082": 3,
+    "S083": 2,
+    "S084": 1,
+    "S085": 0,
+    "S086": 4,
+    "S087": 3,
+    "S089": 2,
+    "S090": 1,
+    "S091": 0,
+    "S093": 4,
+    "S094": 3,
+    "S095": 2,
+    "S096": 1,
+    "S097": 0,
+    "S098": 4,
+    "S099": 3,
+    "S101": 2,
+    "S102": 1,
+    "S103": 0,
+    "S105": 4,
+    "S106": 3,
+    "S107": 2,
+    "S108": 1,
+    "S109": 0
+  }
+}

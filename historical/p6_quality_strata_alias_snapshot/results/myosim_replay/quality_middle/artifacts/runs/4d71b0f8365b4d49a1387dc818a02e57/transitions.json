@@ -1,0 +1,32 @@
+[
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "CLOSE"
+    },
+    "previous": "REST",
+    "reason": "accepted_candidate_intent",
+    "timestamp_s": 10.0
+  },
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "OPEN"
+    },
+    "previous": "CANDIDATE",
+    "reason": "candidate_replaced_by_new_consistent_label",
+    "timestamp_s": 15.0
+  },
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "CLOSE"
+    },
+    "previous": "CANDIDATE",
+    "reason": "candidate_replaced_by_new_consistent_label",
+    "timestamp_s": 27.5
+  }
+]

@@ -1,0 +1,2 @@
+arm,episode_id,reason,attempts
+R1,R1_D5_raw_S001_01_PRE_SPLIT_FIX,nonfinite_D5_training_epoch_confidence; CsvIntentReplay rejected before controller simulation; see WP5_D5_REPLAY_CORRECTION.json,1

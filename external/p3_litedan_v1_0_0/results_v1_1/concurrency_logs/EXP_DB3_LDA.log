@@ -1,0 +1,24 @@
+nohup: ignoring input
+start 1/11 S1: running
+fold 1/11 S1: acc=0.1032, macro-F1=0.0320, fit=0.5s, fold=0.8s
+start 2/11 S2: running
+fold 2/11 S2: acc=0.0935, macro-F1=0.0182, fit=0.5s, fold=0.9s
+start 3/11 S3: running
+fold 3/11 S3: acc=0.0490, macro-F1=0.0118, fit=0.6s, fold=1.0s
+start 4/11 S4: running
+fold 4/11 S4: acc=0.0279, macro-F1=0.0144, fit=0.6s, fold=0.9s
+start 5/11 S5: running
+fold 5/11 S5: acc=0.0509, macro-F1=0.0334, fit=0.5s, fold=0.9s
+start 6/11 S6: running
+fold 6/11 S6: acc=0.0105, macro-F1=0.0048, fit=0.5s, fold=1.0s
+start 7/11 S7: running
+fold 7/11 S7: acc=0.0993, macro-F1=0.0162, fit=0.5s, fold=0.9s
+start 8/11 S8: running
+fold 8/11 S8: acc=0.0622, macro-F1=0.0392, fit=0.5s, fold=0.9s
+start 9/11 S9: running
+fold 9/11 S9: acc=0.0483, macro-F1=0.0330, fit=0.5s, fold=0.9s
+start 10/11 S10: running
+fold 10/11 S10: acc=0.0567, macro-F1=0.0363, fit=0.5s, fold=0.9s
+start 11/11 S11: running
+fold 11/11 S11: acc=0.0736, macro-F1=0.0448, fit=0.5s, fold=0.9s
+LOSO COMPLETE: DB3 / lda (11 subjects)

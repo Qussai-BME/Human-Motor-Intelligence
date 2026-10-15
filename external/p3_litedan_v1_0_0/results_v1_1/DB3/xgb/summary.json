@@ -1,0 +1,74 @@
+{
+  "config_hash": "25442563a7c0",
+  "feature_schema": "current_618_v1",
+  "db": "DB3",
+  "condition": "xgb",
+  "n_subjects": 11,
+  "requested_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "completed_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "metrics": {
+    "accuracy": {
+      "mean": 0.07225383363198414,
+      "sd": 0.04979484722831041
+    },
+    "macro_f1": {
+      "mean": 0.030897469591165957,
+      "sd": 0.018768423882405728
+    },
+    "rest_recall": {
+      "mean": 0.11597334612525127,
+      "sd": 0.12873728129311449
+    },
+    "active_only_accuracy": {
+      "mean": 0.04441603231581178,
+      "sd": 0.022833874733468016
+    },
+    "active_only_macro_f1": {
+      "mean": 0.032185507472655674,
+      "sd": 0.022004856271285414
+    },
+    "inflation_pp": {
+      "mean": 2.7837801316172373,
+      "sd": 5.2483705787835655
+    }
+  },
+  "environment": {
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "machine": "x86_64",
+    "git_commit": null,
+    "numpy": "2.5.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "torch": "2.13.0+cu130",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.5",
+    "torch_num_threads": 1,
+    "cuda_available": false
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "protocol": "p6-r03-exploratory-motor-execution-control-v1",
+  "n_traces": 60,
+  "independent_rerun_exact_match": true,
+  "summary_by_quality": {
+    "quality_low": {
+      "n": 20,
+      "successes": 0,
+      "success_rate": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "final_error_m": {
+        "estimate": 0.07628522578515126,
+        "ci95_low": 0.05680624774221445,
+        "ci95_high": 0.09576342289502385
+      },
+      "path_length_m": {
+        "estimate": 0.4379322692763522,
+        "ci95_low": 0.3964078205581925,
+        "ci95_high": 0.484810280621191
+      },
+      "command_corrections": {
+        "estimate": 7.45,
+        "ci95_low": 5.95,
+        "ci95_high": 8.8
+      },
+      "grasp_stability_steps": {
+        "estimate": 3.25,
+        "ci95_low": 1.1,
+        "ci95_high": 5.5
+      },
+      "final_states": {
+        "WAIT_FOR_GRASP": 14,
+        "WAIT_FOR_RELEASE": 6
+      }
+    },
+    "quality_mid": {
+      "n": 20,
+      "successes": 0,
+      "success_rate": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "final_error_m": {
+        "estimate": 0.07628522578515126,
+        "ci95_low": 0.056806247750811646,
+        "ci95_high": 0.09576342289502386
+      },
+      "path_length_m": {
+        "estimate": 0.4379322692763522,
+        "ci95_low": 0.3952991246831851,
+        "ci95_high": 0.4837277596988973
+      },
+      "command_corrections": {
+        "estimate": 7.7,
+        "ci95_low": 6.35,
+        "ci95_high": 8.95
+      },
+      "grasp_stability_steps": {
+        "estimate": 3.25,
+        "ci95_low": 1.1,
+        "ci95_high": 5.45
+      },
+      "final_states": {
+        "WAIT_FOR_GRASP": 14,
+        "WAIT_FOR_RELEASE": 6
+      }
+    },
+    "quality_high": {
+      "n": 20,
+      "successes": 0,
+      "success_rate": {
+        "estimate": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.0
+      },
+      "final_error_m": {
+        "estimate": 0.0762867876426825,
+        "ci95_low": 0.05680937145297832,
+        "ci95_high": 0.09576420381949088
+      },
+      "path_length_m": {
+        "estimate": 0.4379148193078765,
+        "ci95_low": 0.39640782055819246,
+        "ci95_high": 0.48479283065271533
+      },
+      "command_corrections": {
+        "estimate": 7.9,
+        "ci95_low": 6.35,
+        "ci95_high": 9.35
+      },
+      "grasp_stability_steps": {
+        "estimate": 3.35,
+        "ci95_low": 1.1,
+        "ci95_high": 5.65
+      },
+      "final_states": {
+        "WAIT_FOR_GRASP": 14,
+        "WAIT_FOR_RELEASE": 6
+      }
+    }
+  },
+  "kruskal_wallis": {
+    "final_error_m": {
+      "H": 0.06205860255444508,
+      "p": 0.9694471666196736
+    },
+    "path_length_m": {
+      "H": 0.03166255232370095,
+      "p": 0.9842933798026776
+    },
+    "command_corrections": {
+      "H": 0.17286166992047905,
+      "p": 0.9171989846951514
+    },
+    "grasp_stability_steps": {
+      "H": 0.03779628443304571,
+      "p": 0.9812793080878823
+    }
+  },
+  "spearman_source_quality_vs_utility": {
+    "final_error_m": {
+      "rho": 0.02808701730242385,
+      "p": 0.8313063220253075
+    },
+    "path_length_m": {
+      "rho": -0.020062155216017036,
+      "p": 0.8790709691675354
+    },
+    "command_corrections": {
+      "rho": 0.05411836824719457,
+      "p": 0.6813057301019869
+    },
+    "grasp_stability_steps": {
+      "rho": 0.021919426151089844,
+      "p": 0.86797168695394
+    }
+  },
+  "interpretation": "All task-success outcomes were negative (0/60). There was no detectable difference across frozen quality strata for final error, path length, corrections, or grasp stability. The downstream result is negative/inconclusive for quality-to-task-utility association under this MyoSim task and must not be interpreted as clinical or prosthetic validation."
+}

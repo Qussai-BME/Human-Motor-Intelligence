@@ -1,0 +1,6 @@
+{
+  "distinct_initial_qpos_count": 20,
+  "failure_count": 20,
+  "statistics_path": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/p6_real_replay_initial_state_repeats_r2/statistics_initial_state_repeats.json",
+  "success_count": 0
+}

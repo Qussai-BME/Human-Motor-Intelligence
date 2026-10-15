@@ -1,0 +1,152 @@
+{
+  "p4_representation": {
+    "comparisons": [
+      {
+        "left": "temporal",
+        "right": "spectral",
+        "n_subjects": 54,
+        "mean_difference": 0.03503987120835125,
+        "median_difference": 0.03423572762166244,
+        "bootstrap_95_ci_mean_difference": [
+          0.017321265792707895,
+          0.05335268001786448
+        ],
+        "wilcoxon_p_raw": 0.0007492295507647676,
+        "effect_size_mean_over_sd": 0.5166041185177689,
+        "positive_difference_subjects": 39,
+        "wilcoxon_p_holm": 0.0007492295507647676
+      },
+      {
+        "left": "temporal",
+        "right": "covariance_log",
+        "n_subjects": 54,
+        "mean_difference": 0.2454204030595849,
+        "median_difference": 0.2383684804826039,
+        "bootstrap_95_ci_mean_difference": [
+          0.20756286527682538,
+          0.28459882422894933
+        ],
+        "wilcoxon_p_raw": 2.8452397608882486e-10,
+        "effect_size_mean_over_sd": 1.670703723090047,
+        "positive_difference_subjects": 52,
+        "wilcoxon_p_holm": 7.633285408823352e-10
+      },
+      {
+        "left": "spectral",
+        "right": "covariance_log",
+        "n_subjects": 54,
+        "mean_difference": 0.2103805318512337,
+        "median_difference": 0.20300616538565963,
+        "bootstrap_95_ci_mean_difference": [
+          0.17888344776659024,
+          0.24206327520211357
+        ],
+        "wilcoxon_p_raw": 2.544428469607784e-10,
+        "effect_size_mean_over_sd": 1.7426807475890225,
+        "positive_difference_subjects": 52,
+        "wilcoxon_p_holm": 7.633285408823352e-10
+      }
+    ],
+    "n_subjects": 54,
+    "claim_boundary": "Representation-specific subject-independent evidence under OpenBMI strict zero-calibration LOSO; not a universal statement about Riemannian methods."
+  },
+  "p5_clean_train_corrupted_test": {
+    "summary": [
+      {
+        "condition": "confidence_selective_fusion",
+        "n_subjects": 24,
+        "clean_mean_macro_f1": 0.08117398007550661,
+        "degraded_mean_macro_f1": 0.017278983556615776,
+        "mean_degradation_drop": 0.06389499651889084,
+        "median_degradation_drop": 0.05309380715265953,
+        "bootstrap_95_ci_mean_drop": [
+          0.053351827860978994,
+          0.07570702244922685
+        ],
+        "mean_relative_retention": 0.2357467877457249,
+        "median_relative_retention": 0.22498653204881014
+      },
+      {
+        "condition": "eeg_only",
+        "n_subjects": 24,
+        "clean_mean_macro_f1": 0.08139668562288076,
+        "degraded_mean_macro_f1": 0.017278983556615776,
+        "mean_degradation_drop": 0.06411770206626498,
+        "median_degradation_drop": 0.05375547820231538,
+        "bootstrap_95_ci_mean_drop": [
+          0.05473847583036065,
+          0.07459904956171058
+        ],
+        "mean_relative_retention": 0.22897490330081374,
+        "median_relative_retention": 0.2256544284417224
+      },
+      {
+        "condition": "static_mean_fusion",
+        "n_subjects": 24,
+        "clean_mean_macro_f1": 0.08050629053459972,
+        "degraded_mean_macro_f1": 0.017154337844120054,
+        "mean_degradation_drop": 0.06335195269047968,
+        "median_degradation_drop": 0.052546345923000094,
+        "bootstrap_95_ci_mean_drop": [
+          0.051542805067682614,
+          0.07648065180118004
+        ],
+        "mean_relative_retention": 0.24172290319223722,
+        "median_relative_retention": 0.22634255262209538
+      }
+    ],
+    "degraded_pairwise_comparisons": [
+      {
+        "degraded_left": "static_mean_fusion",
+        "degraded_right": "eeg_only",
+        "n_subjects": 24,
+        "mean_difference": -0.00012464571249572406,
+        "median_difference": 0.0,
+        "bootstrap_95_ci_mean_difference": [
+          -0.00041654016120746835,
+          3.246458205599772e-05
+        ],
+        "wilcoxon_p_raw": 0.7150006546880893,
+        "effect_size_mean_over_sd": -0.1797017381048988
+      },
+      {
+        "degraded_left": "confidence_selective_fusion",
+        "degraded_right": "eeg_only",
+        "n_subjects": 24,
+        "mean_difference": 0.0,
+        "median_difference": 0.0,
+        "bootstrap_95_ci_mean_difference": [
+          0.0,
+          0.0
+        ],
+        "wilcoxon_p_raw": 1.0,
+        "effect_size_mean_over_sd": 0.0
+      },
+      {
+        "degraded_left": "static_mean_fusion",
+        "degraded_right": "confidence_selective_fusion",
+        "n_subjects": 24,
+        "mean_difference": -0.00012464571249572406,
+        "median_difference": 0.0,
+        "bootstrap_95_ci_mean_difference": [
+          -0.000418227972070359,
+          3.1777637539312044e-05
+        ],
+        "wilcoxon_p_raw": 0.7150006546880893,
+        "effect_size_mean_over_sd": -0.1797017381048988
+      }
+    ],
+    "primary_robustness_quantity": "clean macro-F1 minus degraded macro-F1",
+    "retention_interpretation": "descriptive secondary quantity; not treated as an inferential endpoint",
+    "corruption": "20% EEG feature-group zeroing; models trained on clean data only",
+    "claim_boundary": "Feature-cache degradation under the evaluated P5 protocol; not physical electrode failure or clinical hardware robustness."
+  },
+  "p4_calibration_status": {
+    "status": "not_estimable_from_retained_artifacts",
+    "reason": "retained P4 outputs contain labels/predictions but no probability or decision-score artifact; no confidence metric will be reconstructed from hard labels."
+  },
+  "p4_robustness_status": {
+    "status": "skipped_after_cpu_gate",
+    "reason": "previous implementation exceeded practical CPU limits without producing an artifact; specification permits skipping."
+  }
+}

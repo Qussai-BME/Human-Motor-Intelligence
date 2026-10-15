@@ -1,44 +1,23 @@
-# Scientific Limitations and Unsupported-Claim Register
-## V2 Recovery R3 Current-State Addendum
+# Scientific Limitations — Human Motor Intelligence 1.2.0
 
-## Governing Principle
+These limits apply to P6 (C1, the post-hoc audit and C2). Limits of P1–P5 are in their paper-level records.
 
-The programme reports only evidence produced under retained, source-identifiable protocols. A negative result remains visible; a missing provenance chain is a hard stop; and a reproducible simulator fixture does not become biomedical evidence by repetition.
+## Scope
+Offline replay in a deterministic software simulator (MyoSim v0.1.5, MuJoCo) with public healthy-subject EEG (PhysioNet EEGMMIDB). Nothing here establishes online BCI performance, user benefit, hardware safety, prosthetic readiness or clinical efficacy.
 
-## Paper-Level Boundaries
+## C1
+- The registered success endpoint was degenerate (0/60) and, by the audit, unreachable: an oracle stream also failed (0/20), the task clock ended after 2 of 15 outputs, and 171/207 controller transitions followed task failure. C1 therefore says nothing about decoder quality.
+- The C1 decoders were at chance (pooled accuracy 0.497–0.510), so the registered quality manipulation did not materialise.
+- The exploratory command-correction contrast is **withdrawn**: it arose after task termination and tracks decoder confidence.
+- T1/T2 → OPEN/CLOSE is an abstract software mapping, not a physiological or prosthetic semantic validation.
 
-| Area | Supported statement | Unsupported statement |
-|---|---|---|
-| P1–P2 | Frozen source-grounded statements preserved in the EMG series record | Any new empirical conclusion, numerical aggregation, or P3 substitution |
-| P3 | The original third-paper package is pending | That P3 was recreated, validated, or integrated empirically |
-| P4 | Five fixed pipelines were externally evaluated in 54-subject OpenBMI binary MI LOSO without target calibration | Direct BCI IV-2a replication, cross-dataset leaderboard rank, clinical readiness, or confirmed pairwise CNN superiority |
-| P5 | In the amended 24-subject Jeong MI-only cohort, fixed transparent fusion rules did not establish a Holm-supported gain over EEG-only | Fusion is generally ineffective, EMG ordering reveals a mechanism, or MI evidence transfers to ME/device control |
-| P6 R2 | One synthetic-demo MyoSim integration fixture failed across 20 bounded simulated initial states | Real decoder, tiny-CNN/worst condition, biomedical performance, physical-control robustness, or a decoder-quality effect |
-| P6 R3 | The decoder-quality extension is blocked by absent authentic three-trace provenance | Any best/mid/worst comparison, dose-response, success-proportion test, or inference |
+## C2
+- REST events are scheduled (synchronous paradigm) and decoder outputs are held across each trial (sample-and-hold); asynchronous operation and sliding-window decoders are outside the confirmatory scope.
+- Physics is deterministic: outcomes are determined by label and confidence sequences, i.e. controller-level utility only.
+- The emulator assumes Beta-shaped confidence and independent trials and is optimistic relative to real decoders (e.g. D3: success 1.9% versus about 6% for the calibrated emulator at q = 0.6). Accuracies above 0.65 are covered only by emulation: no real decoder exceeded a balanced accuracy of 0.61.
+- Real decoders are linear/covariance-based, 2-class, one dataset at 160 Hz. D5 is a within-subject reference evaluated on run R12 only (735 episodes) and is not paired with D1–D4.
+- Controller settings were fixed in C1; the sensitivity analysis explores only gate threshold and confirmation windows.
+- Post-hoc analyses (chance-matched floor, gate sweep, lookup, independent verification) were defined after outcomes were known and were produced with computational assistance by the author’s team; independent re-execution by others is invited. Confidences are rounded to three decimals in replay files, so 10 of about 29,000 recorded pass flags differ from effective gate passage; simulator outcomes are authoritative.
 
-## Programme-Level Boundaries
-
-The programme is a local research integration stack, not a medical device, clinical decision system, prosthesis controller, cloud service, commercial product, or evidence of universal biosignal intelligence. Its P4/P5 studies are external validations of narrowly declared protocols; their outcomes cannot be pooled because their source cohorts, labels, modalities, and models differ. The retained MyoSim demonstration and P6 fixture are system-integration evidence, not a human outcome study.
-
-## Data and Reproducibility Boundaries
-
-The release excludes raw restricted biosignal recordings and external derived caches. Rerun equivalence supports reproducibility of retained results, not correctness beyond the declared source, implementation, environment, and protocol. PyBullet remains an unverified optional backend in the current Python 3.12 environment. Direct BCI IV-2a, ECG, ECoG/iEEG, and a standalone missing-modality study remain unexecuted tracks, not negative findings.
-
-## Required Evidence Before Claim Expansion
-
-| Proposed claim expansion | Minimum evidence requirement |
-|---|---|
-| P6 decoder-quality relationship | Three immutable authentic traces, condition/provenance manifest, protocol amendment, new R3 execution, independent rerun, valid analysis |
-| P3 integration | Author-provided original manifest/results and preserved protocol context |
-| BCI IV-2a claim | Registered source-specific execution with D1–D5, subject-level results, and rerun |
-| General multimodal robustness | New registered paired-source study including declared missing-modality conditions |
-| Clinical/prosthetic relevance | Appropriate approved hardware/clinical study with safety and human-factors endpoints |
-
-## References
-
-[1]: papers/CLAIM_EVIDENCE_MATRIX_V2_RECOVERY_R3.md "R3 Claim–Evidence Matrix"
-[2]: papers/CROSS_REFERENCE_AUDIT_RECOVERY_R3.md "R3 Cross-Reference Audit"
-[3]: audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md "P6 R3 Replay Identity Hard Stop"
-[4]: audit/SPECIFICATION_COMPLETION_MATRIX_ALL_SPECS_R3.md "All-Specification Completion Matrix"
-
-The limitation register operationalizes the evidence and cross-reference controls in the retained R3 records.[1] [2] [3] [4]
+## Reuse
+Cite the claim–evidence matrix (`papers/paper_6/CLAIM_EVIDENCE_MATRIX.md`) rather than the headline numbers alone; do not describe P6 as clinical validation or as a general law relating decoder quality to control utility.

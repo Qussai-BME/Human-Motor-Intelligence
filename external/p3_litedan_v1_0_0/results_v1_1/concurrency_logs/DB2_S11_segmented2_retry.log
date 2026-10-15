@@ -1,0 +1,2 @@
+nohup: ignoring input
+SEGMENTED DOWNLOAD ERROR: range 0-228691473: failed after 3 attempts: ('Connection broken: IncompleteRead(18098467 bytes read, 210593007 more expected)', IncompleteRead(18098467 bytes read, 210593007 more expected))

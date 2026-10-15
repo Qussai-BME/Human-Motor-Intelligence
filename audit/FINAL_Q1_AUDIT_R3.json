@@ -1,0 +1,37 @@
+{
+  "release_state": "interim_current_state_evidence_governed",
+  "timestamp": "2026-08-31",
+  "frozen_evidence_policy": "Historical V1/V1.1, P4 R1, P5 R2, and P6 R2 artifacts are not overwritten or relabelled.",
+  "completed_extensions": {
+    "p5_r3_005_calibration": {
+      "status": "complete",
+      "n_subjects": 24,
+      "conditions": ["eeg_only", "emg_only", "static_mean_fusion", "confidence_weighted_fusion", "confidence_selective_fusion"],
+      "results": {
+        "eeg_only": {"accuracy": 0.114318, "brier": 0.944344, "ece_10_bin": 0.100162},
+        "emg_only": {"accuracy": 0.095379, "brier": 0.922631, "ece_10_bin": 0.044483},
+        "static_mean_fusion": {"accuracy": 0.112727, "brier": 0.919149, "ece_10_bin": 0.044729},
+        "confidence_weighted_fusion": {"accuracy": 0.110909, "brier": 0.938161, "ece_10_bin": 0.085202},
+        "confidence_selective_fusion": {"accuracy": 0.110909, "brier": 0.948498, "ece_10_bin": 0.106809}
+      },
+      "reproducibility": {"primary_rerun_equal": true, "trial_probability_sha256": "9d454e309e6c529bc1466f155884bba7566d4616cdc95db9935e7374782d0378d"},
+      "claim_boundary": "The current confidence heuristic is not validated as a reliability-aware improvement in this amended cohort; no universal ineffectiveness claim is permitted.",
+      "evidence_paths": ["results/extensions/v2-cpu-q1-upgrade-r3-005/p5_clean_loso_calibration", "results/extensions/v2-cpu-q1-upgrade-r3-005-independent-rerun/p5_clean_loso_calibration", "audit/p5_calibration_statistics_r3_005.json", "audit/p5_calibration_statistics_r3_005_rerun.json"]
+    }
+  },
+  "pending_or_blocked": {
+    "p4_r3_006_robustness": {"status": "pending_computational_gate", "scientific_result_released": false, "evidence_path": "audit/P4_ROBUSTNESS_COMPUTATIONAL_GATE_R3_006.md"},
+    "p3_emg_evidence": {"status": "blocked_external", "reason": "original author package/provenance/protocol/results absent"},
+    "p6_r3_decoder_quality": {"status": "blocked_external", "reason": "authentic three-condition decoder traces and manifest absent"}
+  },
+  "manuscripts": [
+    "papers/P4_STRICT_ZERO_CALIBRATION_EEG_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md",
+    "papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md",
+    "papers/P6_INITIAL_STATE_ROBUSTNESS_AND_DECODER_QUALITY_STATUS_V2_RECOVERY_R3_Q1.md"
+  ],
+  "word_exports": [
+    "deliverables/P4_STRICT_ZERO_CALIBRATION_EEG_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.docx",
+    "deliverables/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.docx",
+    "deliverables/P6_INITIAL_STATE_ROBUSTNESS_AND_DECODER_QUALITY_STATUS_V2_RECOVERY_R3_Q1.docx"
+  ]
+}

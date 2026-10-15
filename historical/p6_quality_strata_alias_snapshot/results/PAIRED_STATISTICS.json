@@ -1,0 +1,43 @@
+{
+  "unit": "subject",
+  "bootstrap_seed": 1701,
+  "bootstrap_resamples": 20000,
+  "comparisons": [
+    {
+      "a": "quality_worst",
+      "b": "quality_middle",
+      "mean_difference_a_minus_b": 0.016071428571428566,
+      "median_difference": 0.0,
+      "wilcoxon_statistic": 18.0,
+      "wilcoxon_p": 0.32940090588803694,
+      "bootstrap_ci95_mean_difference": [
+        -0.012053571428571436,
+        0.04464285714285714
+      ]
+    },
+    {
+      "a": "quality_worst",
+      "b": "quality_best",
+      "mean_difference_a_minus_b": -0.042857142857142864,
+      "median_difference": -0.0625,
+      "wilcoxon_statistic": 56.5,
+      "wilcoxon_p": 0.12115312412020703,
+      "bootstrap_ci95_mean_difference": [
+        -0.09196428571428572,
+        0.006696428571428548
+      ]
+    },
+    {
+      "a": "quality_middle",
+      "b": "quality_best",
+      "mean_difference_a_minus_b": -0.05892857142857142,
+      "median_difference": -0.058035714285714246,
+      "wilcoxon_statistic": 49.0,
+      "wilcoxon_p": 0.06409546968034197,
+      "bootstrap_ci95_mean_difference": [
+        -0.11116071428571432,
+        -0.007589285714285729
+      ]
+    }
+  ]
+}

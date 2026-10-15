@@ -1,0 +1,30 @@
+{
+  "benchmark_eligible": false,
+  "config_path": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/configs/experiments/p6_initial_state_repeats_recovery_r2.yaml",
+  "mode": "independent-rerun",
+  "origin": "real_replay_initial_state_variation",
+  "protocol_id": "p6-real-replay-initial-state-repeats-recovery-r2",
+  "replay_path": "<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/examples/intents/pick_place_replay.csv",
+  "seeds": [
+    20260901,
+    20260902,
+    20260903,
+    20260904,
+    20260905,
+    20260906,
+    20260907,
+    20260908,
+    20260909,
+    20260910,
+    20260911,
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920
+  ]
+}

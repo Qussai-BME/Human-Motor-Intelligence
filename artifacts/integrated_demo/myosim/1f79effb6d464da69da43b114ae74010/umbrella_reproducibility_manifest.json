@@ -1,0 +1,87 @@
+{
+  "artifacts": [
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/report.md",
+      "role": "myosim-output",
+      "sha256": "b9131e6f489e9fac9953c0c3c836eba7bbb37a84e2cec5baac7e96d58833fd2a",
+      "size_bytes": 1769
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/summary.json",
+      "role": "myosim-output",
+      "sha256": "d3639e363ae43018e49024ca3ca61821be47d2f85e47fc7f23279135d37694d5",
+      "size_bytes": 2969
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/provenance.json",
+      "role": "myosim-output",
+      "sha256": "4b7d1960fab724ac201bf22895f091f1b47f33bf95572c762c459c98310e2b3b",
+      "size_bytes": 549
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_metrics.json",
+      "role": "myosim-output",
+      "sha256": "da23418526b4c6031556c463740f460177a9a8fe57b08578ba5d52452f562d44",
+      "size_bytes": 247
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_metrics.json",
+      "role": "myosim-output",
+      "sha256": "54fe5053351f8b2bfc0e94151428cc65e71f6b9f987a718b1a082ba854990f62",
+      "size_bytes": 239
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_transitions.json",
+      "role": "myosim-output",
+      "sha256": "745ec48b71ecf3c3339dcd0f37af1a355f3d659ce8d09d71364f368535bb1ef4",
+      "size_bytes": 532
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_transitions.json",
+      "role": "myosim-output",
+      "sha256": "d5827f77333004d71d8737549fe6b9402bd8828a6656168ff9e01ecb7c436846",
+      "size_bytes": 1047
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_clean.gif",
+      "role": "myosim-output",
+      "sha256": "3cdf8b0559d46763dd2246bd9eb05c8d4dcefa1827d89201b2fba9bb8890fb8f",
+      "size_bytes": 336326
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/human-motor-intelligence/artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_debug.gif",
+      "role": "myosim-output",
+      "sha256": "3fcd7b82a05ba4a54ff91c4a1392557e9261edf3e58b20dee573d14e3dd6dce2",
+      "size_bytes": 417728
+    }
+  ],
+  "configuration": {
+    "benchmark_eligible": false,
+    "evidence_class": "synthetic",
+    "myosim_run_id": "1f79effb6d464da69da43b114ae74010",
+    "myosim_task": "pick_place",
+    "replay_bundle_sha256": "568f477bd57b8d24000b5b67e01c990feab2318683f50377e18422a7ca3f30b0",
+    "replay_csv_sha256": "8cebfaf08d92f72500124a8154b8f0fc188768cf4c3cd25b7560cc8ed6407f6f"
+  },
+  "configuration_hash": "beeb4749297a8b442b2fa3718690d39b3edb93f3da1b26072f27292cfb3e2c3d",
+  "created_at_utc": "2026-08-22T17:52:45.807646+00:00",
+  "dataset_id": "synthetic-integration-fixture",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "packages": {
+      "myosim": "0.1.3"
+    },
+    "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "environment_hash": "d48cac161b46f88439deba1786aad263ea0e22fe2ee5e9a40f61838e7f109e60",
+  "git": {
+    "available": false
+  },
+  "name": "integrated-synthetic-replay-demo",
+  "project_id": "human-motor-intelligence",
+  "protocol_id": "intent-to-control-v1",
+  "schema_version": "1.0.0",
+  "seed": 20260822
+}

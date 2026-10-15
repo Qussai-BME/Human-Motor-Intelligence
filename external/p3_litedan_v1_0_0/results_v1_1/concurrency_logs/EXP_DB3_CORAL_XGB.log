@@ -1,0 +1,24 @@
+nohup: ignoring input
+start 1/11 S1: running
+fold 1/11 S1: acc=0.0913, macro-F1=0.0245, fit=579.7s, fold=582.6s
+start 2/11 S2: running
+fold 2/11 S2: acc=0.0868, macro-F1=0.0151, fit=562.4s, fold=565.8s
+start 3/11 S3: running
+fold 3/11 S3: acc=0.0811, macro-F1=0.0174, fit=569.5s, fold=573.1s
+start 4/11 S4: running
+fold 4/11 S4: acc=0.0279, macro-F1=0.0106, fit=579.6s, fold=583.4s
+start 5/11 S5: running
+fold 5/11 S5: acc=0.0419, macro-F1=0.0163, fit=590.3s, fold=594.1s
+start 6/11 S6: running
+fold 6/11 S6: acc=0.0199, macro-F1=0.0062, fit=597.1s, fold=600.8s
+start 7/11 S7: running
+fold 7/11 S7: acc=0.1853, macro-F1=0.0185, fit=585.1s, fold=588.7s
+start 8/11 S8: running
+fold 8/11 S8: acc=0.0335, macro-F1=0.0373, fit=586.3s, fold=590.3s
+start 9/11 S9: running
+fold 9/11 S9: acc=0.0565, macro-F1=0.0358, fit=599.4s, fold=603.2s
+start 10/11 S10: running
+fold 10/11 S10: acc=0.0597, macro-F1=0.0438, fit=581.4s, fold=584.8s
+start 11/11 S11: running
+fold 11/11 S11: acc=0.0427, macro-F1=0.0333, fit=564.3s, fold=568.1s
+LOSO COMPLETE: DB3 / coral_xgb (11 subjects)

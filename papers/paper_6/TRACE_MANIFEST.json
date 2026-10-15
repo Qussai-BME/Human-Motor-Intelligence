@@ -1,0 +1,11 @@
+{
+  "schema": "hmi.p6.trace-manifest.v3",
+  "status": "EXECUTED_EXPLORATORY_R03",
+  "primary": "p6/exploratory_r03_primary/results/TRACE_MANIFEST.json",
+  "rerun": "p6/exploratory_r03_rerun/results/TRACE_MANIFEST.json",
+  "trace_count_primary": 60,
+  "trace_count_rerun": 60,
+  "rerun_per_run_myosim_json_count": 0,
+  "rerun_audit_status": "AGGREGATE_EQUALITY_ONLY; individual rerun MyoSim JSON task artifacts are absent.",
+  "study_scope": "R03 motor execution, not motor imagery"
+}

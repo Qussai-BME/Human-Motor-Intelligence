@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "protocol_declares_R04": true,
+    "protocol_declares_motor_imagery": true,
+    "config_declares_LOSO": true,
+    "config_declares_abstract_mapping": true,
+    "scripts_present": true,
+    "no_raw_edf_in_release": true,
+    "no_current_r03_as_primary": true,
+    "rerun_run_level_artifacts_present": true,
+    "rerun_run_ids_distinct": true,
+    "primary_and_rerun_results_consistent": true
+  },
+  "scientific_results_available": true
+}

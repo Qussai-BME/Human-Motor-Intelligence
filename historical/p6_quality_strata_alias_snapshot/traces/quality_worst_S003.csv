@@ -1,0 +1,16 @@
+timestamp_s,label,confidence,source_subject,modality,model_version,window_id,ground_truth,correct
+0.000,OPEN,0.63629210,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-000,CLOSE,False
+2.500,CLOSE,0.62458432,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-001,OPEN,False
+5.000,OPEN,0.59984136,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-002,CLOSE,False
+7.500,CLOSE,0.72111243,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-003,OPEN,False
+10.000,CLOSE,0.56514448,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-004,OPEN,False
+12.500,OPEN,0.76558030,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-005,CLOSE,False
+15.000,CLOSE,0.79428971,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-006,CLOSE,True
+17.500,CLOSE,0.51552725,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-007,OPEN,False
+20.000,CLOSE,0.91291142,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-008,OPEN,False
+22.500,OPEN,0.55930614,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-009,CLOSE,False
+25.000,CLOSE,0.60626030,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-010,OPEN,False
+27.500,CLOSE,0.84964907,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-011,CLOSE,True
+30.000,CLOSE,0.69006878,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-012,CLOSE,True
+32.500,OPEN,0.52070320,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-013,OPEN,True
+35.000,OPEN,0.51921999,S003,eeg,physionet-r03-middle-logreg-v1,S003-R03-014,CLOSE,False

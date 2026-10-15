@@ -1,0 +1,17 @@
+{
+  "summary": [
+    {
+      "condition": "log_euclidean",
+      "n_subjects": 54,
+      "macro_f1_mean": 0.35407797839781496,
+      "accuracy_mean": 0.5006481481481481,
+      "balanced_accuracy_mean": 0.5006481481481481,
+      "macro_f1_sd": 0.04929851447514793,
+      "accuracy_sd": 0.007206279775588318,
+      "balanced_accuracy_sd": 0.007206279775588318
+    }
+  ],
+  "pairwise_macro_f1": [],
+  "source": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/extensions/v2-cpu-q1-upgrade-r3-001-independent-rerun/p4_log_euclidean_loso",
+  "claim_boundary": "new CPU extension namespace; not pooled with frozen P4/P5 results"
+}

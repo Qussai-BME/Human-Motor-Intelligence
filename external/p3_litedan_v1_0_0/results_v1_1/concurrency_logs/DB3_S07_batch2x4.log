@@ -1,0 +1,71 @@
+nohup: ignoring input
+{
+  "subject": 7,
+  "status": "prepared",
+  "cache": "artifacts_v1_1/features/DB3/S07.npz",
+  "metadata": {
+    "db": "DB3",
+    "subject": 7,
+    "exercises": [
+      1,
+      2
+    ],
+    "n_windows": 10603,
+    "raw_features": 618,
+    "feature_schema": "current_618_v1",
+    "cache_input_hash": "919494ce50b7",
+    "source_files": [
+      "S7_E1_A1.mat",
+      "S7_E2_A1.mat"
+    ],
+    "official_archive_url": "https://ninapro.hevs.ch/files/db3_Preproc/s7_0.zip",
+    "official_archive_bytes": 260514669,
+    "official_archive_sha256": "3fc1ac416cb9ec4bc3eb80f990635ad6e7b9ac1d0da6ff73de17b8bcc9ec9701",
+    "download_status": "downloaded",
+    "extracted_files": [
+      "S7_E1_A1.mat",
+      "S7_E2_A1.mat"
+    ],
+    "started_at_utc": "2026-08-26T14:50:32.138492+00:00",
+    "completed_at_utc": "2026-08-26T15:07:36.817977+00:00"
+  },
+  "elapsed_seconds": 1024.9308847480006
+}
+{
+  "db": "DB3",
+  "status": "subject_batch_complete",
+  "results": [
+    {
+      "subject": 7,
+      "status": "prepared",
+      "cache": "artifacts_v1_1/features/DB3/S07.npz",
+      "metadata": {
+        "db": "DB3",
+        "subject": 7,
+        "exercises": [
+          1,
+          2
+        ],
+        "n_windows": 10603,
+        "raw_features": 618,
+        "feature_schema": "current_618_v1",
+        "cache_input_hash": "919494ce50b7",
+        "source_files": [
+          "S7_E1_A1.mat",
+          "S7_E2_A1.mat"
+        ],
+        "official_archive_url": "https://ninapro.hevs.ch/files/db3_Preproc/s7_0.zip",
+        "official_archive_bytes": 260514669,
+        "official_archive_sha256": "3fc1ac416cb9ec4bc3eb80f990635ad6e7b9ac1d0da6ff73de17b8bcc9ec9701",
+        "download_status": "downloaded",
+        "extracted_files": [
+          "S7_E1_A1.mat",
+          "S7_E2_A1.mat"
+        ],
+        "started_at_utc": "2026-08-26T14:50:32.138492+00:00",
+        "completed_at_utc": "2026-08-26T15:07:36.817977+00:00"
+      },
+      "elapsed_seconds": 1024.9308847480006
+    }
+  ]
+}

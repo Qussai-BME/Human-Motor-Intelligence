@@ -1,0 +1,15 @@
+{
+  "protocol_id": "P6-C2-EPISODE-v1.0",
+  "frozen_at_utc": "2026-10-07T23:46:58Z",
+  "files": {
+    "P6_C2_Protocol/PROTOCOL_C2.md": "cddcba75f3cb64ba043dc771ec3f4589fc4af13492fb6085576eae1560dcb245",
+    "P6_C2_Protocol/c2_design.yaml": "aef4e653bf8ab5089dfcf62a9f9cb029a3c6daea0900285cb2e59f1a2428e6c3",
+    "P6_C2_Protocol/config/p6_c2_mysim.yaml": "4f2ad2493d35b2bd8e8d1554fb6660be0f1f69cdd0e4abae8034484316907f36",
+    "P6_C2_Protocol/reference_code/c2_runner.py": "5166d197c03a51ff53b618cbfc89b0a0cdb7b05876cdbe0b5edd46753011b3fd",
+    "P6_C2_Protocol/reference_code/c2_emulator_pilot.py": "a7233f4653b3ab15e97f7ddbb0cec08fa1433df34e31d177b30d6a42bc996633",
+    "P6_C2_Protocol/reference_code/c2_analytic_hold.py": "388b23329b148c015ae94a391f2042993eebe39908606090c550a4c2ca8ff5ce"
+  },
+  "preflight_passed": true,
+  "myosim_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+  "note": "C2 runner path constants MYO and P6 set to the execution workspace; no other reference-code edits."
+}

@@ -1,0 +1,6914 @@
+[
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10569305425563154,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10010354067268867,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.11440842168634174,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10569305425563154,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10010354067268867,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.11440842168634174,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10569305425563154,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-1",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10010354067268867,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10569305425563154,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10010354067268867,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.11353450216675937,
+    "accuracy": 0.1690909090909091,
+    "balanced_accuracy": 0.1690909090909091
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10821200166657659,
+    "accuracy": 0.14545454545454545,
+    "balanced_accuracy": 0.14545454545454548
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10290725964614661,
+    "accuracy": 0.14363636363636365,
+    "balanced_accuracy": 0.14363636363636365
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.11034794387639973,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.14727272727272728
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08182608805953638,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-1",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08873209303301831,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.1272727272727273
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09904224887438319,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-1",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11433859903587393,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05924417477753629,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05303929497335984,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05924417477753629,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0532403100997481,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05924417477753629,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-2",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0532403100997481,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05924417477753629,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05303929497335984,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.0756827228743221,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.061780363709767,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.0890909090909091
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0690569628481039,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.07234729787753044,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06507280322872287,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-2",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0703492675615967,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06836549570467382,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636362
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-2",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03870573870573871,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636363
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09686334731876599,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.14727272727272728
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10356173779670019,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.07623700409336717,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09686334731876599,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.14727272727272728
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10351272077240595,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.07623700409336717,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09686334731876599,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.14727272727272728
+  },
+  {
+    "subject": "sub-3",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10351272077240595,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09686334731876599,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.14727272727272728
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10356173779670019,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.11221313444837205,
+    "accuracy": 0.14545454545454545,
+    "balanced_accuracy": 0.14545454545454545
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10511923457860117,
+    "accuracy": 0.14545454545454545,
+    "balanced_accuracy": 0.14545454545454545
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10693782384000419,
+    "accuracy": 0.14363636363636365,
+    "balanced_accuracy": 0.14363636363636365
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.07523115259330039,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727275
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07970748497457437,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-3",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0738395273655516,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09532940840353751,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-3",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.077282226875502,
+    "accuracy": 0.13636363636363635,
+    "balanced_accuracy": 0.13636363636363635
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07586406774140017,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06224945495829191,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.030243296725379773,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07586406774140017,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06224945495829191,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.030243296725379773,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07586406774140017,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-4",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06224945495829191,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07586406774140017,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06224945495829191,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09617339587748286,
+    "accuracy": 0.12181818181818181,
+    "balanced_accuracy": 0.12181818181818183
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07809245622123472,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07737290217878998,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727275
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09012315482071721,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06019065738154214,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06551532246137355,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08125007684108425,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-4",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0309051984908469,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07251102726958568,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08090477875942571,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07364225748057213,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08093109123687778,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07364225748057213,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08093109123687778,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07251102726958568,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08090477875942571,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.0797377688351212,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08270093870115149,
+    "accuracy": 0.10909090909090909,
+    "balanced_accuracy": 0.10909090909090909
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07347161343141471,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09041365742403297,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.11090909090909093
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07541496692078029,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-5",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07115336656587891,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08021352053610072,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-5",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04643851210757693,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.051800454074640866,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05425589122806347,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04366306551556069,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05181442887620383,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05425589122806347,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04366306551556069,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05181442887620383,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-6",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05425589122806347,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.051800454074640866,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05425589122806347,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.04776585969786249,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.053386871378445395,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.11090909090909093
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.048537478474516546,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.04523774258668494,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.048580840449275846,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-6",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05067358166917654,
+    "accuracy": 0.09636363636363636,
+    "balanced_accuracy": 0.09636363636363637
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05282031653471955,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-6",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04368145127847973,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07951465934781234,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08512964039089038,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.060650203619829535,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07951465934781234,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08512964039089038,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.060650203619829535,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07951465934781234,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-7",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08512964039089038,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07951465934781234,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08512964039089038,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.07446143637894201,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06097673625535854,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07806182942449315,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.12727272727272726
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.08049081205086767,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06077007553809876,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-7",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07359340889516651,
+    "accuracy": 0.12181818181818181,
+    "balanced_accuracy": 0.12181818181818181
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09895803662743936,
+    "accuracy": 0.13090909090909092,
+    "balanced_accuracy": 0.1309090909090909
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-7",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06057310035848547,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07077488853969817,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08489761534406606,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.1272727272727273
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.016205533596837945,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07077488853969817,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08489761534406606,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.1272727272727273
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.016205533596837945,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07077488853969817,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-8",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08489761534406606,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.1272727272727273
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07077488853969817,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08489761534406606,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.1272727272727273
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.0825975965575041,
+    "accuracy": 0.14545454545454545,
+    "balanced_accuracy": 0.14545454545454548
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.054274049692916985,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05538127591738204,
+    "accuracy": 0.08,
+    "balanced_accuracy": 0.07999999999999999
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09627664747238217,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.056819642475694924,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06089357305961018,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10526901628791094,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-8",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.016170380595543286,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545454
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.028783313789433742,
+    "accuracy": 0.02909090909090909,
+    "balanced_accuracy": 0.02909090909090909
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03205623448317351,
+    "accuracy": 0.03272727272727273,
+    "balanced_accuracy": 0.03272727272727273
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.028783313789433742,
+    "accuracy": 0.02909090909090909,
+    "balanced_accuracy": 0.02909090909090909
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03207008035957198,
+    "accuracy": 0.03272727272727273,
+    "balanced_accuracy": 0.03272727272727273
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.028783313789433742,
+    "accuracy": 0.02909090909090909,
+    "balanced_accuracy": 0.02909090909090909
+  },
+  {
+    "subject": "sub-9",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03207008035957198,
+    "accuracy": 0.03272727272727273,
+    "balanced_accuracy": 0.03272727272727273
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.028783313789433742,
+    "accuracy": 0.02909090909090909,
+    "balanced_accuracy": 0.02909090909090909
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03205623448317351,
+    "accuracy": 0.03272727272727273,
+    "balanced_accuracy": 0.03272727272727273
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06335086933851,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.034924428522725204,
+    "accuracy": 0.03636363636363636,
+    "balanced_accuracy": 0.03636363636363637
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03734178596070155,
+    "accuracy": 0.038181818181818185,
+    "balanced_accuracy": 0.038181818181818185
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.060746578304649176,
+    "accuracy": 0.06363636363636363,
+    "balanced_accuracy": 0.06363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04025112670568208,
+    "accuracy": 0.04,
+    "balanced_accuracy": 0.039999999999999994
+  },
+  {
+    "subject": "sub-9",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04101927215280509,
+    "accuracy": 0.04,
+    "balanced_accuracy": 0.039999999999999994
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06167384041201062,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272728
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-9",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.002009040683073832,
+    "accuracy": 0.0036363636363636364,
+    "balanced_accuracy": 0.0036363636363636364
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.11928456299556266,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181816
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10786738515858434,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04008058590685433,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1193483588488322,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181816
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10786738515858434,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04008058590685433,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1193483588488322,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181816
+  },
+  {
+    "subject": "sub-10",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10786738515858434,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.11928456299556266,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181816
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10786738515858434,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09925970393830315,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.11408237659950907,
+    "accuracy": 0.12727272727272726,
+    "balanced_accuracy": 0.12727272727272726
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10527757040872979,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09604728170483035,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09947259436708024,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10029699734531414,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09702575638222634,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-10",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04009324293308602,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05055155789873658,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727272
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05992956668711035,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.034121380151782094,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05055155789873658,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727272
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05992956668711035,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.034121380151782094,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05055155789873658,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727272
+  },
+  {
+    "subject": "sub-11",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05992956668711035,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05055155789873658,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727272
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05992956668711035,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09378864139799795,
+    "accuracy": 0.15454545454545454,
+    "balanced_accuracy": 0.15454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07106980600981355,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07058394344710452,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636363
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.07452723321528176,
+    "accuracy": 0.15272727272727274,
+    "balanced_accuracy": 0.15272727272727274
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06514481845272306,
+    "accuracy": 0.13818181818181818,
+    "balanced_accuracy": 0.13818181818181818
+  },
+  {
+    "subject": "sub-11",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0725726289304049,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06328279837838979,
+    "accuracy": 0.1509090909090909,
+    "balanced_accuracy": 0.1509090909090909
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-11",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.034052379555660296,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1323809149996248,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.14316112895906508,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1323809149996248,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.14316112895906508,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1323809149996248,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.14316112895906508,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1323809149996248,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.14316112895906508,
+    "accuracy": 0.16363636363636364,
+    "balanced_accuracy": 0.16363636363636366
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.13348034818351157,
+    "accuracy": 0.15272727272727274,
+    "balanced_accuracy": 0.15272727272727277
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.13570457119789206,
+    "accuracy": 0.15454545454545454,
+    "balanced_accuracy": 0.15454545454545457
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1381208911443641,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.1563636363636364
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.11004969719111371,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727275
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12147360899453981,
+    "accuracy": 0.14727272727272728,
+    "balanced_accuracy": 0.1472727272727273
+  },
+  {
+    "subject": "sub-12",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11730792297744967,
+    "accuracy": 0.14,
+    "balanced_accuracy": 0.14
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1328149968063031,
+    "accuracy": 0.15636363636363637,
+    "balanced_accuracy": 0.15636363636363637
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-12",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03992295833293947,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.079318822671613,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07931867447871525,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07924777072890331,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07931867447871525,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07924777072890331,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-13",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07931867447871525,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.079318822671613,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07931867447871525,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.07462767535086486,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07125020131213629,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08081039025783009,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272728
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.08047330474210151,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.0875654773280087,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-13",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0860289883252308,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07840479561678743,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-13",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03433177473892469,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06771341412152834,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07304751630508793,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.05491233958387243,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06771341412152834,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07300970052037498,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.05491233958387243,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06771341412152834,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07300970052037498,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06771341412152834,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07304751630508793,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.07437754443856791,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06484879132527556,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06630407496898501,
+    "accuracy": 0.09636363636363636,
+    "balanced_accuracy": 0.09636363636363637
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.07294602140725184,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07096087363327662,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07542838948703962,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06713151713217928,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-14",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05508636804072169,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06400508236761147,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06444889488923547,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.0890909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.012651147768483521,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06403158344891072,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06444889488923547,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.0890909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.012651147768483521,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06403158344891072,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-15",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06444889488923547,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.0890909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06400508236761147,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06444889488923547,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.0890909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.054261418772584655,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.08909090909090908
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05824072633275184,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05107560715649269,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.08181818181818182
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06564762545810841,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.09999999999999999
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05990541643124423,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-15",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06554323654184872,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181816
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06596687767362423,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909093
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-15",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.012636428032261194,
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.019999999999999997
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06703656651189624,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06276846516991556,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.07043081433773411,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06630515739600235,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06276846516991556,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.07043081433773411,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06630515739600235,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-16",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06276846516991556,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06703656651189624,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06276846516991556,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.05736150606471901,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.0840048497578437,
+    "accuracy": 0.12181818181818181,
+    "balanced_accuracy": 0.12181818181818183
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07420324804426359,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.04657296914330371,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.08181818181818183
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07300441293978469,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181821
+  },
+  {
+    "subject": "sub-16",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05223037886836044,
+    "accuracy": 0.0890909090909091,
+    "balanced_accuracy": 0.08909090909090911
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.056508913067324855,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-16",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06742188263897018,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06835915563713425,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.09999999999999999
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06724699340934102,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.057447135838608714,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06835915563713425,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.09999999999999999
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06724699340934102,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.057447135838608714,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06835915563713425,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.09999999999999999
+  },
+  {
+    "subject": "sub-17",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06724699340934102,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06835915563713425,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.09999999999999999
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06724699340934102,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.061311176020974585,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06277153578322926,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06516712508496546,
+    "accuracy": 0.09636363636363636,
+    "balanced_accuracy": 0.09636363636363637
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.08677616070340347,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07786659185111731,
+    "accuracy": 0.10909090909090909,
+    "balanced_accuracy": 0.10909090909090909
+  },
+  {
+    "subject": "sub-17",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0786055941730951,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272727
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06279371051568601,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-17",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05757152040210283,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1016930499555229,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10519811962214586,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.08331964812811715,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10173013809796365,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10519811962214586,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.08331964812811715,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10173013809796365,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10519811962214586,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1016930499555229,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10519811962214586,
+    "accuracy": 0.11454545454545455,
+    "balanced_accuracy": 0.11454545454545455
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.08410587106000936,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10167236701261623,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0968737483343751,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09712076996469382,
+    "accuracy": 0.10909090909090909,
+    "balanced_accuracy": 0.10909090909090911
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10888344551032367,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-18",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10848262679993907,
+    "accuracy": 0.11818181818181818,
+    "balanced_accuracy": 0.11818181818181818
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.10211874689925433,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-18",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.08335710517009431,
+    "accuracy": 0.11636363636363636,
+    "balanced_accuracy": 0.11636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.16892966821987276,
+    "accuracy": 0.1890909090909091,
+    "balanced_accuracy": 0.1890909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1580997132100485,
+    "accuracy": 0.18181818181818182,
+    "balanced_accuracy": 0.18181818181818182
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.025755983921231195,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.16892966821987276,
+    "accuracy": 0.1890909090909091,
+    "balanced_accuracy": 0.1890909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1580997132100485,
+    "accuracy": 0.18181818181818182,
+    "balanced_accuracy": 0.18181818181818182
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.025755983921231195,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.16892966821987276,
+    "accuracy": 0.1890909090909091,
+    "balanced_accuracy": 0.1890909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1580997132100485,
+    "accuracy": 0.18181818181818182,
+    "balanced_accuracy": 0.18181818181818182
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.16892966821987276,
+    "accuracy": 0.1890909090909091,
+    "balanced_accuracy": 0.1890909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1580997132100485,
+    "accuracy": 0.18181818181818182,
+    "balanced_accuracy": 0.18181818181818182
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.11739216771493698,
+    "accuracy": 0.15454545454545454,
+    "balanced_accuracy": 0.15454545454545457
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1311701252207864,
+    "accuracy": 0.15818181818181817,
+    "balanced_accuracy": 0.1581818181818182
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.12400182654910369,
+    "accuracy": 0.16,
+    "balanced_accuracy": 0.16000000000000003
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.12645696741376192,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12065945814917517,
+    "accuracy": 0.13454545454545455,
+    "balanced_accuracy": 0.13454545454545455
+  },
+  {
+    "subject": "sub-19",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.14075979297428834,
+    "accuracy": 0.15818181818181817,
+    "balanced_accuracy": 0.15818181818181817
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1435793978411,
+    "accuracy": 0.17636363636363636,
+    "balanced_accuracy": 0.17636363636363636
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-19",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.025772875791888805,
+    "accuracy": 0.06545454545454546,
+    "balanced_accuracy": 0.06545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06421531252105034,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05263948848703801,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.0818181818181818
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.051651806618694035,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06433521068564835,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05269693409488369,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.0818181818181818
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.051651806618694035,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06433521068564835,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-20",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05269693409488369,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.0818181818181818
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06421531252105034,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05263948848703801,
+    "accuracy": 0.08181818181818182,
+    "balanced_accuracy": 0.0818181818181818
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.04928845952975492,
+    "accuracy": 0.07454545454545454,
+    "balanced_accuracy": 0.07454545454545455
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05645980492877261,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272728
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05633066034970122,
+    "accuracy": 0.07818181818181819,
+    "balanced_accuracy": 0.07818181818181819
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06182105291421587,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.062339462598580274,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-20",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05995276486664385,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.054592759748545494,
+    "accuracy": 0.08545454545454545,
+    "balanced_accuracy": 0.08545454545454545
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-20",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.05390491291654082,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06684498604134433,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06753985595535786,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.08092920447790149,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06684498604134433,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06753985595535786,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.08092920447790149,
+    "accuracy": 0.12545454545454546,
+    "balanced_accuracy": 0.12545454545454546
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06684498604134433,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06753985595535786,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06684498604134433,
+    "accuracy": 0.10363636363636364,
+    "balanced_accuracy": 0.10363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06753985595535786,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.04094496891399057,
+    "accuracy": 0.08727272727272728,
+    "balanced_accuracy": 0.08727272727272727
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03973271534605832,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03909694174856223,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636365
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.05070312203314286,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272727
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04727653432972881,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-21",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.055449144183162484,
+    "accuracy": 0.10909090909090909,
+    "balanced_accuracy": 0.10909090909090911
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06849023578614738,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-21",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07804014503463427,
+    "accuracy": 0.12363636363636364,
+    "balanced_accuracy": 0.12363636363636367
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.048931665533872445,
+    "accuracy": 0.06181818181818182,
+    "balanced_accuracy": 0.06181818181818182
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04761100872383857,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.058181818181818175
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.08123081723664428,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.048931665533872445,
+    "accuracy": 0.06181818181818182,
+    "balanced_accuracy": 0.06181818181818182
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04761100872383857,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.058181818181818175
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.08123081723664428,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727273
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.048931665533872445,
+    "accuracy": 0.06181818181818182,
+    "balanced_accuracy": 0.06181818181818182
+  },
+  {
+    "subject": "sub-22",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04761100872383857,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.058181818181818175
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.048931665533872445,
+    "accuracy": 0.06181818181818182,
+    "balanced_accuracy": 0.06181818181818182
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04761100872383857,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.058181818181818175
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.04532444184120648,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.05818181818181818
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04553191357879511,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.05818181818181818
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.045313257159746205,
+    "accuracy": 0.05818181818181818,
+    "balanced_accuracy": 0.05818181818181818
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.04430519530888957,
+    "accuracy": 0.06727272727272728,
+    "balanced_accuracy": 0.06727272727272726
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04399925897135411,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04488900451041299,
+    "accuracy": 0.06909090909090909,
+    "balanced_accuracy": 0.06909090909090908
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.04698297130492293,
+    "accuracy": 0.056363636363636366,
+    "balanced_accuracy": 0.05636363636363637
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-22",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07964707326698411,
+    "accuracy": 0.11090909090909092,
+    "balanced_accuracy": 0.1109090909090909
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12598445364613406,
+    "accuracy": 0.16545454545454547,
+    "balanced_accuracy": 0.1654545454545455
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11818529526731512,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.032829514058183,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12598445364613406,
+    "accuracy": 0.16545454545454547,
+    "balanced_accuracy": 0.1654545454545455
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11844161531068552,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.032829514058183,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12598445364613406,
+    "accuracy": 0.16545454545454547,
+    "balanced_accuracy": 0.1654545454545455
+  },
+  {
+    "subject": "sub-24",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11844161531068552,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.12598445364613406,
+    "accuracy": 0.16545454545454547,
+    "balanced_accuracy": 0.1654545454545455
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.11818529526731512,
+    "accuracy": 0.14909090909090908,
+    "balanced_accuracy": 0.1490909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.09483811138952382,
+    "accuracy": 0.13272727272727272,
+    "balanced_accuracy": 0.13272727272727275
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.10357849573595054,
+    "accuracy": 0.15454545454545454,
+    "balanced_accuracy": 0.15454545454545457
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09729686745948492,
+    "accuracy": 0.14363636363636365,
+    "balanced_accuracy": 0.14363636363636365
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.0857284599566618,
+    "accuracy": 0.12,
+    "balanced_accuracy": 0.12000000000000001
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.0975778672883295,
+    "accuracy": 0.15272727272727274,
+    "balanced_accuracy": 0.15272727272727274
+  },
+  {
+    "subject": "sub-24",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.09128151338159488,
+    "accuracy": 0.14181818181818182,
+    "balanced_accuracy": 0.14181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.1040277137020848,
+    "accuracy": 0.1290909090909091,
+    "balanced_accuracy": 0.1290909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-24",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03258547008547009,
+    "accuracy": 0.10181818181818182,
+    "balanced_accuracy": 0.10181818181818182
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06609561679595635,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06637320341525808,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.038173695634385794,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06781995670630102,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06519754044966665,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.038173695634385794,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06781995670630102,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-25",
+    "arm": "emg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06519754044966665,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.06609561679595635,
+    "accuracy": 0.09272727272727273,
+    "balanced_accuracy": 0.09272727272727273
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.06637320341525808,
+    "accuracy": 0.09454545454545454,
+    "balanced_accuracy": 0.09454545454545454
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "eeg_only",
+    "macro_f1": 0.0716038911217193,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "emg_only",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.08569538255802164,
+    "accuracy": 0.10727272727272727,
+    "balanced_accuracy": 0.10727272727272727
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 10,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.07849921256202093,
+    "accuracy": 0.10545454545454545,
+    "balanced_accuracy": 0.10545454545454547
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "eeg_only",
+    "macro_f1": 0.09060887310987026,
+    "accuracy": 0.11272727272727273,
+    "balanced_accuracy": 0.11272727272727275
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "emg_only",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.07391191002287735,
+    "accuracy": 0.09818181818181818,
+    "balanced_accuracy": 0.09818181818181819
+  },
+  {
+    "subject": "sub-25",
+    "arm": "eeg_corruption",
+    "level_percent": 20,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0650605120400298,
+    "accuracy": 0.09636363636363636,
+    "balanced_accuracy": 0.09636363636363637
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_emg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.0638334749746467,
+    "accuracy": 0.1,
+    "balanced_accuracy": 0.1
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "eeg_only",
+    "macro_f1": 0.01515151515151515,
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "emg_only",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "static_mean_fusion",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  },
+  {
+    "subject": "sub-25",
+    "arm": "missing_eeg",
+    "level_percent": 0,
+    "condition": "confidence_weighted_fusion",
+    "macro_f1": 0.03796618180026252,
+    "accuracy": 0.08363636363636363,
+    "balanced_accuracy": 0.08363636363636363
+  }
+]

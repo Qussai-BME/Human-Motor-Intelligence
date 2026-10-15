@@ -1,0 +1,14 @@
+{
+  "ranking_metric": "mean source-only 3-fold balanced accuracy",
+  "source_cv_means": {
+    "worst": 0.5030104905437353,
+    "middle": 0.4410424054373522,
+    "best": 0.44840794917257687
+  },
+  "quality_strata_to_raw_model_condition": {
+    "quality_worst": "middle",
+    "quality_middle": "best",
+    "quality_best": "worst"
+  },
+  "note": "The mapping was fixed from source-only CV before held-out summary interpretation; alias traces are byte-identical copies of raw decoder outputs."
+}

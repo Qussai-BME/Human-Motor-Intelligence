@@ -1,0 +1,17 @@
+{
+  "benchmark_eligible": false,
+  "event_count_after_first_registration": 24,
+  "event_count_after_replay": 24,
+  "experiment_entity_id": "phase2-synthetic-experiment-v1",
+  "experiment_hash": "75fba3169fea8ace05b81ba003db57bdbb5b6ade4014e4d9f7550ddf0719ecf1",
+  "idempotent_event_log": true,
+  "idempotent_experiment_hash": true,
+  "idempotent_run_hash": true,
+  "purpose": "synthetic_metadata_registry_only",
+  "raw_data_loaded": false,
+  "run_entity_id": "phase2-synthetic-run-0001",
+  "run_hash": "ba38b169cdb119e42c469191566070ba6603a3a6d8614dd09d0fe83148d4fd93",
+  "seeded_catalog_entries": 22,
+  "status": "pass",
+  "synthetic": true
+}

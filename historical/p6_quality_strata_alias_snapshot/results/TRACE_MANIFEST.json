@@ -1,0 +1,614 @@
+{
+  "status": "EXECUTED_PUBLIC_DATA_REOPENING",
+  "protocol_id": "p6-r3-public-data-reopening-v1",
+  "trace_count": 60,
+  "conditions": [
+    "worst",
+    "middle",
+    "best"
+  ],
+  "traces": [
+    {
+      "condition": "worst",
+      "test_subject": "S001",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S001.csv",
+      "trace_sha256": "3191d89229df98cb488ef94aef7a770da19f265809550d8688a809e875b7e17f",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S001",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S001.csv",
+      "trace_sha256": "f5e23f12311b17df17d8a07e70c8c838ef57c28c792a1fb1f4920adca8e8592d",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S001",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S001.csv",
+      "trace_sha256": "b7e2a98c2e65c31a2a3aacfb61e0db596658b3fb8c20016ccd674966a6bb6864",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S002",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S002.csv",
+      "trace_sha256": "93e21b58d267438f77896255e08ad0da768f6fc8157784e361230cc048a70b43",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S002",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S002.csv",
+      "trace_sha256": "1ef039bd311562e3e9208344f4c46ce9f26b9b193f48ba3d2152ac57772af017",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S002",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S002.csv",
+      "trace_sha256": "7adc5bb33a1a319b5570b23573064d64ee9c91d6b3507d400fa12edc2003b590",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S003",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S003.csv",
+      "trace_sha256": "6af235435cf7c62fd4825689cb6a53a02ff3d261847b458b59852ecffb38363b",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S003",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S003.csv",
+      "trace_sha256": "86e4dc92a76701ffa39a65d0475c4fb341e2db1c8f60ca2badbba01634336d52",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S003",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S003.csv",
+      "trace_sha256": "651fcadd4d8be52de78e43258d88f720f39a35dca9a4843538440833f0062c02",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S004",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S004.csv",
+      "trace_sha256": "d0332e2ebffa5ffb280207b54ac0d9731d06c962814be7efeb8abecdf59b80a3",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S004",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S004.csv",
+      "trace_sha256": "ab4ca17fd9a8779511b5a9da1e9cddaef1e965910152dc51c2c3a07ac5f53289",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S004",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S004.csv",
+      "trace_sha256": "051958cfe5da464346406355deefcd9d0f552a821fb00becdd75028b77251bdf",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S005",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S005.csv",
+      "trace_sha256": "dbff1a3f6c515fffef507a2b2a27961d6d6c4acc9e8f1b579242f415b3516ebb",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S005",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S005.csv",
+      "trace_sha256": "dd1fb68dbefd24b10bf7e38e54986014b8559724c61d3dce503aec10951fb5ff",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S005",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S005.csv",
+      "trace_sha256": "12b893648ad3bc58f72a2fe9f7fe02d7a3d23ebc7b4f0a9d37db71cf6cb244fa",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S006",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S006.csv",
+      "trace_sha256": "0b7b98e53565d0a33e06869061cab8f7e31327d36d0a55fe35f471d1511b3ec3",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S006",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S006.csv",
+      "trace_sha256": "821de61b801c24975256c63fe840e146bb51c50962c913934c2ce41e22862869",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S006",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S006.csv",
+      "trace_sha256": "7945d3a74258544f9852f3525325478e679fcd75fd6ff5b55d9cd4f0ad70522f",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S007",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S007.csv",
+      "trace_sha256": "a1fa5ac6e1e070040713919a7866c73cc72614421efc6b31858a391a935dad4f",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S007",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S007.csv",
+      "trace_sha256": "89af0045b39cf788385e09be8dadf66108dbca643f072f1cccaa677edb32c5d5",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S007",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S007.csv",
+      "trace_sha256": "544a071b5890770b97945864366cefe4b79ae681255247924dc68eff715782e7",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S008",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S008.csv",
+      "trace_sha256": "b3093ae1764cf22aa1489f1a0756f2b211f2348807c1145b20af52536c920663",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S008",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S008.csv",
+      "trace_sha256": "f7794f3316647490752e14a72d744925a38445e8adc6b7accfe5b4969fd05f27",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S008",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S008.csv",
+      "trace_sha256": "53e2b12baff6929e2e231369bfeea7167da4103cdbf95a904d8528885b39d5c8",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S009",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S009.csv",
+      "trace_sha256": "4ecd4281198f88d8ba99dd556eac6eb527b30d501caa88ca029653a7bd17467c",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S009",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S009.csv",
+      "trace_sha256": "5168e2f48f60560aba84689bed8221eebf0028b0770ac546bb0642fc3bca9200",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S009",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S009.csv",
+      "trace_sha256": "c152d97a98717afd21489c9f55c2a97af73779e9996b4977538d7b21f1573864",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S010",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S010.csv",
+      "trace_sha256": "05e0114e5365543fcf4a7dfcbaed51287a252b81605355fdd8a468eeaac7a8dd",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S010",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S010.csv",
+      "trace_sha256": "c2c85a76e1c28af6d2334d34cf244693ef2f06d03d7c1d9f70008c3e9db167ea",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S010",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S010.csv",
+      "trace_sha256": "6d16628bb9343b035e18a3c15d1d9fd51830b32ae4b8a87da9fe6da2c8dd3ac0",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S011",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S011.csv",
+      "trace_sha256": "26bfa2653ba4561fcf22f0b501c1c6fc21c9417d8fdaa8099a04eeb59cbd0fd2",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S011",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S011.csv",
+      "trace_sha256": "995d35499371cfdc0a0e00cbabafb3490daf7ac2866cbe26c39258e17346df61",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S011",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S011.csv",
+      "trace_sha256": "def1456afbd3f9798f2fd37cdd90ada2dff6815024bcf83c0435bdcdfff01558",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S012",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S012.csv",
+      "trace_sha256": "9d4e006fff539cdacff8c4af7297e56ea6fd1a56ff5c282e0a8619b545853280",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S012",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S012.csv",
+      "trace_sha256": "dbd1edec3a1eba611b478629425c35fcb7f0a2188cb9705efa9488b1f2c3a5da",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S012",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S012.csv",
+      "trace_sha256": "fce4d3da305da17171e56aa89cd1ddbc7a3da61b33e5757650ba9c8c36e5a460",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S013",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S013.csv",
+      "trace_sha256": "25c4f238a4e9d805e911047d00b949cc3be655ee0f3389916f9e1512bd913fcb",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S013",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S013.csv",
+      "trace_sha256": "c168be689fb0f65798fc2c31ee129e4b1f5040f4722e0a52f10099daf29ab987",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S013",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S013.csv",
+      "trace_sha256": "b914ca6fe8b791c4004294ce016861b86ac0bf197b86377142c0bf48b2ebdf4b",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S014",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S014.csv",
+      "trace_sha256": "8b1ed0785103a4e4a38de9c0db228ff42f1123b8aaea3d4f01d4d7838180adca",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S014",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S014.csv",
+      "trace_sha256": "e4c8ccdf5ca6a5c890686ca5f772216399f8cdddde24d98ed03de4de903103a7",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S014",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S014.csv",
+      "trace_sha256": "51ee04bdb902aa916127397978ca91f86b79bddbc47a27d07de8807fd8f50bb9",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S015",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S015.csv",
+      "trace_sha256": "34f927674c8a921c7c50104a834d78c77eaa545d8e2f35dd0aedcf233969b335",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S015",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S015.csv",
+      "trace_sha256": "6eef6540954329aaedf1a5e6e4336a6f4079e37881602ac5df783b3ce20982fc",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S015",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S015.csv",
+      "trace_sha256": "f39714a108b9cbcdeb752221ececc10cb33ccff18fb004ccdc13f7d5159bda42",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S016",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S016.csv",
+      "trace_sha256": "e85f9e027111eb1c8c6c794dc1ddcceacd68b572a21962a9961204a7d630ac2c",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S016",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S016.csv",
+      "trace_sha256": "9c6aaa5260faee5532b497492dbe8a55d1dde4012b85671edd6bf10243215a23",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S016",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S016.csv",
+      "trace_sha256": "271004e8097683859caf6fd9fc8d56c1ad338ba8141ef36aa2305868761ae7b6",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S017",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S017.csv",
+      "trace_sha256": "837de811e7025cb1d78a3cb19e9c51da8be65bfe091d5eed4eb2f03a98271af2",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S017",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S017.csv",
+      "trace_sha256": "5a5163a9101be58fbb9c9d107ccf748804f7f94ddb9b72327608eddc53aa56cc",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S017",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S017.csv",
+      "trace_sha256": "d777bff6acd6ecf4278fc2ea3c850c4a40db9a3268e0af6e2f9d1320be8e360a",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S018",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S018.csv",
+      "trace_sha256": "72de9ba8404b30610d62d2be2cce8ad0d6bf3580e7adf84dda858e189730fdec",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S018",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S018.csv",
+      "trace_sha256": "ed29fa26fdae899bf491fe66a9bc37bf1eb203208d35ee974fc82b111b75d151",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S018",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S018.csv",
+      "trace_sha256": "806167ac4bd3fb74c4ad5159c50c4f6858ddcc587e5c362ea5c6a8475691df65",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S019",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S019.csv",
+      "trace_sha256": "c7660b231abd7ea07568312c9dd246e2d637d39899264353002ce29405e093e0",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S019",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S019.csv",
+      "trace_sha256": "eded6941351764ce6824017b81623a59938c80550442fa6aa04b139be7d157d9",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S019",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S019.csv",
+      "trace_sha256": "de47737b0a480fb6ede546070190d3b930f357ea02d3cd8497d468f48bf9d575",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "worst",
+      "test_subject": "S020",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/worst_S020.csv",
+      "trace_sha256": "7b334bcfd5faa9a51bd23adff76b640cdee8cd77c2aa79341f0cd8cc00907f36",
+      "model_version": "physionet-r03-worst-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "middle",
+      "test_subject": "S020",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/middle_S020.csv",
+      "trace_sha256": "b22509b0a99057b2e9023edc03f5d0265fc2199a9d0fb778a69189dc66d6e35a",
+      "model_version": "physionet-r03-middle-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    },
+    {
+      "condition": "best",
+      "test_subject": "S020",
+      "trace": "<LOCAL_WORKSPACE>/closure_candidate/human-motor-intelligence-v1_1/p6/traces/best_S020.csv",
+      "trace_sha256": "89ff7a840bad59851b00def33318c5dc634f9bd5c946665821037fe1c0b97b98",
+      "model_version": "physionet-r03-best-logreg-v1",
+      "source_dataset": "PhysioNet EEGMMIDB v1.0.0",
+      "authenticity": "real_decoder_output_from_public_recordings",
+      "synthetic": false
+    }
+  ],
+  "source_manifest": "../audit/DATASET_MANIFEST.json",
+  "note": "All traces are produced from held-out real EDF recordings; no labels, confidence values, timing, or quality variants were edited after inference."
+}

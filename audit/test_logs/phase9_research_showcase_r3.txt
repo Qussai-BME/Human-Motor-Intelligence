@@ -1,0 +1,35 @@
+# Phase 9 Research Showcase Validation
+
+## Validator result
+<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/audit/ALL_SPECS_RELEASE_VALIDATION_R3.md
+PASS all-specification validator
+
+## Required showcase assets
+PASS README.md
+PASS docs/RESEARCH_SHOWCASE_QUICKSTART_R3.md
+PASS docs/MASTER_END_TO_END_ARCHITECTURE_R3.mmd
+PASS docs/figures/MASTER_END_TO_END_ARCHITECTURE_R3.png
+PASS PUBLIC_REVIEW_DISCLOSURE_R3.md
+PASS BENCHMARK_REPORT.md
+PASS REPRODUCIBILITY.md
+PASS audit/MASTER_SPEC_PHASE_GATE_LEDGER_R3.md
+
+## Documented review-route destinations
+4:![Human Motor Intelligence master end-to-end architecture](figures/MASTER_END_TO_END_ARCHITECTURE_R3.png)
+16:| 0–1 | Read [`../README.md`](../README.md) and [`../PUBLIC_REVIEW_DISCLOSURE_R3.md`](../PUBLIC_REVIEW_DISCLOSURE_R3.md) | Programme scope, independent-child-project architecture, current-state label | Not a final-authoritative all-complete release |
+17:| 1–2 | Inspect this diagram and [`../audit/MASTER_END_TO_END_SPEC_COMPLIANCE_AUDIT_R3.md`](../audit/MASTER_END_TO_END_SPEC_COMPLIANCE_AUDIT_R3.md) | Ownership boundaries, contracts, registry, governance, benchmark engine, and gates | Child-project source is not vendored |
+18:| 2–4 | Read [`../papers/P4_STRICT_ZERO_CALIBRATION_EEG_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md`](../papers/P4_STRICT_ZERO_CALIBRATION_EEG_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md) and its appendix | P4 OpenBMI LOSO evidence, D1–D5, subject-level inference, rerun | External validation; not direct BCI IV-2a replication |
+19:| 4–6 | Read [`../papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md`](../papers/P5_TRANSPARENT_EEG_EMG_FUSION_EXTERNAL_VALIDATION_V2_RECOVERY_R3_Q1.md) and its appendix | P5 amended Jeong cohort, transparent fusion conditions, negative/limited conclusion, rerun | No general fusion or mechanism claim |
+20:| 6–7 | Read [`../BENCHMARK_REPORT.md`](../BENCHMARK_REPORT.md) | Compatibility rules that prevent P4/P5 pooling or a false cross-study leaderboard | Metrics only compare within declared compatible protocols |
+21:| 7–8 | Read [`../papers/P6_INITIAL_STATE_ROBUSTNESS_AND_DECODER_QUALITY_STATUS_V2_RECOVERY_R3_Q1.md`](../papers/P6_INITIAL_STATE_ROBUSTNESS_AND_DECODER_QUALITY_STATUS_V2_RECOVERY_R3_Q1.md), [`../audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md`](../audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md), and the integrated-demo artifacts | Deterministic systems integration, bounded-state test, identity correction, and nonexecution decision | No real decoder-quality comparison exists |
+22:| 8–9 | Run the local checks in [`../REPRODUCIBILITY.md`](../REPRODUCIBILITY.md) or `hmi doctor` | Registry integrity, artifact hashes, protocol navigation, raw/cache exclusion checks | Raw source data and external child-project runtimes are deliberately external |
+23:| 9–10 | Inspect [`../audit/MASTER_SPEC_PHASE_GATE_LEDGER_R3.md`](../audit/MASTER_SPEC_PHASE_GATE_LEDGER_R3.md) | Complete, blocked, and deferred phase gates | P3 and P6 R3 reopening requirements remain mandatory |
+43:[1]: ../PUBLIC_REVIEW_DISCLOSURE_R3.md "Public Review Disclosure"
+44:[2]: ../audit/MASTER_END_TO_END_SPEC_COMPLIANCE_AUDIT_R3.md "Master End-to-End Specification Compliance Audit"
+45:[3]: ../audit/MASTER_SPEC_PHASE_GATE_LEDGER_R3.md "Master Specification Phase-Gate Ledger"
+46:[4]: ../audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md "P6 R3 Replay Identity Hard Stop"
+
+## Diagram source/render fingerprints
+443c0a64dac5eb6bb9c90670a7018e9b42d77ad74dd05fa3024d1aca623180ea  docs/MASTER_END_TO_END_ARCHITECTURE_R3.mmd
+e901065e7f64eb8dd0e5da0c1f41dc58e0f480e4af47c11b64ae22df80338efb  docs/figures/MASTER_END_TO_END_ARCHITECTURE_R3.png
+docs/figures/MASTER_END_TO_END_ARCHITECTURE_R3.png: PNG image data, 3120 x 812, 8-bit/color RGB, non-interlaced

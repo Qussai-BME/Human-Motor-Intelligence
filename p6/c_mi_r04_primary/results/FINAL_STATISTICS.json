@@ -1,0 +1,589 @@
+{
+  "protocol": "P6-C1-MI-R04-v1.0",
+  "quality_mapping": {
+    "quality_high": "M1",
+    "quality_low": "M2",
+    "quality_mid": "M3"
+  },
+  "fixture_gate": [
+    {
+      "source": "external/MyoSim-V1.1/examples/intents/pick_place_replay.csv",
+      "run_artifact": "results/myosim/fixture/pick_place_replay.json",
+      "task_success": true,
+      "completion_time_s": 3.22,
+      "final_error_m": 0.04985601966004137,
+      "path_length_m": 0.9678159612131996,
+      "command_corrections": 3,
+      "grasp_stability_steps": 14,
+      "final_state": "COMPLETE",
+      "invalid_state_detected": false
+    }
+  ],
+  "primary": {
+    "label": "primary",
+    "n_subjects": 20,
+    "n_models": 3,
+    "subjects": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "primary_endpoint": "task_success",
+    "success_counts": {
+      "M1": 0,
+      "M2": 0,
+      "M3": 0
+    },
+    "success_inferential_test": "not_run_degenerate_zero_success",
+    "continuous_endpoints": {
+      "final_error_m": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.12275256010616833,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780663148,
+              0.12276719240570519
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.12275256010591055,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780641439,
+              0.12276719240570758
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.12275256010583593,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780637491,
+              0.12276719240563054
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 1.0000000000001013,
+          "p_value": 0.6065306597126028,
+          "kendall_W": 0.02500000000000253
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": 2.577688062999073e-13,
+            "cohens_dz": 0.26198284686947243,
+            "ci95_mean_difference": [
+              -2.4050206270942455e-15,
+              7.35028704568208e-13
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": 3.3239661023642953e-13,
+            "cohens_dz": 0.33532516085068037,
+            "ci95_mean_difference": [
+              3.4670183390872467e-14,
+              8.108590188182774e-13
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": 7.462780393652224e-14,
+            "cohens_dz": 0.3181581421122921,
+            "ci95_mean_difference": [
+              -2.4050206270942455e-15,
+              1.9114085314519968e-13
+            ]
+          }
+        }
+      },
+      "path_length_m": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.5043760654749377,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.503965002246088,
+              0.5047871287037873
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.5044151851895234,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.5039421763185392,
+              0.504813726315903
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.5045199895664072,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.5040639931644663,
+              0.5048995874422674
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 4.333333333333435,
+          "p_value": 0.11455884399268192,
+          "kendall_W": 0.10833333333333588
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": -3.911971458578911e-05,
+            "cohens_dz": -0.17553139738053167,
+            "ci95_mean_difference": [
+              -0.00014399591990267303,
+              3.8030157904911376e-05
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": -0.00014392409146951057,
+            "cohens_dz": -0.4172217489408915,
+            "ci95_mean_difference": [
+              -0.0003029523284901417,
+              -8.639425440565284e-06
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": -0.00010480437688372146,
+            "cohens_dz": -0.3753584538694665,
+            "ci95_mean_difference": [
+              -0.0002410741067568889,
+              0.0
+            ]
+          }
+        }
+      },
+      "command_corrections": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 1.05,
+            "median": 0.0,
+            "ci95_mean": [
+              0.25,
+              1.9
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 2.15,
+            "median": 0.0,
+            "ci95_mean": [
+              1.0,
+              3.45
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 15.200000000000045,
+          "p_value": 0.000500451433440599,
+          "kendall_W": 0.3800000000000011
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": -1.05,
+            "cohens_dz": -0.559359230119287,
+            "ci95_mean_difference": [
+              -1.9,
+              -0.4
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": -2.15,
+            "cohens_dz": -0.7396224848653151,
+            "ci95_mean_difference": [
+              -3.45,
+              -1.0
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": -1.1,
+            "cohens_dz": -0.6002872875433952,
+            "ci95_mean_difference": [
+              -1.95,
+              -0.4
+            ]
+          }
+        }
+      },
+      "grasp_stability_steps": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "friedman": {
+          "not_run": "all model values are constant"
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "run_level_artifacts": 60
+  },
+  "rerun": {
+    "label": "rerun",
+    "n_subjects": 20,
+    "n_models": 3,
+    "subjects": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008",
+      "S009",
+      "S010",
+      "S011",
+      "S012",
+      "S013",
+      "S014",
+      "S015",
+      "S016",
+      "S017",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "primary_endpoint": "task_success",
+    "success_counts": {
+      "M1": 0,
+      "M2": 0,
+      "M3": 0
+    },
+    "success_inferential_test": "not_run_degenerate_zero_success",
+    "continuous_endpoints": {
+      "final_error_m": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.12275256010616833,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780663148,
+              0.12276719240570519
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.12275256010591055,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780641439,
+              0.12276719240570758
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.12275256010583593,
+            "median": 0.12273792780663151,
+            "ci95_mean": [
+              0.12273792780637491,
+              0.12276719240563054
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 1.0000000000001013,
+          "p_value": 0.6065306597126028,
+          "kendall_W": 0.02500000000000253
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": 2.577688062999073e-13,
+            "cohens_dz": 0.26198284686947243,
+            "ci95_mean_difference": [
+              -2.4050206270942455e-15,
+              7.35028704568208e-13
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": 3.3239661023642953e-13,
+            "cohens_dz": 0.33532516085068037,
+            "ci95_mean_difference": [
+              3.4670183390872467e-14,
+              8.108590188182774e-13
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": 7.462780393652224e-14,
+            "cohens_dz": 0.3181581421122921,
+            "ci95_mean_difference": [
+              -2.4050206270942455e-15,
+              1.9114085314519968e-13
+            ]
+          }
+        }
+      },
+      "path_length_m": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.5043760654749377,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.503965002246088,
+              0.5047871287037873
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.5044151851895234,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.5039421763185392,
+              0.504813726315903
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.5045199895664072,
+            "median": 0.5047871287037873,
+            "ci95_mean": [
+              0.5040639931644663,
+              0.5048995874422674
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 4.333333333333435,
+          "p_value": 0.11455884399268192,
+          "kendall_W": 0.10833333333333588
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": -3.911971458578911e-05,
+            "cohens_dz": -0.17553139738053167,
+            "ci95_mean_difference": [
+              -0.00014399591990267303,
+              3.8030157904911376e-05
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": -0.00014392409146951057,
+            "cohens_dz": -0.4172217489408915,
+            "ci95_mean_difference": [
+              -0.0003029523284901417,
+              -8.639425440565284e-06
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": -0.00010480437688372146,
+            "cohens_dz": -0.3753584538694665,
+            "ci95_mean_difference": [
+              -0.0002410741067568889,
+              0.0
+            ]
+          }
+        }
+      },
+      "command_corrections": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 1.05,
+            "median": 0.0,
+            "ci95_mean": [
+              0.25,
+              1.9
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 2.15,
+            "median": 0.0,
+            "ci95_mean": [
+              1.0,
+              3.45
+            ]
+          }
+        },
+        "friedman": {
+          "chi_square": 15.200000000000045,
+          "p_value": 0.000500451433440599,
+          "kendall_W": 0.3800000000000011
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": -1.05,
+            "cohens_dz": -0.559359230119287,
+            "ci95_mean_difference": [
+              -1.9,
+              -0.4
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": -2.15,
+            "cohens_dz": -0.7396224848653151,
+            "ci95_mean_difference": [
+              -3.45,
+              -1.0
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": -1.1,
+            "cohens_dz": -0.6002872875433952,
+            "ci95_mean_difference": [
+              -1.95,
+              -0.4
+            ]
+          }
+        }
+      },
+      "grasp_stability_steps": {
+        "summary": {
+          "M1": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          },
+          "M3": {
+            "n_subjects": 20,
+            "mean": 0.0,
+            "median": 0.0,
+            "ci95_mean": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "friedman": {
+          "not_run": "all model values are constant"
+        },
+        "paired_effects": {
+          "M1_minus_M2": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          },
+          "M1_minus_M3": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          },
+          "M2_minus_M3": {
+            "mean_difference_a_minus_b": 0.0,
+            "cohens_dz": null,
+            "ci95_mean_difference": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "run_level_artifacts": 60
+  },
+  "interpretation": "The fixture passed, but task success was zero for all decoder-conditioned runs; therefore decoder-quality-to-task-success inference is non-discriminative. Continuous endpoints are exploratory and inference is paired at subject level."
+}

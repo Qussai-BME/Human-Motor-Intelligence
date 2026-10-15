@@ -1,0 +1,1 @@
+Empty diff: C2 config is byte-identical to C1 config; no numeric parameter changes.

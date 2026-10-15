@@ -1,0 +1,82 @@
+nohup: ignoring input
+start 1/40 S1: running
+fold 1/40 S1: acc=0.1849, macro-F1=0.1114, fit=1.4s, fold=2.4s
+start 2/40 S2: running
+fold 2/40 S2: acc=0.1274, macro-F1=0.0777, fit=1.4s, fold=2.4s
+start 3/40 S3: running
+fold 3/40 S3: acc=0.1870, macro-F1=0.1333, fit=1.3s, fold=2.2s
+start 4/40 S4: running
+fold 4/40 S4: acc=0.2784, macro-F1=0.1007, fit=1.4s, fold=2.4s
+start 5/40 S5: running
+fold 5/40 S5: acc=0.4169, macro-F1=0.1141, fit=1.3s, fold=2.2s
+start 6/40 S6: running
+fold 6/40 S6: acc=0.3652, macro-F1=0.1685, fit=1.3s, fold=2.4s
+start 7/40 S7: running
+fold 7/40 S7: acc=0.1667, macro-F1=0.0446, fit=1.3s, fold=2.1s
+start 8/40 S8: running
+fold 8/40 S8: acc=0.0927, macro-F1=0.1019, fit=1.3s, fold=2.1s
+start 9/40 S9: running
+fold 9/40 S9: acc=0.3970, macro-F1=0.1816, fit=1.3s, fold=2.1s
+start 10/40 S10: running
+fold 10/40 S10: acc=0.2753, macro-F1=0.1319, fit=1.3s, fold=2.1s
+start 11/40 S11: running
+fold 11/40 S11: acc=0.2770, macro-F1=0.1427, fit=1.2s, fold=2.1s
+start 12/40 S12: running
+fold 12/40 S12: acc=0.3722, macro-F1=0.1367, fit=1.2s, fold=2.1s
+start 13/40 S13: running
+fold 13/40 S13: acc=0.1325, macro-F1=0.1006, fit=1.3s, fold=2.1s
+start 14/40 S14: running
+fold 14/40 S14: acc=0.2717, macro-F1=0.1398, fit=1.3s, fold=2.1s
+start 15/40 S15: running
+fold 15/40 S15: acc=0.3577, macro-F1=0.1332, fit=1.3s, fold=2.2s
+start 16/40 S16: running
+fold 16/40 S16: acc=0.1738, macro-F1=0.0372, fit=1.3s, fold=2.1s
+start 17/40 S17: running
+fold 17/40 S17: acc=0.0596, macro-F1=0.0592, fit=1.3s, fold=2.1s
+start 18/40 S18: running
+fold 18/40 S18: acc=0.3614, macro-F1=0.1335, fit=1.3s, fold=2.2s
+start 19/40 S19: running
+fold 19/40 S19: acc=0.4259, macro-F1=0.1668, fit=1.4s, fold=2.3s
+start 20/40 S20: running
+fold 20/40 S20: acc=0.0539, macro-F1=0.0408, fit=1.4s, fold=2.3s
+start 21/40 S21: running
+fold 21/40 S21: acc=0.1885, macro-F1=0.1224, fit=1.3s, fold=2.2s
+start 22/40 S22: running
+fold 22/40 S22: acc=0.1614, macro-F1=0.0985, fit=1.2s, fold=2.1s
+start 23/40 S23: running
+fold 23/40 S23: acc=0.0472, macro-F1=0.0434, fit=1.2s, fold=2.1s
+start 24/40 S24: running
+fold 24/40 S24: acc=0.3547, macro-F1=0.1537, fit=1.4s, fold=2.2s
+start 25/40 S25: running
+fold 25/40 S25: acc=0.2506, macro-F1=0.1668, fit=1.4s, fold=2.3s
+start 26/40 S26: running
+fold 26/40 S26: acc=0.2433, macro-F1=0.1349, fit=1.4s, fold=2.3s
+start 27/40 S27: running
+fold 27/40 S27: acc=0.3324, macro-F1=0.1754, fit=1.3s, fold=2.2s
+start 28/40 S28: running
+fold 28/40 S28: acc=0.4237, macro-F1=0.1722, fit=1.3s, fold=2.2s
+start 29/40 S29: running
+fold 29/40 S29: acc=0.1996, macro-F1=0.1156, fit=1.3s, fold=2.1s
+start 30/40 S30: running
+fold 30/40 S30: acc=0.2693, macro-F1=0.1588, fit=1.2s, fold=2.1s
+start 31/40 S31: running
+fold 31/40 S31: acc=0.4483, macro-F1=0.1591, fit=1.3s, fold=2.1s
+start 32/40 S32: running
+fold 32/40 S32: acc=0.3923, macro-F1=0.1755, fit=1.3s, fold=2.1s
+start 33/40 S33: running
+fold 33/40 S33: acc=0.1666, macro-F1=0.1297, fit=1.3s, fold=2.1s
+start 34/40 S34: running
+fold 34/40 S34: acc=0.2021, macro-F1=0.1719, fit=1.3s, fold=2.1s
+start 35/40 S35: running
+fold 35/40 S35: acc=0.3582, macro-F1=0.1516, fit=1.2s, fold=2.1s
+start 36/40 S36: running
+fold 36/40 S36: acc=0.2327, macro-F1=0.1020, fit=1.3s, fold=2.2s
+start 37/40 S37: running
+fold 37/40 S37: acc=0.2156, macro-F1=0.0974, fit=1.3s, fold=2.2s
+start 38/40 S38: running
+fold 38/40 S38: acc=0.4157, macro-F1=0.1333, fit=1.3s, fold=2.2s
+start 39/40 S39: running
+fold 39/40 S39: acc=0.2100, macro-F1=0.1588, fit=1.3s, fold=2.2s
+start 40/40 S40: running
+fold 40/40 S40: acc=0.2625, macro-F1=0.1077, fit=1.3s, fold=2.2s
+LOSO COMPLETE: DB2 / lda (40 subjects)

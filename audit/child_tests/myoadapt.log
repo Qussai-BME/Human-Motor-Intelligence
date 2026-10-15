@@ -1,0 +1,390 @@
+
+==================================== ERRORS ====================================
+________________ ERROR collecting tests/integration/test_api.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/integration/test_api.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/integration/test_api.py:19: in <module>
+    from myoadapt.api.rest import create_app  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   ModuleNotFoundError: No module named 'myoadapt'
+_____________ ERROR collecting tests/integration/test_pipeline.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/integration/test_pipeline.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/integration/test_pipeline.py:5: in <module>
+    from myoadapt.config import MyoAdaptConfig
+E   ModuleNotFoundError: No module named 'myoadapt'
+________________ ERROR collecting tests/unit/test_adaptation.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_adaptation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_adaptation.py:5: in <module>
+    from myoadapt.adaptation.coral import CORAL
+E   ModuleNotFoundError: No module named 'myoadapt'
+__________________ ERROR collecting tests/unit/test_ar_fix.py __________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_ar_fix.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_ar_fix.py:8: in <module>
+    from myoadapt.features.time_domain import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+_______________ ERROR collecting tests/unit/test_calibration.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_calibration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_calibration.py:9: in <module>
+    from myoadapt.evaluation.calibration import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+___________________ ERROR collecting tests/unit/test_cli.py ____________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_cli.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_cli.py:12: in <module>
+    from typer.testing import CliRunner
+E   ModuleNotFoundError: No module named 'typer'
+________________ ERROR collecting tests/unit/test_decode_cli.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_decode_cli.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_decode_cli.py:12: in <module>
+    from typer.testing import CliRunner
+E   ModuleNotFoundError: No module named 'typer'
+___________ ERROR collecting tests/unit/test_demographic_fairness.py ___________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_demographic_fairness.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_demographic_fairness.py:7: in <module>
+    from myoadapt.evaluation.demographic_fairness import DemographicFairnessAudit
+E   ModuleNotFoundError: No module named 'myoadapt'
+________________ ERROR collecting tests/unit/test_deployment.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_deployment.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_deployment.py:6: in <module>
+    from myoadapt.deployment.realtime import RealtimeInference
+E   ModuleNotFoundError: No module named 'myoadapt'
+_______________ ERROR collecting tests/unit/test_determinism.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_determinism.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_determinism.py:14: in <module>
+    from myoadapt.evaluation.loso import LOSOEvaluator
+E   ModuleNotFoundError: No module named 'myoadapt'
+_____________ ERROR collecting tests/unit/test_drift_detection.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_drift_detection.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_drift_detection.py:7: in <module>
+    from myoadapt.evaluation.drift_detection import DriftDetector
+E   ModuleNotFoundError: No module named 'myoadapt'
+_____________ ERROR collecting tests/unit/test_electrode_shift.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_electrode_shift.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_electrode_shift.py:7: in <module>
+    from myoadapt.evaluation.electrode_shift import ElectrodeShiftRobustness
+E   ModuleNotFoundError: No module named 'myoadapt'
+______________ ERROR collecting tests/unit/test_emg_foundation.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_emg_foundation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_emg_foundation.py:7: in <module>
+    from myoadapt.models.base import MODEL_REGISTRY
+E   ModuleNotFoundError: No module named 'myoadapt'
+________________ ERROR collecting tests/unit/test_evaluation.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_evaluation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_evaluation.py:5: in <module>
+    from myoadapt.evaluation.metrics import compute_metrics, per_class_report
+E   ModuleNotFoundError: No module named 'myoadapt'
+_________________ ERROR collecting tests/unit/test_fatigue.py __________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_fatigue.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_fatigue.py:16: in <module>
+    from myoadapt.evaluation.fatigue import FatigueTracker
+E   ModuleNotFoundError: No module named 'myoadapt'
+_________________ ERROR collecting tests/unit/test_features.py _________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_features.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_features.py:5: in <module>
+    from myoadapt.features.time_domain import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+_____________ ERROR collecting tests/unit/test_intent_detection.py _____________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_intent_detection.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_intent_detection.py:10: in <module>
+    from myoadapt.tasks.intent_detection import EnergyThresholdDetector, LearnedIntentDetector
+E   ModuleNotFoundError: No module named 'myoadapt'
+_________________ ERROR collecting tests/unit/test_loaders.py __________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_loaders.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_loaders.py:16: in <module>
+    from myoadapt.data.loaders import load_dataset, NinaProLoader, CapgMyoLoader, UCILoader, DATASET_REGISTRY
+E   ModuleNotFoundError: No module named 'myoadapt'
+___________________ ERROR collecting tests/unit/test_lodo.py ___________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_lodo.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_lodo.py:18: in <module>
+    from myoadapt.evaluation.lodo import LODOEvaluator
+E   ModuleNotFoundError: No module named 'myoadapt'
+_______________ ERROR collecting tests/unit/test_meta_loaders.py _______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_meta_loaders.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_meta_loaders.py:7: in <module>
+    from myoadapt.data.meta_loaders import MetaEMGLoader, list_meta_datasets, load_meta_dataset, DATASET_META
+E   ModuleNotFoundError: No module named 'myoadapt'
+___________ ERROR collecting tests/unit/test_minirocket_verifier.py ____________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_minirocket_verifier.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_minirocket_verifier.py:5: in <module>
+    from myoadapt.features.minirocket import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+__________________ ERROR collecting tests/unit/test_models.py __________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_models.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_models.py:5: in <module>
+    from myoadapt.models.classical import EMGClassifier
+E   ModuleNotFoundError: No module named 'myoadapt'
+______________ ERROR collecting tests/unit/test_per_subject_ea.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_per_subject_ea.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_per_subject_ea.py:16: in <module>
+    from myoadapt.adaptation.ea import PerSubjectEA, EuclideanAlignment
+E   ModuleNotFoundError: No module named 'myoadapt'
+_____________ ERROR collecting tests/unit/test_pose_regression.py ______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_pose_regression.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_pose_regression.py:10: in <module>
+    from myoadapt.tasks.pose_regression import PoseMLPRegressor, TransformerRegressor as PoseTransformerRegressor
+E   ModuleNotFoundError: No module named 'myoadapt'
+______________ ERROR collecting tests/unit/test_preprocessing.py _______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_preprocessing.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_preprocessing.py:5: in <module>
+    from myoadapt.data.preprocessing import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+___________ ERROR collecting tests/unit/test_retrieve_augment_cli.py ___________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_retrieve_augment_cli.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_retrieve_augment_cli.py:11: in <module>
+    from typer.testing import CliRunner
+E   ModuleNotFoundError: No module named 'typer'
+_______________ ERROR collecting tests/unit/test_rigor_suite.py ________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_rigor_suite.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_rigor_suite.py:14: in <module>
+    from myoadapt.reproducibility import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+____________ ERROR collecting tests/unit/test_semantic_retrieval.py ____________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_semantic_retrieval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_semantic_retrieval.py:10: in <module>
+    from myoadapt.tasks.semantic_retrieval import TextEncoder, EMGSemanticRetriever
+E   ModuleNotFoundError: No module named 'myoadapt'
+______________ ERROR collecting tests/unit/test_splits_config.py _______________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_splits_config.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_splits_config.py:6: in <module>
+    from myoadapt.data.splits import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+____________ ERROR collecting tests/unit/test_statistical_rigor.py _____________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_statistical_rigor.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_statistical_rigor.py:19: in <module>
+    from myoadapt.evaluation.statistics import (
+E   ModuleNotFoundError: No module named 'myoadapt'
+__________ ERROR collecting tests/unit/test_statistics_correctness.py __________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_statistics_correctness.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_statistics_correctness.py:19: in <module>
+    from scipy import stats
+E   ModuleNotFoundError: No module named 'scipy'
+_________________ ERROR collecting tests/unit/test_tracking.py _________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_tracking.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_tracking.py:18: in <module>
+    from myoadapt.tracking.local_tracker import LocalTracker
+E   ModuleNotFoundError: No module named 'myoadapt'
+________________ ERROR collecting tests/unit/test_zero_shot.py _________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_zero_shot.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_zero_shot.py:7: in <module>
+    from myoadapt.evaluation.zero_shot import ZeroShotEvaluator
+E   ModuleNotFoundError: No module named 'myoadapt'
+_________ ERROR collecting tests/unit/test_zeroshot_robustness_cli.py __________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myoadapt/myoadapt/tests/unit/test_zeroshot_robustness_cli.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_zeroshot_robustness_cli.py:10: in <module>
+    from typer.testing import CliRunner
+E   ModuleNotFoundError: No module named 'typer'
+=============================== warnings summary ===============================
+../../../../../usr/local/lib/python3.12/dist-packages/fastapi/testclient.py:1
+  /usr/local/lib/python3.12/dist-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+SKIPPED [1] tests/unit/test_adversarial_da.py:14: could not import 'torch': No module named 'torch'
+SKIPPED [1] tests/unit/test_continuous.py:15: could not import 'torch': No module named 'torch'
+SKIPPED [1] tests/unit/test_hyperopt.py:7: could not import 'optuna': No module named 'optuna'
+SKIPPED [1] tests/unit/test_synthetic_augmentation.py:10: could not import 'torch': No module named 'torch'
+SKIPPED [1] tests/unit/test_ui_pages.py:16: could not import 'streamlit.testing.v1': No module named 'streamlit'
+ERROR tests/integration/test_api.py
+ERROR tests/integration/test_pipeline.py
+ERROR tests/unit/test_adaptation.py
+ERROR tests/unit/test_ar_fix.py
+ERROR tests/unit/test_calibration.py
+ERROR tests/unit/test_cli.py
+ERROR tests/unit/test_decode_cli.py
+ERROR tests/unit/test_demographic_fairness.py
+ERROR tests/unit/test_deployment.py
+ERROR tests/unit/test_determinism.py
+ERROR tests/unit/test_drift_detection.py
+ERROR tests/unit/test_electrode_shift.py
+ERROR tests/unit/test_emg_foundation.py
+ERROR tests/unit/test_evaluation.py
+ERROR tests/unit/test_fatigue.py
+ERROR tests/unit/test_features.py
+ERROR tests/unit/test_intent_detection.py
+ERROR tests/unit/test_loaders.py
+ERROR tests/unit/test_lodo.py
+ERROR tests/unit/test_meta_loaders.py
+ERROR tests/unit/test_minirocket_verifier.py
+ERROR tests/unit/test_models.py
+ERROR tests/unit/test_per_subject_ea.py
+ERROR tests/unit/test_pose_regression.py
+ERROR tests/unit/test_preprocessing.py
+ERROR tests/unit/test_retrieve_augment_cli.py
+ERROR tests/unit/test_rigor_suite.py
+ERROR tests/unit/test_semantic_retrieval.py
+ERROR tests/unit/test_splits_config.py
+ERROR tests/unit/test_statistical_rigor.py
+ERROR tests/unit/test_statistics_correctness.py
+ERROR tests/unit/test_tracking.py
+ERROR tests/unit/test_zero_shot.py
+ERROR tests/unit/test_zeroshot_robustness_cli.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 34 errors during collection !!!!!!!!!!!!!!!!!!!

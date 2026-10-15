@@ -1,0 +1,85 @@
+# Lite-DAN Protocol v1.1
+# New runs must use this configuration. Historical artifacts under
+# artifacts/ and results/ are preserved as immutable reference evidence.
+seed: 42
+output_root: results_v1_1
+artifact_root: artifacts_v1_1
+data_root: data/ninapro
+
+protocol:
+  strict_zero_calibration: true
+  target_unlabelled_exposure: false
+  fs: 2000
+  window_ms: 400
+  overlap: 0.50
+  lowcut_hz: 20
+  highcut_hz: 450
+  notch_hz: 50
+  rest_label: 0
+  min_window_purity: 0.0
+  feature_k: 308
+  max_train_samples: 60000
+  max_train_samples_per_subject: 2500
+
+features:
+  implementation: current_618_v1
+  include_ar: true
+  include_histogram: true
+  include_hjorth: true
+  include_frequency: true
+  include_interchannel_corr: true
+  n_channels_expected: 12
+
+model:
+  hidden_dim: 56
+  dropout: 0.30
+  epochs: 80
+  batch_size: 512
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  lambda_max: 1.0
+  lambda_schedule: gradual
+  device: cpu
+  early_stopping_patience: null
+
+baselines:
+  xgboost:
+    n_estimators: 300
+    max_depth: 6
+    learning_rate: 0.1
+    subsample: 0.9
+    colsample_bytree: 0.9
+    tree_method: hist
+    max_bin: 128
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    n_jobs: 6
+  lda:
+    solver: svd
+  linear_svc:
+    C: 1.0
+    max_iter: 5000
+  random_forest:
+    n_estimators: 50
+    max_depth: 20
+    n_jobs: 6
+
+datasets:
+  DB2:
+    subdir: NinaProDB2
+    exercise: [1, 2]
+    expected_subjects: 40
+    expected_classes: 41
+    notes: "Exercises 1+2; 40 active gestures plus rest. Exercise mapping must be validated from supplied filenames."
+  DB3:
+    subdir: NinaProDB3
+    exercise: [1, 2]
+    expected_subjects: 11
+    expected_classes: 41
+    notes: "Exercises 1+2; 40 active gestures plus rest. Exercise mapping must be validated from supplied filenames."
+  DB7:
+    subdir: NinaProDB7
+    exercise: [1, 2]
+    expected_subjects: 22
+    expected_classes: 41
+    notes: "Exercises 1+2; 40 active gestures plus rest. Exercise mapping must be validated from supplied filenames."

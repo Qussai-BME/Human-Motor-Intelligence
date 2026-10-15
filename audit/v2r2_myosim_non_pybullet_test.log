@@ -1,0 +1,56 @@
+F.F..........................................F...................        [100%]
+=================================== FAILURES ===================================
+_____________ test_doctor_and_list_backends_report_runtime_schema ______________
+
+capsys = <_pytest.capture.CaptureFixture object at 0x7f3d9fb2e510>
+
+    def test_doctor_and_list_backends_report_runtime_schema(capsys: pytest.CaptureFixture[str]) -> None:
+        assert cli_main.main(["doctor", "--strict"]) == 0
+        doctor = _json_output(capsys)
+        assert doctor["package_version"] == "0.1.3"
+        assert doctor["mujoco_headless_load_reset_step"] is True
+>       assert doctor["pybullet_availability"] == "available"
+E       assert "unavailable:...im[pybullet]'" == 'available'
+E         
+E         - available
+E         + unavailable: install with 'pip install myosim[pybullet]'
+
+tests/integration/test_cli_main.py:36: AssertionError
+_____________ test_validate_model_reports_backend_schema[pybullet] _____________
+
+backend = 'pybullet'
+capsys = <_pytest.capture.CaptureFixture object at 0x7f3d9e412720>
+
+    @pytest.mark.parametrize("backend", ["mujoco", "pybullet"])
+    def test_validate_model_reports_backend_schema(
+        backend: str, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+>       assert cli_main.main(["validate-model", "--model", str(MODEL), "--backend", backend]) == 0
+E       AssertionError: assert 2 == 0
+E        +  where 2 = <function main at 0x7f3d9e429580>(['validate-model', '--model', '/home/ubuntu/dependencies/myosim_v1_1/assets/models/hand.xml', '--backend', 'pybullet'])
+E        +    where <function main at 0x7f3d9e429580> = cli_main.main
+
+tests/integration/test_cli_main.py:48: AssertionError
+----------------------------- Captured stderr call -----------------------------
+myosim error: PyBullet is unavailable; install with 'pip install myosim[pybullet]'
+___________ test_backend_factory_reports_creates_and_rejects_unknown ___________
+
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f3d9e4219d0>
+
+    def test_backend_factory_reports_creates_and_rejects_unknown(
+        monkeypatch: pytest.MonkeyPatch,
+    ) -> None:
+        status = factory.backend_status()
+        assert status["mujoco"] == "available"
+>       assert status["pybullet"] == "available"
+E       assert "unavailable:...im[pybullet]'" == 'available'
+E         
+E         - available
+E         + unavailable: install with 'pip install myosim[pybullet]'
+
+tests/unit/test_coverage_boundaries.py:100: AssertionError
+=========================== short test summary info ============================
+FAILED tests/integration/test_cli_main.py::test_doctor_and_list_backends_report_runtime_schema
+FAILED tests/integration/test_cli_main.py::test_validate_model_reports_backend_schema[pybullet]
+FAILED tests/unit/test_coverage_boundaries.py::test_backend_factory_reports_creates_and_rejects_unknown
+3 failed, 62 passed in 4.73s

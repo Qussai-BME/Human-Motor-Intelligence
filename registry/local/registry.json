@@ -1,0 +1,1070 @@
+{
+  "created_at_utc": "2026-08-22T17:52:45.661950+00:00",
+  "entities": {
+    "artifact": {
+      "1f79effb6d464da69da43b114ae74010-control_metrics": {
+        "content_hash": "ec28cdcd67f09e7bb93317597c96a45e6a0e1b44095154f1ffa0bfde7346a8ba",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-control_metrics",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801344+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "54fe5053351f8b2bfc0e94151428cc65e71f6b9f987a718b1a082ba854990f62",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_metrics.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-control_metrics",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.827007+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-control_transitions": {
+        "content_hash": "5b8c4ddcc45fe5de9631879434d72264f09e49c0f22bee09a8cf337e8e322023",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-control_transitions",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801503+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "d5827f77333004d71d8737549fe6b9402bd8828a6656168ff9e01ecb7c436846",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_transitions.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-control_transitions",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.831858+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-pick_place_clean": {
+        "content_hash": "7bc1d361a53b9dd2ec02eee39d25976535643fbd98f7256bdeb0c88de5db3b1b",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.802497+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "image/gif",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "video",
+          "schema_version": "1.0.0",
+          "sha256": "3cdf8b0559d46763dd2246bd9eb05c8d4dcefa1827d89201b2fba9bb8890fb8f",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_clean.gif"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.834358+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-pick_place_debug": {
+        "content_hash": "da14a15917918d313032f8dcd3b308c3002ac43eb6d8dc22620de75a8ee99216",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.803663+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "image/gif",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "video",
+          "schema_version": "1.0.0",
+          "sha256": "3fcd7b82a05ba4a54ff91c4a1392557e9261edf3e58b20dee573d14e3dd6dce2",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_debug.gif"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.836877+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-provenance": {
+        "content_hash": "08bfab513d6234387186741c8e5634026087027ceb5a0ecc118fe4ab6015b166",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-provenance",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801169+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "4b7d1960fab724ac201bf22895f091f1b47f33bf95572c762c459c98310e2b3b",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/provenance.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-provenance",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.822355+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-report": {
+        "content_hash": "8f16fc269f6c8464eff39b213a05a13f463b88b18a012c108639348352bd11e7",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-report",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.800905+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "text/markdown",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "report",
+          "schema_version": "1.0.0",
+          "sha256": "b9131e6f489e9fac9953c0c3c836eba7bbb37a84e2cec5baac7e96d58833fd2a",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/report.md"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-report",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.817880+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-summary": {
+        "content_hash": "a3f85c9df3dd883c25262b53f0f1b82f6b6587930993f80aa4148bd8b5eaa063",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-summary",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801069+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "d3639e363ae43018e49024ca3ca61821be47d2f85e47fc7f23279135d37694d5",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/summary.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-summary",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.820063+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-task_metrics": {
+        "content_hash": "b8aaaa26f52bbb858bda9c8b33746809ed882f40d9aa371f039d86c45daa109a",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-task_metrics",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801263+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "da23418526b4c6031556c463740f460177a9a8fe57b08578ba5d52452f562d44",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_metrics.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-task_metrics",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.824619+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-task_transitions": {
+        "content_hash": "7fa03484c03edb4387718e6113dddd2141ad2fe3817803f0ec1e3fd5f3ce40e3",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-task_transitions",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.801424+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "integration_demo": true,
+            "source_project": "myosim"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "other",
+          "schema_version": "1.0.0",
+          "sha256": "745ec48b71ecf3c3339dcd0f37af1a355f3d659ce8d09d71364f368535bb1ef4",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_transitions.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-task_transitions",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.829359+00:00"
+      },
+      "1f79effb6d464da69da43b114ae74010-umbrella-manifest": {
+        "content_hash": "5556a0687b1076803d7fcc60fa70a8399db032cd10dc9713abe0dfebef5e37d6",
+        "document": {
+          "artifact_id": "1f79effb6d464da69da43b114ae74010-umbrella-manifest",
+          "contract_kind": "artifact",
+          "created_at_utc": "2026-08-22T17:52:45.812551+00:00",
+          "evidence_class": "synthetic",
+          "media_type": "application/json",
+          "metadata": {
+            "benchmark_eligible": false,
+            "source_project": "human-motor-intelligence"
+          },
+          "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+          "role": "manifest",
+          "schema_version": "1.0.0",
+          "sha256": "0b6bade2b8ac17a89976259782114d7c2788e46b22fbe4f567397b151eefce78",
+          "size_bytes": null,
+          "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010-umbrella-manifest",
+        "entity_type": "artifact",
+        "registered_at_utc": "2026-08-22T17:52:45.839524+00:00"
+      }
+    },
+    "benchmark": {
+      "eeg-loso-bci-iv-2a": {
+        "content_hash": "be49f5003d125abd41ce92c497e324acf2ccd62cc25c5f3d650afb92e6f25b3f",
+        "document": {
+          "comparison_dimension": "baseline_or_representation_strategy",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "dataset_ids": [
+            "bci-competition-iv-2a"
+          ],
+          "description": "Draft EEG benchmark scaffold; no real dataset result is registered initially.",
+          "entity_id": "eeg-loso-bci-iv-2a",
+          "entity_type": "benchmark",
+          "metadata": {},
+          "name": "EEG LOSO BCI IV-2a",
+          "protocol_id": "eeg-loso-v1"
+        },
+        "entity_id": "eeg-loso-bci-iv-2a",
+        "entity_type": "benchmark",
+        "registered_at_utc": "2026-08-22T17:52:45.685860+00:00"
+      },
+      "emg-eeg-fusion-way-eeg-gal": {
+        "content_hash": "5771eb4e1136828160acc4446e3917e96da24f03202c881931f3f9ca23e8bbcd",
+        "document": {
+          "comparison_dimension": "unimodal_fusion_or_missing_modality_condition",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "dataset_ids": [
+            "way-eeg-gal"
+          ],
+          "description": "Draft multimodal study scaffold requiring matched actual-data experiments.",
+          "entity_id": "emg-eeg-fusion-way-eeg-gal",
+          "entity_type": "benchmark",
+          "metadata": {},
+          "name": "EMG EEG Fusion WAY-EEG-GAL",
+          "protocol_id": "emg-eeg-fusion-v1"
+        },
+        "entity_id": "emg-eeg-fusion-way-eeg-gal",
+        "entity_type": "benchmark",
+        "registered_at_utc": "2026-08-22T17:52:45.687669+00:00"
+      },
+      "emg-loso-db7": {
+        "content_hash": "3ae487433bf51de3ed424fa13074a746097fe90ce5a09e553685f1a67a60fbc1",
+        "document": {
+          "comparison_dimension": "model_or_adaptation_strategy",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "dataset_ids": [
+            "ninapro-db7"
+          ],
+          "description": "Protocol-identified EMG LOSO comparison scaffold; populated only by eligible real-data run imports.",
+          "entity_id": "emg-loso-db7",
+          "entity_type": "benchmark",
+          "metadata": {},
+          "name": "EMG LOSO DB7",
+          "protocol_id": "emg-loso-v1"
+        },
+        "entity_id": "emg-loso-db7",
+        "entity_type": "benchmark",
+        "registered_at_utc": "2026-08-22T17:52:45.684064+00:00"
+      }
+    },
+    "dataset": {
+      "bci-competition-iv-2a": {
+        "content_hash": "e637560febec7cb354aa6a03f24b0d5db3d2e2c9a2e889d33913b7cc005a2cd0",
+        "document": {
+          "canonicalization_rules": [
+            "Maintain subject and session separation.",
+            "Specify epoch boundaries and EOG policy in the protocol.",
+            "Fit transformations using training partitions only."
+          ],
+          "channel_description": "22 EEG channels and three EOG channels; record EOG handling explicitly in each protocol.",
+          "citation": "BCI Competition IV dataset 2a official description and originating-group citation requirement; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "bci-competition-iv-2a",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "No dataset files are included; access/citation obligations remain with the researcher.",
+            "The registry has no real EEG benchmark result until an authorized run is registered."
+          ],
+          "label_schema": {
+            "classes": [
+              "left_hand",
+              "right_hand",
+              "feet",
+              "tongue"
+            ]
+          },
+          "license_access": "registration_required",
+          "metadata": {},
+          "modality": "eeg",
+          "name": "BCI Competition IV Dataset 2a",
+          "sampling_rate_hz": 250.0,
+          "session_description": "Dataset-defined training/evaluation sessions; a protocol must state whether and how labels are used.",
+          "source_url": "https://www.bbci.de/competition/iv/",
+          "subject_count": 9,
+          "task_description": "Four-class cued motor imagery: left hand, right hand, feet, and tongue.",
+          "version": "official-external-access-2026"
+        },
+        "entity_id": "bci-competition-iv-2a",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.668567+00:00"
+      },
+      "mit-bih-arrhythmia-v1": {
+        "content_hash": "e7f80f8757561d50138078e420023cde58c624fa95de24604db6b3a8bea0dc55",
+        "document": {
+          "canonicalization_rules": [
+            "Register record-level train/test separation.",
+            "Preserve source annotation semantics and record identifiers."
+          ],
+          "channel_description": "Two-channel ambulatory ECG excerpts.",
+          "citation": "Moody and Mark; MIT-BIH Arrhythmia Database v1.0.0, PhysioNet; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "mit-bih-arrhythmia-v1",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "ECG support is registry-ready; no umbrella ECG benchmark is implemented in the MVP."
+          ],
+          "label_schema": {
+            "source_of_truth": "MIT-BIH annotation files"
+          },
+          "license_access": "open",
+          "metadata": {},
+          "modality": "ecg",
+          "name": "MIT-BIH Arrhythmia Database v1.0.0",
+          "sampling_rate_hz": 360.0,
+          "session_description": "48 half-hour recordings; record-level splits must remain explicit.",
+          "source_url": "https://doi.org/10.13026/C2F305",
+          "subject_count": 47,
+          "task_description": "Arrhythmia detector evaluation and ECG methodology research.",
+          "version": "1.0.0"
+        },
+        "entity_id": "mit-bih-arrhythmia-v1",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.670534+00:00"
+      },
+      "ninapro-db2": {
+        "content_hash": "b75bef3d21968e41a193aadc51567f7b48b0205851172ff3fb5ae9de42410088",
+        "document": {
+          "canonicalization_rules": [
+            "Retain source subject IDs without relabelling.",
+            "Register the source label field used, including stimulus versus restimulus where applicable.",
+            "Fit all transformations only on protocol-authorized training data."
+          ],
+          "channel_description": "Up to 12 Delsys Trigno sEMG channels; source-specific multimodal variables remain external.",
+          "citation": "Use the database-specific article linked by the official NinaPro portal; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "ninapro-db2",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "Raw data requires external authorized acquisition and is not stored by this repository.",
+            "A registered protocol must define the label field, exercises, windowing, and split semantics."
+          ],
+          "label_schema": {
+            "source_of_truth": "official NinaPro dataset variables and cited paper"
+          },
+          "license_access": "registration_required",
+          "metadata": {},
+          "modality": "emg",
+          "name": "NinaPro DB2",
+          "sampling_rate_hz": 2000.0,
+          "session_description": "Dataset-defined exercises/repetitions; preserve source subject, exercise, repetition, and relabelled stimulus identifiers.",
+          "source_url": "https://ninapro.hevs.ch/",
+          "subject_count": 40,
+          "task_description": "Hand-movement classification or regression research with 49 hand movements plus rest context.",
+          "version": "official-external-access-2026"
+        },
+        "entity_id": "ninapro-db2",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.666266+00:00"
+      },
+      "ninapro-db3": {
+        "content_hash": "c7332d8583ea026f53ccf243cb1f113d85bc0fc8b150f17cffd0bca033a6489a",
+        "document": {
+          "canonicalization_rules": [
+            "Retain source subject IDs without relabelling.",
+            "Register the source label field used, including stimulus versus restimulus where applicable.",
+            "Fit all transformations only on protocol-authorized training data."
+          ],
+          "channel_description": "Up to 12 Delsys Trigno sEMG channels; source-specific multimodal variables remain external.",
+          "citation": "Use the database-specific article linked by the official NinaPro portal; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "ninapro-db3",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "The dataset population is small and task/subject availability must be represented in split manifests.",
+            "Raw data requires external authorized acquisition and is not stored by this repository."
+          ],
+          "label_schema": {
+            "source_of_truth": "official NinaPro dataset variables and cited paper"
+          },
+          "license_access": "registration_required",
+          "metadata": {},
+          "modality": "emg",
+          "name": "NinaPro DB3",
+          "sampling_rate_hz": 2000.0,
+          "session_description": "Dataset-defined exercises/repetitions; preserve source subject, exercise, repetition, and relabelled stimulus identifiers.",
+          "source_url": "https://ninapro.hevs.ch/",
+          "subject_count": 11,
+          "task_description": "Transradial-amputee hand-movement classification or regression research with up to 49 movements plus rest.",
+          "version": "official-external-access-2026"
+        },
+        "entity_id": "ninapro-db3",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.666966+00:00"
+      },
+      "ninapro-db7": {
+        "content_hash": "f8c8b4e0424d4806eedc0d86e96a4ac52ca0aa3955e1a195d968d9d03d01ce76",
+        "document": {
+          "canonicalization_rules": [
+            "Retain source subject IDs without relabelling.",
+            "Register the source label field used, including stimulus versus restimulus where applicable.",
+            "Fit all transformations only on protocol-authorized training data."
+          ],
+          "channel_description": "Up to 12 Delsys Trigno sEMG channels; source-specific multimodal variables remain external.",
+          "citation": "Use the database-specific article linked by the official NinaPro portal; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "ninapro-db7",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "One amputee participant has reduced final-exercise class availability; splits and per-subject labels must preserve this condition.",
+            "Raw data requires external authorized acquisition and is not stored by this repository."
+          ],
+          "label_schema": {
+            "source_of_truth": "official NinaPro dataset variables and cited paper"
+          },
+          "license_access": "registration_required",
+          "metadata": {},
+          "modality": "emg",
+          "name": "NinaPro DB7",
+          "sampling_rate_hz": 2000.0,
+          "session_description": "Dataset-defined exercises/repetitions; preserve source subject, exercise, repetition, and relabelled stimulus identifiers.",
+          "source_url": "https://ninapro.hevs.ch/",
+          "subject_count": 22,
+          "task_description": "Hand-movement classification or regression research in intact and transradial-amputee participants.",
+          "version": "official-external-access-2026"
+        },
+        "entity_id": "ninapro-db7",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.667711+00:00"
+      },
+      "way-eeg-gal": {
+        "content_hash": "23f221ffbdc9bfdbd11b061c6b1c37d58f3bb79164d93da66608b041f7a860a4",
+        "document": {
+          "canonicalization_rules": [
+            "Register the exact Figshare release/item and selected event definition.",
+            "Synchronize EEG and EMG using a documented, testable alignment procedure.",
+            "Define missing-modality handling before model selection."
+          ],
+          "channel_description": "32 EEG channels, five EMG channels, event times, kinematics, and force/torque; verify selected release item metadata before use.",
+          "citation": "Luciw, Jarocka, and Edin (2014), WAY-EEG-GAL collection; see docs/DATASET_SOURCE_NOTES.md.",
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "way-eeg-gal",
+          "entity_type": "dataset",
+          "known_limitations": [
+            "Sampling-rate and item-specific channel metadata must be confirmed from the selected downloaded release before execution.",
+            "No EEG–EMG fusion benchmark or transfer claim exists in this repository."
+          ],
+          "label_schema": {
+            "source_of_truth": "event times and behavioural measures from selected dataset release"
+          },
+          "license_access": "open",
+          "metadata": {},
+          "modality": "eeg",
+          "name": "WAY-EEG-GAL",
+          "sampling_rate_hz": null,
+          "session_description": "3,936 total trials; register participant-level availability and alignment choices before fusion work.",
+          "source_url": "https://doi.org/10.6084/m9.figshare.c.988376.v2",
+          "subject_count": 12,
+          "task_description": "Grasp-and-lift trials supporting sensation, intention, and action decoding research.",
+          "version": "figshare-collection-v2"
+        },
+        "entity_id": "way-eeg-gal",
+        "entity_type": "dataset",
+        "registered_at_utc": "2026-08-22T17:52:45.669490+00:00"
+      }
+    },
+    "experiment": {
+      "integrated-demo-1f79effb6d464da69da43b114ae74010": {
+        "content_hash": "cc5a3103f8af2b7e8aa24a9ca915f12b43e8751eb4cca02603e0be58521637ff",
+        "document": {
+          "artifact_ids": [
+            "1f79effb6d464da69da43b114ae74010-report",
+            "1f79effb6d464da69da43b114ae74010-summary",
+            "1f79effb6d464da69da43b114ae74010-provenance",
+            "1f79effb6d464da69da43b114ae74010-task_metrics",
+            "1f79effb6d464da69da43b114ae74010-control_metrics",
+            "1f79effb6d464da69da43b114ae74010-task_transitions",
+            "1f79effb6d464da69da43b114ae74010-control_transitions",
+            "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+            "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+            "1f79effb6d464da69da43b114ae74010-umbrella-manifest"
+          ],
+          "code_commit": null,
+          "completed_at_utc": "2026-08-22T00:00:00+00:00",
+          "configuration_hash": "beeb4749297a8b442b2fa3718690d39b3edb93f3da1b26072f27292cfb3e2c3d",
+          "contract_kind": "experiment",
+          "dataset_id": "synthetic-integration-fixture",
+          "dataset_version": "v1",
+          "environment": {
+            "implementation": "CPython",
+            "machine": "x86_64",
+            "packages": {
+              "myosim": "0.1.3"
+            },
+            "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+            "python": "3.12.3"
+          },
+          "error": null,
+          "experiment_id": "integrated-demo-1f79effb6d464da69da43b114ae74010",
+          "metadata": {
+            "benchmark_eligible": false,
+            "myosim_source_run_dir": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010",
+            "purpose": "deterministic adapter/simulator integration demonstration only",
+            "synthetic": true
+          },
+          "metrics": {
+            "command_corrections": 3.0,
+            "completion_time_s": 3.22,
+            "false_activation_rate": 0.0,
+            "mean_confirmation_latency_s": 0.30000000000000004,
+            "task_success": 1.0
+          },
+          "modality": "emg",
+          "model_id": "myocontrol-to-myosim-adapter-fixture",
+          "model_version": "v1",
+          "project_id": "human-motor-intelligence",
+          "protocol_id": "intent-to-control-v1",
+          "run_id": "1f79effb6d464da69da43b114ae74010",
+          "schema_version": "1.0.0",
+          "seed": 20260822,
+          "started_at_utc": null,
+          "status": "succeeded",
+          "subject_split": "deterministic-replay"
+        },
+        "entity_id": "integrated-demo-1f79effb6d464da69da43b114ae74010",
+        "entity_type": "experiment",
+        "registered_at_utc": "2026-08-22T17:52:45.813306+00:00"
+      }
+    },
+    "model": {
+      "biosignal-fm-encoder-export": {
+        "content_hash": "9abcea0d762ca481c9b45dc11b642106c9cbbd2c7354c2dece7c120572156a33",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "biosignal-fm-encoder-export",
+          "entity_type": "model",
+          "intended_use": "External representation record producer for research integration.",
+          "known_limitations": [
+            "Not a claim of a validated foundation model or cross-modal transfer result."
+          ],
+          "metadata": {},
+          "modalities": [
+            "emg",
+            "eeg",
+            "ecg"
+          ],
+          "model_family": "Modality-aware representation encoder",
+          "name": "BioSignal-FM representation encoder export",
+          "project_id": "biosignal-fm-v4",
+          "source_reference": "external/BioSignal-FM-V4",
+          "version": "4"
+        },
+        "entity_id": "biosignal-fm-encoder-export",
+        "entity_type": "model",
+        "registered_at_utc": "2026-08-22T17:52:45.682317+00:00"
+      },
+      "myoadapt-lite-dan": {
+        "content_hash": "ae5d9a8311e888f824ad3749a7153e60c31d8aefd7da70c586cc4872c3b06b2f",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "myoadapt-lite-dan",
+          "entity_type": "model",
+          "intended_use": "Referenced adaptation baseline for independently executed EMG protocols.",
+          "known_limitations": [
+            "No umbrella reimplementation or unregistered performance claim."
+          ],
+          "metadata": {},
+          "modalities": [
+            "emg"
+          ],
+          "model_family": "Domain-adversarial EMG classifier",
+          "name": "MyoAdapt Lite-DAN",
+          "project_id": "myoadapt-v2",
+          "source_reference": "external/myoadapt",
+          "version": "2.0.0"
+        },
+        "entity_id": "myoadapt-lite-dan",
+        "entity_type": "model",
+        "registered_at_utc": "2026-08-22T17:52:45.680636+00:00"
+      },
+      "myocontrol-classical-decoder": {
+        "content_hash": "9cf48da6dec80c53fe9a07497ce1447dbcf35c532ca9b8cc01677256c6b5d890",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "myocontrol-classical-decoder",
+          "entity_type": "model",
+          "intended_use": "Exported discrete EMG motor-intent prediction for explicit adapter conversion.",
+          "known_limitations": [
+            "Only explicitly mapped labels may feed the MyoSim V1 adapter."
+          ],
+          "metadata": {},
+          "modalities": [
+            "emg"
+          ],
+          "model_family": "Classical feature-based classifier",
+          "name": "MyoControl classical EMG decoder",
+          "project_id": "myocontrol-v05",
+          "source_reference": "external/myocontrol-main",
+          "version": "0.5"
+        },
+        "entity_id": "myocontrol-classical-decoder",
+        "entity_type": "model",
+        "registered_at_utc": "2026-08-22T17:52:45.679026+00:00"
+      }
+    },
+    "project": {
+      "biosignal-fm-v4": {
+        "content_hash": "f0394584adbc588e5a3f8f629b2e7cf51451ad4d049f4ec9cee42acda8e0aa92",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "biosignal-fm-v4",
+          "entity_type": "project",
+          "independently_runnable": true,
+          "integration_boundary": "Exports canonical signal/representation/provenance artifacts; implementation remains independent.",
+          "license_id": "Apache-2.0",
+          "metadata": {},
+          "name": "BioSignal-FM V4",
+          "repository_reference": "external/BioSignal-FM-V4",
+          "role": "Multimodal biosignal representation and protocol-aware research framework."
+        },
+        "entity_id": "biosignal-fm-v4",
+        "entity_type": "project",
+        "registered_at_utc": "2026-08-22T17:52:45.664245+00:00"
+      },
+      "human-motor-intelligence": {
+        "content_hash": "48d2bf4836ce671aa2ae25dbdb09c0b9fd748552a26cfac062632e9cfbe858cd",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "human-motor-intelligence",
+          "entity_type": "project",
+          "independently_runnable": true,
+          "integration_boundary": "Owns only cross-project infrastructure; does not vendor or replace child systems.",
+          "license_id": "Apache-2.0",
+          "metadata": {},
+          "name": "Human Motor Intelligence Research Stack",
+          "repository_reference": ".",
+          "role": "Thin contract, registry, benchmark, provenance, adapter, and reporting infrastructure."
+        },
+        "entity_id": "human-motor-intelligence",
+        "entity_type": "project",
+        "registered_at_utc": "2026-08-22T17:52:45.663756+00:00"
+      },
+      "myoadapt-v2": {
+        "content_hash": "e5578db2b4f36322c5d56ac64425d005a634488b7bd16e0a2d1d0883b29bb07c",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "myoadapt-v2",
+          "entity_type": "project",
+          "independently_runnable": true,
+          "integration_boundary": "Exports manifests, result artifacts, and model/dataset cards; Paper 3 is import-only and execution-locked.",
+          "license_id": "Apache-2.0",
+          "metadata": {},
+          "name": "MyoAdapt v2",
+          "repository_reference": "https://github.com/Qussai-BME/MyoAdapt",
+          "role": "EMG cross-subject generalisation, adaptation, evaluation, and reproducibility platform."
+        },
+        "entity_id": "myoadapt-v2",
+        "entity_type": "project",
+        "registered_at_utc": "2026-08-22T17:52:45.664697+00:00"
+      },
+      "myocontrol-v05": {
+        "content_hash": "c0598b5fe9769799e6b14abc39b9d05d5e07bb13f09555fc7ef27775278f053f",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "myocontrol-v05",
+          "entity_type": "project",
+          "independently_runnable": true,
+          "integration_boundary": "Provides serialized decoder predictions; feature, training, edge, and UI implementations remain independent.",
+          "license_id": "MIT",
+          "metadata": {},
+          "name": "MyoControl",
+          "repository_reference": "https://github.com/Qussai-BME/myocontrol",
+          "role": "EMG motor-intent decoder and deployment baseline."
+        },
+        "entity_id": "myocontrol-v05",
+        "entity_type": "project",
+        "registered_at_utc": "2026-08-22T17:52:45.665165+00:00"
+      },
+      "myosim-v011": {
+        "content_hash": "85708e2ed4180b27ceddb336fb41d1d02c6238c4b0e14b3981c84ebe72f51277",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "myosim-v011",
+          "entity_type": "project",
+          "independently_runnable": true,
+          "integration_boundary": "Receives validated discrete intent events and emits simulator-owned task/control/provenance artifacts.",
+          "license_id": "Apache-2.0",
+          "metadata": {},
+          "name": "MyoSim V1.1",
+          "repository_reference": "external/MyoSim-V1.1",
+          "role": "Software-only replay-to-virtual-prosthetic-control simulation baseline."
+        },
+        "entity_id": "myosim-v011",
+        "entity_type": "project",
+        "registered_at_utc": "2026-08-22T17:52:45.665640+00:00"
+      }
+    },
+    "protocol": {
+      "eeg-loso-v1": {
+        "content_hash": "a15d3cd92f94473de4552217f5d9e6c85b8c21b5cc538aa68393ca8e8d83160c",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "eeg-loso-v1",
+          "entity_type": "protocol",
+          "feature_selection": {
+            "policy": "baseline-specific and training_only"
+          },
+          "hyperparameter_policy": "Begin with predeclared linear/LDA/spectral baselines; introduce complex models only with registered justification.",
+          "leakage_constraints": [
+            "Fit preprocessing and normalization on training participants only.",
+            "Define epochs/windows before inspection of held-out participant labels.",
+            "Aggregate inferential statistics at participant level.",
+            "Do not infer cross-subject transfer from a synthetic smoke run."
+          ],
+          "limitations": [
+            "No authorized BCI IV-2a execution or real EEG benchmark is registered yet."
+          ],
+          "metadata": {},
+          "metrics": [
+            "accuracy",
+            "macro_f1",
+            "balanced_accuracy"
+          ],
+          "modalities": [
+            "eeg"
+          ],
+          "model_selection": {
+            "policy": "training-side validation only"
+          },
+          "name": "EEG LOSO",
+          "preprocessing": {
+            "adapter": "MNE-based edge adapter",
+            "fit_scope": "training_only",
+            "status": "planned"
+          },
+          "seeds": [
+            42
+          ],
+          "split_strategy": "leave-one-subject-out",
+          "statistical_unit": "subject",
+          "status": "draft",
+          "train_validation_test_semantics": "A held-out participant contributes no fitting, selection, normalization, or model-choice information.",
+          "version": "1.0.0"
+        },
+        "entity_id": "eeg-loso-v1",
+        "entity_type": "protocol",
+        "registered_at_utc": "2026-08-22T17:52:45.673057+00:00"
+      },
+      "eeg-mi-v1": {
+        "content_hash": "050b4f3e3eb15c253441a54875d285e7c48941e6be9f8cec14d102b7c8739b17",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "eeg-mi-v1",
+          "entity_type": "protocol",
+          "feature_selection": {
+            "policy": "registered per baseline"
+          },
+          "hyperparameter_policy": "Register selected baseline configuration before final evaluation.",
+          "leakage_constraints": [
+            "Preprocessing fitting scope must be declared.",
+            "Subject/session split policy must be declared before evaluation.",
+            "No pooled-window inference is reported as participant-level evidence."
+          ],
+          "limitations": [
+            "This scaffold does not itself define a completed EEG benchmark."
+          ],
+          "metadata": {},
+          "metrics": [
+            "accuracy",
+            "macro_f1",
+            "balanced_accuracy"
+          ],
+          "modalities": [
+            "eeg"
+          ],
+          "model_selection": {
+            "policy": "registered per run"
+          },
+          "name": "EEG Motor Imagery",
+          "preprocessing": {
+            "adapter": "MNE-based edge adapter",
+            "status": "planned"
+          },
+          "seeds": [
+            42
+          ],
+          "split_strategy": "dataset-defined-subject-aware",
+          "statistical_unit": "subject",
+          "status": "draft",
+          "train_validation_test_semantics": "Train/validation/test semantics must be instantiated per dataset and preserved in each run manifest.",
+          "version": "1.0.0"
+        },
+        "entity_id": "eeg-mi-v1",
+        "entity_type": "protocol",
+        "registered_at_utc": "2026-08-22T17:52:45.674427+00:00"
+      },
+      "emg-eeg-fusion-v1": {
+        "content_hash": "8ca4ed12132c138286f4109b5047d66e24d292a3363ce0da612fb5ca87efb176",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "emg-eeg-fusion-v1",
+          "entity_type": "protocol",
+          "feature_selection": {
+            "policy": "per-modality training_only"
+          },
+          "hyperparameter_policy": "Do not claim fusion benefit or transfer until matched experiments are registered.",
+          "leakage_constraints": [
+            "Synchronize modalities using only declared timing data.",
+            "Fit each modality-specific preprocessing stage only on training data.",
+            "Evaluate EEG-only, EMG-only, fused, missing-EEG, and missing-EMG conditions under matching splits.",
+            "Use participant or protocol-defined trial as the statistical unit, never raw windows by default."
+          ],
+          "limitations": [
+            "This is a research scaffold, not evidence of cross-modal transfer or robustness."
+          ],
+          "metadata": {},
+          "metrics": [
+            "task_performance",
+            "robustness_missing_eeg",
+            "robustness_missing_emg"
+          ],
+          "modalities": [
+            "emg",
+            "eeg"
+          ],
+          "model_selection": {
+            "policy": "matched unimodal and fusion baselines required"
+          },
+          "name": "EMG EEG Fusion",
+          "preprocessing": {
+            "alignment": "explicit adapter required",
+            "fit_scope": "training_only"
+          },
+          "seeds": [
+            42
+          ],
+          "split_strategy": "participant-aware-synchronized",
+          "statistical_unit": "subject",
+          "status": "draft",
+          "train_validation_test_semantics": "All modality alignment, split, and missingness decisions are fixed before final evaluation.",
+          "version": "1.0.0"
+        },
+        "entity_id": "emg-eeg-fusion-v1",
+        "entity_type": "protocol",
+        "registered_at_utc": "2026-08-22T17:52:45.675870+00:00"
+      },
+      "emg-loso-v1": {
+        "content_hash": "b05e98ce4bc307eef4a973831f6e6caca60a6b87fde568110e54187ae48c561a",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "emg-loso-v1",
+          "entity_type": "protocol",
+          "feature_selection": {
+            "fit_scope": "training_only",
+            "owner": "source project configuration"
+          },
+          "hyperparameter_policy": "Freeze before testing or select only with training-side validation; record all resolved settings.",
+          "leakage_constraints": [
+            "No held-out subject windows contribute to scaler fitting.",
+            "No held-out subject windows contribute to feature selection or hyperparameter selection.",
+            "No target labels are available to adaptation unless a separately named protocol explicitly allows it.",
+            "Statistics aggregate at subject level, never at window level."
+          ],
+          "limitations": [
+            "This generic protocol does not alter or substitute Paper 3's locked protocol.",
+            "Dataset-specific class availability and label choices must be recorded per run."
+          ],
+          "metadata": {},
+          "metrics": [
+            "accuracy",
+            "macro_f1",
+            "active_only_f1",
+            "rest_recall"
+          ],
+          "modalities": [
+            "emg"
+          ],
+          "model_selection": {
+            "policy": "training-side validation only"
+          },
+          "name": "EMG LOSO",
+          "preprocessing": {
+            "fit_scope": "training_only",
+            "owner": "source project configuration"
+          },
+          "seeds": [
+            42
+          ],
+          "split_strategy": "leave-one-subject-out",
+          "statistical_unit": "subject",
+          "status": "active",
+          "train_validation_test_semantics": "One subject is held out for testing; all fitting, selection, tuning, and calibration operate only within designated training-side partitions.",
+          "version": "1.0.0"
+        },
+        "entity_id": "emg-loso-v1",
+        "entity_type": "protocol",
+        "registered_at_utc": "2026-08-22T17:52:45.671737+00:00"
+      },
+      "intent-to-control-v1": {
+        "content_hash": "24d3b8ba148fd33eba9d2f4790de1cf8c473e5811205f8b1feb17557b39671d0",
+        "document": {
+          "created_at_utc": "2026-08-22T00:00:00+00:00",
+          "entity_id": "intent-to-control-v1",
+          "entity_type": "protocol",
+          "feature_selection": {
+            "owner": "upstream decoder"
+          },
+          "hyperparameter_policy": "Simulator/control configuration is fixed and hashed per replay run.",
+          "leakage_constraints": [
+            "Retain fixed intent sequence, label map, replay timestamps, and simulator configuration hashes.",
+            "Do not bypass MyoSim confidence, temporal, state-machine, safety, or target-generation logic.",
+            "Report simulator outputs as replay evidence, not clinical or live-hardware performance."
+          ],
+          "limitations": [
+            "The first integration is replay-first and software-only.",
+            "No live hardware, clinical safety, or decoder-accuracy equivalence claim is permitted."
+          ],
+          "metadata": {},
+          "metrics": [
+            "task_success_rate",
+            "command_latency",
+            "false_activations",
+            "command_stability",
+            "trajectory_smoothness",
+            "completion_time",
+            "failure_rate"
+          ],
+          "modalities": [
+            "emg"
+          ],
+          "model_selection": {
+            "owner": "upstream decoder"
+          },
+          "name": "Intent to Control Replay",
+          "preprocessing": {
+            "owner": "upstream decoder or replay bundle"
+          },
+          "seeds": [
+            42
+          ],
+          "split_strategy": "deterministic-replay",
+          "statistical_unit": "task_trial",
+          "status": "active",
+          "train_validation_test_semantics": "No model fitting occurs in the simulator stage; a versioned intent stream is replayed through MyoSim.",
+          "version": "1.0.0"
+        },
+        "entity_id": "intent-to-control-v1",
+        "entity_type": "protocol",
+        "registered_at_utc": "2026-08-22T17:52:45.677423+00:00"
+      }
+    },
+    "run": {
+      "1f79effb6d464da69da43b114ae74010": {
+        "content_hash": "eb490623d20bec982e0cefcc25bed1af799c604a3832238b3f398a2e7a25fcff",
+        "document": {
+          "artifact_ids": [
+            "1f79effb6d464da69da43b114ae74010-report",
+            "1f79effb6d464da69da43b114ae74010-summary",
+            "1f79effb6d464da69da43b114ae74010-provenance",
+            "1f79effb6d464da69da43b114ae74010-task_metrics",
+            "1f79effb6d464da69da43b114ae74010-control_metrics",
+            "1f79effb6d464da69da43b114ae74010-task_transitions",
+            "1f79effb6d464da69da43b114ae74010-control_transitions",
+            "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+            "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+            "1f79effb6d464da69da43b114ae74010-umbrella-manifest"
+          ],
+          "code_commit": null,
+          "completed_at_utc": "2026-08-22T00:00:00+00:00",
+          "configuration_hash": "beeb4749297a8b442b2fa3718690d39b3edb93f3da1b26072f27292cfb3e2c3d",
+          "contract_kind": "experiment",
+          "dataset_id": "synthetic-integration-fixture",
+          "dataset_version": "v1",
+          "environment": {
+            "implementation": "CPython",
+            "machine": "x86_64",
+            "packages": {
+              "myosim": "0.1.3"
+            },
+            "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+            "python": "3.12.3"
+          },
+          "error": null,
+          "experiment_id": "integrated-demo-1f79effb6d464da69da43b114ae74010",
+          "metadata": {
+            "benchmark_eligible": false,
+            "myosim_source_run_dir": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010",
+            "purpose": "deterministic adapter/simulator integration demonstration only",
+            "synthetic": true
+          },
+          "metrics": {
+            "command_corrections": 3.0,
+            "completion_time_s": 3.22,
+            "false_activation_rate": 0.0,
+            "mean_confirmation_latency_s": 0.30000000000000004,
+            "task_success": 1.0
+          },
+          "modality": "emg",
+          "model_id": "myocontrol-to-myosim-adapter-fixture",
+          "model_version": "v1",
+          "project_id": "human-motor-intelligence",
+          "protocol_id": "intent-to-control-v1",
+          "registry_view": "run",
+          "run_id": "1f79effb6d464da69da43b114ae74010",
+          "schema_version": "1.0.0",
+          "seed": 20260822,
+          "started_at_utc": null,
+          "status": "succeeded",
+          "subject_split": "deterministic-replay"
+        },
+        "entity_id": "1f79effb6d464da69da43b114ae74010",
+        "entity_type": "run",
+        "registered_at_utc": "2026-08-22T17:52:45.815557+00:00"
+      }
+    }
+  },
+  "schema_version": "1.0.0"
+}

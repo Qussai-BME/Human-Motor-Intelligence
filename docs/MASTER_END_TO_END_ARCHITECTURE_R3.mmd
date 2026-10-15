@@ -1,0 +1,55 @@
+flowchart TB
+    subgraph HM[Human Motor Intelligence — Umbrella Research-Orchestration Layer]
+        REG[Research Registry\nprojects • datasets • protocols • models • experiments/runs • artifacts]
+        CONTRACTS[Versioned Contracts\nsignal/provenance • representation • intent • control • artifacts]
+        GOV[Scientific Governance\nimmutable protocols • leakage guards • subject-level inference • provenance]
+        BENCH[Benchmark & Report Engine\nmetrics • statistics • tables • figures • manifests]
+        ROS[Local Research-OS\nregistry navigation • doctor • integrity • manifest verification]
+        PUB[Public Review Surface\nREADME • evidence matrix • limitations • manuscripts • release records]
+    end
+
+    subgraph CHILD[Independent Child Projects — Not Vendored]
+        MC[MyoControl\nEMG motor-intent decoding]
+        MA[MyoAdapt\nLOSO / domain adaptation]
+        BF[BioSignal-FM\nmultimodal representation platform]
+        MS[MyoSim\nsoftware-only virtual control simulation]
+    end
+
+    DATA[(Authorized External Data\nmetadata registered; raw recordings remain external)]
+    P4[P4 OpenBMI\nreal external EEG validation]
+    P5[P5 Jeong\nreal external EEG–EMG validation]
+    FIXTURE[P6 R2 Integration Fixture\nsynthetic-demo / example-decoder-v1]
+    P3GATE{{P3 Gate\noriginal author package pending}}
+    P6GATE{{P6 R3 Gate\nauthenticated three-trace manifest pending}}
+
+    DATA --> REG
+    REG --> GOV
+    GOV --> CONTRACTS
+    CONTRACTS --> BENCH
+    REG --> ROS
+    GOV --> PUB
+    BENCH --> PUB
+
+    MC --> CONTRACTS
+    MA --> CONTRACTS
+    BF --> CONTRACTS
+    CONTRACTS --> MS
+    MS --> BENCH
+
+    DATA --> P4
+    DATA --> P5
+    P4 --> BENCH
+    P5 --> BENCH
+    FIXTURE --> CONTRACTS
+    FIXTURE --> MS
+    P3GATE -. no execution without provenance .-> BENCH
+    P6GATE -. no decoder-quality benchmark without authenticated traces .-> MS
+
+    classDef umbrella fill:#123B5D,color:#FFFFFF,stroke:#123B5D,stroke-width:2px;
+    classDef child fill:#EEF3F8,color:#123B5D,stroke:#547A9B,stroke-width:1.5px;
+    classDef evidence fill:#EAF6F0,color:#1F5B42,stroke:#4B8A69,stroke-width:1.5px;
+    classDef blocked fill:#FFF4E5,color:#8A4B08,stroke:#D88A2A,stroke-width:2px;
+    class REG,CONTRACTS,GOV,BENCH,ROS,PUB umbrella;
+    class MC,MA,BF,MS child;
+    class DATA,P4,P5,FIXTURE evidence;
+    class P3GATE,P6GATE blocked;

@@ -1,33 +1,34 @@
 cff-version: 1.2.0
-message: "If you use this programme release, please cite it together with the dataset and source-publication records required by the P4/P5 manuscripts. P6 R3 decoder-quality analysis is not executed."
-title: "Human Motor Intelligence Research Stack: V2 Recovery R3 Interim Current-State Release"
+message: "If you use this release, cite Human Motor Intelligence and the external datasets/publications relevant to the specific evidence you reuse."
+title: "Human Motor Intelligence — Public Research Release"
 type: software
-version: "v2-recovery-r3-all-specs-interim"
-date-released: 2026-08-26
+version: "1.2.0"
+date-released: 2026-10-11
 authors:
-  - name: "Qussai Adlbi"
-abstract: "Research code, retained artefacts, protocols, audits, manuscripts, and reproducibility records for the Human Motor Intelligence programme. P4 and P5 external validations are complete current-state evidence; P6 R2 is systems evidence and P6 R3 decoder-quality evaluation is blocked pending authentic traces."
+  - family-names: "Adlbi"
+    given-names: "Qussai"
+    orcid: "https://orcid.org/0009-0000-7667-1992"
+abstract: "Public research archive and thin integration layer for the Human Motor Intelligence programme, including reproducibility infrastructure and the executed P6 studies: the C1 registered motor-imagery EEG-to-MyoSim replay (0/60 task successes), its post-hoc validity audit (endpoint unreachable by design) and the C2 registered episode-level follow-up (control success follows confidence-gate passage rather than decoder accuracy)."
 keywords:
   - biosignal processing
   - EEG
   - EMG
-  - motor imagery
-  - external validation
-  - reproducibility
   - motor intent
+  - cross-subject generalization
+  - reproducibility
+  - motor control
 license: Apache-2.0
 repository-code: "https://github.com/Qussai-BME/Human-Motor-Intelligence"
 preferred-citation:
   type: software
-  title: "Human Motor Intelligence Research Stack: V2 Recovery R3 Interim Current-State Release"
+  title: "Human Motor Intelligence — Public Research Release"
   authors:
-    - name: "Qussai Adlbi"
+    - family-names: "Adlbi"
+      given-names: "Qussai"
+      orcid: "https://orcid.org/0009-0000-7667-1992"
   year: 2026
-  version: "v2-recovery-r3-all-specs-interim"
+  version: "1.2.0"
 references:
   - type: dataset
-    title: "Lee et al. 2019 (Motor Imagery) — EEG dataset and OpenBMI toolbox"
-    doi: 10.82901/nemar.nm000338
-  - type: dataset
-    title: "Multimodal upper-limb MI/ME EEG (Jeong et al. 2020)"
-    doi: 10.82901/nemar.nm000311
+    title: "EEG Motor Movement/Imagery Dataset v1.0.0"
+    doi: 10.13026/C28G6P

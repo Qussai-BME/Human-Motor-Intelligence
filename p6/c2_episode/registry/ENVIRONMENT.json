@@ -1,0 +1,111 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "cpu_count": 6,
+  "myosim_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+  "myosim_version": "0.1.5",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3",
+    "matplotlib": "3.11.2",
+    "pyyaml": "6.0.3",
+    "statsmodels": "0.15.0",
+    "scikit_learn": "1.9.1",
+    "mujoco": "3.15.0",
+    "mne": "1.12.1",
+    "pyriemann": "0.12"
+  },
+  "sha256": {
+    "config_c1": "4f2ad2493d35b2bd8e8d1554fb6660be0f1f69cdd0e4abae8034484316907f36",
+    "config_c2": "4f2ad2493d35b2bd8e8d1554fb6660be0f1f69cdd0e4abae8034484316907f36",
+    "c1_fixture_csv": "a94e59e30e2599eb92517198739dff96aa40b01f3bf6777756722e09960e09f3",
+    "c1_reexecution_inputs": {
+      "replay_csv/fixture/pick_place_replay.csv": "a94e59e30e2599eb92517198739dff96aa40b01f3bf6777756722e09960e09f3",
+      "replay_csv/decoder/M1_S001.csv": "895901badef0d016c8550bb54e725c2c22aa07e301215600dba0c37ca2db91a6",
+      "replay_csv/decoder/M3_S015.csv": "7c1d9582899955a66621a3cc1395857eba0ba55a1cbd7fe794a470531f0fd8a6",
+      "results/myosim/fixture/pick_place_replay.json": "03139ec4fc534bd1a218f46da5db024a0b0ff9dda916b411a8e13e6e6852bf5a",
+      "results/myosim/decoder/M1_S001.json": "cd94d044adec1cee62691e99b7dde798254f32be8e6c258ac5d0e5e1c3bde3a9",
+      "results/myosim/decoder/M3_S015.json": "32f0fe8d54cc79fae10968b24c85a508a2420f0374e3a1c38b1f693382701609"
+    }
+  },
+  "c1_reexecution": [
+    {
+      "name": "fixture",
+      "match": true,
+      "comparisons": {
+        "success": true,
+        "completion_time_s": true,
+        "path_length_m": true,
+        "final_error_m": true,
+        "command_corrections": true
+      },
+      "observed": {
+        "success": true,
+        "completion_time_s": 3.22,
+        "path_length_m": 0.9678159612131996,
+        "final_error_m": 0.04985601966004137,
+        "command_corrections": 3
+      },
+      "archived": {
+        "success": true,
+        "completion_time_s": 3.22,
+        "path_length_m": 0.9678159612131996,
+        "final_error_m": 0.04985601966004137,
+        "command_corrections": 3
+      }
+    },
+    {
+      "name": "M1_S001",
+      "match": true,
+      "comparisons": {
+        "success": true,
+        "completion_time_s": true,
+        "path_length_m": true,
+        "final_error_m": true,
+        "command_corrections": true
+      },
+      "observed": {
+        "success": false,
+        "completion_time_s": null,
+        "path_length_m": 0.502046707178123,
+        "final_error_m": 0.12283547647021045,
+        "command_corrections": 0
+      },
+      "archived": {
+        "success": false,
+        "completion_time_s": null,
+        "path_length_m": 0.502046707178123,
+        "final_error_m": 0.12283547647021045,
+        "command_corrections": 0
+      }
+    },
+    {
+      "name": "M3_S015",
+      "match": true,
+      "comparisons": {
+        "success": true,
+        "completion_time_s": true,
+        "path_length_m": true,
+        "final_error_m": true,
+        "command_corrections": true
+      },
+      "observed": {
+        "success": false,
+        "completion_time_s": null,
+        "path_length_m": 0.5044068271247382,
+        "final_error_m": 0.12273792780226574,
+        "command_corrections": 9
+      },
+      "archived": {
+        "success": false,
+        "completion_time_s": null,
+        "path_length_m": 0.5044068271247382,
+        "final_error_m": 0.12273792780226574,
+        "command_corrections": 9
+      }
+    }
+  ],
+  "numeric_config_equal": true
+}

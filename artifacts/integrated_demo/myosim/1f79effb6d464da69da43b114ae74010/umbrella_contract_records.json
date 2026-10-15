@@ -1,0 +1,239 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-report",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.800905+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "text/markdown",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "report",
+      "schema_version": "1.0.0",
+      "sha256": "b9131e6f489e9fac9953c0c3c836eba7bbb37a84e2cec5baac7e96d58833fd2a",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/report.md"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-summary",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801069+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "d3639e363ae43018e49024ca3ca61821be47d2f85e47fc7f23279135d37694d5",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/summary.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-provenance",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801169+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "4b7d1960fab724ac201bf22895f091f1b47f33bf95572c762c459c98310e2b3b",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/provenance.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-task_metrics",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801263+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "da23418526b4c6031556c463740f460177a9a8fe57b08578ba5d52452f562d44",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_metrics.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-control_metrics",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801344+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "54fe5053351f8b2bfc0e94151428cc65e71f6b9f987a718b1a082ba854990f62",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_metrics.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-task_transitions",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801424+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "745ec48b71ecf3c3339dcd0f37af1a355f3d659ce8d09d71364f368535bb1ef4",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_transitions.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-control_transitions",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.801503+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "other",
+      "schema_version": "1.0.0",
+      "sha256": "d5827f77333004d71d8737549fe6b9402bd8828a6656168ff9e01ecb7c436846",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_transitions.json"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.802497+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "image/gif",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "video",
+      "schema_version": "1.0.0",
+      "sha256": "3cdf8b0559d46763dd2246bd9eb05c8d4dcefa1827d89201b2fba9bb8890fb8f",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_clean.gif"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.803663+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "image/gif",
+      "metadata": {
+        "benchmark_eligible": false,
+        "integration_demo": true,
+        "source_project": "myosim"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "video",
+      "schema_version": "1.0.0",
+      "sha256": "3fcd7b82a05ba4a54ff91c4a1392557e9261edf3e58b20dee573d14e3dd6dce2",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_debug.gif"
+    },
+    {
+      "artifact_id": "1f79effb6d464da69da43b114ae74010-umbrella-manifest",
+      "contract_kind": "artifact",
+      "created_at_utc": "2026-08-22T17:52:45.812551+00:00",
+      "evidence_class": "synthetic",
+      "media_type": "application/json",
+      "metadata": {
+        "benchmark_eligible": false,
+        "source_project": "human-motor-intelligence"
+      },
+      "producing_run_id": "1f79effb6d464da69da43b114ae74010",
+      "role": "manifest",
+      "schema_version": "1.0.0",
+      "sha256": "0b6bade2b8ac17a89976259782114d7c2788e46b22fbe4f567397b151eefce78",
+      "size_bytes": null,
+      "uri": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json"
+    }
+  ],
+  "experiment": {
+    "artifact_ids": [
+      "1f79effb6d464da69da43b114ae74010-report",
+      "1f79effb6d464da69da43b114ae74010-summary",
+      "1f79effb6d464da69da43b114ae74010-provenance",
+      "1f79effb6d464da69da43b114ae74010-task_metrics",
+      "1f79effb6d464da69da43b114ae74010-control_metrics",
+      "1f79effb6d464da69da43b114ae74010-task_transitions",
+      "1f79effb6d464da69da43b114ae74010-control_transitions",
+      "1f79effb6d464da69da43b114ae74010-pick_place_clean",
+      "1f79effb6d464da69da43b114ae74010-pick_place_debug",
+      "1f79effb6d464da69da43b114ae74010-umbrella-manifest"
+    ],
+    "code_commit": null,
+    "completed_at_utc": "2026-08-22T00:00:00+00:00",
+    "configuration_hash": "beeb4749297a8b442b2fa3718690d39b3edb93f3da1b26072f27292cfb3e2c3d",
+    "contract_kind": "experiment",
+    "dataset_id": "synthetic-integration-fixture",
+    "dataset_version": "v1",
+    "environment": {
+      "implementation": "CPython",
+      "machine": "x86_64",
+      "packages": {
+        "myosim": "0.1.3"
+      },
+      "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+      "python": "3.12.3"
+    },
+    "error": null,
+    "experiment_id": "integrated-demo-1f79effb6d464da69da43b114ae74010",
+    "metadata": {
+      "benchmark_eligible": false,
+      "myosim_source_run_dir": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010",
+      "purpose": "deterministic adapter/simulator integration demonstration only",
+      "synthetic": true
+    },
+    "metrics": {
+      "command_corrections": 3.0,
+      "completion_time_s": 3.22,
+      "false_activation_rate": 0.0,
+      "mean_confirmation_latency_s": 0.30000000000000004,
+      "task_success": 1.0
+    },
+    "modality": "emg",
+    "model_id": "myocontrol-to-myosim-adapter-fixture",
+    "model_version": "v1",
+    "project_id": "human-motor-intelligence",
+    "protocol_id": "intent-to-control-v1",
+    "run_id": "1f79effb6d464da69da43b114ae74010",
+    "schema_version": "1.0.0",
+    "seed": 20260822,
+    "started_at_utc": null,
+    "status": "succeeded",
+    "subject_split": "deterministic-replay"
+  },
+  "note": "All records are synthetic/non-benchmark integration evidence."
+}

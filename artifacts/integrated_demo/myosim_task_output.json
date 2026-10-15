@@ -1,0 +1,28 @@
+{
+  "run_id": "1f79effb6d464da69da43b114ae74010",
+  "run_dir": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010",
+  "report": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010/report.md",
+  "recordings": {
+    "clean_video": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010/pick_place_clean.gif",
+    "debug_video": "<LOCAL_WORKSPACE>/hmi_source_audit/myosim/MyoSim_V1.1_Public_Release_0.1.3/artifacts/runs/1f79effb6d464da69da43b114ae74010/pick_place_debug.gif"
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": true,
+    "completion_time_s": 3.22,
+    "path_length_m": 0.9678159612131996,
+    "final_error_m": 0.04985601966004137,
+    "grasp_stability_steps": 14,
+    "command_corrections": 3,
+    "final_state": "COMPLETE"
+  },
+  "control_metrics": {
+    "event_count": 33,
+    "released_command_count": 1,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 0,
+    "mean_confirmation_latency_s": 0.30000000000000004,
+    "state_transition_count": 5
+  }
+}

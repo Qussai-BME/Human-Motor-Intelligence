@@ -1,0 +1,27 @@
+{
+  "command_boundary": "This CLI supports local metadata, integrity, and provenance workflows. Generic experiment execution/reproduction, cloud operations, and decoder control are intentionally unavailable.",
+  "data_governance": {
+    "raw_or_derived_cache_paths_detected": [],
+    "status": "pass"
+  },
+  "evidence_gates": {
+    "p3": "pending_original_author_package",
+    "p6_r2_scope": "simulator_integration_fixture_systems_evidence_only",
+    "p6_r3": "blocked_pending_authentic_trace_provenance"
+  },
+  "project_root": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1",
+  "public_review_documents": {
+    "PUBLIC_REVIEW_DISCLOSURE_R3.md": true,
+    "README.md": true,
+    "REPRODUCIBILITY.md": true,
+    "SCIENTIFIC_LIMITATIONS.md": true,
+    "audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md": true,
+    "papers/RESEARCH_GATE_PREPARATION_RECOVERY_R3.md": true
+  },
+  "registry_integrity": {
+    "checked": 34,
+    "failures": [],
+    "registry": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/registry/local/registry.json",
+    "verified": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "config_hash": "25442563a7c0",
+  "feature_schema": "current_618_v1",
+  "db": "DB7",
+  "condition": "lda",
+  "n_subjects": 22,
+  "requested_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "completed_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "metrics": {
+    "accuracy": {
+      "mean": 0.2994926227141233,
+      "sd": 0.10648670831738008
+    },
+    "macro_f1": {
+      "mean": 0.15311128307603894,
+      "sd": 0.05837759918898131
+    },
+    "rest_recall": {
+      "mean": 0.511592623239873,
+      "sd": 0.23823445595983989
+    },
+    "active_only_accuracy": {
+      "mean": 0.1591515451577941,
+      "sd": 0.05856311904729002
+    },
+    "active_only_macro_f1": {
+      "mean": 0.15311406853812806,
+      "sd": 0.06130321122980291
+    },
+    "inflation_pp": {
+      "mean": 14.034107755632915,
+      "sd": 9.449999941523572
+    }
+  },
+  "environment": {
+    "python": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "machine": "AMD64",
+    "git_commit": null,
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.0",
+    "torch": "2.14.0+cpu",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.5",
+    "torch_num_threads": 1,
+    "cuda_available": false
+  }
+}

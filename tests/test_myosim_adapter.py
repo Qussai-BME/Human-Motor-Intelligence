@@ -38,6 +38,7 @@ def test_myosim_payload_requires_explicit_mapping_and_retains_provenance() -> No
 
 
 def test_myosim_runtime_bridge_constructs_public_intent_event() -> None:
+    pytest.importorskip("myosim")
     event = intent_to_myosim_event(
         source_intent(),
         label_map={"open_hand": "OPEN"},

@@ -1,0 +1,5 @@
+subject,reason
+"S088","integrity: fs=128.0, channels=64, imagery_events=19, labels={'T2', 'T1'}"
+"S092","integrity: fs=128.0, channels=64, imagery_events=19, labels={'T2', 'T1'}"
+"S100","integrity: fs=128.0, channels=64, imagery_events=12, labels={'T2', 'T1'}"
+"S104","integrity: fs=160.0, channels=64, imagery_events=13, labels={'T2', 'T1'}"

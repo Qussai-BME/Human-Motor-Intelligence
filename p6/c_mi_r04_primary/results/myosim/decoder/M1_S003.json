@@ -1,0 +1,54 @@
+{
+  "provenance": {
+    "run_id": "4b6b763ea3e5425589ee7d3f1d8653c0",
+    "created_at_utc": "2026-10-04T23:52:22+00:00",
+    "config_hash": "fbd0e0f8e6290e6e5a980ed17549a41ce8f606ae40e04bbc85640bae392d2ca5",
+    "git_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+    "physics_backend": "mujoco",
+    "model_path": "external/MyoSim-V1.1/assets/models/hand.xml",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:M1_S003.csv:d57feeb5a691",
+    "seed": 20261005,
+    "task": "pick_place",
+    "package_version": "0.1.5",
+    "intent_protocol_id": "csv-intent-replay-v1",
+    "input_file_sha256": "d57feeb5a6911610ff6ec8cc8bd6a2713eb08c24803cba65957afaaa218f7f52",
+    "environment": {
+      "implementation": "CPython",
+      "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+      "python_version": "3.12.3",
+      "system": "Linux",
+      "machine": "x86_64",
+      "executable": "/usr/bin/python3"
+    }
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 0,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 0,
+    "mean_confirmation_latency_s": null,
+    "state_transition_count": 0
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": false,
+    "completion_time_s": null,
+    "path_length_m": 0.502046707178123,
+    "final_error_m": 0.12283547647021045,
+    "grasp_stability_steps": 0,
+    "command_corrections": 0,
+    "final_state": "FAILED"
+  },
+  "control_transitions": [],
+  "task_transitions": [
+    {
+      "timestamp_s": 12.5,
+      "previous": "APPROACH",
+      "current": "FAILED",
+      "reason": "task_timeout"
+    }
+  ],
+  "invalid_state_detected": false
+}

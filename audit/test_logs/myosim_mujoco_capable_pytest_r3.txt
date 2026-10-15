@@ -1,0 +1,22 @@
+.F.............................................................          [100%]
+=================================== FAILURES ===================================
+_____________ test_validate_model_reports_backend_schema[pybullet] _____________
+
+backend = 'pybullet'
+capsys = <_pytest.capture.CaptureFixture object at 0x7fee1b313fe0>
+
+    @pytest.mark.parametrize("backend", ["mujoco", "pybullet"])
+    def test_validate_model_reports_backend_schema(
+        backend: str, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+>       assert cli_main.main(["validate-model", "--model", str(MODEL), "--backend", backend]) == 0
+E       AssertionError: assert 2 == 0
+E        +  where 2 = <function main at 0x7fee090416c0>(['validate-model', '--model', '<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/assets/models/hand.xml', '--backend', 'pybullet'])
+E        +    where <function main at 0x7fee090416c0> = cli_main.main
+
+tests/integration/test_cli_main.py:48: AssertionError
+----------------------------- Captured stderr call -----------------------------
+myosim error: PyBullet is unavailable; install with 'pip install myosim[pybullet]'
+=========================== short test summary info ============================
+FAILED tests/integration/test_cli_main.py::test_validate_model_reports_backend_schema[pybullet]
+1 failed, 62 passed, 2 deselected in 4.23s

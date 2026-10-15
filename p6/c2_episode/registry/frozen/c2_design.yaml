@@ -1,0 +1,22 @@
+protocol_id: P6-C2-EPISODE-v1.0
+myosim: {version: 0.1.5, commit: 67ee74e3230b068b5db760efa15da3669e315eb3, config: config/p6_c2_mysim.yaml, controller_changes: none}
+episode: {dt_s: 0.1, windows: {warmup: 20, decoy: 10, gap: 10, grasp: 10, tail: 20}, total_s: 7.0,
+  rest_label: REST, rest_confidence: 0.99, decoy_true_class: OPEN, grasp_true_class: CLOSE}
+scoring: {false_grasp_window_s: [2.0, 4.0], grasp_onset_window_s: [4.0, 5.5], primary_endpoint: cue_correct_success}
+emulator:
+  master_seed: 20261008
+  q: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.90, 1.00]
+  regime: [cal, flat]
+  rho: [1.0, 0.8, 0.5]
+  episodes_per_cell: 500
+  conf_models: {cal: "c=0.5+0.5*Beta(4m,4(1-m)), m=(q-0.5)/0.5; correct w.p. c", flat: "c=0.5+0.5*Beta(2.8,1.2); correct w.p. q"}
+preflight: {oracle_episodes: 100, oracle_required: 100, floor_episodes: 100, floor_max_successes: 1, x0_episodes: 100, x0_required_successes: 0}
+real_decoders:
+  data: EEGMMIDB v1.0.0 runs R04,R08,R12
+  decoders: [D1_bandpower_lr, D2_bandpair_lr, D3_csp_lda, D4_riemann_lr, D5_within_subject_csp_lda_reference]
+  cv: grouped_by_subject_5fold
+  confidence_variants: [raw, platt_train_subjects_only]
+  v1_gate: {best_zero_calibration_BA_min: 0.58, lower_exact_ci_gt: 0.55, best_vs_worst_cluster_bootstrap_ci_excludes_zero: true}
+sensitivity: {confidence_threshold: [0.60, 0.70, 0.75, 0.85], confirmation_windows: [1, 2, 3, 5], q: [0.6, 0.7, 0.8, 0.9], episodes_per_cell: 200}
+hypotheses: [H-E1, H-E2, H-E3, H-E4, H-R1]
+multiplicity: holm

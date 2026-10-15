@@ -1,0 +1,9 @@
+{
+  "git_commit": "unavailable",
+  "source_root": "<LOCAL_WORKSPACE>/dependencies/myosim_v1_1",
+  "tracked_source_sha256": {
+    "src/myosim/core/config.py": "131889482658aeafface83e71f0594ae913c114e6da5d1acc71a5c37019095a2",
+    "src/myosim/experiments/task_runner.py": "88606e04d3d3541d6120ea537f075abfbe34162512dc0ec6580079daebe6a497",
+    "src/myosim/simulation/mujoco_backend.py": "c9801557294ae6a1fa3b40f45cca2dc0a6c86ba4f528f1dd50c4027fcbbaf7f6"
+  }
+}

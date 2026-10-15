@@ -1,0 +1,16 @@
+{
+  "generated": "2026-10-06",
+  "scope": "current C1 release candidate",
+  "files": {
+    "papers/paper_6/P6_C1_MANUSCRIPT.md": "ef2e5e5fd5f7a8ef3729047eaecd560cf4df4436169090b9ea3f3f204321ade8",
+    "papers/paper_6/STATISTICAL_ANALYSIS_REPORT.md": "4b0e869f18a30a18f02b66b12e34fd785c062f41ef74bac76b9f0be2369720d9",
+    "papers/paper_6/CLAIM_EVIDENCE_MATRIX.md": "d8b7a740a987b68edc0e2c68695bd370af8a4647353969dc1d87a4d4b2ca72b6",
+    "papers/paper_6/Q1_REVIEW.md": "de730d251eb1fe5aa8dd183e41c5bb667ce25fd80cf563fcc88d633b4b322d2c",
+    "p6/c_mi_r04_primary/PROTOCOL_C1.md": "73a5fe1dad693c851b73af6a0ba5439fdc1e917d47afb63f560ec00af19b8a96",
+    "p6/c_mi_r04_primary/configs/p6_mi_r04.yaml": "2b12343335c312629911f241eb529a73d345b5801f546e1d934c15d40af4c4f5",
+    "p6/c_mi_r04_primary/scripts/run_all_p6_c1.py": "1ed72a5cf78f896945866936502206853286ae82fcec45e34fbc11096c58be94",
+    "p6/c_mi_r04_primary/scripts/run_p6_mi_r04.py": "9699afb6c01ebaf08cbe3b00f1d4c21c8444fa0860508222989f267fc71f21bf",
+    "p6/c_mi_r04_primary/scripts/run_myosim_p6_c.py": "8ac1fd3ac8e23df1ac480cb7479d050b48528329e23219074eb92311f42eddcb",
+    "p6/c_mi_r04_primary/results/STATUS.json": "d769672247714fec2b0f76021bac109d0f8c6edc9c4fa8d4e8808d3f6035a09a"
+  }
+}

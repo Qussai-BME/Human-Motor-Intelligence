@@ -1,0 +1,22 @@
+[
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "OPEN"
+    },
+    "previous": "REST",
+    "reason": "accepted_candidate_intent",
+    "timestamp_s": 5.0
+  },
+  {
+    "command": "REST",
+    "current": "CANDIDATE",
+    "metadata": {
+      "active_label": "CLOSE"
+    },
+    "previous": "CANDIDATE",
+    "reason": "candidate_replaced_by_new_consistent_label",
+    "timestamp_s": 35.0
+  }
+]

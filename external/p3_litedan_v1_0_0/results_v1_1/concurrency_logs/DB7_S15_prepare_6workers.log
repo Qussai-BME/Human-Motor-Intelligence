@@ -1,0 +1,71 @@
+nohup: ignoring input
+{
+  "subject": 15,
+  "status": "prepared",
+  "cache": "artifacts_v1_1/features/DB7/S15.npz",
+  "metadata": {
+    "db": "DB7",
+    "subject": 15,
+    "exercises": [
+      1,
+      2
+    ],
+    "n_windows": 10822,
+    "raw_features": 618,
+    "feature_schema": "current_618_v1",
+    "cache_input_hash": "97ee204dd5aa",
+    "source_files": [
+      "S15_E1_A1.mat",
+      "S15_E2_A1.mat"
+    ],
+    "official_archive_url": "https://ninapro.hevs.ch/files/DB7_Preproc/Subject_15.zip",
+    "official_archive_bytes": 1485736024,
+    "official_archive_sha256": "78512d8e265719b29ed2a1014975c6315394a440f4de591910e95eaa8f949f7a",
+    "download_status": "reused",
+    "extracted_files": [
+      "S15_E1_A1.mat",
+      "S15_E2_A1.mat"
+    ],
+    "started_at_utc": "2026-08-28T14:53:20.663234+00:00",
+    "completed_at_utc": "2026-08-28T15:06:09.427943+00:00"
+  },
+  "elapsed_seconds": 769.1487497209746
+}
+{
+  "db": "DB7",
+  "status": "subject_batch_complete",
+  "results": [
+    {
+      "subject": 15,
+      "status": "prepared",
+      "cache": "artifacts_v1_1/features/DB7/S15.npz",
+      "metadata": {
+        "db": "DB7",
+        "subject": 15,
+        "exercises": [
+          1,
+          2
+        ],
+        "n_windows": 10822,
+        "raw_features": 618,
+        "feature_schema": "current_618_v1",
+        "cache_input_hash": "97ee204dd5aa",
+        "source_files": [
+          "S15_E1_A1.mat",
+          "S15_E2_A1.mat"
+        ],
+        "official_archive_url": "https://ninapro.hevs.ch/files/DB7_Preproc/Subject_15.zip",
+        "official_archive_bytes": 1485736024,
+        "official_archive_sha256": "78512d8e265719b29ed2a1014975c6315394a440f4de591910e95eaa8f949f7a",
+        "download_status": "reused",
+        "extracted_files": [
+          "S15_E1_A1.mat",
+          "S15_E2_A1.mat"
+        ],
+        "started_at_utc": "2026-08-28T14:53:20.663234+00:00",
+        "completed_at_utc": "2026-08-28T15:06:09.427943+00:00"
+      },
+      "elapsed_seconds": 769.1487497209746
+    }
+  ]
+}

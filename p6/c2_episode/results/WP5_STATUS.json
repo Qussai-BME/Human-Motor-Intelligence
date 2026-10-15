@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "valid_subjects": 105,
+  "excluded_subjects": 4,
+  "R1_episode_count": 19750,
+  "R1_episode_count_source": "unique committed R1 episode_id values in results/real_episodes.csv",
+  "V1": {
+    "P1": true,
+    "P2": true,
+    "passed": true,
+    "status": "CONFIRMATORY",
+    "bootstrap_resamples": 10000,
+    "seed": 20261008
+  }
+}

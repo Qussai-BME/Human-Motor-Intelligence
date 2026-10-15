@@ -1,0 +1,17 @@
+{
+  "worst": {
+    "mean_balanced_accuracy": 0.496875,
+    "median_balanced_accuracy": 0.4642857142857143,
+    "n_subjects": 20
+  },
+  "middle": {
+    "mean_balanced_accuracy": 0.45401785714285714,
+    "median_balanced_accuracy": 0.45535714285714285,
+    "n_subjects": 20
+  },
+  "best": {
+    "mean_balanced_accuracy": 0.43794642857142857,
+    "median_balanced_accuracy": 0.45535714285714285,
+    "n_subjects": 20
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "benchmark_eligible": false,
+  "config": {
+    "control": {
+      "command_rate_limit_rad_s": 2.0,
+      "confidence_threshold": 0.75,
+      "confirmation_windows": 3,
+      "ema_alpha": 0.35,
+      "emergency_stop_on_invalid_state": true,
+      "hold_duration_s": 0.2,
+      "max_joint_target_rad": 1.35,
+      "minimum_dwell_s": 0.08,
+      "release_duration_s": 0.1,
+      "stale_input_timeout_s": 0.3
+    },
+    "initial_state": {
+      "distribution_id": "uniform_forearm_xy_v1",
+      "enabled": true,
+      "forearm_x_offset_range_m": [
+        0.0,
+        0.02
+      ],
+      "forearm_y_offset_range_m": [
+        -0.015,
+        0.015
+      ]
+    },
+    "recording": {
+      "debug_overlays": true,
+      "enabled": false,
+      "fps": 12
+    },
+    "run": {
+      "artifacts_dir": "<LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/p6_real_replay_initial_state_repeats",
+      "log_level": "INFO",
+      "seed": 20260917
+    },
+    "simulation": {
+      "backend": "mujoco",
+      "headless": true,
+      "model_path": "assets/models/hand.xml",
+      "render_height": 480,
+      "render_width": 640,
+      "timestep_s": 0.002
+    },
+    "task": {
+      "name": "pick_place",
+      "stable_grasp_steps": 20,
+      "target_radius_m": 0.08,
+      "timeout_s": 8.0
+    }
+  },
+  "origin": "real_replay_initial_state_variation",
+  "protocol_id": "p6-real-replay-initial-state-repeats-recovery-r2",
+  "replay": {
+    "path": "<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/examples/intents/pick_place_replay.csv",
+    "sha256": "a94e59e30e2599eb92517198739dff96aa40b01f3bf6777756722e09960e09f3"
+  },
+  "result": {
+    "control_metrics": {
+      "event_count": 33,
+      "false_activation_count": 0,
+      "false_activation_rate": 0.0,
+      "mean_confirmation_latency_s": 0.30000000000000004,
+      "released_command_count": 1,
+      "state_transition_count": 5,
+      "unintended_transition_count": 0
+    },
+    "control_transitions": [
+      {
+        "command": "REST",
+        "current": "CANDIDATE",
+        "metadata": {
+          "active_label": "PINCH"
+        },
+        "previous": "REST",
+        "reason": "accepted_candidate_intent",
+        "timestamp_s": 0.1
+      },
+      {
+        "command": "REST",
+        "current": "CONFIRMED",
+        "metadata": {
+          "active_label": "PINCH"
+        },
+        "previous": "CANDIDATE",
+        "reason": "confidence_and_temporal_requirements_met",
+        "timestamp_s": 0.3
+      },
+      {
+        "command": "PINCH",
+        "current": "EXECUTING",
+        "metadata": {
+          "active_label": "PINCH"
+        },
+        "previous": "CONFIRMED",
+        "reason": "confirmed_command_released",
+        "timestamp_s": 0.4
+      },
+      {
+        "command": "RELEASE",
+        "current": "RELEASE",
+        "metadata": {
+          "active_label": "REST"
+        },
+        "previous": "EXECUTING",
+        "reason": "explicit_rest_received",
+        "timestamp_s": 3.1
+      },
+      {
+        "command": "REST",
+        "current": "REST",
+        "metadata": {
+          "active_label": "REST"
+        },
+        "previous": "RELEASE",
+        "reason": "release_completed",
+        "timestamp_s": 3.22
+      }
+    ],
+    "initial_state": {
+      "distribution_id": "uniform_forearm_xy_v1",
+      "enabled": true,
+      "forearm_x_offset_range_m": [
+        0.0,
+        0.02
+      ],
+      "forearm_y_offset_range_m": [
+        -0.015,
+        0.015
+      ],
+      "initial_joint_offsets": {
+        "forearm_x": 0.013061199418702148,
+        "forearm_y": -0.010097681013257098
+      },
+      "initial_named_joint_positions": {
+        "forearm_x": 0.013061199418702148,
+        "forearm_y": -0.010097681013257098,
+        "index_flex": 0.0,
+        "middle_flex": 0.0,
+        "object_free": 0.36,
+        "ring_flex": 0.0,
+        "thumb_flex": 0.0
+      },
+      "initial_named_joint_velocities": {
+        "forearm_x": 0.0,
+        "forearm_y": 0.0,
+        "index_flex": 0.0,
+        "middle_flex": 0.0,
+        "object_free": 0.0,
+        "ring_flex": 0.0,
+        "thumb_flex": 0.0
+      },
+      "initial_qpos": [
+        0.013061199418702148,
+        -0.010097681013257098,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.36,
+        0.0,
+        0.045,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_qvel": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seed": 20260917
+    },
+    "invalid_state_detected": false,
+    "provenance": {
+      "config_hash": "e50409d976f8cea28353ee903a36cb1fb303f2ce2042653c3d1013d8fbb22169",
+      "created_at_utc": "2026-08-23T15:52:23+00:00",
+      "git_commit": "unavailable",
+      "intent_source": "csv-replay:pick_place_replay.csv:a94e59e30e25",
+      "model_path": "<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/assets/models/hand.xml",
+      "model_version": "myosim-hand-task-mjcf-v1",
+      "package_version": "0.1.3",
+      "physics_backend": "mujoco",
+      "run_id": "8113a64aa07f4aa087066bd596540fbe",
+      "seed": 20260917,
+      "task": "pick_place"
+    },
+    "task_metrics": {
+      "command_corrections": 3,
+      "completion_time_s": null,
+      "final_error_m": 0.043836364886470046,
+      "final_state": "TRANSPORT",
+      "grasp_stability_steps": 15,
+      "path_length_m": 1.0241913918378074,
+      "success": false,
+      "task_name": "pick_place"
+    },
+    "task_transitions": [
+      {
+        "current": "WAIT_FOR_GRASP",
+        "previous": "APPROACH",
+        "reason": "approach_reached",
+        "timestamp_s": 1.7
+      },
+      {
+        "current": "TRANSPORT",
+        "previous": "WAIT_FOR_GRASP",
+        "reason": "decoded_grasp_command",
+        "timestamp_s": 1.8
+      }
+    ]
+  }
+}

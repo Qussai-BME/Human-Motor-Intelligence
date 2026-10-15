@@ -1,0 +1,24 @@
+nohup: ignoring input
+start 1/11 S1: running
+fold 1/11 S1: acc=0.1243, macro-F1=0.0387, fit=425.1s, fold=427.2s
+start 2/11 S2: running
+fold 2/11 S2: acc=0.1627, macro-F1=0.0227, fit=427.9s, fold=430.6s
+start 3/11 S3: running
+fold 3/11 S3: acc=0.1262, macro-F1=0.0216, fit=428.9s, fold=431.5s
+start 4/11 S4: running
+fold 4/11 S4: acc=0.0285, macro-F1=0.0179, fit=424.7s, fold=427.3s
+start 5/11 S5: running
+fold 5/11 S5: acc=0.0388, macro-F1=0.0276, fit=422.2s, fold=424.8s
+start 6/11 S6: running
+fold 6/11 S6: acc=0.0097, macro-F1=0.0052, fit=439.3s, fold=441.8s
+start 7/11 S7: running
+fold 7/11 S7: acc=0.0163, macro-F1=0.0035, fit=439.4s, fold=442.0s
+start 8/11 S8: running
+fold 8/11 S8: acc=0.0623, macro-F1=0.0480, fit=443.1s, fold=445.8s
+start 9/11 S9: running
+fold 9/11 S9: acc=0.0682, macro-F1=0.0499, fit=450.3s, fold=453.1s
+start 10/11 S10: running
+fold 10/11 S10: acc=0.0600, macro-F1=0.0442, fit=446.3s, fold=449.0s
+start 11/11 S11: running
+fold 11/11 S11: acc=0.0978, macro-F1=0.0606, fit=449.0s, fold=451.8s
+LOSO COMPLETE: DB3 / xgb (11 subjects)

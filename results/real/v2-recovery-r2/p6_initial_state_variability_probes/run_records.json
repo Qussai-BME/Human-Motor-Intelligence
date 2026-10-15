@@ -1,0 +1,76 @@
+[
+  {
+    "command_corrections": 3,
+    "completion_time_s": null,
+    "final_error_m": 0.05186111175713838,
+    "final_state": "TRANSPORT",
+    "forearm_x_offset_m": 0.012643603681518822,
+    "forearm_y_offset_m": 0.002472205430941149,
+    "grasp_stability_steps": 16,
+    "initial_named_joint_positions": {
+      "forearm_x": 0.012643603681518822,
+      "forearm_y": 0.002472205430941149,
+      "index_flex": 0.0,
+      "middle_flex": 0.0,
+      "object_free": 0.36,
+      "ring_flex": 0.0,
+      "thumb_flex": 0.0
+    },
+    "initial_qpos": [
+      0.012643603681518822,
+      0.002472205430941149,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.36,
+      0.0,
+      0.045,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "invalid_state_detected": false,
+    "path_length_m": 0.9589537182018208,
+    "seed": 20260901,
+    "success": false
+  },
+  {
+    "command_corrections": 3,
+    "completion_time_s": null,
+    "final_error_m": 0.04634833100409562,
+    "final_state": "TRANSPORT",
+    "forearm_x_offset_m": 0.018459270615720027,
+    "forearm_y_offset_m": 0.003767357688051722,
+    "grasp_stability_steps": 15,
+    "initial_named_joint_positions": {
+      "forearm_x": 0.018459270615720027,
+      "forearm_y": 0.003767357688051722,
+      "index_flex": 0.0,
+      "middle_flex": 0.0,
+      "object_free": 0.36,
+      "ring_flex": 0.0,
+      "thumb_flex": 0.0
+    },
+    "initial_qpos": [
+      0.018459270615720027,
+      0.003767357688051722,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.36,
+      0.0,
+      0.045,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "invalid_state_detected": false,
+    "path_length_m": 0.9922937282549175,
+    "seed": 20260902,
+    "success": false
+  }
+]

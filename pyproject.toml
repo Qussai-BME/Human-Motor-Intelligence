@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "human-motor-intelligence"
-version = "0.1.0"
+version = "1.2.0"
 description = "Thin, local-first research integration infrastructure for biosignal-to-control studies."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -27,8 +27,19 @@ dependencies = []
 dev = [
   "pytest>=8.0,<10.0",
 ]
+p6 = [
+  "numpy>=1.26,<3.0",
+  "scipy>=1.11,<2.0",
+  "scikit-learn>=1.4,<2.0",
+  "pyedflib>=0.1.38,<1.0",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "statsmodels>=0.14",
+]
 scientific = [
   "numpy>=1.26,<3.0",
+  "scipy>=1.11,<2.0",
+  "scikit-learn>=1.4,<2.0",
   "matplotlib>=3.8,<4.0",
 ]
 

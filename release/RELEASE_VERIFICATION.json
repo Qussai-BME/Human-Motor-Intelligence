@@ -1,0 +1,18 @@
+{
+  "schema": "hmi.release-verification.v3",
+  "release_version": "1.1.0",
+  "p6_c1_status": "SCIENTIFICALLY_COMPLETE_NON_DISCRIMINATIVE_PRIMARY_ENDPOINT",
+  "pytest": "31 passed, 1 skipped",
+  "public_release_doctor": "PASS",
+  "fixture": "1/1 COMPLETE",
+  "primary_runs": 60,
+  "rerun_runs": 60,
+  "primary_task_success": {"M1": 0, "M2": 0, "M3": 0},
+  "rerun_task_success": {"M1": 0, "M2": 0, "M3": 0},
+  "rerun_distinct_run_ids": 60,
+  "rerun_distinct_artifact_hashes": 60,
+  "decoder_traces_deterministic": true,
+  "raw_biosignal_files_redistributed": 0,
+  "build_cache_bytecode_artifacts": 0,
+  "scientific_boundary": "Registered R04 cohort/task only; no clinical, prosthetic, online-human, or general decoder-quality-to-control-utility claim."
+}

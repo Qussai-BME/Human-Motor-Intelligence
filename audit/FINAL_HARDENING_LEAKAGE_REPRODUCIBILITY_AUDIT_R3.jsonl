@@ -1,0 +1,8 @@
+{"check": "P4 representation rerun", "status": "PASS", "detail": "cd7f8df8926316d9107834efea9806f93adc915d20786ccd8b42aee8ec723bd1"}
+{"check": "P5 calibration rerun", "status": "PASS", "detail": "9d454e309e6c529bc1466f155884bba756d4616cdc95db9935e7374782d0378d"}
+{"check": "P4 representation subject-level design", "status": "PASS", "detail": "{'temporal': 54, 'spectral': 54, 'covariance_log': 54}"}
+{"check": "P5 strict robustness subject-level design", "status": "PASS", "detail": "subjects=24,conditions=5,variants=7,rows=840"}
+{"check": "P5 clean-train corrupted-test code boundary", "status": "PASS", "detail": "train-only fitting and explicit clean-training protocol found"}
+{"check": "P4 LOSO code boundary", "status": "PASS", "detail": "held-out subject excluded from fit"}
+{"check": "P5 calibration conditions", "status": "PASS", "detail": "five predeclared conditions"}
+{"overall": "PASS", "checks": 7}

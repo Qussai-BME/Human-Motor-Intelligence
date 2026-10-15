@@ -1,0 +1,24 @@
+nohup: ignoring input
+start 1/11 S1: running
+fold 1/11 S1: acc=0.1497, macro-F1=0.0357, fit=3.8s, fold=4.2s
+start 2/11 S2: running
+fold 2/11 S2: acc=0.0547, macro-F1=0.0130, fit=3.9s, fold=4.3s
+start 3/11 S3: running
+fold 3/11 S3: acc=0.0324, macro-F1=0.0139, fit=4.0s, fold=4.5s
+start 4/11 S4: running
+fold 4/11 S4: acc=0.0260, macro-F1=0.0205, fit=3.9s, fold=4.3s
+start 5/11 S5: running
+fold 5/11 S5: acc=0.0407, macro-F1=0.0265, fit=3.9s, fold=4.3s
+start 6/11 S6: running
+fold 6/11 S6: acc=0.0064, macro-F1=0.0026, fit=4.0s, fold=4.4s
+start 7/11 S7: running
+fold 7/11 S7: acc=0.0159, macro-F1=0.0020, fit=4.0s, fold=4.3s
+start 8/11 S8: running
+fold 8/11 S8: acc=0.0309, macro-F1=0.0379, fit=3.9s, fold=4.3s
+start 9/11 S9: running
+fold 9/11 S9: acc=0.0818, macro-F1=0.0412, fit=3.9s, fold=4.3s
+start 10/11 S10: running
+fold 10/11 S10: acc=0.0480, macro-F1=0.0397, fit=3.9s, fold=4.3s
+start 11/11 S11: running
+fold 11/11 S11: acc=0.1066, macro-F1=0.0467, fit=4.0s, fold=4.4s
+LOSO COMPLETE: DB3 / random_forest (11 subjects)

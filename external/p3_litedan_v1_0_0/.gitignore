@@ -1,0 +1,21 @@
+# NinaPro raw data and feature caches (large, redistribution-restricted)
+data/
+artifacts_v1_1/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local run artifacts not part of the released result set
+current_experiments.json
+*.log.tmp

@@ -1,0 +1,41 @@
+run:
+  seed: 20260901
+  artifacts_dir: <LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/p6_real_replay_initial_state_repeats
+  log_level: INFO
+
+simulation:
+  backend: mujoco
+  model_path: assets/models/hand.xml
+  timestep_s: 0.002
+  headless: true
+  render_width: 640
+  render_height: 480
+
+control:
+  confidence_threshold: 0.75
+  confirmation_windows: 3
+  minimum_dwell_s: 0.08
+  hold_duration_s: 0.20
+  release_duration_s: 0.10
+  ema_alpha: 0.35
+  stale_input_timeout_s: 0.30
+  command_rate_limit_rad_s: 2.0
+  max_joint_target_rad: 1.35
+  emergency_stop_on_invalid_state: true
+
+task:
+  name: pick_place
+  timeout_s: 8.0
+  target_radius_m: 0.08
+  stable_grasp_steps: 20
+
+recording:
+  enabled: false
+  debug_overlays: true
+  fps: 12
+
+initial_state:
+  enabled: true
+  distribution_id: uniform_forearm_xy_v1
+  forearm_x_offset_range_m: [0.0, 0.020]
+  forearm_y_offset_range_m: [-0.015, 0.015]

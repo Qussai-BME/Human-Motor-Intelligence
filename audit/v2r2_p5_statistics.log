@@ -1,0 +1,11 @@
+{
+  "friedman_p_value": 0.0010077006085612748,
+  "models": [
+    "early-fusion-lda-v1",
+    "eeg-only-lda-v1",
+    "emg-only-lda-v1",
+    "late-fusion-lda-v1"
+  ],
+  "statistics_path": "/home/ubuntu/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/nemar-nm000311-jeong-p5-external-loso-24subject-r2/statistics_macro_f1.json",
+  "subject_count": 24
+}

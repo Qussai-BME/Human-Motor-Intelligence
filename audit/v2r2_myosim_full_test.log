@@ -1,0 +1,31 @@
+
+==================================== ERRORS ====================================
+_________ ERROR collecting tests/integration/test_pybullet_backend.py __________
+ImportError while importing test module '/home/ubuntu/dependencies/myosim_v1_1/tests/integration/test_pybullet_backend.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/integration/test_pybullet_backend.py:10: in <module>
+    from myosim.simulation.pybullet_backend import PyBulletBackend
+src/myosim/simulation/pybullet_backend.py:16: in <module>
+    import pybullet as pybullet
+E   ModuleNotFoundError: No module named 'pybullet'
+__________ ERROR collecting tests/unit/test_coverage_backend_edges.py __________
+ImportError while importing test module '/home/ubuntu/dependencies/myosim_v1_1/tests/unit/test_coverage_backend_edges.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/unit/test_coverage_backend_edges.py:11: in <module>
+    from myosim.simulation.pybullet_backend import (
+src/myosim/simulation/pybullet_backend.py:16: in <module>
+    import pybullet as pybullet
+E   ModuleNotFoundError: No module named 'pybullet'
+=========================== short test summary info ============================
+ERROR tests/integration/test_pybullet_backend.py
+ERROR tests/unit/test_coverage_backend_edges.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+2 errors in 0.80s

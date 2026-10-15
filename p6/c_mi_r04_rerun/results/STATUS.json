@@ -1,0 +1,15 @@
+{
+  "scientific_status": "SCIENTIFICALLY_COMPLETE",
+  "stage": "decoder_generation_and_task_replay_complete",
+  "task_replay": "complete",
+  "protocol": "P6-C1-MI-R04-v1.0",
+  "decoder_traces": 60,
+  "myosim_run_json_artifacts": 60,
+  "task_successes": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0
+  },
+  "primary_endpoint_discriminative": false,
+  "verification_note": "All 60 rerun MyoSim artifacts have distinct run IDs and SHA-256 hashes from primary artifacts; deterministic decoder traces are identical across primary and rerun."
+}

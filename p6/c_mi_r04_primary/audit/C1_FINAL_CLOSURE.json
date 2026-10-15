@@ -1,0 +1,32 @@
+{
+  "schema": "hmi.p6.c1-final-closure.v1",
+  "closed_at_utc": "2026-10-05T22:12:29.738837+00:00",
+  "status": "SCIENTIFICALLY_COMPLETE",
+  "primary_protocol": "P6-C1-MI-R04-v1.0",
+  "r03_role": "engineering_preflight_baseline_only",
+  "subjects": 20,
+  "models": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "primary_runs": 60,
+  "rerun_runs": 60,
+  "fixture_success": "1/1",
+  "task_success_primary": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0
+  },
+  "task_success_rerun": {
+    "M1": 0,
+    "M2": 0,
+    "M3": 0
+  },
+  "endpoint_discriminative": false,
+  "rerun_run_ids_distinct": true,
+  "rerun_artifact_hashes_distinct": true,
+  "decoder_traces_deterministic": true,
+  "raw_r04_redistributed": false,
+  "reexecution_requirement": "external PhysioNet R04 EDF + compatible MyoSim/MuJoCo environment"
+}

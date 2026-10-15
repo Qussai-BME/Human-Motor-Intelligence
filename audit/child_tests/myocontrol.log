@@ -1,0 +1,72 @@
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting tests/test_database.py ____________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myocontrol/myocontrol-main/tests/test_database.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_database.py:12: in <module>
+    from src.core.engine import EMGEngine
+src/core/engine.py:20: in <module>
+    from scipy import signal as scipy_signal
+E   ModuleNotFoundError: No module named 'scipy'
+________________ ERROR collecting tests/test_dataset_loader.py _________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myocontrol/myocontrol-main/tests/test_dataset_loader.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_dataset_loader.py:12: in <module>
+    from src.core.dataset_loader import (
+src/core/dataset_loader.py:23: in <module>
+    from .features import extract_features_stream, estimate_noise_floor, TIME_FEATURES
+src/core/features.py:13: in <module>
+    from scipy import signal as scipy_signal
+E   ModuleNotFoundError: No module named 'scipy'
+____________________ ERROR collecting tests/test_engine.py _____________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myocontrol/myocontrol-main/tests/test_engine.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_engine.py:13: in <module>
+    from src.core.engine import EMGEngine
+src/core/engine.py:20: in <module>
+    from scipy import signal as scipy_signal
+E   ModuleNotFoundError: No module named 'scipy'
+__________________ ERROR collecting tests/test_pdf_report.py ___________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myocontrol/myocontrol-main/tests/test_pdf_report.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_pdf_report.py:13: in <module>
+    from src.core.engine import EMGEngine
+src/core/engine.py:20: in <module>
+    from scipy import signal as scipy_signal
+E   ModuleNotFoundError: No module named 'scipy'
+_________________ ERROR collecting tests/test_v04_features.py __________________
+ImportError while importing test module '/home/ubuntu/hmi_source_audit/myocontrol/myocontrol-main/tests/test_v04_features.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_v04_features.py:11: in <module>
+    from src.core.features_extended import (
+src/core/features_extended.py:18: in <module>
+    from scipy import signal as scipy_signal
+E   ModuleNotFoundError: No module named 'scipy'
+=========================== short test summary info ============================
+ERROR tests/test_database.py
+ERROR tests/test_dataset_loader.py
+ERROR tests/test_engine.py
+ERROR tests/test_pdf_report.py
+ERROR tests/test_v04_features.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 5 errors during collection !!!!!!!!!!!!!!!!!!!!
+3 skipped, 5 errors in 3.92s

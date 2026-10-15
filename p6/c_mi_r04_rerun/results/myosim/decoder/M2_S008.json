@@ -1,0 +1,105 @@
+{
+  "provenance": {
+    "run_id": "4a88be1bbe504ed88536a8907f3f36de",
+    "created_at_utc": "2026-10-04T23:54:40+00:00",
+    "config_hash": "fbd0e0f8e6290e6e5a980ed17549a41ce8f606ae40e04bbc85640bae392d2ca5",
+    "git_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+    "physics_backend": "mujoco",
+    "model_path": "external/MyoSim-V1.1/assets/models/hand.xml",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:M2_S008.csv:54b3c8806f78",
+    "seed": 20261005,
+    "task": "pick_place",
+    "package_version": "0.1.5",
+    "intent_protocol_id": "csv-intent-replay-v1",
+    "input_file_sha256": "54b3c8806f78bc9dd462f73c2f6cae176844d13ecfc0cbb8bc7be8a4854e5c3c",
+    "environment": {
+      "implementation": "CPython",
+      "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+      "python_version": "3.12.3",
+      "system": "Linux",
+      "machine": "x86_64",
+      "executable": "/usr/bin/python3"
+    }
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 0,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 0,
+    "mean_confirmation_latency_s": null,
+    "state_transition_count": 5
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": false,
+    "completion_time_s": null,
+    "path_length_m": 0.5047871287037873,
+    "final_error_m": 0.12273792780663151,
+    "grasp_stability_steps": 0,
+    "command_corrections": 0,
+    "final_state": "FAILED"
+  },
+  "control_transitions": [
+    {
+      "timestamp_s": 28.7,
+      "previous": "REST",
+      "current": "CANDIDATE",
+      "reason": "accepted_candidate_intent",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 36.9,
+      "previous": "CANDIDATE",
+      "current": "CANDIDATE",
+      "reason": "candidate_replaced_by_new_consistent_label",
+      "command": "REST",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 77.9,
+      "previous": "CANDIDATE",
+      "current": "CANDIDATE",
+      "reason": "candidate_replaced_by_new_consistent_label",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 86.1,
+      "previous": "CANDIDATE",
+      "current": "CANDIDATE",
+      "reason": "candidate_replaced_by_new_consistent_label",
+      "command": "REST",
+      "metadata": {
+        "active_label": "CLOSE"
+      }
+    },
+    {
+      "timestamp_s": 118.9,
+      "previous": "CANDIDATE",
+      "current": "CANDIDATE",
+      "reason": "candidate_replaced_by_new_consistent_label",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    }
+  ],
+  "task_transitions": [
+    {
+      "timestamp_s": 12.3,
+      "previous": "APPROACH",
+      "current": "FAILED",
+      "reason": "task_timeout"
+    }
+  ],
+  "invalid_state_detected": false
+}

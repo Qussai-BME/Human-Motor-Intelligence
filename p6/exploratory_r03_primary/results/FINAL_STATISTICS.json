@@ -1,0 +1,113 @@
+{
+  "protocol": "p6-r3-offline-motor-execution-eeg-systems-feasibility-v1",
+  "status": "RECONCILED_EXPLORATORY_ANALYSIS",
+  "dataset": "PhysioNet EEGMMIDB v1.0.0, run R03 (motor execution, not motor imagery)",
+  "n_traces": 60,
+  "n_subjects": 20,
+  "models": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "quality_mapping": {
+    "quality_low": "M2",
+    "quality_mid": "M3",
+    "quality_high": "M1"
+  },
+  "quality_ranking_metric": "mean 3-fold balanced accuracy on source/training subjects only",
+  "quality_mapping_frozen_before_task_analysis": true,
+  "primary_aggregate_independent_rerun_equal": true,
+  "independent_rerun_audit_status": "AGGREGATE_EQUALITY_ONLY; per-run rerun JSON artifacts are absent, so independent execution is not fully auditable from the supplied package.",
+  "invalid_simulator_states": 0,
+  "task_successes": 0,
+  "task_success_total": 60,
+  "task_success_by_model": {
+    "M1": {
+      "successes": 0,
+      "n": 20
+    },
+    "M2": {
+      "successes": 0,
+      "n": 20
+    },
+    "M3": {
+      "successes": 0,
+      "n": 20
+    }
+  },
+  "decoder_quality": {
+    "M1": {
+      "source_cv_mean": 0.5030104905437353,
+      "source_cv_sd": 0.021293058817846086,
+      "heldout_balanced_mean": 0.496875,
+      "heldout_balanced_sd": 0.1080116328097773,
+      "heldout_accuracy_mean": 0.5,
+      "heldout_accuracy_sd": 0.11134478352717493
+    },
+    "M2": {
+      "source_cv_mean": 0.44104240543735224,
+      "source_cv_sd": 0.023102220037811365,
+      "heldout_balanced_mean": 0.45401785714285714,
+      "heldout_balanced_sd": 0.1308792908067727,
+      "heldout_accuracy_mean": 0.45666666666666667,
+      "heldout_accuracy_sd": 0.13205527816497176
+    },
+    "M3": {
+      "source_cv_mean": 0.4484079491725768,
+      "source_cv_sd": 0.026832590171911808,
+      "heldout_balanced_mean": 0.43794642857142857,
+      "heldout_balanced_sd": 0.14531702051975534,
+      "heldout_accuracy_mean": 0.44,
+      "heldout_accuracy_sd": 0.14573869109427098
+    }
+  },
+  "paired_repeated_measures_analysis": {
+    "final_error_m": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "path_length_m": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "command_corrections": {
+      "chi2": 0.03846153846154721,
+      "p": 0.9809529623601985,
+      "kendalls_w": 0.0009615384615386802,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "grasp_stability_steps": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    }
+  },
+  "success_analysis": {
+    "M2": "0/20",
+    "M3": "0/20",
+    "M1": "0/20",
+    "inferential_test": "Not informative: all outcomes are failures; no success variance."
+  },
+  "quality_utility_rank_correlation": "Not performed inferentially because the quality predictor has only three model-level values repeated across subjects; row-level correlation would pseudoreplicate the predictor.",
+  "released_command_metric_reconciliation": {
+    "status": "DERIVED_FROM_TRANSITION_LOGS",
+    "raw_counter_preserved": true,
+    "explicit_release_reason": "single_authenticated_event_released",
+    "aggregate_original_preserved": true
+  },
+  "historical_analysis_superseded": {
+    "kruskal_wallis": "Superseded due paired repeated-measures design.",
+    "row_level_spearman": "Not used due model-level predictor pseudoreplication."
+  },
+  "interpretation": "Exploratory negative/inconclusive evidence under this specific offline motor-execution EEG-to-MyoSim configuration. The primary task-success endpoint was degenerate at 0/60. Secondary endpoints showed no detectable paired differences. This does not establish that decoder quality is generally unrelated to control utility.",
+  "critical_scope_limit": "R03 contains motor-execution recordings, not motor-imagery trials. T1/T2 correspond to left/right fist movement on this run and were mapped to generic OPEN/CLOSE simulator intents as an abstract control mapping. This is not a semantically validated motor-imagery BCI mapping."
+}

@@ -1,0 +1,13 @@
+{
+  "task": "P5 clean LOSO calibration extension",
+  "subjects": 24,
+  "conditions": [
+    "eeg_only",
+    "emg_only",
+    "static_mean_fusion",
+    "confidence_weighted_fusion",
+    "confidence_selective_fusion"
+  ],
+  "calibration": "probabilities stored per trial; no post-hoc calibration",
+  "seed": 20261005
+}

@@ -1,0 +1,39 @@
+{
+  "task": "P5 strict CPU Q1 selective fusion clean-train corrupted-test and missing-modality fallback",
+  "subjects": 24,
+  "test_variants": [
+    [
+      "clean",
+      0
+    ],
+    [
+      "eeg_dropout",
+      10
+    ],
+    [
+      "eeg_dropout",
+      20
+    ],
+    [
+      "emg_dropout",
+      10
+    ],
+    [
+      "emg_dropout",
+      20
+    ],
+    [
+      "missing_emg",
+      0
+    ],
+    [
+      "missing_eeg",
+      0
+    ]
+  ],
+  "classifier": "LDA lsqr shrinkage=auto",
+  "loso": true,
+  "training_is_clean_for_all_test_variants": true,
+  "confidence_selective_rule": "select modality with higher entropy-derived confidence; ties EEG",
+  "seed": 20261003
+}

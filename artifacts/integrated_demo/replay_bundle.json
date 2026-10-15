@@ -1,0 +1,1563 @@
+{
+  "benchmark_eligible": false,
+  "bundle_kind": "synthetic-integrated-demo-replay",
+  "evidence_class": "synthetic",
+  "intent_count": 33,
+  "intent_records": [
+    {
+      "confidence": 0.99,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-000",
+      "label": "rest",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "rest": 1.0
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093141+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.0,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:00+00:00",
+      "values": null,
+      "window_id": "synthetic-window-000"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-001",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093367+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.1,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:01+00:00",
+      "values": null,
+      "window_id": "synthetic-window-001"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-002",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093507+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.2,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:02+00:00",
+      "values": null,
+      "window_id": "synthetic-window-002"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-003",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093630+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.3,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:03+00:00",
+      "values": null,
+      "window_id": "synthetic-window-003"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-004",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093744+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.4,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:04+00:00",
+      "values": null,
+      "window_id": "synthetic-window-004"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-005",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093871+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.5,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:05+00:00",
+      "values": null,
+      "window_id": "synthetic-window-005"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-006",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.093983+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.6,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:06+00:00",
+      "values": null,
+      "window_id": "synthetic-window-006"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-007",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094089+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.7,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:07+00:00",
+      "values": null,
+      "window_id": "synthetic-window-007"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-008",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094197+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.8,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:08+00:00",
+      "values": null,
+      "window_id": "synthetic-window-008"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-009",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094301+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 0.9,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:09+00:00",
+      "values": null,
+      "window_id": "synthetic-window-009"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-010",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094417+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.0,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:10+00:00",
+      "values": null,
+      "window_id": "synthetic-window-010"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-011",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094526+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.1,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:11+00:00",
+      "values": null,
+      "window_id": "synthetic-window-011"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-012",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094633+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.2,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:12+00:00",
+      "values": null,
+      "window_id": "synthetic-window-012"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-013",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094740+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.3,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:13+00:00",
+      "values": null,
+      "window_id": "synthetic-window-013"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-014",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094854+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.4,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:14+00:00",
+      "values": null,
+      "window_id": "synthetic-window-014"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-015",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.094959+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.5,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:15+00:00",
+      "values": null,
+      "window_id": "synthetic-window-015"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-016",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095063+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.6,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:16+00:00",
+      "values": null,
+      "window_id": "synthetic-window-016"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-017",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095178+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.7,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:17+00:00",
+      "values": null,
+      "window_id": "synthetic-window-017"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-018",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095294+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.8,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:18+00:00",
+      "values": null,
+      "window_id": "synthetic-window-018"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-019",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095398+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 1.9,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:19+00:00",
+      "values": null,
+      "window_id": "synthetic-window-019"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-020",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095500+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.0,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:20+00:00",
+      "values": null,
+      "window_id": "synthetic-window-020"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-021",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095613+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.1,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:21+00:00",
+      "values": null,
+      "window_id": "synthetic-window-021"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-022",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095720+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.2,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:22+00:00",
+      "values": null,
+      "window_id": "synthetic-window-022"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-023",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095830+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.3,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:23+00:00",
+      "values": null,
+      "window_id": "synthetic-window-023"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-024",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.095937+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.4,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:24+00:00",
+      "values": null,
+      "window_id": "synthetic-window-024"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-025",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096039+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.5,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:25+00:00",
+      "values": null,
+      "window_id": "synthetic-window-025"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-026",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096172+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.6,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:26+00:00",
+      "values": null,
+      "window_id": "synthetic-window-026"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-027",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096313+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.7,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:27+00:00",
+      "values": null,
+      "window_id": "synthetic-window-027"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-028",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096435+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.8,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:28+00:00",
+      "values": null,
+      "window_id": "synthetic-window-028"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-029",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096551+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 2.9,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:29+00:00",
+      "values": null,
+      "window_id": "synthetic-window-029"
+    },
+    {
+      "confidence": 0.95,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-030",
+      "label": "precision_pinch",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "precision_pinch": 0.95,
+        "rest": 0.050000000000000044
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096656+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 3.0,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:30+00:00",
+      "values": null,
+      "window_id": "synthetic-window-030"
+    },
+    {
+      "confidence": 0.99,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-031",
+      "label": "rest",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "rest": 1.0
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096767+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 3.1,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:31+00:00",
+      "values": null,
+      "window_id": "synthetic-window-031"
+    },
+    {
+      "confidence": 0.99,
+      "contract_kind": "intent",
+      "intent_id": "synthetic-intent-032",
+      "label": "rest",
+      "metadata": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "external_prediction_schema": "myocontrol-classification-result",
+        "integration_demo": true,
+        "not_scientific_evidence": true
+      },
+      "modalities": [
+        "emg"
+      ],
+      "model_version": "synthetic-integration-fixture-v1",
+      "probabilities": {
+        "rest": 1.0
+      },
+      "provenance": {
+        "adapter_id": "myocontrol-prediction",
+        "adapter_version": "1.0.0",
+        "contract_kind": "signal_provenance",
+        "created_at_utc": "2026-08-22T17:51:15.096877+00:00",
+        "dataset_version": null,
+        "details": {
+          "benchmark_eligible": false,
+          "fixture": "integrated-demo-v1"
+        },
+        "fallback_reason": "deterministic integration demonstration fixture; not a real decoder output",
+        "license_id": null,
+        "origin": "synthetic",
+        "schema_version": "1.0.0",
+        "source_dataset_id": null,
+        "source_uri": null
+      },
+      "schema_version": "1.0.0",
+      "session_id": "synthetic-session",
+      "source_model_id": "myocontrol-classical-decoder",
+      "source_representation_ids": [],
+      "stream_time_seconds": 3.22,
+      "subject_id": "synthetic-subject",
+      "timestamp_utc": "2026-08-22T12:00:32+00:00",
+      "values": null,
+      "window_id": "synthetic-window-032"
+    }
+  ],
+  "label_map": {
+    "precision_pinch": "PINCH",
+    "rest": "REST"
+  },
+  "purpose": "deterministic contract and simulator integration demonstration only",
+  "replay_csv": "artifacts/integrated_demo/adapter_generated_intent_replay.csv",
+  "replay_csv_sha256": "8cebfaf08d92f72500124a8154b8f0fc188768cf4c3cd25b7560cc8ed6407f6f"
+}

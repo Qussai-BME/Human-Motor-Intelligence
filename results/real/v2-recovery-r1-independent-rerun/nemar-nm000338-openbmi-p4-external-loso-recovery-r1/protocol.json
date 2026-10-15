@@ -3,7 +3,7 @@
   "channel_rule": "read named BDF channels; retain all named channels except exactly EMG1, EMG2, EMG3, EMG4; require 62 retained channels",
   "dataset_id": "nemar-nm000338-openbmi",
   "dataset_version": "v1.0.5",
-  "derived_cache_root": "/home/ubuntu/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4",
+  "derived_cache_root": "<LOCAL_WORKSPACE>/hmi_data/derived/v2_recovery_r1_openbmi_nm000338_p4",
   "downsample_factor": 8,
   "enabled": true,
   "epoch_seconds": [
@@ -110,5 +110,5 @@
     "sub-54"
   ],
   "target_subject_calibration": false,
-  "temporary_raw_root": "/home/ubuntu/hmi_data/raw/v2_recovery_r1_openbmi_nm000338"
+  "temporary_raw_root": "<LOCAL_WORKSPACE>/hmi_data/raw/v2_recovery_r1_openbmi_nm000338"
 }

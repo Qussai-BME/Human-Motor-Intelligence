@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this historical P4/P5 public reproduction snapshot, cite it together with the dataset/publication sources listed in the snapshot README."
+title: "Human Motor Intelligence: P4/P5 External-Validation Public Reproduction Release"
+type: software
+version: "v2-recovery-r3-p4-p5-public"
+date-released: 2026-08-26
+authors:
+  - family-names: "Adlbi"
+    given-names: "Qussai"
+abstract: "Research code, retained evidence artefacts, and documentation for P4 OpenBMI and P5 Jeong external validations. This release excludes source recordings, P3 material, and all P6 materials."
+keywords:
+  - EEG
+  - EMG
+  - motor imagery
+  - external validation
+  - reproducibility
+license: Apache-2.0
+repository-code: "https://github.com/Qussai-BME/Human-Motor-Intelligence"
+preferred-citation:
+  type: software
+  title: "Human Motor Intelligence: P4/P5 External-Validation Public Reproduction Release"
+  authors:
+    - family-names: "Adlbi"
+    given-names: "Qussai"
+  year: 2026
+  version: "v2-recovery-r3-p4-p5-public"

@@ -1,0 +1,552 @@
+{
+  "control_mapping_id": "P6_C1_R04_T1_TO_OPEN_T2_TO_CLOSE_ABSTRACT_v1",
+  "hash_rule": "SHA-256 is external to each trace CSV and recorded in this manifest.",
+  "schema": "hmi.p6.trace-manifest.v4",
+  "source_run": "R04",
+  "source_task_type": "motor_imagery",
+  "status": "P6_C_MI_R04_TRACE_GENERATION",
+  "trace_count": 60,
+  "trace_self_hash_not_embedded": true,
+  "traces": [
+    {
+      "model_id": "M1",
+      "source_file": "S001R04.edf",
+      "source_file_sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d",
+      "subject_id": "S001",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S001.csv",
+      "trace_sha256": "31c7bc04a05f2ff6877690e0b99d03f213156b5462c900d67aa10831ac33ce82"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S001R04.edf",
+      "source_file_sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d",
+      "subject_id": "S001",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S001.csv",
+      "trace_sha256": "c30a12b7480059c790957ce456b2afafc8eebcb4ecf1b79153ddb9e3de018bca"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S001R04.edf",
+      "source_file_sha256": "3d161f88e1c00632585287d2ce584c2bc0f08862438eb255ea8723e00fac693d",
+      "subject_id": "S001",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S001.csv",
+      "trace_sha256": "a5bfa1326efed3235e7d7a1a2ae31dbb102b9c67a82dd91c011cec0b9a5b3d28"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S002R04.edf",
+      "source_file_sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539",
+      "subject_id": "S002",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S002.csv",
+      "trace_sha256": "1b05ca9f15db58da62c11a751e73e4a6fad76c42633bfe532eb82e4c0846cd9e"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S002R04.edf",
+      "source_file_sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539",
+      "subject_id": "S002",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S002.csv",
+      "trace_sha256": "0d347df29aca91262d875020b5ff65db5bed02da23013a78f5bc00a93bf7d34f"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S002R04.edf",
+      "source_file_sha256": "fcd37831378c411d50c223d97ffbc00949be2271d093f1d8e56bbe7c02bd1539",
+      "subject_id": "S002",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S002.csv",
+      "trace_sha256": "4653a04a84849a886010d4d73581ec2b178e7863ee50e7b6b83fcc062543f093"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S003R04.edf",
+      "source_file_sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f",
+      "subject_id": "S003",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S003.csv",
+      "trace_sha256": "d257b84b6926c61c75f8298453f6bd619d716b2f2802357e29405bedbc10c00b"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S003R04.edf",
+      "source_file_sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f",
+      "subject_id": "S003",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S003.csv",
+      "trace_sha256": "ec636619b8ecc4c11a284fdfe7b713c954eebd9797614e63736c97a82c1c1e89"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S003R04.edf",
+      "source_file_sha256": "7d0732eea963488a53153835524e55c2b68220b0a0c7c5be99e535a9f5367e7f",
+      "subject_id": "S003",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S003.csv",
+      "trace_sha256": "3330ded2c94f13345579f2f7f0993fc52efe270c747ab88cdc656ff10e936705"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S004R04.edf",
+      "source_file_sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59",
+      "subject_id": "S004",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S004.csv",
+      "trace_sha256": "6ab79ce34b359b1071431899f2a55ad1edcb24672393cbb461121b193ed49a85"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S004R04.edf",
+      "source_file_sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59",
+      "subject_id": "S004",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S004.csv",
+      "trace_sha256": "2ebdf93c1cece7b006c821133f26895f2eb40066f0ca859cdbf1cb3b13ddcdf0"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S004R04.edf",
+      "source_file_sha256": "c9ddf0294961f0b877192a2479802b9c6c88403682a17b5ad679fd6485aa6f59",
+      "subject_id": "S004",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S004.csv",
+      "trace_sha256": "761dfa8ffec1d5f9af631c9bc704beee44e9c0da78a69995f9053345e523758c"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S005R04.edf",
+      "source_file_sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c",
+      "subject_id": "S005",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S005.csv",
+      "trace_sha256": "61d972358bb066650a4637d564f8f1c582fef9ca252367519473ff8e22075745"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S005R04.edf",
+      "source_file_sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c",
+      "subject_id": "S005",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S005.csv",
+      "trace_sha256": "4124c09fde05ae918e95127c7d3d0c6576ac0807e13199f67b2769fdf246cc57"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S005R04.edf",
+      "source_file_sha256": "956d0857b17b040955fee9b2384f818f85bfb02248c387d9aa7930c42934ca0c",
+      "subject_id": "S005",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S005.csv",
+      "trace_sha256": "185175bb0f6f1ae4520b0add5d5aee94ca625b5841ab2701ed0f27814191cb2f"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S006R04.edf",
+      "source_file_sha256": "4bd532bb728e1f2ed2afc0a5c162830a07465b6a4a58e105d1316c6ff1921f3b",
+      "subject_id": "S006",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S006.csv",
+      "trace_sha256": "05877adc3ea184360eebb50fd4d2ee3e46a1dea232ede16f3eb16301274d8500"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S006R04.edf",
+      "source_file_sha256": "4bd532bb728e1f2ed2afc0a5c162830a07465b6a4a58e105d1316c6ff1921f3b",
+      "subject_id": "S006",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S006.csv",
+      "trace_sha256": "4e0fc97dc6e7d3be2432a55cd897a44bb61e8626a15f3026974a300d66b08972"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S006R04.edf",
+      "source_file_sha256": "4bd532bb728e1f2ed2afc0a5c162830a07465b6a4a58e105d1316c6ff1921f3b",
+      "subject_id": "S006",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S006.csv",
+      "trace_sha256": "43073dc0e266b8291496f1129307a0341984e6021f02b6fc64b6603940f5f079"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S007R04.edf",
+      "source_file_sha256": "3b31e50c4a5ebbb25459b1ebdf802b7ca86010857637580aacd53067350553a6",
+      "subject_id": "S007",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S007.csv",
+      "trace_sha256": "0dd915c39df05c6805d40bba149e46de20dbc13d8fb88253ab244bac678470d7"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S007R04.edf",
+      "source_file_sha256": "3b31e50c4a5ebbb25459b1ebdf802b7ca86010857637580aacd53067350553a6",
+      "subject_id": "S007",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S007.csv",
+      "trace_sha256": "b753253ec4ae88a401abea61581be37ecd800f0ea69f80df1fca9cd0e05ca467"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S007R04.edf",
+      "source_file_sha256": "3b31e50c4a5ebbb25459b1ebdf802b7ca86010857637580aacd53067350553a6",
+      "subject_id": "S007",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S007.csv",
+      "trace_sha256": "09d2f4c14737a5366391bb4d12e22c77985b099c2ad4dc605ad70f7ebb765b9c"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S008R04.edf",
+      "source_file_sha256": "034a26131e1425e6374a459e5887b1f831f7bfdb101a3658d2cd07620cf2c06b",
+      "subject_id": "S008",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S008.csv",
+      "trace_sha256": "3c2e8b910fe354ca147779e266263fabac2de9e7a1b42c1763063a69e1719c05"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S008R04.edf",
+      "source_file_sha256": "034a26131e1425e6374a459e5887b1f831f7bfdb101a3658d2cd07620cf2c06b",
+      "subject_id": "S008",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S008.csv",
+      "trace_sha256": "0987c850bdc25c2a605251ab6291a74e13fcdd86a922c0cca7f6be0e618a6f31"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S008R04.edf",
+      "source_file_sha256": "034a26131e1425e6374a459e5887b1f831f7bfdb101a3658d2cd07620cf2c06b",
+      "subject_id": "S008",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S008.csv",
+      "trace_sha256": "5906c3f3a1f3558f00017372743446ad97cb15c619b70b9ff7f5d645e7b723e3"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S009R04.edf",
+      "source_file_sha256": "705f53460954e465e7a6ef45bd1f64e675548c08e9238dfb1f448713f9e559f8",
+      "subject_id": "S009",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S009.csv",
+      "trace_sha256": "9f42043d2fb3c7cd1cbf60764e3a85836035833247d4319226f86871d1d0562f"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S009R04.edf",
+      "source_file_sha256": "705f53460954e465e7a6ef45bd1f64e675548c08e9238dfb1f448713f9e559f8",
+      "subject_id": "S009",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S009.csv",
+      "trace_sha256": "143128e08c5cca70270a4f59351c736db1c4646129f9620c2f74dfbf82d5fcd1"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S009R04.edf",
+      "source_file_sha256": "705f53460954e465e7a6ef45bd1f64e675548c08e9238dfb1f448713f9e559f8",
+      "subject_id": "S009",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S009.csv",
+      "trace_sha256": "064ec8a976028106d2fe4b3e09c1aa2fac11d4e639c15acaca4fdf4325fb3f29"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S010R04.edf",
+      "source_file_sha256": "8e68b22936cbcb7f84ed8ff037cb4a99f01064589d181c8056dbef06c1c7159b",
+      "subject_id": "S010",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S010.csv",
+      "trace_sha256": "4109a198020b5acc7558665bf6f79753a3de85da6edcdd9e7ff668f5b985cf88"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S010R04.edf",
+      "source_file_sha256": "8e68b22936cbcb7f84ed8ff037cb4a99f01064589d181c8056dbef06c1c7159b",
+      "subject_id": "S010",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S010.csv",
+      "trace_sha256": "e697121bdd66dae5cea0295968022c24f89ddfc13d6382304d3b60b8b43f297d"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S010R04.edf",
+      "source_file_sha256": "8e68b22936cbcb7f84ed8ff037cb4a99f01064589d181c8056dbef06c1c7159b",
+      "subject_id": "S010",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S010.csv",
+      "trace_sha256": "5d7ed4a937bbc1789b71909afb4152b7e8bf31b8d615b2a3113b3dec3b2c057e"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S011R04.edf",
+      "source_file_sha256": "072b75496dd935be460bc8ac9c3bf2d1fdcdb62f32ffb552955319abcb24cfe9",
+      "subject_id": "S011",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S011.csv",
+      "trace_sha256": "08c19f4f1051769612f4582f771734112d182ccd986397f0347c5ea9141674ae"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S011R04.edf",
+      "source_file_sha256": "072b75496dd935be460bc8ac9c3bf2d1fdcdb62f32ffb552955319abcb24cfe9",
+      "subject_id": "S011",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S011.csv",
+      "trace_sha256": "e2d038c8fd315f477f811c694096407cd75da43b7fc2daa760a4a1db5e710a88"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S011R04.edf",
+      "source_file_sha256": "072b75496dd935be460bc8ac9c3bf2d1fdcdb62f32ffb552955319abcb24cfe9",
+      "subject_id": "S011",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S011.csv",
+      "trace_sha256": "a0ee3b3af0fc8ab6979115ea6d43ee22a5041d568c1a177b4c3f23004c565e79"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S012R04.edf",
+      "source_file_sha256": "974d6c7558c8d8ee48449bf9a1f40cda596febb6365e69e8e65c2d952644017e",
+      "subject_id": "S012",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S012.csv",
+      "trace_sha256": "c35fa324c3be1bf9add833da50d6ff5e8b860fba34629711c40140a77c908354"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S012R04.edf",
+      "source_file_sha256": "974d6c7558c8d8ee48449bf9a1f40cda596febb6365e69e8e65c2d952644017e",
+      "subject_id": "S012",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S012.csv",
+      "trace_sha256": "10b0f3499af81907e7c0d3a8fe95375351965f4e02d4bfb4ed601955c6512ce6"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S012R04.edf",
+      "source_file_sha256": "974d6c7558c8d8ee48449bf9a1f40cda596febb6365e69e8e65c2d952644017e",
+      "subject_id": "S012",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S012.csv",
+      "trace_sha256": "535b6cfce3ccfb74669f2b3afa156f7988dca04a15a1f39192ac93f20ce7daaa"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S013R04.edf",
+      "source_file_sha256": "796eb8df7d12b32e6ebbfb6756e527217c7b59a282735eb782dd50f5f16c39c8",
+      "subject_id": "S013",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S013.csv",
+      "trace_sha256": "eacfa2de7a342cbc2a1cdcb892ce3f3359f91c6daf1fe5b3ac09a37789b78dc1"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S013R04.edf",
+      "source_file_sha256": "796eb8df7d12b32e6ebbfb6756e527217c7b59a282735eb782dd50f5f16c39c8",
+      "subject_id": "S013",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S013.csv",
+      "trace_sha256": "a90e66a460deb187279391f68c8e314cc5a66a4d610fb26460b19b970e60ced6"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S013R04.edf",
+      "source_file_sha256": "796eb8df7d12b32e6ebbfb6756e527217c7b59a282735eb782dd50f5f16c39c8",
+      "subject_id": "S013",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S013.csv",
+      "trace_sha256": "ef1dd87da8b931752944e15a9f325768aad09efcb08000f03994c259135bce7f"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S014R04.edf",
+      "source_file_sha256": "7e443b4a4bb000506137ffd79eae9fd915a282f4c6c5aac71ad8b8612072227d",
+      "subject_id": "S014",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S014.csv",
+      "trace_sha256": "c438de4258dae4d9180022ac0bd4d9fe6791a62d40c3eaad8437d6979e2125b4"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S014R04.edf",
+      "source_file_sha256": "7e443b4a4bb000506137ffd79eae9fd915a282f4c6c5aac71ad8b8612072227d",
+      "subject_id": "S014",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S014.csv",
+      "trace_sha256": "db14dfba2822c14c65884585a51ba287351be21cc5a14d39057b979004057e8f"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S014R04.edf",
+      "source_file_sha256": "7e443b4a4bb000506137ffd79eae9fd915a282f4c6c5aac71ad8b8612072227d",
+      "subject_id": "S014",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S014.csv",
+      "trace_sha256": "711f06f8f7c51d2cccf0767020c4bf01ab8889c065bdf4e66ba3bd5e750870f3"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S015R04.edf",
+      "source_file_sha256": "1721d4a066e0c28221877d0f9e7da2402bdd924a532f5f19261c429def061273",
+      "subject_id": "S015",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S015.csv",
+      "trace_sha256": "faa3d50f6e10de78e102327379833e42ef018fea14b89c077c0570b0ea8acf42"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S015R04.edf",
+      "source_file_sha256": "1721d4a066e0c28221877d0f9e7da2402bdd924a532f5f19261c429def061273",
+      "subject_id": "S015",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S015.csv",
+      "trace_sha256": "9c3e92e03a74c6d57a8ea033dd915d1b22ae7f74975f9b269f453fee4a8543f7"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S015R04.edf",
+      "source_file_sha256": "1721d4a066e0c28221877d0f9e7da2402bdd924a532f5f19261c429def061273",
+      "subject_id": "S015",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S015.csv",
+      "trace_sha256": "ede97dd22bd12d690d231e023f10100cf66e6139ba2ee9e78c176a9fde665008"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S016R04.edf",
+      "source_file_sha256": "501fdb3cc2fb504d2948e7ce665c81e828612cf1af80a0b964b34a13803a4d6b",
+      "subject_id": "S016",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S016.csv",
+      "trace_sha256": "c850748feb745cde57c5742afbc26d753f75137656bddfb03e1927b54eea6ebd"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S016R04.edf",
+      "source_file_sha256": "501fdb3cc2fb504d2948e7ce665c81e828612cf1af80a0b964b34a13803a4d6b",
+      "subject_id": "S016",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S016.csv",
+      "trace_sha256": "93d0b9d8ba251d4580392f70375b10a962bb8fd332f5272a5f59cb727828ea83"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S016R04.edf",
+      "source_file_sha256": "501fdb3cc2fb504d2948e7ce665c81e828612cf1af80a0b964b34a13803a4d6b",
+      "subject_id": "S016",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S016.csv",
+      "trace_sha256": "eabedf756dbc0a666b929098b5bf1ae2109e5a0fd4aef661acbbcce1b00f65c5"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S017R04.edf",
+      "source_file_sha256": "9d13376473bae5b868c07fefde7d4ec465573b393a4831b0142a26812e5b6bf7",
+      "subject_id": "S017",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S017.csv",
+      "trace_sha256": "5b82e010f465e0015e026c2a8813c62978e171eb6b2532161622f6ec5f0b3465"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S017R04.edf",
+      "source_file_sha256": "9d13376473bae5b868c07fefde7d4ec465573b393a4831b0142a26812e5b6bf7",
+      "subject_id": "S017",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S017.csv",
+      "trace_sha256": "542f32ce061d479a058d920602e3adecfd472e8579f3eb97942e37e4860b171d"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S017R04.edf",
+      "source_file_sha256": "9d13376473bae5b868c07fefde7d4ec465573b393a4831b0142a26812e5b6bf7",
+      "subject_id": "S017",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S017.csv",
+      "trace_sha256": "e0eb4ec652021b43e17647f2764b5491697c36a808dde99ab0ec8db3b68ddee5"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S018R04.edf",
+      "source_file_sha256": "0b726bfd4ce56c9fa7417f84f52759c40eb7cd326f06a25374034c199f5fd8bf",
+      "subject_id": "S018",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S018.csv",
+      "trace_sha256": "3aa87777362f3156c8e15a055073a01947c74fbbb23ebd47ad7e29aa4960ada8"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S018R04.edf",
+      "source_file_sha256": "0b726bfd4ce56c9fa7417f84f52759c40eb7cd326f06a25374034c199f5fd8bf",
+      "subject_id": "S018",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S018.csv",
+      "trace_sha256": "84a68b5c00599f1d77d3c0c4bd87edba0e03f103eff0228eb724b2289b9c05b9"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S018R04.edf",
+      "source_file_sha256": "0b726bfd4ce56c9fa7417f84f52759c40eb7cd326f06a25374034c199f5fd8bf",
+      "subject_id": "S018",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S018.csv",
+      "trace_sha256": "21c4ca59de18edf53cad17b14b4fd0f270da7f2069c6ec0df89fa5cc07600fec"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S019R04.edf",
+      "source_file_sha256": "97eda5477ba1fa369a3718b332a0d5ce6a71e37b5153d6472d65b430103a3d06",
+      "subject_id": "S019",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S019.csv",
+      "trace_sha256": "1887b21c03f4812edaef1d9638a146478664d4ee5706ca711745a68fb7ceaee7"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S019R04.edf",
+      "source_file_sha256": "97eda5477ba1fa369a3718b332a0d5ce6a71e37b5153d6472d65b430103a3d06",
+      "subject_id": "S019",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S019.csv",
+      "trace_sha256": "40a127d074e4f61b84195d00732751722da140961b72e6bf950a8da286097aa3"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S019R04.edf",
+      "source_file_sha256": "97eda5477ba1fa369a3718b332a0d5ce6a71e37b5153d6472d65b430103a3d06",
+      "subject_id": "S019",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S019.csv",
+      "trace_sha256": "c9c3c4e40b1161b09583b5d068dd9a79a7be2438599949c0224f1544a2fdd7d5"
+    },
+    {
+      "model_id": "M1",
+      "source_file": "S020R04.edf",
+      "source_file_sha256": "3ff2fd30d246987573897d429b8a6c51cca3f1ea4cfcf8815c49e1f6f6512013",
+      "subject_id": "S020",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M1/M1_S020.csv",
+      "trace_sha256": "188f6f35dcbe46008f1273c8d64f82271888e5f9a6a88d7b80505ab9401167c6"
+    },
+    {
+      "model_id": "M2",
+      "source_file": "S020R04.edf",
+      "source_file_sha256": "3ff2fd30d246987573897d429b8a6c51cca3f1ea4cfcf8815c49e1f6f6512013",
+      "subject_id": "S020",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M2/M2_S020.csv",
+      "trace_sha256": "e161e6795ebcbdcb6fbd91c9409beeef73637067f748a7ecd7355d697b83919c"
+    },
+    {
+      "model_id": "M3",
+      "source_file": "S020R04.edf",
+      "source_file_sha256": "3ff2fd30d246987573897d429b8a6c51cca3f1ea4cfcf8815c49e1f6f6512013",
+      "subject_id": "S020",
+      "timing_semantics": "replay_time_s equals source_onset_s; no time transformation",
+      "trace": "traces/M3/M3_S020.csv",
+      "trace_sha256": "4ec12f2b75064fa8c91082b18d2c7f1ec5660253beb159bbcfae3a295ca7ec64"
+    }
+  ]
+}

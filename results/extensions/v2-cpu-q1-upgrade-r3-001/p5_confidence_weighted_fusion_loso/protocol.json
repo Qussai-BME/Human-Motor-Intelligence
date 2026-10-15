@@ -1,0 +1,14 @@
+{
+  "task": "P5 CPU Q1 upgrade",
+  "subjects": 24,
+  "conditions": [
+    "confidence_weighted_fusion",
+    "static_mean_fusion",
+    "emg_only",
+    "eeg_only"
+  ],
+  "fusion": "entropy confidence weighted posterior",
+  "seed": 20261001,
+  "loso": true,
+  "classifier": "LDA lsqr shrinkage=auto"
+}

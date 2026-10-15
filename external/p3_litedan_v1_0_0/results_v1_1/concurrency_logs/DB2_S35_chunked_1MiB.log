@@ -1,0 +1,2 @@
+nohup: ignoring input
+{"status": "range_recovery_start", "total_ranges": 413, "pending_ranges": 413, "chunk_bytes": 1048576, "connections": 2}

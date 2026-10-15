@@ -1,0 +1,41 @@
+{
+  "schema": "hmi.p6.paired-repeated-measures.v1",
+  "n_subjects": 20,
+  "models_in_order": [
+    "M2",
+    "M3",
+    "M1"
+  ],
+  "method": "Friedman omnibus test, subjects paired across M1/M2/M3",
+  "results": {
+    "final_error_m": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "path_length_m": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "command_corrections": {
+      "chi2": 0.03846153846154721,
+      "p": 0.9809529623601985,
+      "kendalls_w": 0.0009615384615386802,
+      "n_subjects": 20,
+      "k_models": 3
+    },
+    "grasp_stability_steps": {
+      "chi2": 0.2857142857143507,
+      "p": 0.8668778997501535,
+      "kendalls_w": 0.007142857142858767,
+      "n_subjects": 20,
+      "k_models": 3
+    }
+  },
+  "interpretation": "Exploratory paired analysis. No omnibus endpoint comparison was significant; no post-hoc pairwise testing was performed. See scope limitation: source is R03 motor execution, not imagery."
+}

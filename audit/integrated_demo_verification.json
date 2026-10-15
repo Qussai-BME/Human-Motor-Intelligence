@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "checks": {
+    "experiment_is_nonbenchmark": true,
+    "integrated_report_exists": true,
+    "manifest_verified": true,
+    "replay_event_count_matches_output": true,
+    "synthetic_bundle": true,
+    "task_success": true
+  },
+  "evidence_boundary": "synthetic/non-benchmark integration evidence only",
+  "manifest": {
+    "checked_artifacts": 9,
+    "manifest": "artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json",
+    "mismatches": [],
+    "verified": true
+  },
+  "run_id": "1f79effb6d464da69da43b114ae74010"
+}

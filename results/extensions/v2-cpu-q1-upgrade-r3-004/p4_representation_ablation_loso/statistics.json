@@ -1,0 +1,88 @@
+{
+  "summary": [
+    {
+      "condition": "temporal",
+      "n_subjects": 54,
+      "macro_f1_mean": 0.5994983814574,
+      "macro_f1_sd": 0.1370496701876186,
+      "macro_f1_min": 0.40201141614569175,
+      "macro_f1_max": 0.9398496240601504
+    },
+    {
+      "condition": "spectral",
+      "n_subjects": 54,
+      "macro_f1_mean": 0.5644585102490487,
+      "macro_f1_sd": 0.1112278869966201,
+      "macro_f1_min": 0.34201868666929863,
+      "macro_f1_max": 0.8474214220323466
+    },
+    {
+      "condition": "covariance_log",
+      "n_subjects": 54,
+      "macro_f1_mean": 0.35407797839781496,
+      "macro_f1_sd": 0.04929851447514793,
+      "macro_f1_min": 0.3288590604026846,
+      "macro_f1_max": 0.5160802500252042
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "best_frozen_baseline_minus_covariance_log",
+      "n_subjects": 54,
+      "mean_difference": 0.2823415413950596,
+      "median_difference": 0.2853584608836457,
+      "sd_difference": 0.1681740189212734,
+      "bootstrap_95_ci_mean_difference": [
+        0.23775783073406712,
+        0.3270412256631366
+      ],
+      "wilcoxon_p_raw": 2.2764875602752634e-10,
+      "sign_flip_permutation_p": 4.999750012499375e-05,
+      "paired_effect_size_mean_over_sd": 1.6788653991032407
+    },
+    {
+      "comparison": "temporal_minus_covariance_log",
+      "n_subjects": 54,
+      "mean_difference": 0.24542040305958487,
+      "median_difference": 0.2383684804826039,
+      "sd_difference": 0.14689642434367003,
+      "bootstrap_95_ci_mean_difference": [
+        0.20656660575058478,
+        0.2846042640275881
+      ],
+      "wilcoxon_p_raw": 2.8452397608882486e-10,
+      "sign_flip_permutation_p": 4.999750012499375e-05,
+      "paired_effect_size_mean_over_sd": 1.6707037230900466
+    },
+    {
+      "comparison": "spectral_minus_covariance_log",
+      "n_subjects": 54,
+      "mean_difference": 0.21038053185123362,
+      "median_difference": 0.20300616538565963,
+      "sd_difference": 0.12072235958438893,
+      "bootstrap_95_ci_mean_difference": [
+        0.17866474342709363,
+        0.24257707053806063
+      ],
+      "wilcoxon_p_raw": 2.544428469607784e-10,
+      "sign_flip_permutation_p": 4.999750012499375e-05,
+      "paired_effect_size_mean_over_sd": 1.7426807475890218
+    },
+    {
+      "comparison": "temporal_minus_spectral",
+      "n_subjects": 54,
+      "mean_difference": 0.035039871208351246,
+      "median_difference": 0.03423572762166244,
+      "sd_difference": 0.06782731680282962,
+      "bootstrap_95_ci_mean_difference": [
+        0.017259655208841148,
+        0.053382597706974094
+      ],
+      "wilcoxon_p_raw": 0.0007492295507647676,
+      "sign_flip_permutation_p": 0.0004999750012499375,
+      "paired_effect_size_mean_over_sd": 0.5166041185177688
+    }
+  ],
+  "best_frozen_model": "eeg-lightweight-cnn-tcn-v1",
+  "claim_boundary": "new representation extension; no pooling with frozen P4; covariance geometry alone is not a superiority claim"
+}

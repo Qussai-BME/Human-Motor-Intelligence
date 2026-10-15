@@ -1,0 +1,132 @@
+{
+  "provenance": {
+    "run_id": "54d49b23ec704d74b1925975c9a0568a",
+    "created_at_utc": "2026-10-03T21:40:34+00:00",
+    "config_hash": "0a76666517da1cee33e028a7d46abc3d447d29d2df7188bbc62e24680eb9f2dd",
+    "git_commit": "unavailable",
+    "physics_backend": "mujoco",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:M1_S020.csv:4d6e0bf66c60",
+    "seed": 20260901,
+    "task": "pick_place",
+    "package_version": "0.1.3",
+    "external_runtime_path_policy": "External MyoSim path intentionally omitted from public artifact; supply --myosim-root at execution time.",
+    "study_status": "exploratory"
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 0,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 3,
+    "mean_confirmation_latency_s": null,
+    "state_transition_count": 7,
+    "released_command_count_original": 0,
+    "released_command_count_reconciled": 1,
+    "released_command_count_semantics": "Count of transitions whose reason is single_authenticated_event_released; derived from control_transitions because original counter did not increment.",
+    "non_hold_command_transition_count_reconciled": 4
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": false,
+    "completion_time_s": null,
+    "path_length_m": 0.37576236703388627,
+    "final_error_m": 0.10550287810375172,
+    "grasp_stability_steps": 0,
+    "command_corrections": 6,
+    "final_state": "WAIT_FOR_GRASP"
+  },
+  "control_transitions": [
+    {
+      "timestamp_s": 4.1,
+      "previous": "REST",
+      "current": "EXECUTING",
+      "reason": "single_authenticated_event_released",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 45.1,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 53.3,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 61.5,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 69.7,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 77.9,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 86.1,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    }
+  ],
+  "task_transitions": [
+    {
+      "timestamp_s": 28.7,
+      "previous": "APPROACH",
+      "current": "WAIT_FOR_GRASP",
+      "reason": "approach_reached"
+    }
+  ],
+  "invalid_state_detected": false,
+  "trace_source": "traces/M1/M1_S020.csv",
+  "replay_csv": "replay_csv/M1_S020.csv",
+  "model_id": "M1",
+  "metric_reconciliation": {
+    "status": "DERIVED_RECONCILIATION_NOT_RERUN",
+    "original_released_command_count": 0,
+    "reconciled_release_events": 1,
+    "non_hold_command_transition_count": 4,
+    "source": "control_transitions",
+    "note": "Original artifact retained structurally; stale counter preserved under released_command_count_original."
+  },
+  "model_version": "p6-exploratory-r03-v1.0"
+}

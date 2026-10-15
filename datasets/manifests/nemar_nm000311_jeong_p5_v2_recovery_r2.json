@@ -1,6 +1,6 @@
 {
   "benchmark_ready": true,
-  "cache_root": "/home/ubuntu/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5",
+  "cache_root": "<LOCAL_WORKSPACE>/hmi_data/derived/v2_recovery_r2_jeong_nm000311_p5",
   "dataset_id": "nemar-nm000311-jeong2020",
   "dataset_version": "v1.0.2",
   "direct_replication": false,

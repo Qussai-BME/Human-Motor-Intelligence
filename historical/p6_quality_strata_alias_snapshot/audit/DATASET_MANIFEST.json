@@ -1,0 +1,133 @@
+{
+  "dataset": "PhysioNet EEG Motor Movement/Imagery Dataset v1.0.0",
+  "doi": "10.13026/C28G6P",
+  "license": "Open Data Commons Attribution License v1.0",
+  "source_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+  "sampling_rate_hz": 160,
+  "run": "R03",
+  "subjects": [
+    "S001",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S006",
+    "S007",
+    "S008",
+    "S009",
+    "S010",
+    "S011",
+    "S012",
+    "S013",
+    "S014",
+    "S015",
+    "S016",
+    "S017",
+    "S018",
+    "S019",
+    "S020"
+  ],
+  "downloaded_files": [
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S001R03.edf",
+      "sha256": "3427c8d01bff1380bc9ab9f27a35ece2af5dfadf3e291bbc05eb66e4dadbfe2e",
+      "bytes": 2596896
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S002R03.edf",
+      "sha256": "cbabe29620b19978454bc429f59976f6ee8f32f6392e4fcdf7e463981248072c",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S003R03.edf",
+      "sha256": "ebf184ea51d9aa3178190583f428db02f184e22412ff300a5f224776d1e8dbb4",
+      "bytes": 2596896
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S004R03.edf",
+      "sha256": "b24e3ae9d302935be06c0905d1e925ad68a94b4a5b20dc659cbc63bb8481d503",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S005R03.edf",
+      "sha256": "3bf2695b66661a274bb099dd093c8f2eb4ede8a7068ec4bfd0a1fe9f4bfc0e18",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S006R03.edf",
+      "sha256": "1bedb6634f28af44942c14901aa82f420858bc367fd5830482b4e8cf7a28bbf1",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S007R03.edf",
+      "sha256": "af7f2fe4fc8ae5b727a2cee5e41a58ad0aca7907f0da83b67a754ea7e94ff3a9",
+      "bytes": 2596896
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S008R03.edf",
+      "sha256": "ab3ea90d829e1e2e10bb6e551e828e66ac6262ec7bc24e2e17db6e1e350088fe",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S009R03.edf",
+      "sha256": "f5718a37aa5ea43c8f52dd01326ce09568a71f52e1b2750e0e8e2145e88b6e4a",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S010R03.edf",
+      "sha256": "49016ed40a1c17164b7b56031d567ee96b00b0b3755fab072c1d78db9ccdab73",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S011R03.edf",
+      "sha256": "369bc902a59bf9a9d480c2bad2a4b165b83716c7cba5760c2ce0e6500f120443",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S012R03.edf",
+      "sha256": "d2af7bd93c37e741a77f8f0f611abe3b15baf1a3db65eced1bbd1011f3b193aa",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S013R03.edf",
+      "sha256": "b3ccfde504fe3bc9377495c2b70feabcc415a2facdbea1ab0d33e4644f7fde66",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S014R03.edf",
+      "sha256": "670c197481bd1761f1393c3f33e7c286f5966f483493cb6d2e05ff23de93c6a9",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S015R03.edf",
+      "sha256": "9de915e373fc372b372cbe9c59692c7c961dc9d2ff12cbffcdc99190a1bac99d",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S016R03.edf",
+      "sha256": "976bcc77f002affd1833ecf5adbe73eca86d1d1b9e2ccaa0d8712095498cea4a",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S017R03.edf",
+      "sha256": "19911c4a9a693eaed4addcee0ffd78589dc3fe35724079081079ad29e56c911b",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S018R03.edf",
+      "sha256": "6538d4a1fe7df53296897dc6efb2274e78429346086c6383db9c58af16c46251",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S019R03.edf",
+      "sha256": "27c074fa068c8e6c8b38479d83f99ae810ca06f2d60ed76339f30c3da111f385",
+      "bytes": 2555616
+    },
+    {
+      "path": "<LOCAL_WORKSPACE>/p6_public_data/eegmmidb_v1_0_0/S020R03.edf",
+      "sha256": "4660edd9962577ceac6e35db1a5c0756fbdfa954a77f479dc8aa3e3b3819f453",
+      "bytes": 2555616
+    }
+  ],
+  "created_utc": "2026-10-02T22:33:21Z"
+}

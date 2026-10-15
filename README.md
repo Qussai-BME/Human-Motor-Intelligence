@@ -1,77 +1,69 @@
-# Human Motor Intelligence — Public Reproduction Release
+# Human Motor Intelligence v1.2.0
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22288272.svg)](https://zenodo.org/records/22288272)
+Public research archive and thin integration layer for the Human Motor Intelligence programme: a series of six papers on cross-subject EMG/EEG decoding and on the traceable path from decoded intent to simulated action. The archive holds the reproducibility infrastructure, the executed P6 studies (C1 registered replay, its post-hoc validity audit and the C2 registered follow-up) with their audit trails, and the evidence records of the programme. It is non-clinical research software and evidence, not a medical device.
 
+Previous public release: v1.0.0 (Zenodo 22288272); v1.1.0 (C1-only) is superseded by this release. See `RELEASE_CHANGELOG.md`.
 
-## P4 and P5 Evidence Package Only
+## The six papers
 
-> **Public-release status:** This package is designed for public upload as a **P4/P5 code-and-evidence release**. It excludes P6 experimental material, P3 unpublished material, all raw biosignal recordings, and all derived feature caches. It is research software and evidence documentation—not a medical device, clinical decision system, or general claim of decoder robustness.
+| # | Topic | Status |
+|---|---|---|
+| P1 | Rest-class metric inflation in zero-calibration cross-subject sEMG (three-database LOSO benchmark) | Submitted |
+| P2 | Reference MiniROCKET domain-adaptation benchmark (revised after supervisor review; archive v2.0.0 supersedes v1.0.0) | Supervisory review |
+| P3 | Adversarial domain confusion and feature-covariance alignment (Lite-DAN) | Supervisory review; included as externally archived evidence |
+| P4 | Strict zero-calibration cross-subject EEG motor-imagery decoding, external validation | Supervisory review |
+| P5 | Transparent cross-subject EEG–EMG fusion, amended external validation | Supervisory review |
+| P6 | Decoder accuracy versus control utility in simulated intent-to-action control (C1, audit, C2) | Manuscript v2 in preparation |
 
-## What the Public Archive Contains
+Authoritative per-paper evidence: `papers/EMG_SERIES_MASTER_EVIDENCE.md`. Statements about P2 in older audit documents describe its first version and are superseded: `papers/P2_SUPERSESSION_NOTICE.md`.
 
-| Component | Included | Purpose |
-|---|---:|---|
-| Research-core source code | Yes | Versioned contracts, validation, registry, and the P4/P5 experiment implementations |
-| P4/P5 runners, analyzers, and plotting scripts | Yes | Code used for the recorded external-validation workflows |
-| P4/P5 frozen configurations and manifests | Yes | Protocol, provenance, cohort, and source records |
-| P4/P5 primary and independent-rerun result artefacts | Yes | Subject-level CSVs, statistics, figures, environments, protocol and validation records |
-| P4/P5 manuscript summaries (abstract + highlights) | Yes | Full manuscript text withheld pending peer-review submission |
-| Tests and dependency specification | Yes | Public reproduction and software-verification guidance |
-| Raw BDF/MAT/BrainVision recordings | No | Download only from the authoritative source records |
-| Derived NPZ feature cache | No | Excluded to avoid raw/derived participant data redistribution and archive bloat |
-| P6 manuscript, code patch, data/results, fixture, or audit | No | Deliberately excluded from this P4/P5 public release |
-| P3 material | No | Pending author-supplied original package |
+## P6 results at a glance
 
-## Evidence Scope
+P6 is reported in three stages (the manuscript text is not distributed in this archive; see "Manuscript texts" below).
 
-P4 is a **54-subject harmonized external validation** on OpenBMI binary motor imagery. It is not a direct replication or numerical ranking against BCI Competition IV-2a. P5 is a **24-subject amended external validation** on the Jeong MI-only cohort; it evaluates four predeclared transparent LDA conditions and does not establish a general claim about multimodal fusion. The complete boundaries and statistical interpretations are contained in the included manuscripts and audits.[1] [2]
+| Stage | Record | Outcome |
+|---|---|---|
+| **C1** registered replay (`p6/c_mi_r04_primary`, `p6/c_mi_r04_rerun`) | R04 motor imagery, S001–S020, strict LOSO, M1/M2/M3, 60 + 60 MyoSim runs | Fixture 1/1; task success **0/60** (primary and rerun). Decoders at chance (pooled accuracy 0.497–0.510). |
+| **Audit** (`p6/c1_audit`, post-hoc) | Re-execution, oracle negative control, event-timeline accounting, timeout-removed sensitivity | The C1 endpoint was **unreachable by design**: an oracle stream also scored 0/20; 2 of 15 outputs reached the task before its 8.0-s clock ended; 171/207 controller transitions followed task failure. The C1 command-correction contrast is withdrawn as an artefact. |
+| **C2** registered follow-up (`p6/c2_episode`) | Episode-level interface (oracle 100/100), emulated decoder ladder (27,000 episodes), real decoders on 105 EEGMMIDB subjects (19,750 episodes), controller sensitivity (25,600) | Control success follows **confidence-gate passing**, not accuracy: over-confident chance-level decoder 23.0%; real zero-calibration decoders (balanced accuracy 0.53–0.60) gain at most 0.4 percentage points above a chance-matched floor at the registered gate. |
 
-## Recorded Environment and Installation
+Details: `P6_FINAL_STATUS.md`, `papers/paper_6/RESULTS_SUMMARY.md`, `p6/c2_episode/README.md`. Everything is non-clinical offline replay in a deterministic simulator.
 
-The primary P4/P5 executions recorded Python 3.12.3 with NumPy 1.26.4, SciPy 1.14.1, scikit-learn 1.9.0, and MNE 1.12.1. P4 additionally recorded PyTorch 2.13.0+cu130. The public requirements file records these evidence-grounded constraints. Use a virtual environment and select a PyTorch wheel appropriate for the host when reproducing P4.
+The earlier R03 experiment is kept under `p6/exploratory_r03_primary/` as an engineering/preflight motor-execution baseline only. It is not motor-imagery evidence. Raw EEG is not redistributed; provenance and SHA-256 hashes are in the dataset manifests.
 
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m pip install -e .
-PYTHONPATH=src pytest -q
-```
-
-The source suite is expected to pass 28 tests in the documented current state. The public archive contains a verification record rather than promising bit-identical reruns on a different operating system or accelerator stack.
-
-## Reproducing P4 and P5 with Authoritative Data
-
-The archive deliberately contains **code and retained result artefacts, not source recordings**. Download data yourself from the cited authoritative records, preserve the source receipt/checksum/version, and comply with the current source terms before executing. P4 records the NEMAR OpenBMI v1.0.5 source (`10.82901/nemar.nm000338`), whose current dataset page identifies GPL-3.0. P5 records NEMAR Jeong v1.0.2 (`10.82901/nemar.nm000311`), whose current page identifies CC0-1.0.[3] [4]
-
-The historic R1/R2 configurations preserve absolute project-workspace paths to protect the original evidence record. **Do not edit those frozen configurations in place.** For an independent rerun, copy the corresponding configuration to a newly named local experiment configuration, change only the local raw/cache roots and output namespace, record that change prospectively, and retain a new manifest. The historic stage commands are:
+## Verify
 
 ```bash
-# P4: extract, manifest, primary run, then independent rerun
-PYTHONPATH=src python scripts/run_v2_external_validation.py extract-p4
-PYTHONPATH=src python scripts/run_v2_external_validation.py manifest-p4
-PYTHONPATH=src python scripts/run_v2_external_validation.py run-p4
-PYTHONPATH=src python scripts/run_v2_external_validation.py rerun-p4
-
-# P5: extract, manifest, primary run, then independent rerun
-PYTHONPATH=src python scripts/run_v2_p5_jeong_r2.py extract-p5-r2
-PYTHONPATH=src python scripts/run_v2_p5_jeong_r2.py manifest-p5-r2
-PYTHONPATH=src python scripts/run_v2_p5_jeong_r2.py run-p5-r2
-PYTHONPATH=src python scripts/run_v2_p5_jeong_r2.py rerun-p5-r2
+pip install -e ".[dev,p6]"         # Python >= 3.11
+pytest -q                          # 44 passed, 2 skipped without MyoSim (all passed with MyoSim installed)
+python scripts/public_release_doctor.py   # checks status consistency and the SHA-256 release manifest
 ```
 
-The public package contains the recorded output hashes so an independent rerun may be compared to, but never overwrite, the retained result namespaces.
+The two skipped tests need the separately maintained `myosim` package. The C2 results were produced with MyoSim v0.1.5 (commit `67ee74e`; see `p6/c2_episode/README.md`); with MyoSim 0.1.6 installed all 46 tests pass.
 
-## Publication and Attribution Rules
+## Repository map
 
-The source code in this public archive is distributed under Apache-2.0 as declared in `LICENSE`. This does **not** relicence external datasets, publications, data conversion tools, or unbundled child projects. Cite the NEMAR dataset DOI and the source publication for each dataset, cite this programme release using `CITATION.cff`, and preserve the P4/P5 external-validation framing. Do not redistribute source recordings simply because this archive references them; obtain and follow the authoritative source terms at the time of download.[3] [4]
+| Path | Content |
+|---|---|
+| `src/`, `tests/`, `scripts/` | Integration layer, tests, verification tools |
+| `p6/` | P6: C1 protocol and results, `c1_audit/` (post-hoc audit), `c2_episode/` (C2 protocol, results, raw archives, verification) and the R03 baseline |
+| `papers/` | Per-paper evidence records, claim–evidence matrices and audits |
+| `external/` | Externally archived evidence (e.g. P3) |
+| `closure/`, `audit/`, `historical/` | Closure records, dated audits and superseded materials |
+| `release/` | SHA-256 manifest and verification records |
 
-## References
+## Manuscript texts
 
-[1]: papers/P4_SUMMARY.md "P4 Summary"
-[2]: papers/P5_SUMMARY.md "P5 Summary"
-[3]: https://nemar.org/dataset/nm000338 "NEMAR nm000338 — OpenBMI"
-[4]: https://nemar.org/dataset/nm000311 "NEMAR nm000311 — Jeong2020"
+The full texts of the manuscripts for P1–P6 are not distributed in this archive; they are withheld pending peer-review submission, as in v1.0.0. The archive holds the code, protocols, results, audits and evidence records on which they rest, plus the figures of P6 under `papers/paper_6/figures/`.
 
-The public release boundary follows the retained P4/P5 evidence documents and the source dataset records.[1] [2] [3] [4]
+## Limits
+
+Non-clinical, simulation-only and offline-replay evidence. Nothing here establishes real-time control, user benefit, hardware performance or clinical efficacy; see `SCIENTIFIC_LIMITATIONS.md`.
+
+## Use of generative-AI tools
+
+Generative-AI use is declared in the manuscripts. The P6 C2 experiment was executed by an autonomous software agent under a frozen protocol, with the agent's original report and the independent human-directed verification kept in `p6/c2_episode/` (see its README). The authors take responsibility for all content.
+
+## Citation and licence
+
+Cite with `CITATION.cff`. Code is released under Apache-2.0 (`LICENSE`); data licences are in `DATA_AND_LICENSES.md`.

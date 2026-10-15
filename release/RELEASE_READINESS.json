@@ -1,0 +1,25 @@
+{
+  "schema": "hmi.release-readiness.v3",
+  "status": "READY_FOR_PUBLIC_SCIENTIFIC_RELEASE",
+  "version": "1.2.0",
+  "p6_c1_status": "SCIENTIFICALLY_COMPLETE_NON_DISCRIMINATIVE_PRIMARY_ENDPOINT_UNREACHABLE_BY_DESIGN_PER_AUDIT",
+  "p6_c1_audit": "COMPLETE_POST_HOC_REPRODUCIBLE",
+  "p6_c2_status": "SCIENTIFICALLY_COMPLETE_REGISTERED_FOLLOW_UP",
+  "r03_engineering_baseline_preserved": true,
+  "primary_runs": 60,
+  "rerun_runs": 60,
+  "fixture": "1/1 COMPLETE",
+  "c2_episodes": {
+    "emulator": 27000,
+    "sensitivity": 25600,
+    "real_r1": 19750,
+    "r0": 560,
+    "x0_preflight": 100
+  },
+  "c2_independent_verification": {
+    "sampled_episodes_rerun": 300,
+    "mismatches": 0,
+    "confirmatory_statistics_recomputed": "identical"
+  },
+  "raw_eeg_redistributed": false
+}

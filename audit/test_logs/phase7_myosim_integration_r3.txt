@@ -1,0 +1,42 @@
+# Phase 7 MyoSim Integration Verification
+
+## Correct source-tree import identity
+<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/src/myosim/__init__.py
+<LOCAL_WORKSPACE>/dependencies/myosim_v1_1/src/myosim/core/config.py
+
+## MyoSim integration tests (MuJoCo-capable source path)
+...                                                                      [100%]
+3 passed in 3.42s
+
+## Umbrella adapter test
+...                                                                      [100%]
+3 passed in 0.30s
+
+## Frozen R2 primary/rerun equality
+PASS P6 R2 run_records.json byte-identical
+2edaa2a7d8a1e0448dc9f5742190a736a2877eb20c65395d60d65dd019cad120  <LOCAL_WORKSPACE>/human_motor_workspace/work/human-motor-intelligence-v1_1/results/real/v2-recovery-r2/p6_real_replay_initial_state_repeats_r2/run_records.json
+
+## Patch and fixture identities
+8f07a68f903c5aa749798016e1ea70ac24d337e8d6fff24681dea069bdf91fe2  patches/myosim_v1_1_initial_state_recovery_r2.patch
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:24:| `source_subject` | `synthetic-demo` |
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:26:| `model_version` | `example-decoder-v1` |
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:31:A read-only inventory of the user-provided Human Motor Intelligence delivery archive, Recovery R1/R2 archives, MyoSim package, MyoAdapt package, and myocontrol package found no pair of usable, provenance-linked `mid-tier` and `best-performing` decoder replay CSV/JSON traces. No locally available file permits a defensible mapping from `example-decoder-v1` to `tiny_cnn`, worst, mid-tier, or best-performing performance conditions.
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:37:> No R2 artefact is deleted or overwritten. This R3 correction record supersedes only the unsupported replay-identity interpretation in programme-level integration. It does not convert R2 into biomedical evidence, a decoder-quality experiment, or a synthetic corruption sweep.
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:44:| Treating `example-decoder-v1` as tiny-CNN/worst | No evidence supports this mapping. |
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:3:**Status:** **Not executed; hard stop remains active.**  
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:11:However, the replay file used by R2 identifies itself as `synthetic-demo` / `example-decoder-v1`. It contains no authenticated relationship to the frozen tiny-CNN/worst condition, no decoder score tier, no model artifact hash, and no subject/session provenance. Therefore, it must not be represented in R3 documents as a confirmed real decoder trace or as the worst/tiny-CNN condition.
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:15:| Claimed R2 worst/tiny-CNN condition | No; R2 input is only `example-decoder-v1` | Not eligible for decoder-quality labelling |
+
+## Demonstrator artifact bundle
+1f79effb6d464da69da43b114ae74010/INTEGRATED_DEMO_REPORT.md
+1f79effb6d464da69da43b114ae74010/control_metrics.json
+1f79effb6d464da69da43b114ae74010/control_transitions.json
+1f79effb6d464da69da43b114ae74010/pick_place_clean.gif
+1f79effb6d464da69da43b114ae74010/pick_place_debug.gif
+1f79effb6d464da69da43b114ae74010/provenance.json
+1f79effb6d464da69da43b114ae74010/report.md
+1f79effb6d464da69da43b114ae74010/summary.json
+1f79effb6d464da69da43b114ae74010/task_metrics.json
+1f79effb6d464da69da43b114ae74010/task_transitions.json
+1f79effb6d464da69da43b114ae74010/umbrella_contract_records.json
+1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json

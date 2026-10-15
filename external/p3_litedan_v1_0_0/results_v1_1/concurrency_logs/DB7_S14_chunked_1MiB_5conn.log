@@ -1,0 +1,6 @@
+nohup: ignoring input
+{"status": "range_recovery_start", "total_ranges": 1420, "pending_ranges": 1420, "chunk_bytes": 1048576, "connections": 5}
+{"status": "range_progress", "completed_ranges": 25, "total_ranges": 1420, "last_range": [24117248, 25165823]}
+{"status": "range_progress", "completed_ranges": 50, "total_ranges": 1420, "last_range": [53477376, 54525951]}
+{"status": "range_progress", "completed_ranges": 75, "total_ranges": 1420, "last_range": [75497472, 76546047]}
+{"status": "range_progress", "completed_ranges": 100, "total_ranges": 1420, "last_range": [100663296, 101711871]}

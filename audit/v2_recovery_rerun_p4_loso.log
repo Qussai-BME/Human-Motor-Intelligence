@@ -1,0 +1,111 @@
+completed held-out sub-1 (1/54)
+completed held-out sub-2 (2/54)
+completed held-out sub-3 (3/54)
+completed held-out sub-4 (4/54)
+completed held-out sub-5 (5/54)
+completed held-out sub-6 (6/54)
+completed held-out sub-7 (7/54)
+completed held-out sub-8 (8/54)
+completed held-out sub-9 (9/54)
+completed held-out sub-10 (10/54)
+completed held-out sub-11 (11/54)
+completed held-out sub-12 (12/54)
+completed held-out sub-13 (13/54)
+completed held-out sub-14 (14/54)
+completed held-out sub-15 (15/54)
+completed held-out sub-16 (16/54)
+completed held-out sub-17 (17/54)
+completed held-out sub-18 (18/54)
+completed held-out sub-19 (19/54)
+completed held-out sub-20 (20/54)
+completed held-out sub-21 (21/54)
+completed held-out sub-22 (22/54)
+completed held-out sub-23 (23/54)
+completed held-out sub-24 (24/54)
+completed held-out sub-25 (25/54)
+completed held-out sub-26 (26/54)
+completed held-out sub-27 (27/54)
+completed held-out sub-28 (28/54)
+completed held-out sub-29 (29/54)
+completed held-out sub-30 (30/54)
+completed held-out sub-31 (31/54)
+completed held-out sub-32 (32/54)
+completed held-out sub-33 (33/54)
+completed held-out sub-34 (34/54)
+completed held-out sub-35 (35/54)
+completed held-out sub-36 (36/54)
+completed held-out sub-37 (37/54)
+completed held-out sub-38 (38/54)
+completed held-out sub-39 (39/54)
+completed held-out sub-40 (40/54)
+completed held-out sub-41 (41/54)
+completed held-out sub-42 (42/54)
+completed held-out sub-43 (43/54)
+completed held-out sub-44 (44/54)
+completed held-out sub-45 (45/54)
+completed held-out sub-46 (46/54)
+completed held-out sub-47 (47/54)
+completed held-out sub-48 (48/54)
+completed held-out sub-49 (49/54)
+completed held-out sub-50 (50/54)
+completed held-out sub-51 (51/54)
+completed held-out sub-52 (52/54)
+completed held-out sub-53 (53/54)
+completed held-out sub-54 (54/54)
+{
+  "direct_replication": false,
+  "external_validation": true,
+  "independent_rerun": true,
+  "limitations": [
+    "OpenBMI is a harmonized external validation dataset, not a direct replication of BCI Competition IV-2a.",
+    "Dataset-specific metrics must not be numerically ranked against prior datasets without protocol-specific qualification."
+  ],
+  "models": [
+    "eeg-linear-v1",
+    "eeg-lda-v1",
+    "eeg-spectral-v1",
+    "eeg-linear-svm-v1",
+    "eeg-lightweight-cnn-tcn-v1"
+  ],
+  "result_file": "subject_level_results.csv",
+  "status": "complete_independent_rerun",
+  "study_id": "nemar-nm000338-openbmi-p4-external-loso-recovery-r1",
+  "subjects": 54,
+  "summary": {
+    "eeg-lda-v1": {
+      "accuracy": 0.6096296296296295,
+      "balanced_accuracy": 0.6096296296296296,
+      "macro_f1": 0.5979993784009436,
+      "macro_f1_sd": 0.10585916786808922,
+      "n_subjects": 54.0
+    },
+    "eeg-lightweight-cnn-tcn-v1": {
+      "accuracy": 0.6666666666666666,
+      "balanced_accuracy": 0.6666666666666666,
+      "macro_f1": 0.6364195197928747,
+      "macro_f1_sd": 0.16538148083583312,
+      "n_subjects": 54.0
+    },
+    "eeg-linear-svm-v1": {
+      "accuracy": 0.6257407407407408,
+      "balanced_accuracy": 0.6257407407407408,
+      "macro_f1": 0.61228352673486,
+      "macro_f1_sd": 0.12182780093846647,
+      "n_subjects": 54.0
+    },
+    "eeg-linear-v1": {
+      "accuracy": 0.6074074074074075,
+      "balanced_accuracy": 0.6074074074074075,
+      "macro_f1": 0.5962229007273704,
+      "macro_f1_sd": 0.10498596619855895,
+      "n_subjects": 54.0
+    },
+    "eeg-spectral-v1": {
+      "accuracy": 0.6262037037037038,
+      "balanced_accuracy": 0.6262037037037038,
+      "macro_f1": 0.6130193220643378,
+      "macro_f1_sd": 0.1225814839678569,
+      "n_subjects": 54.0
+    }
+  }
+}

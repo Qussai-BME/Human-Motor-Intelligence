@@ -1,0 +1,15 @@
+{
+  "schema": "hmi.release-manifest.v1",
+  "release_id": "human-motor-intelligence-final-r3-2026-10-05",
+  "project_version": "1.1.0",
+  "date": "2026-10-05",
+  "author": "Qussai Adlbi",
+  "p6_status": "completed_negative_inconclusive",
+  "primary_p6_runs": 60,
+  "independent_rerun_records": 60,
+  "primary_rerun_aggregate_exact_match": true,
+  "task_successes": 0,
+  "invalid_simulator_states": 0,
+  "historical_records_preserved": true,
+  "security_metadata_corrected": true
+}

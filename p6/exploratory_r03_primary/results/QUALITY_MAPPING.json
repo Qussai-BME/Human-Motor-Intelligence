@@ -1,0 +1,19 @@
+{
+  "neutral_model_ids": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "source_cv_mean_balanced_accuracy": {
+    "M1": 0.5030104905437353,
+    "M2": 0.4410424054373522,
+    "M3": 0.44840794917257687
+  },
+  "ranking_metric": "mean 3-fold balanced accuracy on source training data only",
+  "quality_mapping": {
+    "quality_low": "M2",
+    "quality_mid": "M3",
+    "quality_high": "M1"
+  },
+  "frozen_before_task_analysis": true
+}

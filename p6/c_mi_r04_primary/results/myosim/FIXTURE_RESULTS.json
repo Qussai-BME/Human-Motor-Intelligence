@@ -1,0 +1,14 @@
+[
+  {
+    "source": "external/MyoSim-V1.1/examples/intents/pick_place_replay.csv",
+    "run_artifact": "results/myosim/fixture/pick_place_replay.json",
+    "task_success": true,
+    "completion_time_s": 3.22,
+    "final_error_m": 0.04985601966004137,
+    "path_length_m": 0.9678159612131996,
+    "command_corrections": 3,
+    "grasp_stability_steps": 14,
+    "final_state": "COMPLETE",
+    "invalid_state_detected": false
+  }
+]

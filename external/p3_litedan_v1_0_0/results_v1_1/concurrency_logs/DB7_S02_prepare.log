@@ -1,0 +1,71 @@
+nohup: ignoring input
+{
+  "subject": 2,
+  "status": "prepared",
+  "cache": "artifacts_v1_1/features/DB7/S02.npz",
+  "metadata": {
+    "db": "DB7",
+    "subject": 2,
+    "exercises": [
+      1,
+      2
+    ],
+    "n_windows": 10812,
+    "raw_features": 618,
+    "feature_schema": "current_618_v1",
+    "cache_input_hash": "97ee204dd5aa",
+    "source_files": [
+      "S2_E1_A1.mat",
+      "S2_E2_A1.mat"
+    ],
+    "official_archive_url": "https://ninapro.hevs.ch/files/DB7_Preproc/Subject_2.zip",
+    "official_archive_bytes": 1501051842,
+    "official_archive_sha256": "0c23e6f0a0ba6b708a1a798e92c78d2291de93c1660daa989ff56481b325f27d",
+    "download_status": "reused",
+    "extracted_files": [
+      "S2_E1_A1.mat",
+      "S2_E2_A1.mat"
+    ],
+    "started_at_utc": "2026-08-27T23:12:29.613715+00:00",
+    "completed_at_utc": "2026-08-27T23:22:58.126405+00:00"
+  },
+  "elapsed_seconds": 628.8487346860056
+}
+{
+  "db": "DB7",
+  "status": "subject_batch_complete",
+  "results": [
+    {
+      "subject": 2,
+      "status": "prepared",
+      "cache": "artifacts_v1_1/features/DB7/S02.npz",
+      "metadata": {
+        "db": "DB7",
+        "subject": 2,
+        "exercises": [
+          1,
+          2
+        ],
+        "n_windows": 10812,
+        "raw_features": 618,
+        "feature_schema": "current_618_v1",
+        "cache_input_hash": "97ee204dd5aa",
+        "source_files": [
+          "S2_E1_A1.mat",
+          "S2_E2_A1.mat"
+        ],
+        "official_archive_url": "https://ninapro.hevs.ch/files/DB7_Preproc/Subject_2.zip",
+        "official_archive_bytes": 1501051842,
+        "official_archive_sha256": "0c23e6f0a0ba6b708a1a798e92c78d2291de93c1660daa989ff56481b325f27d",
+        "download_status": "reused",
+        "extracted_files": [
+          "S2_E1_A1.mat",
+          "S2_E2_A1.mat"
+        ],
+        "started_at_utc": "2026-08-27T23:12:29.613715+00:00",
+        "completed_at_utc": "2026-08-27T23:22:58.126405+00:00"
+      },
+      "elapsed_seconds": 628.8487346860056
+    }
+  ]
+}

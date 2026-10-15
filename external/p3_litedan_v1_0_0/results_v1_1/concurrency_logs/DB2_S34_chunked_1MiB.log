@@ -1,0 +1,21 @@
+nohup: ignoring input
+{"status": "range_recovery_start", "total_ranges": 444, "pending_ranges": 444, "chunk_bytes": 1048576, "connections": 2}
+{"status": "range_progress", "completed_ranges": 25, "total_ranges": 444, "last_range": [25165824, 26214399]}
+{"status": "range_progress", "completed_ranges": 50, "total_ranges": 444, "last_range": [52428800, 53477375]}
+{"status": "range_progress", "completed_ranges": 75, "total_ranges": 444, "last_range": [77594624, 78643199]}
+{"status": "range_progress", "completed_ranges": 100, "total_ranges": 444, "last_range": [103809024, 104857599]}
+{"status": "range_progress", "completed_ranges": 125, "total_ranges": 444, "last_range": [130023424, 131071999]}
+{"status": "range_progress", "completed_ranges": 150, "total_ranges": 444, "last_range": [156237824, 157286399]}
+{"status": "range_progress", "completed_ranges": 175, "total_ranges": 444, "last_range": [182452224, 183500799]}
+{"status": "range_progress", "completed_ranges": 200, "total_ranges": 444, "last_range": [209715200, 210763775]}
+{"status": "range_progress", "completed_ranges": 225, "total_ranges": 444, "last_range": [234881024, 235929599]}
+{"status": "range_progress", "completed_ranges": 250, "total_ranges": 444, "last_range": [261095424, 262143999]}
+{"status": "range_progress", "completed_ranges": 275, "total_ranges": 444, "last_range": [287309824, 288358399]}
+{"status": "range_progress", "completed_ranges": 300, "total_ranges": 444, "last_range": [313524224, 314572799]}
+{"status": "range_progress", "completed_ranges": 325, "total_ranges": 444, "last_range": [339738624, 340787199]}
+{"status": "range_progress", "completed_ranges": 350, "total_ranges": 444, "last_range": [365953024, 367001599]}
+{"status": "range_progress", "completed_ranges": 375, "total_ranges": 444, "last_range": [392167424, 393215999]}
+{"status": "range_progress", "completed_ranges": 400, "total_ranges": 444, "last_range": [418381824, 419430399]}
+{"status": "range_progress", "completed_ranges": 425, "total_ranges": 444, "last_range": [444596224, 445644799]}
+{"status": "range_progress", "completed_ranges": 444, "total_ranges": 444, "last_range": [464519168, 464773725]}
+chunked download complete: bytes=464773726 sha256=871547bed5956f3a387412663c1d15c89b07ca660c9be5ed7db1b3aecf877a9d output=/home/ubuntu/ninapro_staging/DB2/S34/DB2_S34.zip

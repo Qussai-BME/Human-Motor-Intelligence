@@ -1,0 +1,82 @@
+# Source file inventory
+configs/eeg/bci_iv_2a_loso.yaml
+configs/fusion/emg_eeg_fusion.yaml
+docs/DATASET_SOURCE_NOTES.md
+scripts/__pycache__/finalize_integrated_demo.cpython-312.pyc
+scripts/__pycache__/generate_intent_replay.cpython-312.pyc
+scripts/__pycache__/seed_registry.cpython-312.pyc
+scripts/__pycache__/verify_integrated_demo.cpython-312.pyc
+scripts/__pycache__/verify_manifest.cpython-312.pyc
+scripts/finalize_integrated_demo.py
+scripts/generate_intent_replay.py
+scripts/seed_registry.py
+scripts/verify_integrated_demo.py
+scripts/verify_manifest.py
+src/research_core/__init__.py
+src/research_core/__pycache__/__init__.cpython-312.pyc
+src/research_core/adapters/__init__.py
+src/research_core/adapters/__pycache__/__init__.cpython-312.pyc
+src/research_core/adapters/__pycache__/biosignal_fm.cpython-312.pyc
+src/research_core/adapters/__pycache__/common.cpython-312.pyc
+src/research_core/adapters/__pycache__/eeg.cpython-312.pyc
+src/research_core/adapters/__pycache__/myoadapt.cpython-312.pyc
+src/research_core/adapters/__pycache__/myocontrol.cpython-312.pyc
+src/research_core/adapters/__pycache__/myosim.cpython-312.pyc
+src/research_core/adapters/biosignal_fm.py
+src/research_core/adapters/common.py
+src/research_core/adapters/eeg.py
+src/research_core/adapters/myoadapt.py
+src/research_core/adapters/myocontrol.py
+src/research_core/adapters/myosim.py
+src/research_core/benchmarks/__init__.py
+src/research_core/benchmarks/__pycache__/__init__.cpython-312.pyc
+src/research_core/benchmarks/__pycache__/engine.cpython-312.pyc
+src/research_core/benchmarks/engine.py
+src/research_core/cli/__init__.py
+src/research_core/cli/__pycache__/__init__.cpython-312.pyc
+src/research_core/cli/__pycache__/main.cpython-312.pyc
+src/research_core/cli/main.py
+src/research_core/contracts/__init__.py
+src/research_core/contracts/__pycache__/__init__.cpython-312.pyc
+src/research_core/contracts/__pycache__/base.cpython-312.pyc
+src/research_core/contracts/__pycache__/models.cpython-312.pyc
+src/research_core/contracts/__pycache__/versioning.cpython-312.pyc
+src/research_core/contracts/base.py
+src/research_core/contracts/models.py
+src/research_core/contracts/versioning.py
+src/research_core/protocols/__init__.py
+src/research_core/protocols/__pycache__/__init__.cpython-312.pyc
+src/research_core/protocols/__pycache__/eeg.cpython-312.pyc
+src/research_core/protocols/__pycache__/fusion.cpython-312.pyc
+src/research_core/protocols/eeg.py
+src/research_core/protocols/fusion.py
+src/research_core/provenance/__init__.py
+src/research_core/provenance/__pycache__/__init__.cpython-312.pyc
+src/research_core/provenance/__pycache__/manifest.cpython-312.pyc
+src/research_core/provenance/manifest.py
+src/research_core/registry/__init__.py
+src/research_core/registry/__pycache__/__init__.cpython-312.pyc
+src/research_core/registry/__pycache__/catalog.cpython-312.pyc
+src/research_core/registry/__pycache__/models.cpython-312.pyc
+src/research_core/registry/__pycache__/store.cpython-312.pyc
+src/research_core/registry/catalog.py
+src/research_core/registry/models.py
+src/research_core/registry/store.py
+src/research_core/reporting/__init__.py
+src/research_core/reporting/__pycache__/__init__.cpython-312.pyc
+src/research_core/reporting/__pycache__/assets.cpython-312.pyc
+src/research_core/reporting/assets.py
+
+# Child-runtime imports in umbrella
+
+# Generated MyoSim package runtime bridge calls
+src/research_core/adapters/__init__.py:11:from .myosim import MyoSimIntentPayload, intent_to_myosim_event, intent_to_myosim_payload
+src/research_core/adapters/__init__.py:22:    "intent_to_myosim_event",
+src/research_core/adapters/__init__.py:23:    "intent_to_myosim_payload",
+src/research_core/adapters/myosim.py:20:ADAPTER_ID = "myosim-intent-event"
+src/research_core/adapters/myosim.py:39:def intent_to_myosim_payload(
+src/research_core/adapters/myosim.py:83:def payload_to_myosim_event(payload: MyoSimIntentPayload) -> Any:
+src/research_core/adapters/myosim.py:91:        from myosim.core.types import IntentEvent, IntentLabel  # type: ignore[import-not-found]
+src/research_core/adapters/myosim.py:110:def intent_to_myosim_event(
+src/research_core/adapters/myosim.py:117:    return payload_to_myosim_event(
+src/research_core/adapters/myosim.py:118:        intent_to_myosim_payload(

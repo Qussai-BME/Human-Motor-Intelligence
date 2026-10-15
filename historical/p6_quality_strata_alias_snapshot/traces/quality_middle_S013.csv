@@ -1,0 +1,16 @@
+timestamp_s,label,confidence,source_subject,modality,model_version,window_id,ground_truth,correct
+0.000,OPEN,0.86447591,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-000,OPEN,True
+2.500,OPEN,0.58825457,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-001,CLOSE,False
+5.000,OPEN,0.57831812,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-002,OPEN,True
+7.500,OPEN,0.93225706,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-003,CLOSE,False
+10.000,OPEN,0.65038788,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-004,CLOSE,False
+12.500,CLOSE,0.87519425,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-005,OPEN,False
+15.000,OPEN,0.68314183,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-006,OPEN,True
+17.500,CLOSE,0.90735996,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-007,CLOSE,True
+20.000,CLOSE,0.91864544,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-008,CLOSE,True
+22.500,OPEN,0.88065541,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-009,OPEN,True
+25.000,OPEN,0.52827269,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-010,CLOSE,False
+27.500,CLOSE,0.97329277,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-011,OPEN,False
+30.000,OPEN,0.57518446,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-012,OPEN,True
+32.500,CLOSE,0.80794370,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-013,CLOSE,True
+35.000,OPEN,0.81499171,S013,eeg,physionet-r03-best-logreg-v1,S013-R03-014,OPEN,True

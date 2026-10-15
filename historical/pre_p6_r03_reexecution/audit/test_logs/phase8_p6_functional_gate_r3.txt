@@ -1,0 +1,32 @@
+# Phase 8 P6 Functional Gate Verification
+
+## Available replay fixture identity
+a94e59e30e2599eb92517198739dff96aa40b01f3bf6777756722e09960e09f3  <LOCAL_WORKSPACE>/dependencies/myosim_v1_1/examples/intents/pick_place_replay.csv
+timestamp_s,label,confidence,source_subject,modality,model_version,window_id
+0.00,REST,0.99,synthetic-demo,emg-replay,example-decoder-v1,000
+0.10,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,001
+0.20,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,002
+0.30,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,003
+0.40,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,004
+0.50,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,005
+0.60,PINCH,0.95,synthetic-demo,emg-replay,example-decoder-v1,006
+
+## Required R3 execution paths
+ABSENT_AS_REQUIRED audit/V2_PROTOCOL_AMENDMENT_RECOVERY_R2_004.md
+ABSENT_AS_REQUIRED results/real/v2-recovery-r3
+ABSENT_AS_REQUIRED results/real/v2-recovery-r3-independent-rerun
+
+## Decoder-quality claim guard
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:24:| `source_subject` | `synthetic-demo` |
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:26:| `model_version` | `example-decoder-v1` |
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:31:A read-only inventory of the user-provided Human Motor Intelligence delivery archive, Recovery R1/R2 archives, MyoSim package, MyoAdapt package, and myocontrol package found no pair of usable, provenance-linked `mid-tier` and `best-performing` decoder replay CSV/JSON traces. No locally available file permits a defensible mapping from `example-decoder-v1` to `tiny_cnn`, worst, mid-tier, or best-performing performance conditions.
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:35:The R2 initial-state experiment remains a reproducible **simulation integration-fixture stress test** with declared physical states. Its run records and all-failure result are retained as historical R2 artefacts. However, its replay identity cannot support the prior label “real decoder replay” or the new requested assertion that it is the frozen tiny-CNN/worst condition. That identity claim is **not established** by the preserved R2 input.
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:37:> No R2 artefact is deleted or overwritten. This R3 correction record supersedes only the unsupported replay-identity interpretation in programme-level integration. It does not convert R2 into biomedical evidence, a decoder-quality experiment, or a synthetic corruption sweep.
+audit/V2_R3_P6_REPLAY_IDENTITY_HARD_STOP.md:44:| Treating `example-decoder-v1` as tiny-CNN/worst | No evidence supports this mapping. |
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:3:**Status:** **Not executed; hard stop remains active.**  
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:11:However, the replay file used by R2 identifies itself as `synthetic-demo` / `example-decoder-v1`. It contains no authenticated relationship to the frozen tiny-CNN/worst condition, no decoder score tier, no model artifact hash, and no subject/session provenance. Therefore, it must not be represented in R3 documents as a confirmed real decoder trace or as the worst/tiny-CNN condition.
+papers/P6_DECODER_QUALITY_EXTENSION_STATUS_V2_RECOVERY_R3.md:15:| Claimed R2 worst/tiny-CNN condition | No; R2 input is only `example-decoder-v1` | Not eligible for decoder-quality labelling |
+audit/MASTER_SPEC_PHASE8_P6_FUNCTIONAL_GATE_R3.md:6:> **Phase 8 is BLOCKED before execution.** The programme has a deterministic MyoSim integration fixture and frozen R2 initial-state systems evidence, but it does not have authenticated decoder replay inputs for the required worst/mid-tier/best-performing conditions. Consequently it has no valid three-condition functional benchmark, no effect estimate, no task-success comparison across decoder quality, and no decoder-quality statistical test.
+audit/MASTER_SPEC_PHASE8_P6_FUNCTIONAL_GATE_R3.md:14:| `pick_place_replay.csv` metadata: `synthetic-demo` / `example-decoder-v1` | Integration fixture provenance | A trace mapped to worst, mid-tier, or best model quality |
+
+## Trace-condition manifest inventory in programme repository

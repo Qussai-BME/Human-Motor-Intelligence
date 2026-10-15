@@ -1,0 +1,17 @@
+{
+  "task": "P4 CPU Q1 representation family ablation",
+  "subjects": 54,
+  "conditions": [
+    "temporal",
+    "spectral",
+    "covariance_log"
+  ],
+  "classifier": "LDA lsqr shrinkage=auto",
+  "loso": true,
+  "feature_definitions": {
+    "temporal": "per-channel std, mean absolute deviation, first-difference SD",
+    "spectral": "per-channel log bandpower 4-8/8-13/13-30/30-45 Hz Welch",
+    "covariance_log": "regularized covariance log-Euclidean upper triangle with sqrt(2) off-diagonal scaling"
+  },
+  "seed": 20261004
+}

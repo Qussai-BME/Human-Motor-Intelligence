@@ -1,0 +1,132 @@
+# Top-level files
+ARCHITECTURE.md
+BENCHMARK_GUIDE.md
+CONTRACTS.md
+DEMONSTRATOR_GUIDE.md
+EEG_RESEARCH_TRACK.md
+IMPLEMENTATION_STATUS.md
+INTEGRATION_GUIDE.md
+REPOSITORY_AUDIT.md
+RESEARCH_OS_MVP.md
+RESEARCH_PROTOCOLS.md
+pyproject.toml
+
+# Source files
+configs/eeg/bci_iv_2a_loso.yaml
+configs/fusion/emg_eeg_fusion.yaml
+scripts/__pycache__/finalize_integrated_demo.cpython-312.pyc
+scripts/__pycache__/generate_intent_replay.cpython-312.pyc
+scripts/__pycache__/seed_registry.cpython-312.pyc
+scripts/__pycache__/verify_integrated_demo.cpython-312.pyc
+scripts/__pycache__/verify_manifest.cpython-312.pyc
+scripts/finalize_integrated_demo.py
+scripts/generate_intent_replay.py
+scripts/seed_registry.py
+scripts/verify_integrated_demo.py
+scripts/verify_manifest.py
+src/research_core/__init__.py
+src/research_core/__pycache__/__init__.cpython-312.pyc
+src/research_core/adapters/__init__.py
+src/research_core/adapters/__pycache__/__init__.cpython-312.pyc
+src/research_core/adapters/__pycache__/biosignal_fm.cpython-312.pyc
+src/research_core/adapters/__pycache__/common.cpython-312.pyc
+src/research_core/adapters/__pycache__/eeg.cpython-312.pyc
+src/research_core/adapters/__pycache__/myoadapt.cpython-312.pyc
+src/research_core/adapters/__pycache__/myocontrol.cpython-312.pyc
+src/research_core/adapters/__pycache__/myosim.cpython-312.pyc
+src/research_core/adapters/biosignal_fm.py
+src/research_core/adapters/common.py
+src/research_core/adapters/eeg.py
+src/research_core/adapters/myoadapt.py
+src/research_core/adapters/myocontrol.py
+src/research_core/adapters/myosim.py
+src/research_core/benchmarks/__init__.py
+src/research_core/benchmarks/__pycache__/__init__.cpython-312.pyc
+src/research_core/benchmarks/__pycache__/engine.cpython-312.pyc
+src/research_core/benchmarks/engine.py
+src/research_core/cli/__init__.py
+src/research_core/cli/__pycache__/__init__.cpython-312.pyc
+src/research_core/cli/__pycache__/main.cpython-312.pyc
+src/research_core/cli/main.py
+src/research_core/contracts/__init__.py
+src/research_core/contracts/__pycache__/__init__.cpython-312.pyc
+src/research_core/contracts/__pycache__/base.cpython-312.pyc
+src/research_core/contracts/__pycache__/models.cpython-312.pyc
+src/research_core/contracts/__pycache__/versioning.cpython-312.pyc
+src/research_core/contracts/base.py
+src/research_core/contracts/models.py
+src/research_core/contracts/versioning.py
+src/research_core/protocols/__init__.py
+src/research_core/protocols/__pycache__/__init__.cpython-312.pyc
+src/research_core/protocols/__pycache__/eeg.cpython-312.pyc
+src/research_core/protocols/__pycache__/fusion.cpython-312.pyc
+src/research_core/protocols/eeg.py
+src/research_core/protocols/fusion.py
+src/research_core/provenance/__init__.py
+src/research_core/provenance/__pycache__/__init__.cpython-312.pyc
+src/research_core/provenance/__pycache__/manifest.cpython-312.pyc
+src/research_core/provenance/manifest.py
+src/research_core/registry/__init__.py
+src/research_core/registry/__pycache__/__init__.cpython-312.pyc
+src/research_core/registry/__pycache__/catalog.cpython-312.pyc
+src/research_core/registry/__pycache__/models.cpython-312.pyc
+src/research_core/registry/__pycache__/store.cpython-312.pyc
+src/research_core/registry/catalog.py
+src/research_core/registry/models.py
+src/research_core/registry/store.py
+src/research_core/reporting/__init__.py
+src/research_core/reporting/__pycache__/__init__.cpython-312.pyc
+src/research_core/reporting/__pycache__/assets.cpython-312.pyc
+src/research_core/reporting/assets.py
+tests/__pycache__/test_adapters.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_benchmarks_and_provenance.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_catalog.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_cli.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_contracts.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_eeg_fusion.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_eeg_specs.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_myosim_adapter.cpython-312-pytest-9.1.1.pyc
+tests/__pycache__/test_registry.cpython-312-pytest-9.1.1.pyc
+tests/test_adapters.py
+tests/test_benchmarks_and_provenance.py
+tests/test_catalog.py
+tests/test_cli.py
+tests/test_contracts.py
+tests/test_eeg_fusion.py
+tests/test_eeg_specs.py
+tests/test_myosim_adapter.py
+tests/test_registry.py
+
+# Documentation files
+ARCHITECTURE.md
+BENCHMARK_GUIDE.md
+CONTRACTS.md
+DEMONSTRATOR_GUIDE.md
+EEG_RESEARCH_TRACK.md
+IMPLEMENTATION_STATUS.md
+INTEGRATION_GUIDE.md
+REPOSITORY_AUDIT.md
+RESEARCH_OS_MVP.md
+RESEARCH_PROTOCOLS.md
+
+# Integrated demonstration artifacts
+artifacts/integrated_demo/adapter_generated_intent_replay.csv	3144 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/INTEGRATED_DEMO_REPORT.md	848 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_metrics.json	239 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/control_transitions.json	1047 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_clean.gif	336326 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/pick_place_debug.gif	417728 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/provenance.json	549 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/report.md	1769 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/summary.json	2969 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_metrics.json	247 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/task_transitions.json	532 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_contract_records.json	9428 bytes
+artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json	3744 bytes
+artifacts/integrated_demo/myosim_task_output.json	1233 bytes
+artifacts/integrated_demo/replay_bundle.json	53346 bytes
+
+# Checksums
+568f477bd57b8d24000b5b67e01c990feab2318683f50377e18422a7ca3f30b0  artifacts/integrated_demo/replay_bundle.json
+8cebfaf08d92f72500124a8154b8f0fc188768cf4c3cd25b7560cc8ed6407f6f  artifacts/integrated_demo/adapter_generated_intent_replay.csv
+0b6bade2b8ac17a89976259782114d7c2788e46b22fbe4f567397b151eefce78  artifacts/integrated_demo/myosim/1f79effb6d464da69da43b114ae74010/umbrella_reproducibility_manifest.json

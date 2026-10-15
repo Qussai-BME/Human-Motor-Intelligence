@@ -1,0 +1,16 @@
+{
+  "status": "compatible_runtime_selected",
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "pyriemann_initial": "0.12",
+  "pyriemann_initial_failure": "The OAS covariance path uses numpy.ndarray.mT, unavailable in the MyoSim-compatible NumPy 1.26 environment.",
+  "pyriemann_runtime": "0.10",
+  "pyriemann_runtime_reason": "PyRiemann 0.10 declares numpy>=1.25 and Python>=3.9; source contains no .mT usage. OAS Covariances + TangentSpace + LogisticRegression smoke test passed under the unchanged NumPy 1.26.4 runtime.",
+  "registered_decoder_settings_changed": false,
+  "dataset_source": "PhysioNet EEGMMIDB v1.0.0",
+  "dataset_page": "https://physionet.org/content/eegmmidb/1.0.0/",
+  "official_public_mirror": "s3://physionet-open/eegmmidb/1.0.0/",
+  "mirror_reference": "https://registry.opendata.aws/physionet/",
+  "validation": "All 327 requested EDF files (R04, R08, R12 for S001-S109) match official S3 Content-Length; SHA-256 values are recorded in EEGMMIDB_MANIFEST.csv.",
+  "package_reference": "https://pyriemann.readthedocs.io/en/v0.10/whatsnew.html"
+}

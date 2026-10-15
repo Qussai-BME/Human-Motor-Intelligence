@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "run_id": "3fd920ec8afd4484b0172804477aa5d4",
+    "created_at_utc": "2026-10-04T23:52:49+00:00",
+    "config_hash": "fbd0e0f8e6290e6e5a980ed17549a41ce8f606ae40e04bbc85640bae392d2ca5",
+    "git_commit": "67ee74e3230b068b5db760efa15da3669e315eb3",
+    "physics_backend": "mujoco",
+    "model_path": "external/MyoSim-V1.1/assets/models/hand.xml",
+    "model_version": "myosim-hand-task-mjcf-v1",
+    "intent_source": "csv-replay:M3_S013.csv:4b775f7c15c5",
+    "seed": 20261005,
+    "task": "pick_place",
+    "package_version": "0.1.5",
+    "intent_protocol_id": "csv-intent-replay-v1",
+    "input_file_sha256": "4b775f7c15c50c42c47f1171d49f565ecbcb63ef7782378a0815e8b97088f091",
+    "environment": {
+      "implementation": "CPython",
+      "platform": "Linux-6.18.38+-x86_64-with-glibc2.39",
+      "python_version": "3.12.3",
+      "system": "Linux",
+      "machine": "x86_64",
+      "executable": "/usr/bin/python3"
+    }
+  },
+  "control_metrics": {
+    "event_count": 15,
+    "released_command_count": 1,
+    "false_activation_count": 0,
+    "false_activation_rate": 0.0,
+    "unintended_transition_count": 3,
+    "mean_confirmation_latency_s": 41.0,
+    "state_transition_count": 8
+  },
+  "task_metrics": {
+    "task_name": "pick_place",
+    "success": false,
+    "completion_time_s": null,
+    "path_length_m": 0.5047871287037873,
+    "final_error_m": 0.12273792780663151,
+    "grasp_stability_steps": 0,
+    "command_corrections": 6,
+    "final_state": "FAILED"
+  },
+  "control_transitions": [
+    {
+      "timestamp_s": 28.7,
+      "previous": "REST",
+      "current": "CANDIDATE",
+      "reason": "accepted_candidate_intent",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 45.1,
+      "previous": "CANDIDATE",
+      "current": "CONFIRMED",
+      "reason": "confidence_and_temporal_requirements_met",
+      "command": "REST",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 69.7,
+      "previous": "CONFIRMED",
+      "current": "EXECUTING",
+      "reason": "confirmed_command_released",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 77.9,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "low_confidence_input_while_executing",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 94.3,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 102.5,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "conflicting_high_confidence_intent",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 110.7,
+      "previous": "HOLD",
+      "current": "EXECUTING",
+      "reason": "hold_duration_elapsed_with_consistent_intent",
+      "command": "OPEN",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    },
+    {
+      "timestamp_s": 118.9,
+      "previous": "EXECUTING",
+      "current": "HOLD",
+      "reason": "low_confidence_input_while_executing",
+      "command": "HOLD",
+      "metadata": {
+        "active_label": "OPEN"
+      }
+    }
+  ],
+  "task_transitions": [
+    {
+      "timestamp_s": 12.3,
+      "previous": "APPROACH",
+      "current": "FAILED",
+      "reason": "task_timeout"
+    }
+  ],
+  "invalid_state_detected": false
+}
