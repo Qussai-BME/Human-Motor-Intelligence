@@ -1,8 +1,12 @@
 # Human Motor Intelligence v1.2.0
 
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.23406267.svg)](https://zenodo.org/records/23406267)
+
 Public research archive and thin integration layer for the Human Motor Intelligence programme: a series of six papers on cross-subject EMG/EEG decoding and on the traceable path from decoded intent to simulated action. The archive holds the reproducibility infrastructure, the executed P6 studies (C1 registered replay, its post-hoc validity audit and the C2 registered follow-up) with their audit trails, and the evidence records of the programme. It is non-clinical research software and evidence, not a medical device.
 
 Previous public release: v1.0.0 (Zenodo 22288272); v1.1.0 (C1-only) is superseded by this release. See `RELEASE_CHANGELOG.md`.
+
+Zenodo archive of this release: 10.5281/zenodo.23406267.
 
 ## The six papers
 
